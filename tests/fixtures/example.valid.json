@@ -1,0 +1,54 @@
+{
+  "base_id": "PAN_001",
+  "variant_id": "PAN_001_HINGLISH_A1_01",
+
+  "text": "bhai mera PAN A B C D E 1 2 3 4 F hai",
+
+  "entities": [
+    {
+      "type": "PAN",
+      "base_pii_value": "ABCDE1234F",
+      "realized_pii_value": "A B C D E 1 2 3 4 F",
+      "pii_script": "LATIN",
+      "start": 14,
+      "end": 33,
+      "occurrence_index": 0
+    }
+  ],
+
+  "distractors": [],
+
+  "language": "HINGLISH",
+  "carrier_script": "LATIN",
+  "context": "EXPLICIT",
+  "domain": "ACCOUNT_VERIFICATION",
+
+  "perturbation": {
+    "family": "A1",
+    "type": "SPACING",
+    "severity": 1,
+    "target": "VALUE"
+  },
+
+  "difficulty": "ADVERSARIAL",
+  "address_structure": null,
+  "hi_variant_collapsed": false,
+
+  "synthetic": true,
+
+  "generator_version": "0.1.0",
+  "guidelines_version": "0.1",
+  "template_id": "HINGLISH_PAN_03",
+  "seed": 42,
+
+  "validation": {
+    "structural": "PENDING",
+    "span": "PENDING",
+    "semantic": "PENDING",
+    "language": "PENDING",
+    "human": "PENDING"
+  },
+  "validation_status": "PENDING",
+  "review_status": "PENDING",
+  "split": null
+}

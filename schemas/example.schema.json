@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://indian-pii-robust.local/schemas/example.schema.json",
+  "title": "Record (derived variant)",
+  "$comment": "SCOPE: structure only — field presence, types, enum membership, ranges, nullability. No cross-field logic is enforced here; that lives in validators/ (later task, with unit tests). Rules recorded but NOT implemented by this schema: (1) text[start:end] == realized_pii_value for every entity, never base_pii_value (guidelines.md §4.4, §14.1). (2) perturbation.target == VALUE iff perturbation.family in {A1, A2, A5}; target == LABEL iff family in {A3, A4}; target == NONE iff family == NONE (guidelines.md §14). (3) entities[].realized_pii_value != base_pii_value only when perturbation.target == VALUE or entities[].pii_script differs from the base's script for that entity (guidelines.md §14.2, §4.4). (4) occurrence_index is contiguous from 0 per (type, base_pii_value) pair, resolved by walking all matches in order, never bare str.find() (guidelines.md §13.2). (5) entity spans are non-overlapping and within [0, len(text)] (guidelines.md §13.1). (6) hi_variant_collapsed == true only when the base's pii[].type for this entity is one of PHONE, EMAIL, PAN, AADHAAR, UPI_ID, BANK_ACCOUNT (guidelines.md §4.3). (7) address_structure is non-null iff an ADDRESS entity is present in entities[] (guidelines.md §7.3). (8) entities == [] requires distractors non-empty, i.e. a hard negative (guidelines.md §13.3). (9) difficulty is recomputed from metadata (language, context, perturbation, entity count, distractor presence) and asserted, never hand-set (PROJECT_SPEC.md §13.1). (10) under context == UNLABELLED, type-level checks in validation{} may be NOT_APPLICABLE (guidelines.md §12.4). OPEN QUESTION logged to annotation/open_questions.md: guidelines.md §17's worked example validation{} object has exactly 5 keys (structural, span, semantic, language, human) but PROJECT_SPEC.md §15 lists 6 validation layers including a distinct 'Duplicate' layer with no corresponding key shown. This schema follows guidelines.md's worked example (5 keys) per the documents' own conflict rule ('guidelines.md wins ... logged in annotation/open_questions.md') — not a silent decision.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "base_id",
+    "variant_id",
+    "text",
+    "entities",
+    "distractors",
+    "language",
+    "carrier_script",
+    "context",
+    "domain",
+    "perturbation",
+    "difficulty",
+    "address_structure",
+    "hi_variant_collapsed",
+    "synthetic",
+    "generator_version",
+    "guidelines_version",
+    "template_id",
+    "seed",
+    "validation",
+    "validation_status",
+    "review_status",
+    "split"
+  ],
+  "properties": {
+    "base_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z_]*_[0-9]{3,}$"
+    },
+    "variant_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*$"
+    },
+    "text": { "type": "string", "minLength": 1 },
+    "entities": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "base_pii_value",
+          "realized_pii_value",
+          "pii_script",
+          "start",
+          "end",
+          "occurrence_index"
+        ],
+        "properties": {
+          "type": { "$ref": "#/$defs/pii_type" },
+          "base_pii_value": { "type": "string", "minLength": 1 },
+          "realized_pii_value": { "type": "string", "minLength": 1 },
+          "pii_script": { "$ref": "#/$defs/pii_script" },
+          "start": { "type": "integer", "minimum": 0 },
+          "end": { "type": "integer", "minimum": 0 },
+          "occurrence_index": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "distractors": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "start", "end", "surface_type", "actual_role", "decoy_class"],
+        "properties": {
+          "text": { "type": "string", "minLength": 1 },
+          "start": { "type": "integer", "minimum": 0 },
+          "end": { "type": "integer", "minimum": 0 },
+          "surface_type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Not restricted to pii_type — includes out-of-taxonomy surface types such as LOCATION (guidelines.md §6)."
+          },
+          "actual_role": { "type": "string", "minLength": 1 },
+          "decoy_class": { "$ref": "#/$defs/decoy_class" }
+        }
+      }
+    },
+    "language": { "$ref": "#/$defs/language" },
+    "carrier_script": { "$ref": "#/$defs/carrier_script" },
+    "context": { "$ref": "#/$defs/context" },
+    "domain": { "type": "string", "minLength": 1 },
+    "perturbation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family", "type", "severity", "target"],
+      "properties": {
+        "family": { "$ref": "#/$defs/perturbation_family" },
+        "type": { "$ref": "#/$defs/perturbation_type" },
+        "severity": { "type": "integer", "minimum": 0 },
+        "target": { "$ref": "#/$defs/perturbation_target" }
+      }
+    },
+    "difficulty": { "$ref": "#/$defs/difficulty" },
+    "address_structure": { "$ref": "#/$defs/address_structure" },
+    "hi_variant_collapsed": { "type": "boolean" },
+    "synthetic": { "const": true },
+    "generator_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "guidelines_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "template_id": { "type": "string", "minLength": 1 },
+    "seed": { "type": "integer" },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["structural", "span", "semantic", "language", "human"],
+      "properties": {
+        "structural": { "$ref": "#/$defs/validation_layer_status" },
+        "span": { "$ref": "#/$defs/validation_layer_status" },
+        "semantic": { "$ref": "#/$defs/validation_layer_status" },
+        "language": { "$ref": "#/$defs/validation_layer_status" },
+        "human": { "$ref": "#/$defs/validation_layer_status" }
+      }
+    },
+    "validation_status": { "$ref": "#/$defs/record_status" },
+    "review_status": { "$ref": "#/$defs/record_status" },
+    "split": { "$ref": "#/$defs/split" }
+  },
+  "$defs": {
+    "pii_type": {
+      "type": "string",
+      "enum": [
+        "PERSON",
+        "ADDRESS",
+        "PHONE",
+        "EMAIL",
+        "PAN",
+        "AADHAAR",
+        "UPI_ID",
+        "BANK_ACCOUNT"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "EN",
+        "IN_EN",
+        "HI_LATIN_PII",
+        "HI_DEVA_PII",
+        "ROM_HI",
+        "HINGLISH",
+        "INFORMAL_HINGLISH"
+      ]
+    },
+    "carrier_script": {
+      "type": "string",
+      "enum": ["LATIN", "DEVANAGARI", "MIXED"]
+    },
+    "pii_script": {
+      "type": "string",
+      "enum": ["LATIN", "DEVANAGARI", "MIXED", "NUMERIC"]
+    },
+    "context": {
+      "type": "string",
+      "enum": ["EXPLICIT", "SEMI_EXPLICIT", "IMPLICIT", "UNLABELLED"]
+    },
+    "perturbation_family": {
+      "type": "string",
+      "enum": ["NONE", "A1", "A2", "A3", "A4", "A5"]
+    },
+    "perturbation_type": {
+      "type": "string",
+      "enum": [
+        "NONE",
+        "SPACING",
+        "PUNCTUATION",
+        "LABEL_OBFUSCATION",
+        "INFORMAL_ABBREVIATION",
+        "CHARACTER_VARIATION"
+      ]
+    },
+    "perturbation_target": {
+      "type": "string",
+      "enum": ["NONE", "VALUE", "LABEL"]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["EASY", "MEDIUM", "HARD", "ADVERSARIAL"]
+    },
+    "decoy_class": {
+      "type": "string",
+      "enum": [
+        "NUMERIC_SHAPE",
+        "ALNUM_SHAPE",
+        "NAME_AS_PLACE",
+        "HANDLE_SHAPE",
+        "ORG_AS_PERSON",
+        "PARTIAL_PII"
+      ]
+    },
+    "validation_layer_status": {
+      "type": "string",
+      "enum": ["PENDING", "PASS", "FAIL", "UNCERTAIN", "NOT_APPLICABLE"]
+    },
+    "record_status": {
+      "type": "string",
+      "enum": ["PENDING", "ACCEPTED", "REJECTED", "UNCERTAIN"],
+      "description": "Shared enum for validation_status and review_status."
+    },
+    "split": {
+      "enum": ["train", "validation", "test", null]
+    },
+    "address_structure": {
+      "enum": ["SINGLE", "SPLIT", null]
+    },
+    "rejection_reason": {
+      "type": "string",
+      "enum": [
+        "INVALID_PII_FORMAT",
+        "PII_NOT_FOUND",
+        "SPAN_MISMATCH",
+        "OCCURRENCE_MISMATCH",
+        "SEMANTIC_MISMATCH",
+        "ROLE_UNSUPPORTED_BY_TEXT",
+        "MISSING_SEMANTIC_ROLE",
+        "LANGUAGE_MISMATCH",
+        "SCRIPT_MISMATCH",
+        "NATURALNESS_FAILURE",
+        "INVALID_ADVERSARIAL",
+        "DUPLICATE",
+        "UNSAFE_REAL_PII_RISK"
+      ],
+      "$comment": "Not referenced by any property on this schema — accepted records never carry a rejection reason. Reserved here (locked per guidelines.md §18) for a future rejected-record log schema (PROJECT_SPEC.md §15.1, data/rejected/)."
+    }
+  }
+}

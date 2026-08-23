@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://indian-pii-robust.local/schemas/base_instance.schema.json",
+  "title": "Base Instance",
+  "$comment": "SCOPE: structure only — field presence, types, enum membership, ranges, nullability. No cross-field logic is enforced here; that lives in validators/ (later task, with unit tests). Rules recorded but NOT implemented by this schema: (6) hi_variant_collapsed on a derived record may be true only when this base's pii[].type is one of the six non-transliterable categories (PHONE, EMAIL, PAN, AADHAAR, UPI_ID, BANK_ACCOUNT) per guidelines.md §4.3 — not checkable from the base instance alone. (7) address_structure must be non-null iff an ADDRESS entry is present in pii[] (guidelines.md §7.3 / PROJECT_SPEC.md §13). See annotation/open_questions.md for an open question on whether hard-negative bases (PROJECT_SPEC.md §12.2, 20 bases 'not part of the 100') are represented as base_instance objects with pii: [] or do not use this schema at all — pii minItems is left at 0 pending that resolution.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "base_id",
+    "pii",
+    "person_context",
+    "scenario",
+    "address_structure",
+    "canonical_text",
+    "synthetic"
+  ],
+  "properties": {
+    "base_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z_]*_[0-9]{3,}$",
+      "description": "Permanent, never reused. E.g. PAN_001, NEG_007 (PROJECT_SPEC.md §12.2)."
+    },
+    "pii": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "base_pii_value", "semantic_role"],
+        "properties": {
+          "type": { "$ref": "#/$defs/pii_type" },
+          "base_pii_value": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Canonical form. Never changes across derived-record variants (guidelines.md §4.4)."
+          },
+          "semantic_role": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "person_context": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["name", "name_deva"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "name_deva": {
+          "type": ["string", "null"],
+          "description": "Deterministic transliteration, fixed at base-instance creation (guidelines.md §4.5)."
+        }
+      }
+    },
+    "scenario": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["domain", "purpose"],
+      "properties": {
+        "domain": { "type": "string", "minLength": 1 },
+        "purpose": { "type": "string", "minLength": 1 }
+      }
+    },
+    "address_structure": { "$ref": "#/$defs/address_structure" },
+    "canonical_text": { "type": "string", "minLength": 1 },
+    "synthetic": { "const": true }
+  },
+  "$defs": {
+    "pii_type": {
+      "type": "string",
+      "enum": [
+        "PERSON",
+        "ADDRESS",
+        "PHONE",
+        "EMAIL",
+        "PAN",
+        "AADHAAR",
+        "UPI_ID",
+        "BANK_ACCOUNT"
+      ]
+    },
+    "address_structure": {
+      "enum": ["SINGLE", "SPLIT", null]
+    }
+  }
+}
