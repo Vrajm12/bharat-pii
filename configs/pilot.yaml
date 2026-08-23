@@ -1,0 +1,52 @@
+# Pilot v0.1 run configuration.
+# Source: PROJECT_SPEC.md §26 (Configuration), reconciled against
+# annotation/guidelines.md §4.2 (seven language realizations — the Hindi
+# condition is split by PII script into HI_LATIN_PII / HI_DEVA_PII).
+# guidelines.md is authoritative on the language list; PROJECT_SPEC.md's own
+# example config already matches it, so no conflict exists to log here.
+
+project:
+  name: indian-pii-robust
+  version: "0.1"
+  guidelines_version: "0.1"
+
+data:
+  pilot_base_count: 100
+  production_base_target: 4000
+
+pii_types:
+  PERSON: 12
+  ADDRESS: 12
+  PHONE: 12
+  EMAIL: 12
+  PAN: 13
+  AADHAAR: 13
+  UPI_ID: 13
+  BANK_ACCOUNT: 13
+
+transliterable_types: [PERSON, ADDRESS]
+
+# Seven realizations per guidelines.md §4.2. Hindi is split by PII script
+# (HI_LATIN_PII / HI_DEVA_PII) rather than treated as one condition, so that
+# script is a measured variable (E02b) instead of a hidden confound.
+languages:
+  - EN
+  - IN_EN
+  - HI_LATIN_PII
+  - HI_DEVA_PII
+  - ROM_HI
+  - HINGLISH
+  - INFORMAL_HINGLISH
+
+contexts: [EXPLICIT, SEMI_EXPLICIT, IMPLICIT, UNLABELLED]
+perturbations: [A1, A2, A3, A4, A5]
+
+validation:
+  min_structural: 0.99
+  min_span: 0.98
+  min_semantic: 0.95
+  min_language: 0.90
+  min_naturalness: 0.85
+
+split: { train: 0.60, validation: 0.20, test: 0.20 }
+random_seed: 42
