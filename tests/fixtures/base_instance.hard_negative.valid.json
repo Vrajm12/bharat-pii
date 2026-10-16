@@ -1,0 +1,17 @@
+{
+  "base_id": "NEG_007",
+  "base_kind": "HARD_NEGATIVE",
+  "pii": [],
+  "person_context": null,
+  "scenario": { "domain": "customer_support", "purpose": "order_status_inquiry" },
+  "address_structure": null,
+  "canonical_text": "The order number is 9876543210.",
+  "synthetic": true,
+  "generator_version": "0.1.0",
+  "hard_negative_decoy": {
+    "decoy_class": "NUMERIC_SHAPE",
+    "value": "9876543210",
+    "surface_type": "PHONE",
+    "actual_role": "ORDER_REFERENCE"
+  }
+}

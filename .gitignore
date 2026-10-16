@@ -1,8 +1,47 @@
+# Python bytecode and caches
 __pycache__/
-*.pyc
-.venv/
-venv/
-.env
+*.py[cod]
+*$py.class
 .pytest_cache/
-*.egg-info/
+.coverage
+htmlcov/
 .ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Large Model Weights (exceeds GitHub 100MB limit; distributed separately)
+*.safetensors
+*.bin
+checkpoints/
+
+# Paper and Academic Manuscripts (Excluded from code repository per scope)
+paper/
+reports/paper_package/
+research_evidence/
+scripts/compile_*.py
+scripts/build_paper_*.py
+scripts/build_literature_audit.py
+scripts/build_evidence_map.py
+scripts/generate_research_*.py
+scripts/update_research_docx_citations.py
+*.pdf
+*.docx
+
+# Scratch directories and files
+scratch/
+
+# Environment and secrets
+.env
+.env.*
+*.local

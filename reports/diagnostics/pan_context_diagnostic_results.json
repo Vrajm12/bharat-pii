@@ -1,0 +1,1529 @@
+{
+  "diagnostic_name": "PAN Contextual Diagnostic Evaluation",
+  "disclaimer": "ISOLATED DIAGNOSTIC STUDY ONLY: Not a benchmark result, not a statistically established generalization, and not certified compliance. Intended purely for error localization and diagnostic behavioral auditing.",
+  "model_version": "1.0.0",
+  "model_architecture": "XLM-RoBERTa-base + LinearChainCRF (B6)",
+  "total_test_cases": 48,
+  "repetitions_per_case": 3,
+  "total_inference_runs": 144,
+  "total_predictions_evaluated": 138,
+  "slice_invariants_verified": 138,
+  "slice_invariant_pass_rate": 1.0,
+  "pan_exact_hits": 29,
+  "pan_partial_hits": 4,
+  "pan_misses": 15,
+  "pan_exact_hit_rate": 0.6041666666666666,
+  "is_deterministic_across_all_cases": true,
+  "cases": [
+    {
+      "case_id": "CORE_A",
+      "axis": "Core Exact",
+      "description": "Exact Input A: Isolated Hindi PAN clause with Latin 'PAN' and Purna Viram",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "CORE_A",
+      "axis": "Core Exact",
+      "description": "Exact Input A: Isolated Hindi PAN clause with Latin 'PAN' and Purna Viram",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": false,
+      "pan_partial": true,
+      "pan_confidence": 0.4159,
+      "pan_predicted_text": "KRPK8921L",
+      "pan_predicted_span": [
+        10,
+        19
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "KRPK8921L",
+          "start": 10,
+          "end": 19,
+          "score": 0.4159,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "CORE_B",
+      "axis": "Core Exact",
+      "description": "Exact Input B: Preceding Devanagari PERSON clause followed by PAN clause",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा नाम राहुल शर्मा है। मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.2608,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        34,
+        44
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.5317,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 34,
+          "end": 44,
+          "score": 0.2608,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "CORE_B",
+      "axis": "Core Exact",
+      "description": "Exact Input B: Preceding Devanagari PERSON clause followed by PAN clause",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा नाम राहुल शर्मा है। मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.739,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        34,
+        44
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.4978,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 34,
+          "end": 44,
+          "score": 0.739,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_DEVA_PAN",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari 'पैन' instead of Latin 'PAN'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा पैन ABCDE1234F है।",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "LEX_DEVA_PAN",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari 'पैन' instead of Latin 'PAN'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा पैन BKRPK8921L है।",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.4742,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        9,
+        19
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 9,
+          "end": 19,
+          "score": 0.4742,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_LATIN_NAMBAR",
+      "axis": "Hindi Lexical",
+      "description": "Latin 'PAN' with Hindi anchor word 'नंबर'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा PAN नंबर ABCDE1234F है।",
+      "expected_pan_span": [
+        14,
+        24
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": true,
+      "pan_confidence": 0.4015,
+      "pan_predicted_text": "ABCDE",
+      "pan_predicted_span": [
+        14,
+        19
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "ABCDE",
+          "start": 14,
+          "end": 19,
+          "score": 0.4015,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_LATIN_NAMBAR",
+      "axis": "Hindi Lexical",
+      "description": "Latin 'PAN' with Hindi anchor word 'नंबर'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा PAN नंबर BKRPK8921L है।",
+      "expected_pan_span": [
+        14,
+        24
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.665,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        14,
+        24
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 14,
+          "end": 24,
+          "score": 0.665,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_DEVA_NAMBAR",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari 'पैन' with Hindi anchor word 'नंबर'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा पैन नंबर ABCDE1234F है।",
+      "expected_pan_span": [
+        14,
+        24
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.4419,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        14,
+        24
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 14,
+          "end": 24,
+          "score": 0.4419,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_DEVA_NAMBAR",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari 'पैन' with Hindi anchor word 'नंबर'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा पैन नंबर BKRPK8921L है।",
+      "expected_pan_span": [
+        14,
+        24
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7688,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        14,
+        24
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 14,
+          "end": 24,
+          "score": 0.7688,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_DEVA_CARD",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari 'पैन कार्ड'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा पैन कार्ड ABCDE1234F है।",
+      "expected_pan_span": [
+        15,
+        25
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "LEX_DEVA_CARD",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari 'पैन कार्ड'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा पैन कार्ड BKRPK8921L है।",
+      "expected_pan_span": [
+        15,
+        25
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.6866,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        15,
+        25
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 15,
+          "end": 25,
+          "score": 0.6866,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_LATIN_CARD",
+      "axis": "Hindi Lexical",
+      "description": "Latin 'PAN' with Hindi anchor word 'कार्ड'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा PAN कार्ड ABCDE1234F है।",
+      "expected_pan_span": [
+        15,
+        25
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "LEX_LATIN_CARD",
+      "axis": "Hindi Lexical",
+      "description": "Latin 'PAN' with Hindi anchor word 'कार्ड'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा PAN कार्ड BKRPK8921L है।",
+      "expected_pan_span": [
+        15,
+        25
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.4858,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        15,
+        25
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 15,
+          "end": 25,
+          "score": 0.4858,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_DEVA_FULL",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari full administrative phrasing 'पैन कार्ड नंबर'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा पैन कार्ड नंबर ABCDE1234F है।",
+      "expected_pan_span": [
+        20,
+        30
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.4487,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        20,
+        30
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 20,
+          "end": 30,
+          "score": 0.4487,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LEX_DEVA_FULL",
+      "axis": "Hindi Lexical",
+      "description": "Devanagari full administrative phrasing 'पैन कार्ड नंबर'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा पैन कार्ड नंबर BKRPK8921L है।",
+      "expected_pan_span": [
+        20,
+        30
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7677,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        20,
+        30
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 20,
+          "end": 30,
+          "score": 0.7677,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "ENT_PERSON_ENG",
+      "axis": "Entity Context",
+      "description": "English PERSON clause preceding Hindi PAN clause",
+      "pan_value": "ABCDE1234F",
+      "input_text": "My name is Rahul Sharma. मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "Rahul Sharma",
+          "start": 11,
+          "end": 23,
+          "score": 0.9034,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "ENT_PERSON_ENG",
+      "axis": "Entity Context",
+      "description": "English PERSON clause preceding Hindi PAN clause",
+      "pan_value": "BKRPK8921L",
+      "input_text": "My name is Rahul Sharma. मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7354,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        34,
+        44
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "Rahul Sharma",
+          "start": 11,
+          "end": 23,
+          "score": 0.8745,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 34,
+          "end": 44,
+          "score": 0.7354,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "ENT_NEUTRAL_DOC",
+      "axis": "Entity Context",
+      "description": "Neutral non-entity Hindi clause of identical length preceding PAN clause",
+      "pan_value": "ABCDE1234F",
+      "input_text": "यह एक महत्वपूर्ण दस्तावेज है। मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        39,
+        49
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "ENT_NEUTRAL_DOC",
+      "axis": "Entity Context",
+      "description": "Neutral non-entity Hindi clause of identical length preceding PAN clause",
+      "pan_value": "BKRPK8921L",
+      "input_text": "यह एक महत्वपूर्ण दस्तावेज है। मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        39,
+        49
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7046,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        39,
+        49
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 39,
+          "end": 49,
+          "score": 0.7046,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "ENT_NEUTRAL_GREET",
+      "axis": "Entity Context",
+      "description": "Conversational greeting non-entity clause preceding PAN clause",
+      "pan_value": "ABCDE1234F",
+      "input_text": "नमस्ते जी, कैसे हैं आप। मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        33,
+        43
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "ENT_NEUTRAL_GREET",
+      "axis": "Entity Context",
+      "description": "Conversational greeting non-entity clause preceding PAN clause",
+      "pan_value": "BKRPK8921L",
+      "input_text": "नमस्ते जी, कैसे हैं आप। मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        33,
+        43
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.6132,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        33,
+        43
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 33,
+          "end": 43,
+          "score": 0.6132,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "ENT_NAME_EMPTY",
+      "axis": "Entity Context",
+      "description": "Clause containing name keyword 'नाम' but no actual person entity",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा नाम है। मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        22,
+        32
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "ENT_NAME_EMPTY",
+      "axis": "Entity Context",
+      "description": "Clause containing name keyword 'नाम' but no actual person entity",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा नाम है। मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        22,
+        32
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7607,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        22,
+        32
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 22,
+          "end": 32,
+          "score": 0.7607,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "ENT_PERSON_AFTER",
+      "axis": "Entity Context",
+      "description": "Devanagari PERSON clause placed AFTER the PAN clause (reversed sequence)",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा PAN ABCDE1234F है। मेरा नाम राहुल शर्मा है।",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": true,
+      "person_detected": false,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "ENT_PERSON_AFTER",
+      "axis": "Entity Context",
+      "description": "Devanagari PERSON clause placed AFTER the PAN clause (reversed sequence)",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा PAN BKRPK8921L है। मेरा नाम राहुल शर्मा है।",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7781,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        9,
+        19
+      ],
+      "has_expected_person": true,
+      "person_detected": false,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 9,
+          "end": 19,
+          "score": 0.7781,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_WESTERN_PERIOD",
+      "axis": "Punctuation",
+      "description": "Core B with Western period '.' instead of Purna Viram '।'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा नाम राहुल शर्मा है. मेरा PAN ABCDE1234F है.",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.4997,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_WESTERN_PERIOD",
+      "axis": "Punctuation",
+      "description": "Core B with Western period '.' instead of Purna Viram '।'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा नाम राहुल शर्मा है. मेरा PAN BKRPK8921L है.",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7495,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        34,
+        44
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.4797,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 34,
+          "end": 44,
+          "score": 0.7495,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_COMMA",
+      "axis": "Punctuation",
+      "description": "Core B joined with comma ',' instead of sentence boundary",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा नाम राहुल शर्मा है, मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.2938,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        34,
+        44
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.4552,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 34,
+          "end": 44,
+          "score": 0.2938,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_COMMA",
+      "axis": "Punctuation",
+      "description": "Core B joined with comma ',' instead of sentence boundary",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा नाम राहुल शर्मा है, मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        34,
+        44
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.8103,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        34,
+        44
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.4644,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 34,
+          "end": 44,
+          "score": 0.8103,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_CONJUNCTION",
+      "axis": "Punctuation",
+      "description": "Core B joined with conjunction 'और' without sentence boundary",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा नाम राहुल शर्मा है और मेरा PAN ABCDE1234F है।",
+      "expected_pan_span": [
+        36,
+        46
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.3198,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        36,
+        46
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "राहुल शर्मा",
+          "start": 9,
+          "end": 20,
+          "score": 0.4498,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 36,
+          "end": 46,
+          "score": 0.3198,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_CONJUNCTION",
+      "axis": "Punctuation",
+      "description": "Core B joined with conjunction 'और' without sentence boundary",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा नाम राहुल शर्मा है और मेरा PAN BKRPK8921L है।",
+      "expected_pan_span": [
+        36,
+        46
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.8353,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        36,
+        46
+      ],
+      "has_expected_person": true,
+      "person_detected": false,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 36,
+          "end": 46,
+          "score": 0.8353,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_A_PERIOD",
+      "axis": "Punctuation",
+      "description": "Core A with Western period '.' instead of Purna Viram '।'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा PAN ABCDE1234F है.",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "PUNCT_A_PERIOD",
+      "axis": "Punctuation",
+      "description": "Core A with Western period '.' instead of Purna Viram '।'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा PAN BKRPK8921L है.",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.4995,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        9,
+        19
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 9,
+          "end": 19,
+          "score": 0.4995,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "PUNCT_A_NONE",
+      "axis": "Punctuation",
+      "description": "Core A with no terminal punctuation",
+      "pan_value": "ABCDE1234F",
+      "input_text": "मेरा PAN ABCDE1234F है",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "PUNCT_A_NONE",
+      "axis": "Punctuation",
+      "description": "Core A with no terminal punctuation",
+      "pan_value": "BKRPK8921L",
+      "input_text": "मेरा PAN BKRPK8921L है",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": false,
+      "pan_partial": true,
+      "pan_confidence": 0.4145,
+      "pan_predicted_text": "KRPK8921L",
+      "pan_predicted_span": [
+        10,
+        19
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "KRPK8921L",
+          "start": 10,
+          "end": 19,
+          "score": 0.4145,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ENG_SHORT",
+      "axis": "Language Context",
+      "description": "Pure English short sentence without 'number'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "My PAN is ABCDE1234F.",
+      "expected_pan_span": [
+        10,
+        20
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.3376,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        10,
+        20
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 10,
+          "end": 20,
+          "score": 0.3376,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ENG_SHORT",
+      "axis": "Language Context",
+      "description": "Pure English short sentence without 'number'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "My PAN is BKRPK8921L.",
+      "expected_pan_span": [
+        10,
+        20
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.766,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        10,
+        20
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 10,
+          "end": 20,
+          "score": 0.766,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ENG_NUMBER",
+      "axis": "Language Context",
+      "description": "Pure English sentence with anchor word 'number'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "My PAN number is ABCDE1234F.",
+      "expected_pan_span": [
+        17,
+        27
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.5622,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        17,
+        27
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 17,
+          "end": 27,
+          "score": 0.5622,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ENG_NUMBER",
+      "axis": "Language Context",
+      "description": "Pure English sentence with anchor word 'number'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "My PAN number is BKRPK8921L.",
+      "expected_pan_span": [
+        17,
+        27
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7784,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        17,
+        27
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 17,
+          "end": 27,
+          "score": 0.7784,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ENG_PERSON",
+      "axis": "Language Context",
+      "description": "Pure English compound sentence with PERSON entity",
+      "pan_value": "ABCDE1234F",
+      "input_text": "My name is Rahul Sharma. My PAN is ABCDE1234F.",
+      "expected_pan_span": [
+        35,
+        45
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.46,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        35,
+        45
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "Rahul Sharma",
+          "start": 11,
+          "end": 23,
+          "score": 0.79,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 35,
+          "end": 45,
+          "score": 0.46,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ENG_PERSON",
+      "axis": "Language Context",
+      "description": "Pure English compound sentence with PERSON entity",
+      "pan_value": "BKRPK8921L",
+      "input_text": "My name is Rahul Sharma. My PAN is BKRPK8921L.",
+      "expected_pan_span": [
+        35,
+        45
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7648,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        35,
+        45
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "Rahul Sharma",
+          "start": 11,
+          "end": 23,
+          "score": 0.7624,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 35,
+          "end": 45,
+          "score": 0.7648,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ROM_SHORT",
+      "axis": "Language Context",
+      "description": "Romanized Hindi short sentence without 'number'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "mera PAN ABCDE1234F hai.",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "LANG_ROM_SHORT",
+      "axis": "Language Context",
+      "description": "Romanized Hindi short sentence without 'number'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "mera PAN BKRPK8921L hai.",
+      "expected_pan_span": [
+        9,
+        19
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "LANG_ROM_NUMBER",
+      "axis": "Language Context",
+      "description": "Romanized Hindi sentence with anchor word 'number'",
+      "pan_value": "ABCDE1234F",
+      "input_text": "mera PAN number ABCDE1234F hai.",
+      "expected_pan_span": [
+        16,
+        26
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": false,
+      "pan_partial": false,
+      "pan_confidence": null,
+      "pan_predicted_text": null,
+      "pan_predicted_span": null,
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": []
+    },
+    {
+      "case_id": "LANG_ROM_NUMBER",
+      "axis": "Language Context",
+      "description": "Romanized Hindi sentence with anchor word 'number'",
+      "pan_value": "BKRPK8921L",
+      "input_text": "mera PAN number BKRPK8921L hai.",
+      "expected_pan_span": [
+        16,
+        26
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": false,
+      "pan_partial": true,
+      "pan_confidence": 0.5204,
+      "pan_predicted_text": "KRPK8921L",
+      "pan_predicted_span": [
+        17,
+        26
+      ],
+      "has_expected_person": false,
+      "person_detected": null,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PAN",
+          "text": "KRPK8921L",
+          "start": 17,
+          "end": 26,
+          "score": 0.5204,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ROM_PERSON",
+      "axis": "Language Context",
+      "description": "Romanized Hindi compound sentence with PERSON entity",
+      "pan_value": "ABCDE1234F",
+      "input_text": "mera naam Rahul Sharma hai. mera PAN number ABCDE1234F hai.",
+      "expected_pan_span": [
+        44,
+        54
+      ],
+      "expected_pan_text": "ABCDE1234F",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.2923,
+      "pan_predicted_text": "ABCDE1234F",
+      "pan_predicted_span": [
+        44,
+        54
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "Rahul Sharma",
+          "start": 10,
+          "end": 22,
+          "score": 0.8205,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "ABCDE1234F",
+          "start": 44,
+          "end": 54,
+          "score": 0.2923,
+          "slice_ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "LANG_ROM_PERSON",
+      "axis": "Language Context",
+      "description": "Romanized Hindi compound sentence with PERSON entity",
+      "pan_value": "BKRPK8921L",
+      "input_text": "mera naam Rahul Sharma hai. mera PAN number BKRPK8921L hai.",
+      "expected_pan_span": [
+        44,
+        54
+      ],
+      "expected_pan_text": "BKRPK8921L",
+      "pan_detected": true,
+      "pan_partial": false,
+      "pan_confidence": 0.7692,
+      "pan_predicted_text": "BKRPK8921L",
+      "pan_predicted_span": [
+        44,
+        54
+      ],
+      "has_expected_person": true,
+      "person_detected": true,
+      "is_deterministic": true,
+      "all_entities": [
+        {
+          "label": "PERSON",
+          "text": "Rahul Sharma",
+          "start": 10,
+          "end": 22,
+          "score": 0.7805,
+          "slice_ok": true
+        },
+        {
+          "label": "PAN",
+          "text": "BKRPK8921L",
+          "start": 44,
+          "end": 54,
+          "score": 0.7692,
+          "slice_ok": true
+        }
+      ]
+    }
+  ]
+}

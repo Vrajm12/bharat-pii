@@ -1,0 +1,49 @@
+{
+  "benchmark": "Indian PII Robustness Benchmark",
+  "task": "SV-02",
+  "timestamp": "2026-09-03T00:56:00+05:30",
+  "canonical_test_records": 964,
+  "canonical_test_base_ids": 120,
+  "variant_audits": {
+    "b5_hard_negative": {
+      "total_train_records": 1250,
+      "total_val_records": 250,
+      "train_tokens": 24464,
+      "val_tokens": 4928,
+      "base_id_overlap_count": 0,
+      "exact_text_overlap_count": 0,
+      "normalized_text_overlap_count": 0,
+      "hard_negative_records_count": 300,
+      "hard_negatives_with_entities_count": 0,
+      "invalid_spans_count": 0,
+      "status": "PASS"
+    },
+    "b5_positive_matched": {
+      "total_train_records": 1250,
+      "total_val_records": 250,
+      "train_tokens": 24164,
+      "val_tokens": 4826,
+      "base_id_overlap_count": 0,
+      "exact_text_overlap_count": 0,
+      "normalized_text_overlap_count": 0,
+      "hard_negative_records_count": 0,
+      "hard_negatives_with_entities_count": 0,
+      "invalid_spans_count": 0,
+      "status": "PASS"
+    },
+    "b5_format_diversity": {
+      "total_train_records": 1250,
+      "total_val_records": 250,
+      "train_tokens": 24585,
+      "val_tokens": 4899,
+      "base_id_overlap_count": 0,
+      "exact_text_overlap_count": 0,
+      "normalized_text_overlap_count": 0,
+      "hard_negative_records_count": 0,
+      "hard_negatives_with_entities_count": 0,
+      "invalid_spans_count": 0,
+      "status": "PASS"
+    }
+  },
+  "overall_verdict": "PASS \u2014 ZERO LEAKAGE DETECTED ACROSS ALL SV-02 VARIANTS"
+}

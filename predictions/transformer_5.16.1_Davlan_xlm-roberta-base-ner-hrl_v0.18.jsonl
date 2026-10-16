@@ -1,0 +1,467 @@
+{"type": "PERSON", "start": 11, "end": 23, "text": "Sneha Sharma", "confidence": 0.9991388916969299, "variant_id": "PERSON_001"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan Rao", "confidence": 0.9939867854118347, "variant_id": "PERSON_002"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Anjali Nair", "confidence": 0.9667302370071411, "variant_id": "PERSON_003"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Sneha Agarwal", "confidence": 0.9992779493331909, "variant_id": "PERSON_004"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Amit Krishnan", "confidence": 0.999666690826416, "variant_id": "PERSON_005"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Divya Iyer", "confidence": 0.9799776077270508, "variant_id": "PERSON_006"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Rahul Patel", "confidence": 0.9996681213378906, "variant_id": "PERSON_007"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Vikram Rao", "confidence": 0.9368318915367126, "variant_id": "PERSON_008"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Rajesh Bhatt", "confidence": 0.9988285899162292, "variant_id": "PERSON_009"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Rahul Agarwal", "confidence": 0.9997482895851135, "variant_id": "PERSON_010"}
+{"type": "PERSON", "start": 11, "end": 25, "text": "Vikram Agarwal", "confidence": 0.9401848316192627, "variant_id": "PERSON_011"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Divya Rao", "confidence": 0.9940609931945801, "variant_id": "PERSON_012"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Silver Oak Heights", "confidence": 0.9983827471733093, "variant_id": "ADDRESS_001"}
+{"type": "LOC", "start": 44, "end": 54, "text": "Baner Road", "confidence": 0.9984620213508606, "variant_id": "ADDRESS_001"}
+{"type": "LOC", "start": 56, "end": 65, "text": "Bengaluru", "confidence": 0.9980685710906982, "variant_id": "ADDRESS_001"}
+{"type": "LOC", "start": 24, "end": 46, "text": "Green Valley Residency", "confidence": 0.9971036911010742, "variant_id": "ADDRESS_002"}
+{"type": "LOC", "start": 48, "end": 62, "text": "Lake View Road", "confidence": 0.9995511174201965, "variant_id": "ADDRESS_002"}
+{"type": "LOC", "start": 64, "end": 71, "text": "Kolkata", "confidence": 0.9975433349609375, "variant_id": "ADDRESS_002"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Palm Grove Society", "confidence": 0.9989659786224365, "variant_id": "ADDRESS_003"}
+{"type": "LOC", "start": 44, "end": 56, "text": "Station Road", "confidence": 0.9993135333061218, "variant_id": "ADDRESS_003"}
+{"type": "LOC", "start": 58, "end": 64, "text": "Mumbai", "confidence": 0.9996342658996582, "variant_id": "ADDRESS_003"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Palm Grove Society", "confidence": 0.9985325932502747, "variant_id": "ADDRESS_004"}
+{"type": "LOC", "start": 44, "end": 53, "text": "Ring Road", "confidence": 0.9992161393165588, "variant_id": "ADDRESS_004"}
+{"type": "LOC", "start": 55, "end": 62, "text": "Kolkata", "confidence": 0.9984007477760315, "variant_id": "ADDRESS_004"}
+{"type": "LOC", "start": 23, "end": 35, "text": "Orchid Homes", "confidence": 0.9622824788093567, "variant_id": "ADDRESS_005"}
+{"type": "LOC", "start": 37, "end": 51, "text": "Hill Side Road", "confidence": 0.9989559650421143, "variant_id": "ADDRESS_005"}
+{"type": "LOC", "start": 53, "end": 60, "text": "Chennai", "confidence": 0.9994478821754456, "variant_id": "ADDRESS_005"}
+{"type": "LOC", "start": 23, "end": 36, "text": "Lotus Enclave", "confidence": 0.9887570738792419, "variant_id": "ADDRESS_006"}
+{"type": "LOC", "start": 38, "end": 52, "text": "Lake View Road", "confidence": 0.9994408488273621, "variant_id": "ADDRESS_006"}
+{"type": "LOC", "start": 54, "end": 63, "text": "Hyderabad", "confidence": 0.9995802044868469, "variant_id": "ADDRESS_006"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Silver Oak Heights", "confidence": 0.9980299472808838, "variant_id": "ADDRESS_007"}
+{"type": "LOC", "start": 44, "end": 58, "text": "Hill Side Road", "confidence": 0.9991974830627441, "variant_id": "ADDRESS_007"}
+{"type": "LOC", "start": 60, "end": 66, "text": "Jaipur", "confidence": 0.9996435642242432, "variant_id": "ADDRESS_007"}
+{"type": "LOC", "start": 23, "end": 37, "text": "Sunrise Towers", "confidence": 0.9845023155212402, "variant_id": "ADDRESS_008"}
+{"type": "LOC", "start": 39, "end": 53, "text": "Hill Side Road", "confidence": 0.9987421631813049, "variant_id": "ADDRESS_008"}
+{"type": "LOC", "start": 55, "end": 61, "text": "Mumbai", "confidence": 0.9995284080505371, "variant_id": "ADDRESS_008"}
+{"type": "LOC", "start": 24, "end": 46, "text": "Green Valley Residency", "confidence": 0.9946073293685913, "variant_id": "ADDRESS_009"}
+{"type": "LOC", "start": 48, "end": 61, "text": "Church Street", "confidence": 0.9988875985145569, "variant_id": "ADDRESS_009"}
+{"type": "LOC", "start": 63, "end": 70, "text": "Kolkata", "confidence": 0.9980871677398682, "variant_id": "ADDRESS_009"}
+{"type": "LOC", "start": 24, "end": 38, "text": "Sunrise Towers", "confidence": 0.9938896298408508, "variant_id": "ADDRESS_010"}
+{"type": "LOC", "start": 40, "end": 47, "text": "MG Road", "confidence": 0.9970949292182922, "variant_id": "ADDRESS_010"}
+{"type": "LOC", "start": 49, "end": 56, "text": "Chennai", "confidence": 0.9993809461593628, "variant_id": "ADDRESS_010"}
+{"type": "LOC", "start": 24, "end": 36, "text": "Orchid Homes", "confidence": 0.984641432762146, "variant_id": "ADDRESS_011"}
+{"type": "LOC", "start": 38, "end": 48, "text": "Baner Road", "confidence": 0.9977025985717773, "variant_id": "ADDRESS_011"}
+{"type": "LOC", "start": 50, "end": 56, "text": "Mumbai", "confidence": 0.9995672106742859, "variant_id": "ADDRESS_011"}
+{"type": "LOC", "start": 24, "end": 36, "text": "Orchid Homes", "confidence": 0.9935013055801392, "variant_id": "ADDRESS_012"}
+{"type": "LOC", "start": 38, "end": 45, "text": "MG Road", "confidence": 0.996325671672821, "variant_id": "ADDRESS_012"}
+{"type": "LOC", "start": 47, "end": 56, "text": "Bengaluru", "confidence": 0.9980711340904236, "variant_id": "ADDRESS_012"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.6548318862915039, "variant_id": "NEG_011"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.7455072402954102, "variant_id": "NEG_012"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Rohan Nagar", "confidence": 0.9990720152854919, "variant_id": "NEG_013"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.993415355682373, "variant_id": "NEG_014"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Sneha Sharma", "confidence": 0.9991388916969299, "variant_id": "PERSON_001_EN"}
+{"type": "PERSON", "start": 24, "end": 27, "text": "Sne", "confidence": 0.9998360872268677, "variant_id": "PERSON_001_IN_EN"}
+{"type": "PERSON", "start": 27, "end": 36, "text": "ha Sharma", "confidence": 0.9686270952224731, "variant_id": "PERSON_001_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 22, "text": "Sneha Sharma", "confidence": 0.999119222164154, "variant_id": "PERSON_001_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Sneha Sharma", "confidence": 0.9996196627616882, "variant_id": "PERSON_001_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Sneha Sharma", "confidence": 0.9996641278266907, "variant_id": "PERSON_001_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "Sneha Sharma", "confidence": 0.9979586005210876, "variant_id": "PERSON_001_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "स्नेहा शर्मा", "confidence": 0.9991317391395569, "variant_id": "PERSON_001_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan Rao", "confidence": 0.9939867854118347, "variant_id": "PERSON_002_EN"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan Rao", "confidence": 0.9986279606819153, "variant_id": "PERSON_002_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Rohan Rao", "confidence": 0.9459300637245178, "variant_id": "PERSON_002_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Rohan Rao", "confidence": 0.9910045266151428, "variant_id": "PERSON_002_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Rohan Rao", "confidence": 0.9638274312019348, "variant_id": "PERSON_002_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 12, "text": "Roh", "confidence": 0.9997361302375793, "variant_id": "PERSON_002_HI_LATIN_PII"}
+{"type": "PERSON", "start": 12, "end": 18, "text": "an Rao", "confidence": 0.8032244443893433, "variant_id": "PERSON_002_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 11, "text": "रो", "confidence": 0.9998518228530884, "variant_id": "PERSON_002_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 17, "text": "हन राव", "confidence": 0.996880292892456, "variant_id": "PERSON_002_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Anjali Nair", "confidence": 0.9667302370071411, "variant_id": "PERSON_003_EN"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Anjali Nair", "confidence": 0.9975453615188599, "variant_id": "PERSON_003_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 21, "text": "Anjali Nair", "confidence": 0.9984011650085449, "variant_id": "PERSON_003_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Anjali Nair", "confidence": 0.9986146688461304, "variant_id": "PERSON_003_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Anjali Nair", "confidence": 0.9993594884872437, "variant_id": "PERSON_003_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "Anjali Nair", "confidence": 0.9939238429069519, "variant_id": "PERSON_003_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "अंजलि नायर", "confidence": 0.9133676290512085, "variant_id": "PERSON_003_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Sneha Agarwal", "confidence": 0.9992779493331909, "variant_id": "PERSON_004_EN"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Sneha Agarwal", "confidence": 0.9991663694381714, "variant_id": "PERSON_004_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Sneha Agarwal", "confidence": 0.9994035363197327, "variant_id": "PERSON_004_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Sneha Agarwal", "confidence": 0.9994719624519348, "variant_id": "PERSON_004_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Sneha Agarwal", "confidence": 0.9994058609008789, "variant_id": "PERSON_004_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "Sneha Agarwal", "confidence": 0.9927017688751221, "variant_id": "PERSON_004_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 23, "text": "स्नेहा अग्रवाल", "confidence": 0.9986207485198975, "variant_id": "PERSON_004_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Amit Krishnan", "confidence": 0.999666690826416, "variant_id": "PERSON_005_EN"}
+{"type": "PERSON", "start": 42, "end": 55, "text": "Amit Krishnan", "confidence": 0.999657928943634, "variant_id": "PERSON_005_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Amit Krishnan", "confidence": 0.9997474551200867, "variant_id": "PERSON_005_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 28, "text": "Amit Krishnan", "confidence": 0.9997599720954895, "variant_id": "PERSON_005_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 28, "text": "Amit Krishnan", "confidence": 0.9997525215148926, "variant_id": "PERSON_005_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "Amit Krishnan", "confidence": 0.99969881772995, "variant_id": "PERSON_005_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "अमित कृष्णन", "confidence": 0.9997557997703552, "variant_id": "PERSON_005_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Divya Iyer", "confidence": 0.9799776077270508, "variant_id": "PERSON_006_EN"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Divya Iyer", "confidence": 0.9806085228919983, "variant_id": "PERSON_006_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Divya Iyer", "confidence": 0.9146628975868225, "variant_id": "PERSON_006_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Divya Iyer", "confidence": 0.932125449180603, "variant_id": "PERSON_006_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Divya Iyer", "confidence": 0.9931369423866272, "variant_id": "PERSON_006_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 12, "text": "Div", "confidence": 0.9994971752166748, "variant_id": "PERSON_006_HI_LATIN_PII"}
+{"type": "PERSON", "start": 12, "end": 19, "text": "ya Iyer", "confidence": 0.8796744346618652, "variant_id": "PERSON_006_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "दिव्या अय्यर", "confidence": 0.9990618228912354, "variant_id": "PERSON_006_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Rahul Patel", "confidence": 0.9996681213378906, "variant_id": "PERSON_007_EN"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Rahul Patel", "confidence": 0.9996626377105713, "variant_id": "PERSON_007_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 21, "text": "Rahul Patel", "confidence": 0.9996382594108582, "variant_id": "PERSON_007_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Rahul Patel", "confidence": 0.9996503591537476, "variant_id": "PERSON_007_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Rahul Patel", "confidence": 0.9997037649154663, "variant_id": "PERSON_007_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "Rahul Patel", "confidence": 0.9996135234832764, "variant_id": "PERSON_007_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "राहुल पटेल", "confidence": 0.9996464252471924, "variant_id": "PERSON_007_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Vikram Rao", "confidence": 0.9368318915367126, "variant_id": "PERSON_008_EN"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Vikram Rao", "confidence": 0.9666712880134583, "variant_id": "PERSON_008_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 12, "text": "Vi", "confidence": 0.9998631477355957, "variant_id": "PERSON_008_ROM_HI"}
+{"type": "PERSON", "start": 12, "end": 20, "text": "kram Rao", "confidence": 0.7793080806732178, "variant_id": "PERSON_008_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Vikram Rao", "confidence": 0.8384261131286621, "variant_id": "PERSON_008_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Vikram Rao", "confidence": 0.8863306641578674, "variant_id": "PERSON_008_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "Vikram Rao", "confidence": 0.8761264681816101, "variant_id": "PERSON_008_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "विक्रम राव", "confidence": 0.9994761943817139, "variant_id": "PERSON_008_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Rajesh Bhatt", "confidence": 0.9988285899162292, "variant_id": "PERSON_009_EN"}
+{"type": "PERSON", "start": 24, "end": 36, "text": "Rajesh Bhatt", "confidence": 0.9974870085716248, "variant_id": "PERSON_009_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 22, "text": "Rajesh Bhatt", "confidence": 0.9970104694366455, "variant_id": "PERSON_009_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Rajesh Bhatt", "confidence": 0.9983320832252502, "variant_id": "PERSON_009_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Rajesh Bhatt", "confidence": 0.998735249042511, "variant_id": "PERSON_009_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "Rajesh Bhatt", "confidence": 0.9937315583229065, "variant_id": "PERSON_009_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "राजेश भट्ट", "confidence": 0.9997712969779968, "variant_id": "PERSON_009_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Rahul Agarwal", "confidence": 0.9997482895851135, "variant_id": "PERSON_010_EN"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Rahul Agarwal", "confidence": 0.999747097492218, "variant_id": "PERSON_010_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Rahul Agarwal", "confidence": 0.9997588992118835, "variant_id": "PERSON_010_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Rahul Agarwal", "confidence": 0.9997796416282654, "variant_id": "PERSON_010_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Rahul Agarwal", "confidence": 0.9997923970222473, "variant_id": "PERSON_010_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "Rahul Agarwal", "confidence": 0.9997415542602539, "variant_id": "PERSON_010_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "राहुल अग्रवाल", "confidence": 0.9996586441993713, "variant_id": "PERSON_010_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 25, "text": "Vikram Agarwal", "confidence": 0.9401848316192627, "variant_id": "PERSON_011_EN"}
+{"type": "PERSON", "start": 11, "end": 25, "text": "Vikram Agarwal", "confidence": 0.9857503175735474, "variant_id": "PERSON_011_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 24, "text": "Vikram Agarwal", "confidence": 0.966032862663269, "variant_id": "PERSON_011_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 29, "text": "Vikram Agarwal", "confidence": 0.9246007800102234, "variant_id": "PERSON_011_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 29, "text": "Vikram Agarwal", "confidence": 0.8940017223358154, "variant_id": "PERSON_011_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 23, "text": "Vikram Agarwal", "confidence": 0.8867020606994629, "variant_id": "PERSON_011_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 23, "text": "विक्रम अग्रवाल", "confidence": 0.9997454881668091, "variant_id": "PERSON_011_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Divya Rao", "confidence": 0.9940609931945801, "variant_id": "PERSON_012_EN"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Divya Rao", "confidence": 0.9954606890678406, "variant_id": "PERSON_012_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 13, "text": "Div", "confidence": 0.9997976422309875, "variant_id": "PERSON_012_ROM_HI"}
+{"type": "PERSON", "start": 13, "end": 19, "text": "ya Rao", "confidence": 0.8644019961357117, "variant_id": "PERSON_012_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Divya Rao", "confidence": 0.9329357147216797, "variant_id": "PERSON_012_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Divya Rao", "confidence": 0.9923555850982666, "variant_id": "PERSON_012_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 12, "text": "Div", "confidence": 0.9998176693916321, "variant_id": "PERSON_012_HI_LATIN_PII"}
+{"type": "PERSON", "start": 12, "end": 18, "text": "ya Rao", "confidence": 0.8869361877441406, "variant_id": "PERSON_012_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "दिव्या राव", "confidence": 0.9825329780578613, "variant_id": "PERSON_012_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Silver Oak Heights", "confidence": 0.9983827471733093, "variant_id": "ADDRESS_001_EN"}
+{"type": "LOC", "start": 44, "end": 54, "text": "Baner Road", "confidence": 0.9984620213508606, "variant_id": "ADDRESS_001_EN"}
+{"type": "LOC", "start": 56, "end": 65, "text": "Bengaluru", "confidence": 0.9980685710906982, "variant_id": "ADDRESS_001_EN"}
+{"type": "LOC", "start": 55, "end": 73, "text": "Silver Oak Heights", "confidence": 0.9985011219978333, "variant_id": "ADDRESS_001_IN_EN"}
+{"type": "LOC", "start": 75, "end": 85, "text": "Baner Road", "confidence": 0.9989612102508545, "variant_id": "ADDRESS_001_IN_EN"}
+{"type": "LOC", "start": 87, "end": 96, "text": "Bengaluru", "confidence": 0.998782753944397, "variant_id": "ADDRESS_001_IN_EN"}
+{"type": "LOC", "start": 23, "end": 41, "text": "Silver Oak Heights", "confidence": 0.9985947012901306, "variant_id": "ADDRESS_001_ROM_HI"}
+{"type": "LOC", "start": 43, "end": 53, "text": "Baner Road", "confidence": 0.9992831349372864, "variant_id": "ADDRESS_001_ROM_HI"}
+{"type": "LOC", "start": 55, "end": 64, "text": "Bengaluru", "confidence": 0.9989190697669983, "variant_id": "ADDRESS_001_ROM_HI"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Silver Oak Heights", "confidence": 0.9977956414222717, "variant_id": "ADDRESS_001_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 58, "text": "Baner Road", "confidence": 0.9979948997497559, "variant_id": "ADDRESS_001_HINGLISH"}
+{"type": "LOC", "start": 60, "end": 69, "text": "Bengaluru", "confidence": 0.9986045360565186, "variant_id": "ADDRESS_001_HINGLISH"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Silver Oak Heights", "confidence": 0.9975135922431946, "variant_id": "ADDRESS_001_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 58, "text": "Baner Road", "confidence": 0.9986526370048523, "variant_id": "ADDRESS_001_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 60, "end": 69, "text": "Bengaluru", "confidence": 0.9988514184951782, "variant_id": "ADDRESS_001_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 12, "end": 16, "text": "Flat", "confidence": 0.8260126709938049, "variant_id": "ADDRESS_001_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 40, "text": "Silver Oak Heights", "confidence": 0.998382031917572, "variant_id": "ADDRESS_001_HI_LATIN_PII"}
+{"type": "LOC", "start": 42, "end": 52, "text": "Baner Road", "confidence": 0.9992362856864929, "variant_id": "ADDRESS_001_HI_LATIN_PII"}
+{"type": "LOC", "start": 54, "end": 63, "text": "Bengaluru", "confidence": 0.9990323781967163, "variant_id": "ADDRESS_001_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 25, "text": "सि", "confidence": 0.8914752006530762, "variant_id": "ADDRESS_001_HI_DEVA_PII"}
+{"type": "LOC", "start": 27, "end": 36, "text": "वर ओक हाइ", "confidence": 0.7414287328720093, "variant_id": "ADDRESS_001_HI_DEVA_PII"}
+{"type": "LOC", "start": 41, "end": 42, "text": "ब", "confidence": 0.9996811151504517, "variant_id": "ADDRESS_001_HI_DEVA_PII"}
+{"type": "LOC", "start": 41, "end": 50, "text": "बानेर रोड", "confidence": 0.9981896281242371, "variant_id": "ADDRESS_001_HI_DEVA_PII"}
+{"type": "LOC", "start": 52, "end": 60, "text": "बेंगलुरु", "confidence": 0.9225400686264038, "variant_id": "ADDRESS_001_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 46, "text": "Green Valley Residency", "confidence": 0.9971036911010742, "variant_id": "ADDRESS_002_EN"}
+{"type": "LOC", "start": 48, "end": 62, "text": "Lake View Road", "confidence": 0.9995511174201965, "variant_id": "ADDRESS_002_EN"}
+{"type": "LOC", "start": 64, "end": 71, "text": "Kolkata", "confidence": 0.9975433349609375, "variant_id": "ADDRESS_002_EN"}
+{"type": "LOC", "start": 24, "end": 46, "text": "Green Valley Residency", "confidence": 0.9974634051322937, "variant_id": "ADDRESS_002_IN_EN"}
+{"type": "LOC", "start": 48, "end": 62, "text": "Lake View Road", "confidence": 0.9995274543762207, "variant_id": "ADDRESS_002_IN_EN"}
+{"type": "LOC", "start": 64, "end": 71, "text": "Kolkata", "confidence": 0.9980906844139099, "variant_id": "ADDRESS_002_IN_EN"}
+{"type": "LOC", "start": 23, "end": 45, "text": "Green Valley Residency", "confidence": 0.9975574612617493, "variant_id": "ADDRESS_002_ROM_HI"}
+{"type": "LOC", "start": 47, "end": 61, "text": "Lake View Road", "confidence": 0.9995666146278381, "variant_id": "ADDRESS_002_ROM_HI"}
+{"type": "LOC", "start": 63, "end": 70, "text": "Kolkata", "confidence": 0.9983019828796387, "variant_id": "ADDRESS_002_ROM_HI"}
+{"type": "LOC", "start": 23, "end": 45, "text": "Green Valley Residency", "confidence": 0.9976125955581665, "variant_id": "ADDRESS_002_HINGLISH"}
+{"type": "LOC", "start": 47, "end": 61, "text": "Lake View Road", "confidence": 0.9995522499084473, "variant_id": "ADDRESS_002_HINGLISH"}
+{"type": "LOC", "start": 63, "end": 70, "text": "Kolkata", "confidence": 0.9984740614891052, "variant_id": "ADDRESS_002_HINGLISH"}
+{"type": "LOC", "start": 23, "end": 45, "text": "Green Valley Residency", "confidence": 0.998212456703186, "variant_id": "ADDRESS_002_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 47, "end": 61, "text": "Lake View Road", "confidence": 0.9995908737182617, "variant_id": "ADDRESS_002_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 63, "end": 70, "text": "Kolkata", "confidence": 0.9980637431144714, "variant_id": "ADDRESS_002_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 44, "text": "Green Valley Residency", "confidence": 0.9877374768257141, "variant_id": "ADDRESS_002_HI_LATIN_PII"}
+{"type": "LOC", "start": 46, "end": 60, "text": "Lake View Road", "confidence": 0.9995004534721375, "variant_id": "ADDRESS_002_HI_LATIN_PII"}
+{"type": "LOC", "start": 62, "end": 69, "text": "Kolkata", "confidence": 0.9984604120254517, "variant_id": "ADDRESS_002_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 43, "text": "ग्रीन वैली रेजिडेंसी", "confidence": 0.7833336591720581, "variant_id": "ADDRESS_002_HI_DEVA_PII"}
+{"type": "LOC", "start": 45, "end": 57, "text": "लेक व्यू रोड", "confidence": 0.9981473684310913, "variant_id": "ADDRESS_002_HI_DEVA_PII"}
+{"type": "LOC", "start": 59, "end": 66, "text": "कोलकाता", "confidence": 0.9997299313545227, "variant_id": "ADDRESS_002_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Palm Grove Society", "confidence": 0.9989659786224365, "variant_id": "ADDRESS_003_EN"}
+{"type": "LOC", "start": 44, "end": 56, "text": "Station Road", "confidence": 0.9993135333061218, "variant_id": "ADDRESS_003_EN"}
+{"type": "LOC", "start": 58, "end": 64, "text": "Mumbai", "confidence": 0.9996342658996582, "variant_id": "ADDRESS_003_EN"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Palm Grove Society", "confidence": 0.9988706707954407, "variant_id": "ADDRESS_003_IN_EN"}
+{"type": "LOC", "start": 44, "end": 56, "text": "Station Road", "confidence": 0.9992915391921997, "variant_id": "ADDRESS_003_IN_EN"}
+{"type": "LOC", "start": 58, "end": 64, "text": "Mumbai", "confidence": 0.9996628761291504, "variant_id": "ADDRESS_003_IN_EN"}
+{"type": "LOC", "start": 23, "end": 41, "text": "Palm Grove Society", "confidence": 0.9985663294792175, "variant_id": "ADDRESS_003_ROM_HI"}
+{"type": "LOC", "start": 43, "end": 55, "text": "Station Road", "confidence": 0.9991477727890015, "variant_id": "ADDRESS_003_ROM_HI"}
+{"type": "LOC", "start": 57, "end": 63, "text": "Mumbai", "confidence": 0.9997034668922424, "variant_id": "ADDRESS_003_ROM_HI"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Palm Grove Society", "confidence": 0.9983137249946594, "variant_id": "ADDRESS_003_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 60, "text": "Station Road", "confidence": 0.99913489818573, "variant_id": "ADDRESS_003_HINGLISH"}
+{"type": "LOC", "start": 62, "end": 68, "text": "Mumbai", "confidence": 0.9996296167373657, "variant_id": "ADDRESS_003_HINGLISH"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Palm Grove Society", "confidence": 0.9981628060340881, "variant_id": "ADDRESS_003_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 60, "text": "Station Road", "confidence": 0.9990973472595215, "variant_id": "ADDRESS_003_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 62, "end": 68, "text": "Mumbai", "confidence": 0.9996211528778076, "variant_id": "ADDRESS_003_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 40, "text": "Palm Grove Society", "confidence": 0.9971556663513184, "variant_id": "ADDRESS_003_HI_LATIN_PII"}
+{"type": "LOC", "start": 42, "end": 54, "text": "Station Road", "confidence": 0.9982383847236633, "variant_id": "ADDRESS_003_HI_LATIN_PII"}
+{"type": "LOC", "start": 56, "end": 62, "text": "Mumbai", "confidence": 0.9996063113212585, "variant_id": "ADDRESS_003_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 40, "text": "पाम ग्रोव सोसाइटी", "confidence": 0.9783046245574951, "variant_id": "ADDRESS_003_HI_DEVA_PII"}
+{"type": "LOC", "start": 42, "end": 52, "text": "स्टेशन रोड", "confidence": 0.9933159947395325, "variant_id": "ADDRESS_003_HI_DEVA_PII"}
+{"type": "LOC", "start": 54, "end": 59, "text": "मुंबई", "confidence": 0.9991727471351624, "variant_id": "ADDRESS_003_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Palm Grove Society", "confidence": 0.9985325932502747, "variant_id": "ADDRESS_004_EN"}
+{"type": "LOC", "start": 44, "end": 53, "text": "Ring Road", "confidence": 0.9992161393165588, "variant_id": "ADDRESS_004_EN"}
+{"type": "LOC", "start": 55, "end": 62, "text": "Kolkata", "confidence": 0.9984007477760315, "variant_id": "ADDRESS_004_EN"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Palm Grove Society", "confidence": 0.998612105846405, "variant_id": "ADDRESS_004_IN_EN"}
+{"type": "LOC", "start": 44, "end": 53, "text": "Ring Road", "confidence": 0.9992187023162842, "variant_id": "ADDRESS_004_IN_EN"}
+{"type": "LOC", "start": 55, "end": 62, "text": "Kolkata", "confidence": 0.9991421699523926, "variant_id": "ADDRESS_004_IN_EN"}
+{"type": "LOC", "start": 23, "end": 41, "text": "Palm Grove Society", "confidence": 0.998600423336029, "variant_id": "ADDRESS_004_ROM_HI"}
+{"type": "LOC", "start": 43, "end": 52, "text": "Ring Road", "confidence": 0.9991543292999268, "variant_id": "ADDRESS_004_ROM_HI"}
+{"type": "LOC", "start": 54, "end": 61, "text": "Kolkata", "confidence": 0.9989123344421387, "variant_id": "ADDRESS_004_ROM_HI"}
+{"type": "LOC", "start": 23, "end": 41, "text": "Palm Grove Society", "confidence": 0.9987959265708923, "variant_id": "ADDRESS_004_HINGLISH"}
+{"type": "LOC", "start": 43, "end": 52, "text": "Ring Road", "confidence": 0.9990857839584351, "variant_id": "ADDRESS_004_HINGLISH"}
+{"type": "LOC", "start": 54, "end": 61, "text": "Kolkata", "confidence": 0.9989311099052429, "variant_id": "ADDRESS_004_HINGLISH"}
+{"type": "LOC", "start": 23, "end": 41, "text": "Palm Grove Society", "confidence": 0.9990445971488953, "variant_id": "ADDRESS_004_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 43, "end": 52, "text": "Ring Road", "confidence": 0.9991495609283447, "variant_id": "ADDRESS_004_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 54, "end": 61, "text": "Kolkata", "confidence": 0.9988675117492676, "variant_id": "ADDRESS_004_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 40, "text": "Palm Grove Society", "confidence": 0.9974730014801025, "variant_id": "ADDRESS_004_HI_LATIN_PII"}
+{"type": "LOC", "start": 42, "end": 51, "text": "Ring Road", "confidence": 0.998571515083313, "variant_id": "ADDRESS_004_HI_LATIN_PII"}
+{"type": "LOC", "start": 53, "end": 60, "text": "Kolkata", "confidence": 0.9976193308830261, "variant_id": "ADDRESS_004_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 40, "text": "पाम ग्रोव सोसाइटी", "confidence": 0.8816064596176147, "variant_id": "ADDRESS_004_HI_DEVA_PII"}
+{"type": "LOC", "start": 42, "end": 43, "text": "र", "confidence": 0.9994600415229797, "variant_id": "ADDRESS_004_HI_DEVA_PII"}
+{"type": "LOC", "start": 42, "end": 50, "text": "रिंग रोड", "confidence": 0.9970325231552124, "variant_id": "ADDRESS_004_HI_DEVA_PII"}
+{"type": "LOC", "start": 52, "end": 59, "text": "कोलकाता", "confidence": 0.9994812607765198, "variant_id": "ADDRESS_004_HI_DEVA_PII"}
+{"type": "LOC", "start": 23, "end": 35, "text": "Orchid Homes", "confidence": 0.9622824788093567, "variant_id": "ADDRESS_005_EN"}
+{"type": "LOC", "start": 37, "end": 51, "text": "Hill Side Road", "confidence": 0.9989559650421143, "variant_id": "ADDRESS_005_EN"}
+{"type": "LOC", "start": 53, "end": 60, "text": "Chennai", "confidence": 0.9994478821754456, "variant_id": "ADDRESS_005_EN"}
+{"type": "LOC", "start": 36, "end": 48, "text": "Orchid Homes", "confidence": 0.8346723318099976, "variant_id": "ADDRESS_005_IN_EN"}
+{"type": "LOC", "start": 50, "end": 64, "text": "Hill Side Road", "confidence": 0.9995102882385254, "variant_id": "ADDRESS_005_IN_EN"}
+{"type": "LOC", "start": 66, "end": 73, "text": "Chennai", "confidence": 0.999546468257904, "variant_id": "ADDRESS_005_IN_EN"}
+{"type": "LOC", "start": 22, "end": 34, "text": "Orchid Homes", "confidence": 0.9794826507568359, "variant_id": "ADDRESS_005_ROM_HI"}
+{"type": "LOC", "start": 36, "end": 50, "text": "Hill Side Road", "confidence": 0.9984944462776184, "variant_id": "ADDRESS_005_ROM_HI"}
+{"type": "LOC", "start": 52, "end": 59, "text": "Chennai", "confidence": 0.99964439868927, "variant_id": "ADDRESS_005_ROM_HI"}
+{"type": "LOC", "start": 27, "end": 39, "text": "Orchid Homes", "confidence": 0.901491641998291, "variant_id": "ADDRESS_005_HINGLISH"}
+{"type": "LOC", "start": 41, "end": 55, "text": "Hill Side Road", "confidence": 0.9982101321220398, "variant_id": "ADDRESS_005_HINGLISH"}
+{"type": "LOC", "start": 57, "end": 64, "text": "Chennai", "confidence": 0.9996501207351685, "variant_id": "ADDRESS_005_HINGLISH"}
+{"type": "LOC", "start": 27, "end": 39, "text": "Orchid Homes", "confidence": 0.8984854817390442, "variant_id": "ADDRESS_005_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 41, "end": 55, "text": "Hill Side Road", "confidence": 0.9987716674804688, "variant_id": "ADDRESS_005_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 57, "end": 64, "text": "Chennai", "confidence": 0.9995747208595276, "variant_id": "ADDRESS_005_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 12, "end": 16, "text": "Flat", "confidence": 0.6255463361740112, "variant_id": "ADDRESS_005_HI_LATIN_PII"}
+{"type": "LOC", "start": 21, "end": 33, "text": "Orchid Homes", "confidence": 0.9712425470352173, "variant_id": "ADDRESS_005_HI_LATIN_PII"}
+{"type": "LOC", "start": 35, "end": 49, "text": "Hill Side Road", "confidence": 0.9974705576896667, "variant_id": "ADDRESS_005_HI_LATIN_PII"}
+{"type": "LOC", "start": 51, "end": 58, "text": "Chennai", "confidence": 0.9995755553245544, "variant_id": "ADDRESS_005_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 34, "text": "ऑर्किड होम्स", "confidence": 0.8589354753494263, "variant_id": "ADDRESS_005_HI_DEVA_PII"}
+{"type": "LOC", "start": 36, "end": 37, "text": "ह", "confidence": 0.9996558427810669, "variant_id": "ADDRESS_005_HI_DEVA_PII"}
+{"type": "LOC", "start": 36, "end": 48, "text": "हिल साइड रोड", "confidence": 0.9991260766983032, "variant_id": "ADDRESS_005_HI_DEVA_PII"}
+{"type": "LOC", "start": 50, "end": 56, "text": "चेन्नई", "confidence": 0.999688982963562, "variant_id": "ADDRESS_005_HI_DEVA_PII"}
+{"type": "LOC", "start": 23, "end": 36, "text": "Lotus Enclave", "confidence": 0.9887570738792419, "variant_id": "ADDRESS_006_EN"}
+{"type": "LOC", "start": 38, "end": 52, "text": "Lake View Road", "confidence": 0.9994408488273621, "variant_id": "ADDRESS_006_EN"}
+{"type": "LOC", "start": 54, "end": 63, "text": "Hyderabad", "confidence": 0.9995802044868469, "variant_id": "ADDRESS_006_EN"}
+{"type": "LOC", "start": 23, "end": 36, "text": "Lotus Enclave", "confidence": 0.9903483390808105, "variant_id": "ADDRESS_006_IN_EN"}
+{"type": "LOC", "start": 38, "end": 52, "text": "Lake View Road", "confidence": 0.9993866086006165, "variant_id": "ADDRESS_006_IN_EN"}
+{"type": "LOC", "start": 54, "end": 63, "text": "Hyderabad", "confidence": 0.9996457099914551, "variant_id": "ADDRESS_006_IN_EN"}
+{"type": "LOC", "start": 22, "end": 35, "text": "Lotus Enclave", "confidence": 0.9848728179931641, "variant_id": "ADDRESS_006_ROM_HI"}
+{"type": "LOC", "start": 37, "end": 51, "text": "Lake View Road", "confidence": 0.9993097186088562, "variant_id": "ADDRESS_006_ROM_HI"}
+{"type": "LOC", "start": 53, "end": 62, "text": "Hyderabad", "confidence": 0.999653697013855, "variant_id": "ADDRESS_006_ROM_HI"}
+{"type": "LOC", "start": 22, "end": 35, "text": "Lotus Enclave", "confidence": 0.9877380728721619, "variant_id": "ADDRESS_006_HINGLISH"}
+{"type": "LOC", "start": 37, "end": 51, "text": "Lake View Road", "confidence": 0.9993013739585876, "variant_id": "ADDRESS_006_HINGLISH"}
+{"type": "LOC", "start": 53, "end": 62, "text": "Hyderabad", "confidence": 0.9996926784515381, "variant_id": "ADDRESS_006_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 35, "text": "Lotus Enclave", "confidence": 0.9882866740226746, "variant_id": "ADDRESS_006_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 37, "end": 51, "text": "Lake View Road", "confidence": 0.9994115233421326, "variant_id": "ADDRESS_006_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 53, "end": 62, "text": "Hyderabad", "confidence": 0.9996181726455688, "variant_id": "ADDRESS_006_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 21, "end": 34, "text": "Lotus Enclave", "confidence": 0.9756243824958801, "variant_id": "ADDRESS_006_HI_LATIN_PII"}
+{"type": "LOC", "start": 36, "end": 50, "text": "Lake View Road", "confidence": 0.9991011619567871, "variant_id": "ADDRESS_006_HI_LATIN_PII"}
+{"type": "LOC", "start": 52, "end": 61, "text": "Hyderabad", "confidence": 0.9996107220649719, "variant_id": "ADDRESS_006_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 35, "text": "लोटस एन्क्लेव", "confidence": 0.9839092493057251, "variant_id": "ADDRESS_006_HI_DEVA_PII"}
+{"type": "LOC", "start": 37, "end": 49, "text": "लेक व्यू रोड", "confidence": 0.9982657432556152, "variant_id": "ADDRESS_006_HI_DEVA_PII"}
+{"type": "LOC", "start": 51, "end": 59, "text": "हैदराबाद", "confidence": 0.9997192025184631, "variant_id": "ADDRESS_006_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Silver Oak Heights", "confidence": 0.9980299472808838, "variant_id": "ADDRESS_007_EN"}
+{"type": "LOC", "start": 44, "end": 58, "text": "Hill Side Road", "confidence": 0.9991974830627441, "variant_id": "ADDRESS_007_EN"}
+{"type": "LOC", "start": 60, "end": 66, "text": "Jaipur", "confidence": 0.9996435642242432, "variant_id": "ADDRESS_007_EN"}
+{"type": "LOC", "start": 24, "end": 42, "text": "Silver Oak Heights", "confidence": 0.9980595707893372, "variant_id": "ADDRESS_007_IN_EN"}
+{"type": "LOC", "start": 44, "end": 58, "text": "Hill Side Road", "confidence": 0.9991394877433777, "variant_id": "ADDRESS_007_IN_EN"}
+{"type": "LOC", "start": 60, "end": 66, "text": "Jaipur", "confidence": 0.9997177720069885, "variant_id": "ADDRESS_007_IN_EN"}
+{"type": "LOC", "start": 23, "end": 41, "text": "Silver Oak Heights", "confidence": 0.9983745217323303, "variant_id": "ADDRESS_007_ROM_HI"}
+{"type": "LOC", "start": 43, "end": 57, "text": "Hill Side Road", "confidence": 0.9981444478034973, "variant_id": "ADDRESS_007_ROM_HI"}
+{"type": "LOC", "start": 59, "end": 65, "text": "Jaipur", "confidence": 0.999661922454834, "variant_id": "ADDRESS_007_ROM_HI"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Silver Oak Heights", "confidence": 0.9967744946479797, "variant_id": "ADDRESS_007_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 62, "text": "Hill Side Road", "confidence": 0.9984598159790039, "variant_id": "ADDRESS_007_HINGLISH"}
+{"type": "LOC", "start": 64, "end": 70, "text": "Jaipur", "confidence": 0.9996834993362427, "variant_id": "ADDRESS_007_HINGLISH"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Silver Oak Heights", "confidence": 0.9959926605224609, "variant_id": "ADDRESS_007_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 62, "text": "Hill Side Road", "confidence": 0.9986670017242432, "variant_id": "ADDRESS_007_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 64, "end": 70, "text": "Jaipur", "confidence": 0.9996857643127441, "variant_id": "ADDRESS_007_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 12, "end": 16, "text": "Flat", "confidence": 0.5838524699211121, "variant_id": "ADDRESS_007_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 40, "text": "Silver Oak Heights", "confidence": 0.9964380264282227, "variant_id": "ADDRESS_007_HI_LATIN_PII"}
+{"type": "LOC", "start": 42, "end": 56, "text": "Hill Side Road", "confidence": 0.9978592991828918, "variant_id": "ADDRESS_007_HI_LATIN_PII"}
+{"type": "LOC", "start": 58, "end": 64, "text": "Jaipur", "confidence": 0.999704897403717, "variant_id": "ADDRESS_007_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 39, "text": "सिल्वर ओक हाइट्स", "confidence": 0.8257589340209961, "variant_id": "ADDRESS_007_HI_DEVA_PII"}
+{"type": "LOC", "start": 41, "end": 42, "text": "ह", "confidence": 0.9989587068557739, "variant_id": "ADDRESS_007_HI_DEVA_PII"}
+{"type": "LOC", "start": 41, "end": 53, "text": "हिल साइड रोड", "confidence": 0.9935889840126038, "variant_id": "ADDRESS_007_HI_DEVA_PII"}
+{"type": "LOC", "start": 55, "end": 60, "text": "जयपुर", "confidence": 0.9995762705802917, "variant_id": "ADDRESS_007_HI_DEVA_PII"}
+{"type": "LOC", "start": 23, "end": 37, "text": "Sunrise Towers", "confidence": 0.9845023155212402, "variant_id": "ADDRESS_008_EN"}
+{"type": "LOC", "start": 39, "end": 53, "text": "Hill Side Road", "confidence": 0.9987421631813049, "variant_id": "ADDRESS_008_EN"}
+{"type": "LOC", "start": 55, "end": 61, "text": "Mumbai", "confidence": 0.9995284080505371, "variant_id": "ADDRESS_008_EN"}
+{"type": "LOC", "start": 23, "end": 37, "text": "Sunrise Towers", "confidence": 0.9860858917236328, "variant_id": "ADDRESS_008_IN_EN"}
+{"type": "LOC", "start": 39, "end": 53, "text": "Hill Side Road", "confidence": 0.9984946846961975, "variant_id": "ADDRESS_008_IN_EN"}
+{"type": "LOC", "start": 55, "end": 61, "text": "Mumbai", "confidence": 0.9995643496513367, "variant_id": "ADDRESS_008_IN_EN"}
+{"type": "LOC", "start": 22, "end": 36, "text": "Sunrise Towers", "confidence": 0.9831496477127075, "variant_id": "ADDRESS_008_ROM_HI"}
+{"type": "LOC", "start": 38, "end": 52, "text": "Hill Side Road", "confidence": 0.9974098801612854, "variant_id": "ADDRESS_008_ROM_HI"}
+{"type": "LOC", "start": 54, "end": 60, "text": "Mumbai", "confidence": 0.9996515512466431, "variant_id": "ADDRESS_008_ROM_HI"}
+{"type": "LOC", "start": 22, "end": 36, "text": "Sunrise Towers", "confidence": 0.9840539693832397, "variant_id": "ADDRESS_008_HINGLISH"}
+{"type": "LOC", "start": 38, "end": 52, "text": "Hill Side Road", "confidence": 0.9971396327018738, "variant_id": "ADDRESS_008_HINGLISH"}
+{"type": "LOC", "start": 54, "end": 60, "text": "Mumbai", "confidence": 0.9996885061264038, "variant_id": "ADDRESS_008_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 36, "text": "Sunrise Towers", "confidence": 0.9854698181152344, "variant_id": "ADDRESS_008_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 38, "end": 52, "text": "Hill Side Road", "confidence": 0.9978134036064148, "variant_id": "ADDRESS_008_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 54, "end": 60, "text": "Mumbai", "confidence": 0.9995349645614624, "variant_id": "ADDRESS_008_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 12, "end": 16, "text": "Flat", "confidence": 0.5350908041000366, "variant_id": "ADDRESS_008_HI_LATIN_PII"}
+{"type": "LOC", "start": 21, "end": 35, "text": "Sunrise Towers", "confidence": 0.9755697250366211, "variant_id": "ADDRESS_008_HI_LATIN_PII"}
+{"type": "LOC", "start": 37, "end": 51, "text": "Hill Side Road", "confidence": 0.9973196983337402, "variant_id": "ADDRESS_008_HI_LATIN_PII"}
+{"type": "LOC", "start": 53, "end": 59, "text": "Mumbai", "confidence": 0.999595582485199, "variant_id": "ADDRESS_008_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 36, "text": "सनराइज़ टावर्स", "confidence": 0.8366547226905823, "variant_id": "ADDRESS_008_HI_DEVA_PII"}
+{"type": "LOC", "start": 38, "end": 39, "text": "ह", "confidence": 0.9995706677436829, "variant_id": "ADDRESS_008_HI_DEVA_PII"}
+{"type": "LOC", "start": 38, "end": 50, "text": "हिल साइड रोड", "confidence": 0.997978687286377, "variant_id": "ADDRESS_008_HI_DEVA_PII"}
+{"type": "LOC", "start": 52, "end": 57, "text": "मुंबई", "confidence": 0.9980787038803101, "variant_id": "ADDRESS_008_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 46, "text": "Green Valley Residency", "confidence": 0.9946073293685913, "variant_id": "ADDRESS_009_EN"}
+{"type": "LOC", "start": 48, "end": 61, "text": "Church Street", "confidence": 0.9988875985145569, "variant_id": "ADDRESS_009_EN"}
+{"type": "LOC", "start": 63, "end": 70, "text": "Kolkata", "confidence": 0.9980871677398682, "variant_id": "ADDRESS_009_EN"}
+{"type": "LOC", "start": 55, "end": 77, "text": "Green Valley Residency", "confidence": 0.9892629384994507, "variant_id": "ADDRESS_009_IN_EN"}
+{"type": "LOC", "start": 79, "end": 92, "text": "Church Street", "confidence": 0.9994226694107056, "variant_id": "ADDRESS_009_IN_EN"}
+{"type": "LOC", "start": 94, "end": 101, "text": "Kolkata", "confidence": 0.9985498785972595, "variant_id": "ADDRESS_009_IN_EN"}
+{"type": "LOC", "start": 23, "end": 45, "text": "Green Valley Residency", "confidence": 0.992974579334259, "variant_id": "ADDRESS_009_ROM_HI"}
+{"type": "LOC", "start": 47, "end": 60, "text": "Church Street", "confidence": 0.9990427494049072, "variant_id": "ADDRESS_009_ROM_HI"}
+{"type": "LOC", "start": 62, "end": 69, "text": "Kolkata", "confidence": 0.9987356066703796, "variant_id": "ADDRESS_009_ROM_HI"}
+{"type": "LOC", "start": 28, "end": 50, "text": "Green Valley Residency", "confidence": 0.9851354360580444, "variant_id": "ADDRESS_009_HINGLISH"}
+{"type": "LOC", "start": 52, "end": 65, "text": "Church Street", "confidence": 0.9991112947463989, "variant_id": "ADDRESS_009_HINGLISH"}
+{"type": "LOC", "start": 67, "end": 74, "text": "Kolkata", "confidence": 0.9987642765045166, "variant_id": "ADDRESS_009_HINGLISH"}
+{"type": "LOC", "start": 28, "end": 50, "text": "Green Valley Residency", "confidence": 0.9913455843925476, "variant_id": "ADDRESS_009_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 52, "end": 65, "text": "Church Street", "confidence": 0.9990992546081543, "variant_id": "ADDRESS_009_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 67, "end": 74, "text": "Kolkata", "confidence": 0.9991782307624817, "variant_id": "ADDRESS_009_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 44, "text": "Green Valley Residency", "confidence": 0.976661205291748, "variant_id": "ADDRESS_009_HI_LATIN_PII"}
+{"type": "LOC", "start": 46, "end": 59, "text": "Church Street", "confidence": 0.9961107969284058, "variant_id": "ADDRESS_009_HI_LATIN_PII"}
+{"type": "LOC", "start": 61, "end": 68, "text": "Kolkata", "confidence": 0.998193085193634, "variant_id": "ADDRESS_009_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 43, "text": "ग्रीन वैली रेजिडेंसी", "confidence": 0.9629993438720703, "variant_id": "ADDRESS_009_HI_DEVA_PII"}
+{"type": "LOC", "start": 45, "end": 57, "text": "चर्च स्ट्रीट", "confidence": 0.9986974596977234, "variant_id": "ADDRESS_009_HI_DEVA_PII"}
+{"type": "LOC", "start": 59, "end": 66, "text": "कोलकाता", "confidence": 0.9996812343597412, "variant_id": "ADDRESS_009_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 38, "text": "Sunrise Towers", "confidence": 0.9938896298408508, "variant_id": "ADDRESS_010_EN"}
+{"type": "LOC", "start": 40, "end": 47, "text": "MG Road", "confidence": 0.9970949292182922, "variant_id": "ADDRESS_010_EN"}
+{"type": "LOC", "start": 49, "end": 56, "text": "Chennai", "confidence": 0.9993809461593628, "variant_id": "ADDRESS_010_EN"}
+{"type": "LOC", "start": 24, "end": 38, "text": "Sunrise Towers", "confidence": 0.994308352470398, "variant_id": "ADDRESS_010_IN_EN"}
+{"type": "LOC", "start": 40, "end": 47, "text": "MG Road", "confidence": 0.996360719203949, "variant_id": "ADDRESS_010_IN_EN"}
+{"type": "LOC", "start": 49, "end": 56, "text": "Chennai", "confidence": 0.9994410872459412, "variant_id": "ADDRESS_010_IN_EN"}
+{"type": "LOC", "start": 23, "end": 37, "text": "Sunrise Towers", "confidence": 0.9901668429374695, "variant_id": "ADDRESS_010_ROM_HI"}
+{"type": "LOC", "start": 39, "end": 46, "text": "MG Road", "confidence": 0.9981741309165955, "variant_id": "ADDRESS_010_ROM_HI"}
+{"type": "LOC", "start": 48, "end": 55, "text": "Chennai", "confidence": 0.9995583891868591, "variant_id": "ADDRESS_010_ROM_HI"}
+{"type": "LOC", "start": 23, "end": 37, "text": "Sunrise Towers", "confidence": 0.991765022277832, "variant_id": "ADDRESS_010_HINGLISH"}
+{"type": "LOC", "start": 39, "end": 46, "text": "MG Road", "confidence": 0.9977542161941528, "variant_id": "ADDRESS_010_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 55, "text": "Chennai", "confidence": 0.9996179342269897, "variant_id": "ADDRESS_010_HINGLISH"}
+{"type": "LOC", "start": 23, "end": 37, "text": "Sunrise Towers", "confidence": 0.9930765628814697, "variant_id": "ADDRESS_010_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 39, "end": 46, "text": "MG Road", "confidence": 0.9977807998657227, "variant_id": "ADDRESS_010_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 48, "end": 55, "text": "Chennai", "confidence": 0.99943608045578, "variant_id": "ADDRESS_010_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 12, "end": 16, "text": "Flat", "confidence": 0.8032615184783936, "variant_id": "ADDRESS_010_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 36, "text": "Sunrise Towers", "confidence": 0.9811385869979858, "variant_id": "ADDRESS_010_HI_LATIN_PII"}
+{"type": "LOC", "start": 38, "end": 45, "text": "MG Road", "confidence": 0.9956702589988708, "variant_id": "ADDRESS_010_HI_LATIN_PII"}
+{"type": "LOC", "start": 47, "end": 54, "text": "Chennai", "confidence": 0.9994974136352539, "variant_id": "ADDRESS_010_HI_LATIN_PII"}
+{"type": "LOC", "start": 23, "end": 37, "text": "सनराइज़ टावर्स", "confidence": 0.9236130118370056, "variant_id": "ADDRESS_010_HI_DEVA_PII"}
+{"type": "LOC", "start": 39, "end": 47, "text": "एमजी रोड", "confidence": 0.9995477795600891, "variant_id": "ADDRESS_010_HI_DEVA_PII"}
+{"type": "LOC", "start": 49, "end": 55, "text": "चेन्नई", "confidence": 0.9995914101600647, "variant_id": "ADDRESS_010_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 36, "text": "Orchid Homes", "confidence": 0.984641432762146, "variant_id": "ADDRESS_011_EN"}
+{"type": "LOC", "start": 38, "end": 48, "text": "Baner Road", "confidence": 0.9977025985717773, "variant_id": "ADDRESS_011_EN"}
+{"type": "LOC", "start": 50, "end": 56, "text": "Mumbai", "confidence": 0.9995672106742859, "variant_id": "ADDRESS_011_EN"}
+{"type": "LOC", "start": 24, "end": 36, "text": "Orchid Homes", "confidence": 0.9825207591056824, "variant_id": "ADDRESS_011_IN_EN"}
+{"type": "LOC", "start": 38, "end": 48, "text": "Baner Road", "confidence": 0.9966772198677063, "variant_id": "ADDRESS_011_IN_EN"}
+{"type": "LOC", "start": 50, "end": 56, "text": "Mumbai", "confidence": 0.9996230602264404, "variant_id": "ADDRESS_011_IN_EN"}
+{"type": "LOC", "start": 13, "end": 17, "text": "Flat", "confidence": 0.6330981254577637, "variant_id": "ADDRESS_011_ROM_HI"}
+{"type": "LOC", "start": 23, "end": 35, "text": "Orchid Homes", "confidence": 0.9890948534011841, "variant_id": "ADDRESS_011_ROM_HI"}
+{"type": "LOC", "start": 37, "end": 47, "text": "Baner Road", "confidence": 0.9868218302726746, "variant_id": "ADDRESS_011_ROM_HI"}
+{"type": "LOC", "start": 49, "end": 55, "text": "Mumbai", "confidence": 0.9995630383491516, "variant_id": "ADDRESS_011_ROM_HI"}
+{"type": "LOC", "start": 28, "end": 40, "text": "Orchid Homes", "confidence": 0.9647955894470215, "variant_id": "ADDRESS_011_HINGLISH"}
+{"type": "LOC", "start": 42, "end": 52, "text": "Baner Road", "confidence": 0.9980649948120117, "variant_id": "ADDRESS_011_HINGLISH"}
+{"type": "LOC", "start": 54, "end": 60, "text": "Mumbai", "confidence": 0.999636173248291, "variant_id": "ADDRESS_011_HINGLISH"}
+{"type": "LOC", "start": 28, "end": 40, "text": "Orchid Homes", "confidence": 0.9626463651657104, "variant_id": "ADDRESS_011_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 42, "end": 52, "text": "Baner Road", "confidence": 0.9988663792610168, "variant_id": "ADDRESS_011_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 54, "end": 60, "text": "Mumbai", "confidence": 0.9995825886726379, "variant_id": "ADDRESS_011_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 12, "end": 16, "text": "Flat", "confidence": 0.6901366114616394, "variant_id": "ADDRESS_011_HI_LATIN_PII"}
+{"type": "LOC", "start": 22, "end": 34, "text": "Orchid Homes", "confidence": 0.9767247438430786, "variant_id": "ADDRESS_011_HI_LATIN_PII"}
+{"type": "LOC", "start": 36, "end": 46, "text": "Baner Road", "confidence": 0.9989706873893738, "variant_id": "ADDRESS_011_HI_LATIN_PII"}
+{"type": "LOC", "start": 48, "end": 54, "text": "Mumbai", "confidence": 0.9995759129524231, "variant_id": "ADDRESS_011_HI_LATIN_PII"}
+{"type": "ORG", "start": 23, "end": 29, "text": "ऑर्किड", "confidence": 0.6494607925415039, "variant_id": "ADDRESS_011_HI_DEVA_PII"}
+{"type": "LOC", "start": 30, "end": 35, "text": "होम्स", "confidence": 0.7290830612182617, "variant_id": "ADDRESS_011_HI_DEVA_PII"}
+{"type": "LOC", "start": 37, "end": 38, "text": "ब", "confidence": 0.9995489716529846, "variant_id": "ADDRESS_011_HI_DEVA_PII"}
+{"type": "LOC", "start": 37, "end": 46, "text": "बानेर रोड", "confidence": 0.9572717547416687, "variant_id": "ADDRESS_011_HI_DEVA_PII"}
+{"type": "LOC", "start": 48, "end": 53, "text": "मुंबई", "confidence": 0.9985238909721375, "variant_id": "ADDRESS_011_HI_DEVA_PII"}
+{"type": "LOC", "start": 24, "end": 36, "text": "Orchid Homes", "confidence": 0.9935013055801392, "variant_id": "ADDRESS_012_EN"}
+{"type": "LOC", "start": 38, "end": 45, "text": "MG Road", "confidence": 0.996325671672821, "variant_id": "ADDRESS_012_EN"}
+{"type": "LOC", "start": 47, "end": 56, "text": "Bengaluru", "confidence": 0.9980711340904236, "variant_id": "ADDRESS_012_EN"}
+{"type": "LOC", "start": 24, "end": 36, "text": "Orchid Homes", "confidence": 0.9947435259819031, "variant_id": "ADDRESS_012_IN_EN"}
+{"type": "LOC", "start": 38, "end": 45, "text": "MG Road", "confidence": 0.997047483921051, "variant_id": "ADDRESS_012_IN_EN"}
+{"type": "LOC", "start": 47, "end": 56, "text": "Bengaluru", "confidence": 0.9981532692909241, "variant_id": "ADDRESS_012_IN_EN"}
+{"type": "LOC", "start": 13, "end": 17, "text": "Flat", "confidence": 0.5000429153442383, "variant_id": "ADDRESS_012_ROM_HI"}
+{"type": "LOC", "start": 23, "end": 35, "text": "Orchid Homes", "confidence": 0.9891632795333862, "variant_id": "ADDRESS_012_ROM_HI"}
+{"type": "LOC", "start": 37, "end": 44, "text": "MG Road", "confidence": 0.9981257915496826, "variant_id": "ADDRESS_012_ROM_HI"}
+{"type": "LOC", "start": 46, "end": 55, "text": "Bengaluru", "confidence": 0.9992184638977051, "variant_id": "ADDRESS_012_ROM_HI"}
+{"type": "LOC", "start": 13, "end": 17, "text": "Flat", "confidence": 0.7126755118370056, "variant_id": "ADDRESS_012_HINGLISH"}
+{"type": "LOC", "start": 23, "end": 35, "text": "Orchid Homes", "confidence": 0.992120623588562, "variant_id": "ADDRESS_012_HINGLISH"}
+{"type": "LOC", "start": 37, "end": 44, "text": "MG Road", "confidence": 0.9980521202087402, "variant_id": "ADDRESS_012_HINGLISH"}
+{"type": "LOC", "start": 46, "end": 55, "text": "Bengaluru", "confidence": 0.9992063045501709, "variant_id": "ADDRESS_012_HINGLISH"}
+{"type": "LOC", "start": 23, "end": 35, "text": "Orchid Homes", "confidence": 0.9925143122673035, "variant_id": "ADDRESS_012_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 37, "end": 44, "text": "MG Road", "confidence": 0.9979088306427002, "variant_id": "ADDRESS_012_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 46, "end": 55, "text": "Bengaluru", "confidence": 0.9990745186805725, "variant_id": "ADDRESS_012_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 22, "end": 34, "text": "Orchid Homes", "confidence": 0.8651523590087891, "variant_id": "ADDRESS_012_HI_LATIN_PII"}
+{"type": "LOC", "start": 36, "end": 43, "text": "MG Road", "confidence": 0.9908759593963623, "variant_id": "ADDRESS_012_HI_LATIN_PII"}
+{"type": "LOC", "start": 45, "end": 54, "text": "Bengaluru", "confidence": 0.9994505643844604, "variant_id": "ADDRESS_012_HI_LATIN_PII"}
+{"type": "ORG", "start": 23, "end": 33, "text": "ऑर्किड होम", "confidence": 0.6474872827529907, "variant_id": "ADDRESS_012_HI_DEVA_PII"}
+{"type": "LOC", "start": 33, "end": 35, "text": "्स", "confidence": 0.4617852568626404, "variant_id": "ADDRESS_012_HI_DEVA_PII"}
+{"type": "LOC", "start": 37, "end": 45, "text": "एमजी रोड", "confidence": 0.9994680285453796, "variant_id": "ADDRESS_012_HI_DEVA_PII"}
+{"type": "LOC", "start": 47, "end": 55, "text": "बेंगलुरु", "confidence": 0.910631537437439, "variant_id": "ADDRESS_012_HI_DEVA_PII"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.6548318862915039, "variant_id": "NEG_011_EN"}
+{"type": "PERSON", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.5498122572898865, "variant_id": "NEG_011_IN_EN"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.9817145466804504, "variant_id": "NEG_011_ROM_HI"}
+{"type": "LOC", "start": 5, "end": 17, "text": "Sanjay Nagar", "confidence": 0.9976387619972229, "variant_id": "NEG_011_HINGLISH"}
+{"type": "LOC", "start": 5, "end": 17, "text": "Sanjay Nagar", "confidence": 0.998691201210022, "variant_id": "NEG_011_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.9994839429855347, "variant_id": "NEG_011_HI_LATIN_PII"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.7455072402954102, "variant_id": "NEG_012_EN"}
+{"type": "LOC", "start": 0, "end": 5, "text": "Arjun", "confidence": 0.6702278256416321, "variant_id": "NEG_012_IN_EN"}
+{"type": "PERSON", "start": 6, "end": 11, "text": "Nagar", "confidence": 0.7179563641548157, "variant_id": "NEG_012_IN_EN"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.9909253120422363, "variant_id": "NEG_012_ROM_HI"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.9826586842536926, "variant_id": "NEG_012_HINGLISH"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.9826492071151733, "variant_id": "NEG_012_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.9994779825210571, "variant_id": "NEG_012_HI_LATIN_PII"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Rohan Nagar", "confidence": 0.9990720152854919, "variant_id": "NEG_013_EN"}
+{"type": "LOC", "start": 31, "end": 42, "text": "Rohan Nagar", "confidence": 0.9994650483131409, "variant_id": "NEG_013_IN_EN"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Rohan Nagar", "confidence": 0.9986775517463684, "variant_id": "NEG_013_ROM_HI"}
+{"type": "LOC", "start": 5, "end": 16, "text": "Rohan Nagar", "confidence": 0.9989401698112488, "variant_id": "NEG_013_HINGLISH"}
+{"type": "LOC", "start": 5, "end": 16, "text": "Rohan Nagar", "confidence": 0.9993968605995178, "variant_id": "NEG_013_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 0, "end": 11, "text": "Rohan Nagar", "confidence": 0.9921267032623291, "variant_id": "NEG_013_HI_LATIN_PII"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.993415355682373, "variant_id": "NEG_014_EN"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.9956226944923401, "variant_id": "NEG_014_IN_EN"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.9985565543174744, "variant_id": "NEG_014_ROM_HI"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.9983086585998535, "variant_id": "NEG_014_HINGLISH"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.9967246055603027, "variant_id": "NEG_014_INFORMAL_HINGLISH"}
+{"type": "LOC", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.9992926716804504, "variant_id": "NEG_014_HI_LATIN_PII"}
+{"type": "PERSON", "start": 11, "end": 31, "text": "S n e h a  S h a r m", "confidence": 0.9643146395683289, "variant_id": "PERSON_001_EN_A1_01"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Sneha-Sharma", "confidence": 0.919226348400116, "variant_id": "PERSON_001_EN_A2_01"}
+{"type": "PERSON", "start": 12, "end": 24, "text": "Sneha Sharma", "confidence": 0.9766182899475098, "variant_id": "PERSON_001_EN_A3_01"}
+{"type": "PERSON", "start": 6, "end": 18, "text": "Sneha Sharma", "confidence": 0.9981961250305176, "variant_id": "PERSON_001_EN_A4_01"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "sneha sharma", "confidence": 0.9935072064399719, "variant_id": "PERSON_001_EN_A5_01"}
+{"type": "PERSON", "start": 11, "end": 27, "text": "R o h a n  R a o", "confidence": 0.9713824391365051, "variant_id": "PERSON_002_EN_A1_01"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan-Rao", "confidence": 0.9552866220474243, "variant_id": "PERSON_002_EN_A2_01"}
+{"type": "PERSON", "start": 12, "end": 21, "text": "Rohan Rao", "confidence": 0.9337020516395569, "variant_id": "PERSON_002_EN_A3_01"}
+{"type": "PERSON", "start": 6, "end": 15, "text": "Rohan Rao", "confidence": 0.9916701912879944, "variant_id": "PERSON_002_EN_A4_01"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "rohan rao", "confidence": 0.9841103553771973, "variant_id": "PERSON_002_EN_A5_01"}
+{"type": "LOC", "start": 25, "end": 43, "text": "Silver Oak Heights", "confidence": 0.9986887574195862, "variant_id": "ADDRESS_001_EN_A2_01"}
+{"type": "LOC", "start": 46, "end": 56, "text": "Baner Road", "confidence": 0.9934553503990173, "variant_id": "ADDRESS_001_EN_A2_01"}
+{"type": "LOC", "start": 59, "end": 68, "text": "Bengaluru", "confidence": 0.9982112646102905, "variant_id": "ADDRESS_001_EN_A2_01"}
+{"type": "LOC", "start": 28, "end": 46, "text": "Silver Oak Heights", "confidence": 0.9981464743614197, "variant_id": "ADDRESS_001_EN_A3_01"}
+{"type": "LOC", "start": 48, "end": 58, "text": "Baner Road", "confidence": 0.9994813799858093, "variant_id": "ADDRESS_001_EN_A3_01"}
+{"type": "LOC", "start": 60, "end": 69, "text": "Bengaluru", "confidence": 0.9992859363555908, "variant_id": "ADDRESS_001_EN_A3_01"}
+{"type": "LOC", "start": 16, "end": 34, "text": "Silver Oak Heights", "confidence": 0.9981756806373596, "variant_id": "ADDRESS_001_EN_A4_01"}
+{"type": "LOC", "start": 36, "end": 46, "text": "Baner Road", "confidence": 0.9991371631622314, "variant_id": "ADDRESS_001_EN_A4_01"}
+{"type": "LOC", "start": 48, "end": 57, "text": "Bengaluru", "confidence": 0.9984244108200073, "variant_id": "ADDRESS_001_EN_A4_01"}
+{"type": "LOC", "start": 25, "end": 47, "text": "Green Valley Residency", "confidence": 0.9974891543388367, "variant_id": "ADDRESS_002_EN_A2_01"}
+{"type": "LOC", "start": 50, "end": 64, "text": "Lake View Road", "confidence": 0.9996711611747742, "variant_id": "ADDRESS_002_EN_A2_01"}
+{"type": "LOC", "start": 67, "end": 74, "text": "Kolkata", "confidence": 0.9982433319091797, "variant_id": "ADDRESS_002_EN_A2_01"}
+{"type": "LOC", "start": 28, "end": 50, "text": "Green Valley Residency", "confidence": 0.9641691446304321, "variant_id": "ADDRESS_002_EN_A3_01"}
+{"type": "LOC", "start": 52, "end": 66, "text": "Lake View Road", "confidence": 0.9994611740112305, "variant_id": "ADDRESS_002_EN_A3_01"}
+{"type": "LOC", "start": 68, "end": 75, "text": "Kolkata", "confidence": 0.9989063739776611, "variant_id": "ADDRESS_002_EN_A3_01"}
+{"type": "LOC", "start": 16, "end": 38, "text": "Green Valley Residency", "confidence": 0.996569037437439, "variant_id": "ADDRESS_002_EN_A4_01"}
+{"type": "LOC", "start": 40, "end": 54, "text": "Lake View Road", "confidence": 0.9995965361595154, "variant_id": "ADDRESS_002_EN_A4_01"}
+{"type": "LOC", "start": 56, "end": 63, "text": "Kolkata", "confidence": 0.9976893663406372, "variant_id": "ADDRESS_002_EN_A4_01"}
+{"type": "LOC", "start": 64, "end": 67, "text": "kol", "confidence": 0.5724063515663147, "variant_id": "ADDRESS_002_EN_A5_01"}

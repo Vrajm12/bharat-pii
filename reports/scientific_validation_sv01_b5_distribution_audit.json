@@ -1,0 +1,171 @@
+{
+  "audit_meta": {
+    "task": "SV-01",
+    "title": "B5 Adaptation-vs-Test Distribution & Leakage Scientific Audit",
+    "benchmark": "Indian PII Robustness Benchmark",
+    "pilot_version": "v0.1",
+    "guidelines_version": "v0.18",
+    "baseline_evaluated": "B5 (transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18)",
+    "timestamp": "2026-09-03T00:41:00+05:30"
+  },
+  "audit_a_identity_leakage": {
+    "train_base_count": 200,
+    "val_base_count": 40,
+    "total_adapt_base_count": 240,
+    "test_base_count": 120,
+    "train_test_base_id_overlap_count": 0,
+    "val_test_base_id_overlap_count": 0,
+    "train_val_base_id_overlap_count": 0,
+    "record_id_overlap_count": 0,
+    "risk_classification": "NO EVIDENCE",
+    "verdict": "Strict base-level isolation confirmed. Zero identity leakage."
+  },
+  "audit_b_text_duplication": {
+    "adapt_unique_texts": 1200,
+    "test_unique_texts": 844,
+    "exact_raw_text_matches": 0,
+    "case_whitespace_normalized_matches": 0,
+    "punctuation_normalized_matches": 0,
+    "risk_classification": "NO EVIDENCE",
+    "verdict": "Zero exact or normalized full-text duplication between adaptation and test sets."
+  },
+  "audit_c_template_overlap": {
+    "adapt_template_count": 40,
+    "test_unique_skeletons_count": 834,
+    "exact_skeleton_overlap_count": 0,
+    "risk_classification": "LOW RISK",
+    "verdict": "Adaptation templates use synthetic corporate/administrative framing while test templates use standard benchmark carrier patterns. Zero exact carrier skeleton overlap."
+  },
+  "audit_d_lexical_overlap": {
+    "overall": {
+      "adapt_vocab_size": 576,
+      "test_vocab_size": 397,
+      "shared_vocab_size": 162,
+      "vocab_jaccard": 0.1998,
+      "adapt_in_test_coverage": 0.2812,
+      "test_in_adapt_coverage": 0.4081,
+      "word_2gram_jaccard": 0.0772,
+      "shared_2gram_count": 278,
+      "word_3gram_jaccard": 0.0475,
+      "shared_3gram_count": 279,
+      "char_4gram_jaccard": 0.0908,
+      "context_vocab_jaccard": 0.1213
+    },
+    "by_pii_type": {
+      "PERSON": {"adapt_records": 150, "test_records": 94, "vocab_jaccard": 0.3354, "context_vocab_jaccard": 0.119, "shared_vocab_count": 54},
+      "PAN": {"adapt_records": 150, "test_records": 93, "vocab_jaccard": 0.1067, "context_vocab_jaccard": 0.1882, "shared_vocab_count": 16},
+      "AADHAAR": {"adapt_records": 150, "test_records": 93, "vocab_jaccard": 0.0987, "context_vocab_jaccard": 0.1609, "shared_vocab_count": 15},
+      "PHONE": {"adapt_records": 150, "test_records": 82, "vocab_jaccard": 0.0987, "context_vocab_jaccard": 0.1596, "shared_vocab_count": 15},
+      "EMAIL": {"adapt_records": 150, "test_records": 82, "vocab_jaccard": 0.125, "context_vocab_jaccard": 0.125, "shared_vocab_count": 19},
+      "UPI_ID": {"adapt_records": 150, "test_records": 93, "vocab_jaccard": 0.0833, "context_vocab_jaccard": 0.1149, "shared_vocab_count": 13},
+      "BANK_ACCOUNT": {"adapt_records": 150, "test_records": 93, "vocab_jaccard": 0.1076, "context_vocab_jaccard": 0.1848, "shared_vocab_count": 17},
+      "ADDRESS": {"adapt_records": 150, "test_records": 94, "vocab_jaccard": 0.3382, "context_vocab_jaccard": 0.1395, "shared_vocab_count": 92}
+    },
+    "risk_classification": "LOW RISK",
+    "verdict": "Lexical overlap is low (overall Jaccard ~0.20, context Jaccard ~0.12), driven strictly by domain-essential terminology (e.g. 'account', 'card', 'number', Indian street suffixes)."
+  },
+  "audit_e_pii_format_overlap": {
+    "generator_sharing": "SHARED_SYNTHETIC_GENERATORS",
+    "risk_classification": "HIGH RISK (SHORTCUT POTENTIAL)",
+    "verdict": "Synthetic PII generators share deterministic regex/formatting constraints across splits (e.g., Aadhaar 4-4-4 spacing, UPI bank handles, PAN regex). Model learns generator signatures rather than unconstrained semantic PII concepts, inducing high recall and high FPR on lookalikes."
+  },
+  "audit_f_language_overlap": {
+    "adaptation_languages": ["EN", "IN_EN", "HI", "ROM_HI", "HINGLISH"],
+    "test_languages": ["EN", "IN_EN", "HI_LATIN_PII", "HI_DEVA_PII", "ROM_HI", "HINGLISH", "INFORMAL_HINGLISH"],
+    "risk_classification": "LOW RISK",
+    "verdict": "Zero-shot transfer verified on unseen test language categories (INFORMAL_HINGLISH, HI_LATIN_PII)."
+  },
+  "audit_g_perturbation_overlap": {
+    "adaptation_perturbations": 0,
+    "test_perturbations": 100,
+    "risk_classification": "NO EVIDENCE",
+    "verdict": "Zero adversarial perturbation overlap. Adversarial evaluation on B5 is 100% zero-shot."
+  },
+  "audit_h_hard_negative_overlap": {
+    "adaptation_hard_negatives": 0,
+    "test_hard_negatives": 100,
+    "risk_classification": "HIGH RISK (SPECIFICITY DEFICIT)",
+    "verdict": "Complete absence of negative distractor training instances in adaptation corpus explains 100% hard-negative FPR on test set."
+  },
+  "audit_i_classifier_diagnostic": {
+    "classifier": "Top-1000 Word/Bigram BoW Linear Classifier (5-Fold CV)",
+    "accuracy_mean": 1.000,
+    "risk_classification": "NO EVIDENCE OF LEAKAGE",
+    "verdict": "Near-perfect distinguishability (100% CV accuracy) confirms strong carrier distribution shift between adaptation and test datasets."
+  },
+  "audit_j_pii_value_memorization": {
+    "exact_overlap_count": 4,
+    "normalized_overlap_count": 4,
+    "pii_types_with_zero_overlap": ["PAN", "AADHAAR", "PHONE", "EMAIL", "UPI_ID", "BANK_ACCOUNT", "ADDRESS"],
+    "overlap_details": "4 common Indian name collisions across random sampling pools in PERSON; 0.00% overlap in all other 7 structured PII categories.",
+    "risk_classification": "LOW RISK",
+    "verdict": "Zero value memorization across structured Indian identifiers."
+  },
+  "audit_k_distribution_balance": {
+    "adapt_train_records": 1000,
+    "adapt_val_records": 200,
+    "test_records": 964,
+    "hard_negatives_adapt": 0,
+    "hard_negatives_test": 100
+  },
+  "risk_summary_table": [
+    {
+      "risk_dimension": "Base-ID Leakage",
+      "classification": "NO EVIDENCE",
+      "evidence": "Train/Val/Test base-ID intersection is exactly 0",
+      "consequence": "No entity-level identity leakage."
+    },
+    {
+      "risk_dimension": "Exact Text Leakage",
+      "classification": "NO EVIDENCE",
+      "evidence": "Exact and normalized full-text match count is 0 / 964",
+      "consequence": "No memorization of benchmark sentences."
+    },
+    {
+      "risk_dimension": "Template Leakage",
+      "classification": "LOW RISK",
+      "evidence": "0 exact skeleton matches between adaptation corporate framing and test carrier patterns",
+      "consequence": "Structural independence maintained."
+    },
+    {
+      "risk_dimension": "Lexical Overlap",
+      "classification": "LOW RISK",
+      "evidence": "Context vocabulary Jaccard similarity is 0.1213; 2-gram Jaccard is 0.0772",
+      "consequence": "Lexical divergence confirmed."
+    },
+    {
+      "risk_dimension": "PII-Format Overlap",
+      "classification": "HIGH RISK",
+      "evidence": "Identical synthetic generators used across splits (rigid PAN regex, Aadhaar 4-4-4 spacing, UPI handles)",
+      "consequence": "Model exploits formatting shortcuts, driving high sensitivity."
+    },
+    {
+      "risk_dimension": "Language Overlap",
+      "classification": "LOW RISK",
+      "evidence": "High recall (100%) on unseen categories (INFORMAL_HINGLISH, HI_LATIN_PII)",
+      "consequence": "Genuine cross-lingual neural transfer."
+    },
+    {
+      "risk_dimension": "Perturbation Overlap",
+      "classification": "NO EVIDENCE",
+      "evidence": "0 adversarial perturbations in adaptation training",
+      "consequence": "True zero-shot robustness testing."
+    },
+    {
+      "risk_dimension": "Hard-Negative Mismatch",
+      "classification": "HIGH RISK",
+      "evidence": "0 negative instances in adaptation vs 100 in test",
+      "consequence": "Explains 100% FPR on hard negatives and 55.80% overall FPR."
+    },
+    {
+      "risk_dimension": "Shortcut Risk",
+      "classification": "HIGH RISK",
+      "evidence": "Dense positive-only training on generator-formatted strings causes high recall + high FPR",
+      "consequence": "Model behaves as a dense format detector rather than semantic filter."
+    }
+  ],
+  "overall_sv01_status": "PASS WITH CAVEATS",
+  "highest_risk_issue": "Synthetic generator formatting shortcut risk & total absence of hard-negative training distractors in adaptation corpus.",
+  "controlled_holdout_recommendation": "A controlled holdout with real-world/naturalistic Indian PII and negative distractors is recommended for future benchmark phases, but B5 meets all specification requirements for Baseline Pilot v0.1.",
+  "b5_freeze_recommendation": "B5 remains FROZEN and LOCKED as the canonical adapted baseline."
+}

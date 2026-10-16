@@ -1,0 +1,24 @@
+{
+  "title": "B5 vs B6 Gold Entity Partition (N_gold = 724) and False Positives",
+  "categories": [
+    "Exact Match (TP_exact)",
+    "Wrong Span (F2)",
+    "Wrong Type (F3)",
+    "Missed (F1)",
+    "False Positives (F4)"
+  ],
+  "b5_values": [
+    455.3333333333333,
+    250.0,
+    17.666666666666668,
+    1.0,
+    912.6666666666666
+  ],
+  "b6_values": [
+    596.3333333333334,
+    78.33333333333333,
+    41.666666666666664,
+    7.666666666666667,
+    351.6666666666667
+  ]
+}

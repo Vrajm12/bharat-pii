@@ -1,0 +1,289 @@
+{
+  "freeze_stage": "SCIENTIFIC_FREEZE_B6",
+  "total_audited_artifacts": 52,
+  "canonical_locked_22_matched": true,
+  "artifacts": {
+    "data/raw/base_instances.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "7006b0c9227d93541d2b71f702407ecc",
+      "actual_md5": "7006b0c9227d93541d2b71f702407ecc",
+      "status": "MATCH"
+    },
+    "data/raw/hard_negative_bases.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "b36c6c106548d18ff7083fd00532cb07",
+      "actual_md5": "b36c6c106548d18ff7083fd00532cb07",
+      "status": "MATCH"
+    },
+    "data/generated/language_realizations.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "0cb046740507eb9111a214b24b680483",
+      "actual_md5": "0cb046740507eb9111a214b24b680483",
+      "status": "MATCH"
+    },
+    "data/generated/hard_negative_realizations.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "ae5537eec4129822e3d97b05170b4fea",
+      "actual_md5": "ae5537eec4129822e3d97b05170b4fea",
+      "status": "MATCH"
+    },
+    "data/generated/adversarial_realizations.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "1b678b9597737c85197acf80ab56878d",
+      "actual_md5": "1b678b9597737c85197acf80ab56878d",
+      "status": "MATCH"
+    },
+    "annotation/review_template.csv": {
+      "category": "canonical_locked_22",
+      "expected_md5": "78c5767f2f8fede2021ff344aaddc32c",
+      "actual_md5": "78c5767f2f8fede2021ff344aaddc32c",
+      "status": "MATCH"
+    },
+    "predictions/regex_1.0.0_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "8913ac633854a36948a3445e4be0594d",
+      "actual_md5": "8913ac633854a36948a3445e4be0594d",
+      "status": "MATCH"
+    },
+    "reports/evaluation_regex_1.0.0_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "2958f77985fcc70d704c123e9e952ebd",
+      "actual_md5": "2958f77985fcc70d704c123e9e952ebd",
+      "status": "MATCH"
+    },
+    "predictions/spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "6c74bd4ec742a1f0c6b8024200937fb5",
+      "actual_md5": "6c74bd4ec742a1f0c6b8024200937fb5",
+      "status": "MATCH"
+    },
+    "reports/evaluation_spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "a9745314b2e71df861ea71af15a9dd1a",
+      "actual_md5": "a9745314b2e71df861ea71af15a9dd1a",
+      "status": "MATCH"
+    },
+    "predictions/presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "2c661403efa963275be5f2559a1577b9",
+      "actual_md5": "2c661403efa963275be5f2559a1577b9",
+      "status": "MATCH"
+    },
+    "reports/evaluation_presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "4831393231e3d15dc674166dcaaaa2b9",
+      "actual_md5": "4831393231e3d15dc674166dcaaaa2b9",
+      "status": "MATCH"
+    },
+    "predictions/transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "3f53b646fb9f95414bef8b972d2277b1",
+      "actual_md5": "3f53b646fb9f95414bef8b972d2277b1",
+      "status": "MATCH"
+    },
+    "reports/evaluation_transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "dfe7e6b93e15ca266b29121977b1809e",
+      "actual_md5": "dfe7e6b93e15ca266b29121977b1809e",
+      "status": "MATCH"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "e589c2a3daa96e8a3963d95fecb89012",
+      "actual_md5": "e589c2a3daa96e8a3963d95fecb89012",
+      "status": "MATCH"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "e589c2a3daa96e8a3963d95fecb89012",
+      "actual_md5": "e589c2a3daa96e8a3963d95fecb89012",
+      "status": "MATCH"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "e11d924839cdddebd59104624f667357",
+      "actual_md5": "e11d924839cdddebd59104624f667357",
+      "status": "MATCH"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.jsonl": {
+      "category": "canonical_locked_22",
+      "expected_md5": "a0b17f4b93251463319d0dc1409514bf",
+      "actual_md5": "a0b17f4b93251463319d0dc1409514bf",
+      "status": "MATCH"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "d3a9f9da8e848c7cafb9cf43299b9439",
+      "actual_md5": "d3a9f9da8e848c7cafb9cf43299b9439",
+      "status": "MATCH"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "06ca5638e48dc492c016166d8b1d12a2",
+      "actual_md5": "06ca5638e48dc492c016166d8b1d12a2",
+      "status": "MATCH"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "cfb422de399fa7cb13dec4e30f7b29e1",
+      "actual_md5": "cfb422de399fa7cb13dec4e30f7b29e1",
+      "status": "MATCH"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.json": {
+      "category": "canonical_locked_22",
+      "expected_md5": "90a0a0c9bb83dd4d2f456b6e0f508753",
+      "actual_md5": "90a0a0c9bb83dd4d2f456b6e0f508753",
+      "status": "MATCH"
+    },
+    "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_v0.18.jsonl": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "549cce213b1b52e6dbb682810a4544c9",
+      "status": "FROZEN"
+    },
+    "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed42_v0.18.jsonl": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "549cce213b1b52e6dbb682810a4544c9",
+      "status": "FROZEN"
+    },
+    "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed43_v0.18.jsonl": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "6e42cb0960464396937777d258074847",
+      "status": "FROZEN"
+    },
+    "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed44_v0.18.jsonl": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "060294f557d9795e124aa1f26dfa3693",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_v0.18.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "575662658e2457359933c3b678de033f",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed42_v0.18.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "575662658e2457359933c3b678de033f",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed43_v0.18.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "bfec1ca3a013e567fab553c17a8d1820",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed44_v0.18.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "b6b6e40135fb1022efceed8635d10881",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_error_summary.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "5f7de4c90da2597ffe72cae5037527c9",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_boundary_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "725de79c7a0d382cc2799c712b54d5ee",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_false_positive_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "b08d064cc9c6718b8dea47e49db74bfe",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_type_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "50cbd12a00e6c2f044f43ec0d12bbe6a",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_language_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "8f24615bbb4a2fb5d7a99a5463d8b329",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_perturbation_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "90072f902a55889cf867b58f515205dc",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_difficulty_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "546528eb21dd0e20c0f7677a59efc1a5",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_hard_negative_analysis.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "865a8183e96ba68d5e9a8d87980c32ce",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_b5_vs_b6_transition.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "923a48b67f57ce40e2aaed076711dc83",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_error_interactions.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "338adfa5d01a34afb03a582acd4041f8",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/b6_representative_cases.json": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "b58ea8dfcdf6f57cc1ed54f57285e91c",
+      "status": "FROZEN"
+    },
+    "reports/experiments/b6/B6_FINAL_REPORT.md": {
+      "category": "b6_experimental_locked",
+      "actual_md5": "41c70b83c34e4194dbb5999af37a52a2",
+      "status": "FROZEN"
+    },
+    "reports/scientific_validation_sv01_b5_distribution_audit.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "5b2021437fa8356be86a044318a6b8c0",
+      "status": "FROZEN"
+    },
+    "reports/scientific_validation_sv01_b5_distribution_audit.md": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "6f47cd5a1ffe63b38b4f93893757d5ff",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv02/SV02_FINAL_REPORT.md": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "156f8a36eaa94d8c17aaeb875fe131f3",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv02/sv02_master_evaluation.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "fa41e738c8c5203419a990ef38b464cb",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv03/SV03_FINAL_REPORT.md": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "a8a190667ae8faad6a0476698bc82c0d",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv03/sv03_error_summary.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "9aa504ab9a279ba0f943d6568bbc6f3e",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv03/sv03_boundary_analysis.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "af351e3e7d081f0e34413880e46c83bb",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv03/sv03_false_positive_analysis.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "f88c079a83cc9c56266459329be236bb",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv03/sv03_type_analysis.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "ac6aa5d5a153bbdd1e2c48f0ced19d13",
+      "status": "FROZEN"
+    },
+    "reports/experiments/sv03/sv03_b5_vs_sv02_transition.json": {
+      "category": "scientific_validation_locked",
+      "actual_md5": "3287f092996adf5ce896e2a01abd1c2c",
+      "status": "FROZEN"
+    }
+  }
+}

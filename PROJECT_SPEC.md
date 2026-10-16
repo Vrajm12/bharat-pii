@@ -1,10 +1,11 @@
 # Robust Indian PII Detection & De-identification
 ## Research Design, Benchmark, Model and Application Specification
 
-> **Version:** 1.1
+> **Version:** 1.3
 > **Status:** RESEARCH DESIGN / IMPLEMENTATION SPECIFICATION
-> **Supersedes:** v1.0 (six language conditions; no C4 scoring protocol; no distractor schema)
-> **Companion contract:** `annotation/guidelines.md` v0.1 — **higher authority on all label, span, script and type questions**
+> **Supersedes:** v1.2 (no baseline adapter interface; no prediction-persistence format;
+> no malformed-prediction log scope; no evaluation-report artifact format)
+> **Companion contract:** `annotation/guidelines.md` v0.18 — **higher authority on all label, span, script and type questions**
 > **Data policy:** SYNTHETIC AND PUBLIC DATA ONLY. Real PII strictly prohibited.
 > **Current milestone:** Pilot v0.1 — 100 base instances
 > **Do NOT generate the 4,000-base production dataset yet.**
@@ -37,6 +38,63 @@ conflict is logged in `annotation/open_questions.md`.
 7. Adds **real-carrier-text anchor** for the naturalistic test set (§19.3).
 8. Adds **publication mapping and fallback** (§32).
 9. Adds **experiment priority tiers** (§24.3) for scope control.
+
+### Changes in v1.2
+
+Resolves OQ-028 through OQ-033 (`annotation/open_questions.md`) — the T09
+evaluation-layer scoring methodology, formally frozen rather than left implicit. No
+change to any already-frozen metric definition (§20's `M1`–`M6` table), the failure
+taxonomy (§23's `F1`–`F9`), or the experiment matrix (§22).
+
+1. Adds a **detector prediction contract** (§20.2) — the common schema every baseline
+   adapter (§19) must produce; canonical home `benchmark/schema.py`, not `schemas/`.
+2. Freezes that `occurrence_index` is ground-truth provenance only, never consumed by
+   prediction matching, and freezes the **matching algorithm** itself — maximum-weight
+   bipartite matching with a type-match-biased weight function and a deterministic,
+   order-independent tie-break (§20.3).
+3. Makes the relationship among `M2`, `M3`, `M4`, `M5` mathematically explicit,
+   including the identity `M2 = M5 × localization_recall`, and proves `F1`–`F4` form a
+   consistent, non-overlapping partition of every ground-truth entity (§20.4).
+4. Freezes that out-of-taxonomy predictions are ordinary `F4` false positives under
+   `M1`'s existing definition, with **no new attribution tag** — `decoy_class` is simply
+   absent when no real distractor is involved. Explicitly does not expand F1–F9 (§20.5).
+5. Freezes a strict original-text-only offset contract for detector adapters, with
+   explicit Devanagari/mixed-script protection against internal Unicode normalization
+   silently misaligning offsets (§20.6).
+
+**Not resolved by this revision:** OQ-034 (evaluation-layer milestone authorization) —
+investigated and found **not currently authorized** under the Pilot v0.1 milestone
+(§32's Definition of Done), but this is a scope finding, not a specification change, and
+required no edit to this document.
+
+### Changes in v1.3
+
+Resolves OQ-038 through OQ-041 (`annotation/open_questions.md`) — the four
+implementation-adjacent gaps found while producing the T11 evaluation-layer design
+report (design report only; no evaluation code exists as a result of that report or of
+this revision). No change to any already-frozen v1.2 content (§20.2–§20.6).
+
+1. Freezes a minimal **baseline adapter interface** — `predict(text) -> list[Prediction]`
+   plus `system_name`/`system_version` attributes; batch orchestration stays the
+   harness's responsibility, not the adapter's (§20.7).
+2. Freezes that evaluation-run predictions **are** persisted (an application of §27's
+   already-general "every run... store outputs as artefacts" rule, not a new policy on
+   that point) and freezes the file **format** as JSONL, one file per
+   `(system_name, system_version, dataset_version)` — this repository's one existing
+   record-serialization convention, not a new one (§20.8).
+3. Freezes that a malformed prediction is logged into that same per-run artifact with an
+   explicit rejection reason, **not** into this document's own §15.1 `data/rejected/`
+   convention — that mechanism is scoped to what a *generator* cannot produce, a
+   different research question than a detector's own offset error (§20.9).
+4. Freezes the evaluation-report **file format** only (one JSON file per
+   experiment × baseline, containing exactly the already-frozen §20.4/§21/§23
+   quantities, no new metric) — explicitly does not decide whether a human-readable
+   rendering is also produced (§20.10).
+
+**Explicitly reaffirmed, not touched:** OQ-034's finding that evaluation-layer
+*implementation* remains unauthorized under Pilot v0.1. §20.11 states this directly, and
+`tests/test_t11_evaluation_governance.py` verifies no `benchmark/`, `baselines/`,
+`training/`, `experiments/`, or `application/` file exists as a result of this revision.
 
 ---
 
@@ -735,6 +793,280 @@ robustness_drop(condition) = F1(reference condition) − F1(condition)
 Reference is `EN`. Report **both** absolute performance and relative degradation: a system
 can have lower absolute F1 and better robustness, and that distinction is a result.
 
+### 20.2 Detector prediction contract *(added v1.2, resolves OQ-028)*
+
+A **prediction** is the evaluation layer's own artifact, distinct from ground truth
+(§13's record schema). It is not a benchmark-authoritative structure the way
+`base_instance.schema.json` / `example.schema.json` are, so it does not live in
+`schemas/` — its canonical home is `benchmark/schema.py` (not yet created; this section
+freezes the contract, not the implementation).
+
+```
+required:  type   -- one of the eight taxonomy types, OR an out-of-taxonomy label (§20.5)
+           start  -- Python Unicode code-point offset into the ORIGINAL input text (§20.6)
+           end    -- same convention
+
+optional:  text        -- the predicted substring; redundant with original_text[start:end],
+                           useful as an adapter self-consistency check
+           confidence  -- §24.3 requires this for the live application; here it is
+                           optional, since B1 (regex) has no natural probabilistic
+                           notion and must not be forced to invent one
+
+batch metadata (one level up, not per-prediction): system_name, system_version --
+    matches §19.2's disclosure-discipline requirement (exact version, exact config),
+    extended to every baseline, not only Presidio.
+
+record linkage: variant_id -- ties a list of predictions to the ground-truth record
+    they were run against. Absent from §24.3's live-detector contract (a demo processes
+    one input at a time) but required for batch evaluation.
+
+malformed predictions: a prediction failing 0 <= start < end <= len(text) is rejected
+    and logged by the harness -- never silently dropped, never silently clipped.
+```
+
+This extends PROJECT_SPEC.md §24.3's existing detector-output contract
+(`type, text, start, end, confidence`) to the benchmark-evaluation context; it does not
+contradict it.
+
+### 20.3 `occurrence_index` and prediction matching *(added v1.2, resolves OQ-029, OQ-031)*
+
+**`occurrence_index` is ground-truth provenance only** (guidelines.md §13.2's
+generation-time bookkeeping for resolving repeated identical values). **It is never
+consumed during prediction matching.** A detector has no way to report "this is
+occurrence 1" independent of *where* its prediction is — matching is resolved purely by
+span geometry.
+
+**Matching algorithm — maximum-weight bipartite matching:**
+
+```
+Edge (g, p) exists iff g's span and p's span share at least one character position.
+
+  weight(g, p) = 2 + IoU(g, p)   if p.type == g.type
+  weight(g, p) =     IoU(g, p)   if p.type != g.type
+
+Solve for the maximum-total-weight matching (each g matched to at most one p, each p
+matched to at most one g) via the Hungarian algorithm or equivalent exact solver.
+
+Deterministic tie-break, embedded in the optimization itself (not applied after the
+fact): use w'(g,p) = weight(g,p) + epsilon * rank(g,p), where rank(g,p) is a fixed total
+order over all (g,p) pairs by (g.start, g.end, p.start, p.end) and epsilon is small
+enough to never override a genuine weight difference. This guarantees a UNIQUE optimal
+solution -- not merely "an" optimum among several ties -- so the result is provably
+independent of the input prediction list's order.
+```
+
+The `2 +` term ensures a type-correct, low-overlap match always outranks a
+type-incorrect, high-overlap one — required for internal consistency with `M1`–`M3`
+(§20.4), which only ever count a match as "correct" when the type matches; the matching
+algorithm must agree with that definition or it will silently misclassify entities.
+
+This was audited (not adopted on first proposal) against: two predictions competing for
+one entity; one prediction overlapping two entities of different types; nested
+predictions; duplicate `(start,end,type)` predictions; globally-tied optimal
+assignments; a correct-type/low-overlap prediction versus a wrong-type/high-overlap
+one; multiple ground-truth entities of the same type; and repeated identical PII values.
+All eight resolve correctly under this single algorithm with no special-casing.
+
+**Worked example — repeated identical PII:** guidelines.md §13.2's own case,
+`"My PAN is ABCDE1234F. Please use ABCDE1234F for verification."` — two ground-truth
+entities at different positions, same value, same type. A detector reporting both
+matching spans, in *either* order, resolves to the same pairing (matching depends only
+on span geometry, never on list order or `occurrence_index`). A detector that
+deduplicates identical strings and reports only one span correctly yields one `TP` and
+one `F1` (§20.4) — occurrence_index plays no role in producing or explaining that
+result.
+
+### 20.4 Formal localization semantics — M2, M3, M4, M5 *(added v1.2, resolves OQ-030)*
+
+Anchored in this document's own existing sentence (§20): *"the M2-vs-M5 gap measures the
+detect-but-mislabel failure."* That statement only holds if `M5`'s localization basis is
+the **same lenient (overlap) basis `M2`/`M3` already use** — not `M4`'s exact-match
+basis. Formalized:
+
+```
+Let N = |ground truth|. Let the §20.3 matching produce, for each ground-truth entity g
+matched to a prediction p:
+
+  TP_type  = { g : matched, p.type == g.type }              (overlap + type match)
+  TP_exact = { g : matched, p.type == g.type, span exact }  (subset of TP_type)
+  L        = { g : matched, any type }                       (localized, regardless of type)
+
+  M1 = |TP_type|  / |predictions|        M4 uses |TP_exact| in place of |TP_type|
+  M2 = |TP_type|  / N                    throughout (its own precision/recall/F1)
+  M3 = harmonic_mean(M1, M2)
+  M5 = |TP_type|  / |L|                  ("correctly localized" = L, the M2/M3 basis)
+
+  IDENTITY:  M2 = M5 * (|L| / N)
+             recall = (type accuracy given localization) * (localization recall)
+
+  F1 (MISSED_PII)  = N - |L|                (never matched)
+  F3 (WRONG_TYPE)  = |L| - |TP_type|        (matched, wrong type)
+  F2 (WRONG_SPAN)  = |TP_type| - |TP_exact| (matched, right type, boundary not exact)
+  F4 (FALSE_POS)   = |predictions| - |matching|  (matched to nothing)
+```
+
+**Consistency check (recorded, not merely asserted):** every ground-truth entity falls
+into exactly one of `{TP_exact-subset-of-TP_type, F2, F3, F1}` — `F2` and `TP_exact`
+partition `TP_type` exactly; `F3` is `L`'s complement within `TP_type` by construction;
+`F1` is `L`'s complement within `N`. No entity is double-counted or uncounted; `F2` and
+`F3` cannot overlap because `F2 ⊆ TP_type` (right type, by definition) and
+`F3 = L \ TP_type` (wrong type, by definition) are disjoint by construction.
+
+**Optional secondary diagnostic** (not required): `M5_exact = |TP_exact| / |L|`, mirroring
+the existing "report `M3` and `M4` together" pattern for `M5` specifically.
+
+### 20.5 False positives and taxonomy scope *(added v1.2, resolves OQ-032)*
+
+**The F1–F9 failure taxonomy (§23) is unchanged by this section.** A prediction whose
+type is not one of the eight benchmark categories (e.g. a general-purpose NER model
+predicting `ORG`, `DATE`) is an **ordinary `F4` FALSE_POSITIVE** — nothing more is
+invented. This follows directly from `M1`'s own definition (`correct predicted / all
+predicted`): "all predicted" already includes every prediction regardless of type, and
+an out-of-taxonomy prediction can never be "correct," so it depresses precision under
+the existing definition with no special-casing required.
+
+`M6`'s existing `decoy_class` tag (guidelines.md §13.3) is populated **only** when a
+false positive's span corresponds to an actual designed `distractors[]` entry on a
+hard-negative record. When it does not — including every out-of-taxonomy false positive
+that isn't sitting on a distractor — `decoy_class` is simply **absent**. This already
+distinguishes "fooled by a designed decoy" from "predicted something we never asked
+about" using the existing schema, with no new enum value, no new attribution tag, and no
+change to F1–F9.
+
+*(Correction from the T09 design report's initial proposal: that report suggested a new
+`OUT_OF_TAXONOMY` attribution tag. On audit, this was unnecessary — the existing
+`decoy_class`-present-or-absent distinction already carries the same information without
+expanding the taxonomy, which the governing documents' own discipline (§23: a fixed,
+named list) argues against doing without stronger justification than convenience.)*
+
+**Adapters must never silently discard out-of-taxonomy predictions.** They are reported
+like any other prediction (§20.2) and scored as `F4` by the mechanism above.
+
+### 20.6 Detector adapter offset contract *(added v1.2, resolves OQ-033)*
+
+**Strict original-text contract.** Every adapter (§19) returns `start`/`end` as Python
+Unicode code-point offsets into the **exact original input text** — the same convention
+guidelines.md §4.6 fixes for ground truth, extended here to the evaluation layer with no
+exception:
+
+- Whatever an underlying model does internally (tokenization, Unicode normalization,
+  byte-level encoding) is the adapter's responsibility to reverse before returning
+  offsets. The evaluator never sees, and never needs to know about, internal
+  preprocessing.
+- The evaluator performs a hard structural check
+  (`0 <= start < end <= len(original_text)`) on every prediction and rejects/logs
+  anything that fails it (§20.2) — it never normalizes, mutates, or re-encodes the
+  benchmark text itself, under any circumstance.
+- **This specifically protects Devanagari and mixed-script records.** Devanagari
+  conjuncts and matras have both precomposed and decomposed Unicode representations; a
+  multilingual transformer's tokenizer performing NFC/NFKC normalization internally can
+  silently change the code-point count of the string it operates on. An adapter that
+  returns its tokenizer's raw internal offsets without reversing this would misalign
+  every Devanagari-carrier prediction without raising any error. The strict contract
+  above is what prevents that failure mode; it is not a generic Unicode-safety
+  disclaimer.
+
+### 20.7 Baseline adapter interface *(added v1.3, resolves OQ-038)*
+
+**Not implied by anything already frozen — a new interface decision.** §20.2 froze the
+*prediction* it produces; nothing anywhere froze how a baseline (§19) is *called*.
+
+**The minimum contract, no more:**
+
+```
+adapter.system_name: str
+adapter.system_version: str
+adapter.predict(text: str) -> list[Prediction]
+```
+
+One call, one input string, one list of §20.2 predictions out — matching §24's
+single-input live-application flow, so the same adapter shape serves both batch
+evaluation and the eventual live demo without a second interface. Batch orchestration
+(iterating records, attaching `variant_id`, persisting results per §20.8) is the
+**harness's** job, not the adapter's — `variant_id` stays batch-level per §20.2's own
+already-frozen per-prediction/batch split, not pushed down into every adapter
+implementation.
+
+**This section freezes the interface shape, not the implementation.** No `Prediction`
+class, no `BaselineAdapter` base class, and no concrete adapter (`baselines/regex.py`
+etc.) is created by this decision — per OQ-034, that remains unauthorized under the
+current Pilot v0.1 milestone, unchanged by this section existing.
+
+### 20.8 Prediction persistence *(added v1.3, resolves OQ-039)*
+
+**Partly implied, partly new.** §27 already states, as a pipeline-wide rule not scoped
+to dataset generation specifically: *"Every run records... and... store outputs as
+artefacts."* That evaluation runs should be persisted at all is this existing rule
+applied, not a new policy. The **file format** was not specified anywhere and is new:
+
+```
+one JSONL file per (system_name, system_version, dataset_version) triple
+one JSON object per line, each object a §20.2 prediction plus its variant_id
+```
+
+JSONL was chosen because it is already this repository's only record-serialization
+convention (CLAUDE.md: *"JSONL for all dataset records"*; every existing dataset file —
+`data/raw/base_instances.jsonl`, `data/generated/language_realizations.jsonl` — already
+uses it) — introducing a second format for predictions specifically was rejected as
+unnecessary invention.
+
+**This section freezes the artifact format, not the implementation.** No prediction file
+is generated by this decision; nothing in `benchmark/` or `baselines/` is created. Per
+OQ-034, generating one requires running a baseline, which remains unauthorized.
+
+### 20.9 Malformed-prediction log scope *(added v1.3, resolves OQ-040)*
+
+**Not implied — this document's own §15.1 `data/rejected/` convention is out of scope
+for this case, by its own stated purpose, not by omission.** §15.1 exists to reveal
+*"what the generator cannot produce"* — a research artefact about **dataset
+construction**. A malformed prediction is a **detector adapter's own output** failing
+the §20.6 offset check at evaluation time; it says nothing about what any generator can
+or cannot produce. Reusing `data/rejected/` for it would conflate two different research
+artefacts under one convention that §15.1 explicitly scopes to the narrower one.
+
+**Decision:** a malformed prediction is not silently dropped (§20.2's existing rule,
+unchanged) — it is written into the same §20.8 per-run prediction artifact, carrying an
+explicit rejection reason, rather than into `data/rejected/` or any new top-level
+directory. This is the minimum addition: it reuses the persistence mechanism §20.8 already
+establishes instead of inventing a second one, and it is not into `data/rejected/`.
+
+**This section freezes where the record goes, not the implementation.** `data/rejected/`
+itself is unchanged by this decision — still exclusively the dataset-generation
+rejection log §15.1 already defines.
+
+### 20.10 Evaluation report artifact format *(added v1.3, resolves OQ-041)*
+
+**Not implied — genuinely unspecified until now.** §25 names `benchmark/metrics.py`,
+`failure_analysis.py`, `stats.py` and a `reports/` directory but never states what any
+of them produce.
+
+**Decision, minimum scope — format only, not content beyond what §20/§21/§23 already
+define:** one JSON file per experiment × baseline, keyed by language/context/domain
+condition, containing exactly the already-frozen quantities (§20.4's `M1`–`M6` and
+`TP_type`/`TP_exact`/`L`/`F1`–`F4` counts, §23's `F1`–`F9` tags, §21's bootstrap CIs) —
+no new metric, no new statistic invented here. Whether a derived human-readable
+rendering (Markdown, HTML) is also produced is **not decided by this entry** — narrower
+than the three-option proposal this OQ was logged with, on the reasoning that deciding
+a machine-readable canonical format is sufficient to unblock design, and a rendering
+format is a presentation choice that does not need to be frozen at the same time.
+
+**This section freezes a file format, not a report.** No file matching this format is
+generated by this decision; `benchmark/metrics.py` is not created. Per OQ-034,
+producing an actual report requires running the evaluation this document still does not
+authorize.
+
+### 20.11 Scope note — OQ-038–041 do not touch OQ-034's boundary
+
+Every one of §20.7–§20.10 freezes a **contract, interface shape, or file format** — the
+same category of thing §20.2–§20.6 already froze in v1.2 without being read as
+authorizing implementation. None of the four creates, or is accompanied by, any file
+under `benchmark/`, `baselines/`, `training/`, `experiments/`, or `application/`; none
+implements `M1`–`M6`; none runs a baseline. **OQ-034's finding — evaluation-layer
+*implementation* is not authorized under the current Pilot v0.1 milestone — is
+unchanged and unaffected by this revision.** `tests/test_t11_evaluation_governance.py`
+(added alongside this revision) asserts directly that no such directory or file exists,
+so this boundary is verified, not merely stated.
+
 ---
 
 ## 21. Statistical treatment *(new in v1.1)*
@@ -922,7 +1254,7 @@ No hard-coded parameters. Example `configs/pilot.yaml`:
 project:
   name: indian-pii-robust
   version: "0.1"
-  guidelines_version: "0.1"
+  guidelines_version: "0.11"
 
 data:
   pilot_base_count: 100
@@ -1134,7 +1466,7 @@ Never manipulate the dataset, the split, or the model to force an expected resul
 | Hypotheses | DEFINED |
 | Experimental design | DEFINED |
 | Benchmark design | DEFINED |
-| Annotation guidelines | v0.1 — FROZEN |
+| Annotation guidelines | v0.11 — FROZEN |
 | Pilot specification | DEFINED |
 | Pilot implementation | **NOT STARTED ← current objective** |
 | Production dataset | NOT STARTED |
@@ -1149,8 +1481,8 @@ application. Not 28,000 records.**
 ## 35. Version
 
 ```
-spec_version:        1.1
-guidelines_version:  0.1
-supersedes:          1.0
+spec_version:        1.3
+guidelines_version:  0.18
+supersedes:          1.2
 changelog:           see §0
 ```

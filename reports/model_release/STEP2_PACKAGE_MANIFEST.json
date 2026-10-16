@@ -1,0 +1,62 @@
+{
+  "package_name": "bharatpii",
+  "package_version": "1.0.0",
+  "model_name": "BharatPII-CRF",
+  "model_version": "1.0.0",
+  "model_directory": "models/bharatpii-crf-v1.0",
+  "model_safetensors_sha256": "2b2196763d59a179786dcb2a5772a73786261dd14203ae84d24e2c8f9d52463c",
+  "total_parameters": 278057044,
+  "encoder_parameters": 278043648,
+  "task_head_parameters": 13396,
+  "environment": {
+    "python_version": "3.10.6",
+    "torch_version": "2.13.0+cpu",
+    "transformers_version": "5.16.1",
+    "safetensors_version": "0.8.0",
+    "setuptools_version": "84.0.0",
+    "wheel_version": "0.46.3",
+    "build_version": "1.6.1"
+  },
+  "distribution_artifacts": {
+    "wheel": {
+      "filename": "bharatpii-1.0.0-py3-none-any.whl",
+      "size_bytes": 15029,
+      "sha256": "99c1caa1a6dc5dc9fd30eda485405341ebbc2a5b19ea160aa1fc58ed19873105"
+    },
+    "sdist": {
+      "filename": "bharatpii-1.0.0.tar.gz",
+      "size_bytes": 101315,
+      "sha256": "b464f0dc0b1068b0b1c9b0fef7030c5e3d6a4efcb0948db8f3edc321873feab9"
+    }
+  },
+  "canonical_parity": {
+    "records_evaluated": 964,
+    "predictions_total": 1073,
+    "canonical_predictions_total": 1073,
+    "prediction_mismatches": 0,
+    "tp_exact": 601,
+    "tp_type": 677,
+    "f1_missed": 7,
+    "f2_wrong_span": 76,
+    "f3_wrong_type": 40,
+    "f4_false_pos": 356,
+    "partition_invariant_sum": 724,
+    "m1_precision": 0.6309412861136999,
+    "m2_recall": 0.9350828729281768,
+    "m3_type_f1": 0.753478018920423,
+    "m4_exact_f1": 0.6688925987757373,
+    "m5_accuracy": 0.9442119944211994,
+    "m6_fpr": 0.3317800559179869
+  },
+  "package_test_suite": {
+    "directory": "tests/package/",
+    "test_count": 16,
+    "status": "PASS"
+  },
+  "clean_environment_test": {
+    "venv_path": ".venv_package_test",
+    "installed_from_wheel": true,
+    "import_verification": "PASS",
+    "multilingual_inference": "PASS"
+  }
+}

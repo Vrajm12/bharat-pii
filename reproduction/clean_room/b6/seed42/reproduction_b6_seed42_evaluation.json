@@ -1,0 +1,24 @@
+{
+  "artifact_nature": "NON-CANONICAL REPRODUCTION ARTIFACT",
+  "system": "B6_Adapted_XLM_R_CRF",
+  "seed": 42,
+  "n_records": 964,
+  "n_predictions": 1073,
+  "metrics_overall": {
+    "n_gold": 724,
+    "n_predictions": 1073,
+    "tp_type": 677,
+    "tp_exact": 601,
+    "localized": 717,
+    "m1_precision": 0.6309412861136999,
+    "m2_recall": 0.9350828729281768,
+    "m3_f1": 0.753478018920423,
+    "m4_exact_f1": 0.6688925987757373,
+    "m5_type_accuracy": 0.9442119944211994,
+    "m6_fpr": 0.3317800559179869,
+    "f1_missed": 7,
+    "f2_wrong_span": 76,
+    "f3_wrong_type": 40,
+    "f4_false_pos": 356
+  }
+}

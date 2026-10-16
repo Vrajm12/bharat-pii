@@ -1,0 +1,7 @@
+error_category,b5_mean,b6_mean,delta,description
+F1_missed_entities,1.0,7.666666666666667,6.666666666666667,Gold entities completely undetected
+F2_boundary_errors,250.0,78.33333333333333,-171.66666666666669,Detected correct type but span boundaries mismatched
+B3_structured_truncation,179.0,25.0,-154.0,Structured identifiers (Aadhaar/PAN/Phone) truncated mid-sequence
+F3_wrong_type,17.666666666666668,41.666666666666664,23.999999999999996,Localized span but misclassified entity type
+F4_false_positives,912.6666666666666,351.6666666666667,-561.0,Spurious prediction with no matching gold entity
+FP9_duplicate_subspans,351.3,32.0,-319.3,Spurious partial sub-tokens extracted as standalone entities

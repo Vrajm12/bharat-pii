@@ -1,0 +1,53 @@
+{
+  "title": "Precision vs. Recall Trade-off Across Baselines",
+  "points": [
+    {
+      "baseline": "B1",
+      "name": "Regex (Canonical)",
+      "precision": 0.647766323024055,
+      "precision_sd": 0.0,
+      "recall": 0.5207182320441989,
+      "recall_sd": 0.0
+    },
+    {
+      "baseline": "B2",
+      "name": "spaCy en_core_web_sm",
+      "precision": 0.031473533619456366,
+      "precision_sd": 0.0,
+      "recall": 0.06077348066298342,
+      "recall_sd": 0.0
+    },
+    {
+      "baseline": "B3",
+      "name": "Microsoft Presidio (IN enabled)",
+      "precision": 0.07664756446991404,
+      "precision_sd": 0.0,
+      "recall": 0.2955801104972376,
+      "recall_sd": 0.0
+    },
+    {
+      "baseline": "B4",
+      "name": "XLM-RoBERTa Zero-Shot NER",
+      "precision": 0.2012847965738758,
+      "precision_sd": 0.0,
+      "recall": 0.1298342541436464,
+      "recall_sd": 0.0
+    },
+    {
+      "baseline": "B5",
+      "name": "Indian-Adapted XLM-RoBERTa",
+      "precision": 0.4312350881538943,
+      "precision_sd": 0.0030409244983516607,
+      "recall": 0.9742173112338858,
+      "recall_sd": 0.0007974451231900728
+    },
+    {
+      "baseline": "B6",
+      "name": "Indian-Adapted XLM-RoBERTa + Linear CRF",
+      "precision": 0.6315157631731086,
+      "precision_sd": 0.0020607713961946074,
+      "recall": 0.9318600368324125,
+      "recall_sd": 0.003475982705004981
+    }
+  ]
+}

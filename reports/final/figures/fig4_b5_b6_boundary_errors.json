@@ -1,0 +1,47 @@
+{
+  "title": "Exact F1 (M4) Improvement Across Entity Types (B5 vs B6)",
+  "types": [
+    "AADHAAR",
+    "DRIVING_LICENSE",
+    "EMAIL",
+    "NAME",
+    "PAN",
+    "PASSPORT",
+    "PHONE",
+    "UPI_ID",
+    "VOTER_ID"
+  ],
+  "b5_exact_f1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "b6_exact_f1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "delta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

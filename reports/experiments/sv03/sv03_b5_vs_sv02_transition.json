@@ -1,0 +1,61 @@
+{
+  "transition_summary": {
+    "UNCHANGED": {
+      "count": 727,
+      "percentage": 75.41
+    },
+    "REGRESSED": {
+      "count": 89,
+      "percentage": 9.23
+    },
+    "IMPROVED": {
+      "count": 145,
+      "percentage": 15.04
+    },
+    "MIXED": {
+      "count": 3,
+      "percentage": 0.31
+    }
+  },
+  "transition_by_base_kind": {
+    "POSITIVE": {
+      "UNCHANGED": 713,
+      "REGRESSED": 89,
+      "IMPROVED": 139,
+      "MIXED": 3
+    },
+    "HARD_NEGATIVE": {
+      "UNCHANGED": 14,
+      "IMPROVED": 6
+    }
+  },
+  "transition_by_difficulty": {
+    "EASY": {
+      "UNCHANGED": 309,
+      "REGRESSED": 16,
+      "IMPROVED": 35
+    },
+    "MEDIUM": {
+      "UNCHANGED": 366,
+      "REGRESSED": 58,
+      "IMPROVED": 80
+    },
+    "ADVERSARIAL": {
+      "UNCHANGED": 52,
+      "IMPROVED": 30,
+      "REGRESSED": 15,
+      "MIXED": 3
+    }
+  },
+  "aggregate_deltas": {
+    "f1_missed_delta": 9.33,
+    "f2_wrong_span_delta": 6.67,
+    "f3_wrong_type_delta": 5.67,
+    "f4_false_pos_delta": -140.0,
+    "n_pred_delta": -149.33,
+    "precision_delta": 0.0333,
+    "recall_delta": -0.0207,
+    "f1_type_delta": 0.0268,
+    "fpr_delta": -0.0382
+  }
+}

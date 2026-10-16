@@ -1,0 +1,167 @@
+[
+  {
+    "mechanism": "FP2_ALPHANUMERIC_PATTERN_OVERMATCH",
+    "record_id": "ADDRESS_001",
+    "base_id": "ADDRESS_001",
+    "gold_type": "NONE",
+    "predicted_type": "ADDRESS",
+    "gold_span_length": 0,
+    "predicted_span_length": 58,
+    "gold_offsets": null,
+    "predicted_offsets": [
+      14,
+      72
+    ],
+    "redacted_context": "My address is [REDACTED_PII]."
+  },
+  {
+    "mechanism": "FP1_NUMERIC_PATTERN_OVERMATCH",
+    "record_id": "AADHAAR_001",
+    "base_id": "AADHAAR_001",
+    "gold_type": "NONE",
+    "predicted_type": "BANK_ACCOUNT",
+    "gold_span_length": 0,
+    "predicted_span_length": 7,
+    "gold_offsets": null,
+    "predicted_offsets": [
+      24,
+      31
+    ],
+    "redacted_context": "My Aadhaar number is 083[REDACTED_PII]57."
+  },
+  {
+    "mechanism": "FP4_UPI_LIKE_HANDLE",
+    "record_id": "UPI_ID_001",
+    "base_id": "UPI_ID_001",
+    "gold_type": "NONE",
+    "predicted_type": "UPI_ID",
+    "gold_span_length": 0,
+    "predicted_span_length": 12,
+    "gold_offsets": null,
+    "predicted_offsets": [
+      21,
+      33
+    ],
+    "redacted_context": "My UPI ID is 99965075[REDACTED_PII]."
+  },
+  {
+    "mechanism": "FP6_ADDRESS_LIKE_CONTEXT",
+    "record_id": "NEG_011",
+    "base_id": "NEG_011",
+    "gold_type": "NONE",
+    "predicted_type": "PERSON",
+    "gold_span_length": 0,
+    "predicted_span_length": 5,
+    "gold_offsets": null,
+    "predicted_offsets": [
+      7,
+      12
+    ],
+    "redacted_context": "Sanjay [REDACTED_PII] is near the station."
+  },
+  {
+    "mechanism": "B2_WHITESPACE_GROUPING_MISMATCH",
+    "record_id": "PERSON_006_INFORMAL_HINGLISH",
+    "base_id": "PERSON_006",
+    "gold_type": "PERSON",
+    "predicted_type": "PERSON",
+    "gold_span_length": 10,
+    "predicted_span_length": 5,
+    "gold_offsets": [
+      10,
+      20
+    ],
+    "predicted_offsets": [
+      10,
+      15
+    ],
+    "redacted_context": "mera naam [REDACTED_PII] h, please confirm yaar"
+  },
+  {
+    "mechanism": "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED",
+    "record_id": "ADDRESS_002_ROM_HI",
+    "base_id": "ADDRESS_002",
+    "gold_type": "ADDRESS",
+    "predicted_type": "ADDRESS",
+    "gold_span_length": 64,
+    "predicted_span_length": 68,
+    "gold_offsets": [
+      13,
+      77
+    ],
+    "predicted_offsets": [
+      13,
+      81
+    ],
+    "redacted_context": "mera address [REDACTED_PII]."
+  },
+  {
+    "mechanism": "B3_PARTIAL_STRUCTURED_IDENTIFIER",
+    "record_id": "PHONE_001_ROM_HI",
+    "base_id": "PHONE_001",
+    "gold_type": "PHONE",
+    "predicted_type": "PHONE",
+    "gold_span_length": 10,
+    "predicted_span_length": 9,
+    "gold_offsets": [
+      19,
+      29
+    ],
+    "predicted_offsets": [
+      19,
+      28
+    ],
+    "redacted_context": "mera mobile number [REDACTED_PII] hai."
+  },
+  {
+    "mechanism": "B1_PUNCTUATION_CAPTURED",
+    "record_id": "EMAIL_011_EN",
+    "base_id": "EMAIL_011",
+    "gold_type": "EMAIL",
+    "predicted_type": "EMAIL",
+    "gold_span_length": 22,
+    "predicted_span_length": 23,
+    "gold_offsets": [
+      12,
+      34
+    ],
+    "predicted_offsets": [
+      12,
+      35
+    ],
+    "redacted_context": "Email me at [REDACTED_PII]"
+  },
+  {
+    "mechanism": "FP11_HARD_NEGATIVE_DISTRACTOR",
+    "record_id": "NEG_001_EN",
+    "base_id": "NEG_001",
+    "gold_type": "NONE",
+    "predicted_type": "BANK_ACCOUNT",
+    "gold_span_length": 0,
+    "predicted_span_length": 1,
+    "gold_offsets": null,
+    "predicted_offsets": [
+      20,
+      21
+    ],
+    "redacted_context": "The order number is [REDACTED_PII]043321819."
+  },
+  {
+    "mechanism": "B6_DELIMITER_INDUCED_SPLIT",
+    "record_id": "PERSON_001_EN_A2_01",
+    "base_id": "PERSON_001",
+    "gold_type": "PERSON",
+    "predicted_type": "PERSON",
+    "gold_span_length": 12,
+    "predicted_span_length": 6,
+    "gold_offsets": [
+      11,
+      23
+    ],
+    "predicted_offsets": [
+      17,
+      23
+    ],
+    "redacted_context": "My name is [REDACTED_PII]."
+  }
+]

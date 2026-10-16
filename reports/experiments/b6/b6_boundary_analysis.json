@@ -1,0 +1,83 @@
+{
+  "B1_PUNCTUATION_CAPTURED": {
+    "mean": 5.0,
+    "sd": 0.0,
+    "values": [
+      5,
+      5,
+      5
+    ]
+  },
+  "B2_WHITESPACE_GROUPING_MISMATCH": {
+    "mean": 4.0,
+    "sd": 0.0,
+    "values": [
+      4,
+      4,
+      4
+    ]
+  },
+  "B3_PARTIAL_STRUCTURED_IDENTIFIER": {
+    "mean": 25.0,
+    "sd": 0.0,
+    "values": [
+      25,
+      25,
+      25
+    ]
+  },
+  "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": {
+    "mean": 19.666666666666668,
+    "sd": 1.1547005383792515,
+    "values": [
+      19,
+      19,
+      21
+    ]
+  },
+  "B6_DELIMITER_INDUCED_SPLIT": {
+    "mean": 3.6666666666666665,
+    "sd": 0.5773502691896258,
+    "values": [
+      3,
+      4,
+      4
+    ]
+  },
+  "B7_ADJACENT_TOKEN_MERGE": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "B8_ENTITY_EXTENSION": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "B9_ENTITY_TRUNCATION": {
+    "mean": 21.0,
+    "sd": 1.0,
+    "values": [
+      20,
+      22,
+      21
+    ]
+  },
+  "B10_OTHER": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+      0,
+      0,
+      0
+    ]
+  }
+}

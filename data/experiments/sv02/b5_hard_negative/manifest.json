@@ -1,0 +1,24 @@
+{
+  "variant": "b5_hard_negative",
+  "description": "1,000 canonical positive + 250 synthetic hard-negative distractors (train), 200 pos + 50 HN (val)",
+  "train_statistics": {
+    "record_count": 1250,
+    "total_tokens": 24464,
+    "mean_tokens_per_record": 19.57,
+    "std_tokens_per_record": 4.16,
+    "min_tokens": 11,
+    "max_tokens": 38
+  },
+  "val_statistics": {
+    "record_count": 250,
+    "total_tokens": 4928,
+    "mean_tokens_per_record": 19.71,
+    "std_tokens_per_record": 4.29,
+    "min_tokens": 12,
+    "max_tokens": 37
+  },
+  "positive_train_count": 1000,
+  "hard_negative_train_count": 250,
+  "positive_val_count": 200,
+  "hard_negative_val_count": 50
+}

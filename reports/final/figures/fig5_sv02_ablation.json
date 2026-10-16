@@ -1,0 +1,28 @@
+{
+  "title": "SV-02 Controlled Ablation Performance Across Interventions",
+  "variants": [
+    "b5_positive_matched",
+    "b5_format_diversity",
+    "b5_hard_negative"
+  ],
+  "labels": [
+    "Positive Matched\n(Token Baseline)",
+    "Format Diversity\n(Synthetic Realism)",
+    "Hard Negative\n(Decoy Regularization)"
+  ],
+  "precision": [
+    0.441,
+    0.3905,
+    0.4645
+  ],
+  "exact_f1": [
+    0.4312,
+    0.3554,
+    0.3924
+  ],
+  "fpr": [
+    0.5473,
+    0.5917,
+    0.5198
+  ]
+}

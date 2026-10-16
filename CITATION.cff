@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or software in your research, please cite it as below."
+title: "Indian PII Robustness Benchmark: Multilingual, Perturbation-Aware Evaluation of Personally Identifiable Information Extraction in Indian Contexts"
+version: 0.18.0
+date-released: 2026-09-09
+url: "TODO: Public Repository URL Pending Release"
+repository-code: "TODO: Public Repository URL Pending Release"
+keywords:
+  - "Personally Identifiable Information"
+  - "Indian Languages"
+  - "Information Extraction"
+  - "Robustness"
+  - "Benchmark"
+  - "Named Entity Recognition"
+  - "Evaluation"
+abstract: >-
+  The Indian PII Robustness Benchmark is a rigorous, multi-lingual evaluation
+  framework designed to measure the precision, recall, exact-boundary accuracy,
+  and perturbation stability of PII extraction systems in Indian digital contexts.
+  Covering 964 canonical evaluation records with 724 gold standard Indian PII
+  entities across 5 language regimes and 5 perturbation classes, the benchmark
+  evaluates deterministic, off-the-shelf, zero-shot, and Indic-adapted neural systems (B1–B6).
+authors:
+  - name: "TODO: Author Names Pending Release Authorization"

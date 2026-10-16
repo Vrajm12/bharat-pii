@@ -2,24 +2,27 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://indian-pii-robust.local/schemas/base_instance.schema.json",
   "title": "Base Instance",
-  "$comment": "SCOPE: structure only — field presence, types, enum membership, ranges, nullability. No cross-field logic is enforced here; that lives in validators/ (later task, with unit tests). Rules recorded but NOT implemented by this schema: (6) hi_variant_collapsed on a derived record may be true only when this base's pii[].type is one of the six non-transliterable categories (PHONE, EMAIL, PAN, AADHAAR, UPI_ID, BANK_ACCOUNT) per guidelines.md §4.3 — not checkable from the base instance alone. (7) address_structure must be non-null iff an ADDRESS entry is present in pii[] (guidelines.md §7.3 / PROJECT_SPEC.md §13). See annotation/open_questions.md for an open question on whether hard-negative bases (PROJECT_SPEC.md §12.2, 20 bases 'not part of the 100') are represented as base_instance objects with pii: [] or do not use this schema at all — pii minItems is left at 0 pending that resolution.",
+  "$comment": "SCOPE: structure only — field presence, types, enum membership, ranges, nullability. No cross-field logic is enforced here; that lives in validators/ (later task, with unit tests). Rules recorded but NOT implemented by this schema: (6) hi_variant_collapsed on a derived record may be true only when this base's pii[].type is one of the six non-transliterable categories (PHONE, EMAIL, PAN, AADHAAR, UPI_ID, BANK_ACCOUNT) per guidelines.md §4.3 — not checkable from the base instance alone. (7) address_structure must be non-null iff an ADDRESS entry is present in pii[] (guidelines.md §7.3 / PROJECT_SPEC.md §13). (11) BASE_KIND INVARIANT (v0.3, resolves OQ-003, guidelines.md §13.4): base_kind == POSITIVE implies len(pii) >= 1; base_kind == HARD_NEGATIVE implies len(pii) == 0. Enforced by validators/base_kind.py, not by this schema. base_id naming conventions (e.g. a NEG_ prefix) must NEVER be used to infer base_kind — base_kind is the sole, explicit discriminator. OQ-002 is resolved: hard-negative bases ARE base_instance objects (pii: [], base_kind: HARD_NEGATIVE); distractor information belongs only on the derived record (guidelines.md §13.3), never on the base instance — additionalProperties: false on this schema already excludes a distractors field here. RESOLVED (v0.9, OQ-020): generator_version added as a required field, identical name/pattern to schemas/example.schema.json's own generator_version — no new field name or versioning convention invented. RESOLVED (OQ-021): no address_deva / ADDRESS-equivalent of person_context.name_deva was added to this schema — ADDRESS's Devanagari form is generated at record-derivation time (T08) as realized_pii_value, never cached on the base instance; person_context.name_deva remains the only stored base-level Devanagari field. RESOLVED (v0.16, OQ-046, guidelines.md §13.12): hard_negative_decoy added as an OPTIONAL property (not in `required`) — construction-level ground truth for a HARD_NEGATIVE base's single decoy, persisted here because pii[] must stay empty for HARD_NEGATIVE (decision 16) and provides nowhere else to carry it. Present-and-populated iff base_kind == HARD_NEGATIVE; absent or null iff base_kind == POSITIVE — that relationship is cross-field and is enforced by validators/base_kind.py, not by this schema, consistent with the base_kind/pii invariant's own precedent immediately above. This field does NOT change the distractors-belong-only-on-the-derived-record rule: hard_negative_decoy is singular, base-instance-level construction ground truth; distractors[] on the derived record is what Phase 2 materializes from it.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "base_id",
+    "base_kind",
     "pii",
     "person_context",
     "scenario",
     "address_structure",
     "canonical_text",
-    "synthetic"
+    "synthetic",
+    "generator_version"
   ],
   "properties": {
     "base_id": {
       "type": "string",
       "pattern": "^[A-Z][A-Z_]*_[0-9]{3,}$",
-      "description": "Permanent, never reused. E.g. PAN_001, NEG_007 (PROJECT_SPEC.md §12.2)."
+      "description": "Permanent, never reused. E.g. PAN_001, NEG_007 (PROJECT_SPEC.md §12.2). Naming pattern carries no semantic meaning — never used to infer base_kind (guidelines.md §13.4)."
     },
+    "base_kind": { "$ref": "#/$defs/base_kind" },
     "pii": {
       "type": "array",
       "minItems": 0,
@@ -64,9 +67,35 @@
     },
     "address_structure": { "$ref": "#/$defs/address_structure" },
     "canonical_text": { "type": "string", "minLength": 1 },
-    "synthetic": { "const": true }
+    "synthetic": { "const": true },
+    "generator_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Same field, name, and pattern as schemas/example.schema.json's generator_version (resolves OQ-020) — one toolchain version number, covering PII generation (T03), base-instance assembly (T04), and the transliteration table (T07). PROJECT_SPEC.md §8.3 / guidelines.md §4.5: the transliteration table's version is recorded here, not in a separate field."
+    },
+    "hard_negative_decoy": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["decoy_class", "value", "surface_type", "actual_role"],
+      "properties": {
+        "decoy_class": { "$ref": "#/$defs/decoy_class" },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The decoy's realized value, e.g. '9876543210' or 'rahul4521@corp' (guidelines.md §13.8). Not a PII value — never checked against any pii_type structural rule."
+        },
+        "surface_type": { "type": "string", "minLength": 1 },
+        "actual_role": { "type": "string", "minLength": 1 }
+      },
+      "description": "OPTIONAL. Construction-level ground truth for a HARD_NEGATIVE base's single decoy (guidelines.md §13.12, resolves OQ-046). NOT in this schema's top-level `required` array — its presence/nullity is governed by base_kind, a cross-field rule enforced by validators/base_kind.py, not by this schema (same scope split as the base_kind/pii invariant). Not required globally so the 100 existing POSITIVE bases remain valid without it."
+    }
   },
   "$defs": {
+    "base_kind": {
+      "type": "string",
+      "enum": ["POSITIVE", "HARD_NEGATIVE"],
+      "description": "Explicit base-level discriminator (guidelines.md §13.4, resolves OQ-003). The pii-cardinality invariant this implies is cross-field and enforced by validators/base_kind.py, not by this schema."
+    },
     "pii_type": {
       "type": "string",
       "enum": [
@@ -82,6 +111,18 @@
     },
     "address_structure": {
       "enum": ["SINGLE", "SPLIT", null]
+    },
+    "decoy_class": {
+      "type": "string",
+      "enum": [
+        "NUMERIC_SHAPE",
+        "ALNUM_SHAPE",
+        "NAME_AS_PLACE",
+        "HANDLE_SHAPE",
+        "ORG_AS_PERSON",
+        "PARTIAL_PII"
+      ],
+      "description": "Must match schemas/example.schema.json's decoy_class enum exactly (same cross-schema duplication convention as generator_version, resolves OQ-020) — this schema does not $ref across files, consistent with how no schema in this repository does."
     }
   }
 }

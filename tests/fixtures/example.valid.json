@@ -37,7 +37,7 @@
   "synthetic": true,
 
   "generator_version": "0.1.0",
-  "guidelines_version": "0.1",
+  "guidelines_version": "0.18",
   "template_id": "HINGLISH_PAN_03",
   "seed": 42,
 
@@ -46,6 +46,7 @@
     "span": "PENDING",
     "semantic": "PENDING",
     "language": "PENDING",
+    "duplicate": "PENDING",
     "human": "PENDING"
   },
   "validation_status": "PENDING",

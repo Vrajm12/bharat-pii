@@ -1,0 +1,333 @@
+{
+  "b5": {
+    "categories_overall": {
+      "B9_ENTITY_TRUNCATION": {
+        "mean_count": 43.0,
+        "percentage_of_f2": 17.2
+      },
+      "B2_WHITESPACE_GROUPING_MISMATCH": {
+        "mean_count": 7.67,
+        "percentage_of_f2": 3.07
+      },
+      "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": {
+        "mean_count": 11.33,
+        "percentage_of_f2": 4.53
+      },
+      "B3_PARTIAL_STRUCTURED_IDENTIFIER": {
+        "mean_count": 179.0,
+        "percentage_of_f2": 71.6
+      },
+      "B1_PUNCTUATION_CAPTURED": {
+        "mean_count": 3.33,
+        "percentage_of_f2": 1.33
+      },
+      "B6_DELIMITER_INDUCED_SPLIT": {
+        "mean_count": 4.67,
+        "percentage_of_f2": 1.87
+      },
+      "B10_OTHER": {
+        "mean_count": 1.0,
+        "percentage_of_f2": 0.4
+      }
+    },
+    "by_pii_type": {
+      "PERSON": {
+        "B9_ENTITY_TRUNCATION": 5.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 2.0
+      },
+      "ADDRESS": {
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 6.0,
+        "B9_ENTITY_TRUNCATION": 5.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 3.33
+      },
+      "PHONE": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 13.67,
+        "B1_PUNCTUATION_CAPTURED": 1.0
+      },
+      "EMAIL": {
+        "B9_ENTITY_TRUNCATION": 31.67,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 4.0,
+        "B1_PUNCTUATION_CAPTURED": 0.33
+      },
+      "PAN": {
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 1.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 4.0,
+        "B1_PUNCTUATION_CAPTURED": 1.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.0
+      },
+      "AADHAAR": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 69.33
+      },
+      "UPI_ID": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 67.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 2.67
+      },
+      "BANK_ACCOUNT": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 24.67,
+        "B1_PUNCTUATION_CAPTURED": 1.0,
+        "B10_OTHER": 1.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.0
+      }
+    },
+    "by_language": {
+      "ROM_HI": {
+        "B9_ENTITY_TRUNCATION": 8.33,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 2.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 28.33
+      },
+      "INFORMAL_HINGLISH": {
+        "B9_ENTITY_TRUNCATION": 7.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.0,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 9.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 16.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.67
+      },
+      "EN": {
+        "B9_ENTITY_TRUNCATION": 11.33,
+        "B1_PUNCTUATION_CAPTURED": 3.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 57.0,
+        "B6_DELIMITER_INDUCED_SPLIT": 3.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 6.0
+      },
+      "HI_DEVA_PII": {
+        "B9_ENTITY_TRUNCATION": 2.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 0.67
+      },
+      "HINGLISH": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 25.67,
+        "B9_ENTITY_TRUNCATION": 8.33
+      },
+      "HI_LATIN_PII": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 30.0,
+        "B9_ENTITY_TRUNCATION": 3.33,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 0.33
+      },
+      "IN_EN": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 21.67,
+        "B9_ENTITY_TRUNCATION": 2.0,
+        "B10_OTHER": 1.0
+      }
+    },
+    "by_perturbation": {
+      "NONE": {
+        "B9_ENTITY_TRUNCATION": 35.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.67,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 11.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 145.33,
+        "B1_PUNCTUATION_CAPTURED": 2.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.67,
+        "B10_OTHER": 1.0
+      },
+      "A2": {
+        "B6_DELIMITER_INDUCED_SPLIT": 2.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.0,
+        "B9_ENTITY_TRUNCATION": 1.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 4.33
+      },
+      "A5": {
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.0,
+        "B9_ENTITY_TRUNCATION": 3.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 9.33
+      },
+      "A1": {
+        "B9_ENTITY_TRUNCATION": 2.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 8.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.0
+      },
+      "A4": {
+        "B9_ENTITY_TRUNCATION": 1.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 7.33
+      },
+      "A3": {
+        "B1_PUNCTUATION_CAPTURED": 1.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 4.67,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.0
+      }
+    },
+    "by_difficulty": {
+      "MEDIUM": {
+        "B9_ENTITY_TRUNCATION": 29.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.67,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 11.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 100.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.67
+      },
+      "EASY": {
+        "B9_ENTITY_TRUNCATION": 6.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 45.0,
+        "B1_PUNCTUATION_CAPTURED": 2.33,
+        "B10_OTHER": 1.0
+      },
+      "ADVERSARIAL": {
+        "B6_DELIMITER_INDUCED_SPLIT": 3.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 6.0,
+        "B9_ENTITY_TRUNCATION": 7.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 33.67,
+        "B1_PUNCTUATION_CAPTURED": 1.0
+      }
+    },
+    "total_f2_mean": 250.0
+  },
+  "sv02_hn": {
+    "categories_overall": {
+      "B9_ENTITY_TRUNCATION": {
+        "mean_count": 52.0,
+        "percentage_of_f2": 20.26
+      },
+      "B2_WHITESPACE_GROUPING_MISMATCH": {
+        "mean_count": 8.33,
+        "percentage_of_f2": 3.25
+      },
+      "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": {
+        "mean_count": 4.67,
+        "percentage_of_f2": 1.82
+      },
+      "B3_PARTIAL_STRUCTURED_IDENTIFIER": {
+        "mean_count": 180.67,
+        "percentage_of_f2": 70.39
+      },
+      "B1_PUNCTUATION_CAPTURED": {
+        "mean_count": 3.33,
+        "percentage_of_f2": 1.3
+      },
+      "B6_DELIMITER_INDUCED_SPLIT": {
+        "mean_count": 7.67,
+        "percentage_of_f2": 2.99
+      }
+    },
+    "by_pii_type": {
+      "PERSON": {
+        "B9_ENTITY_TRUNCATION": 9.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 2.0
+      },
+      "ADDRESS": {
+        "B9_ENTITY_TRUNCATION": 9.67,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 4.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 5.0
+      },
+      "PHONE": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 16.33
+      },
+      "EMAIL": {
+        "B9_ENTITY_TRUNCATION": 33.33,
+        "B1_PUNCTUATION_CAPTURED": 1.33,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 0.33
+      },
+      "PAN": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 16.67,
+        "B6_DELIMITER_INDUCED_SPLIT": 3.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.0,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 0.33
+      },
+      "AADHAAR": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 66.33
+      },
+      "UPI_ID": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 59.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.67
+      },
+      "BANK_ACCOUNT": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 22.0,
+        "B1_PUNCTUATION_CAPTURED": 2.0,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.0
+      }
+    },
+    "by_language": {
+      "ROM_HI": {
+        "B9_ENTITY_TRUNCATION": 8.67,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 2.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 32.33
+      },
+      "HINGLISH": {
+        "B9_ENTITY_TRUNCATION": 11.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 32.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 0.33
+      },
+      "INFORMAL_HINGLISH": {
+        "B9_ENTITY_TRUNCATION": 8.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.0,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 2.33,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 19.67,
+        "B6_DELIMITER_INDUCED_SPLIT": 0.67
+      },
+      "EN": {
+        "B9_ENTITY_TRUNCATION": 15.67,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 53.0,
+        "B1_PUNCTUATION_CAPTURED": 2.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 6.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 5.0
+      },
+      "HI_DEVA_PII": {
+        "B9_ENTITY_TRUNCATION": 2.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.33
+      },
+      "HI_LATIN_PII": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 24.67,
+        "B9_ENTITY_TRUNCATION": 3.33,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 0.33
+      },
+      "IN_EN": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 18.67,
+        "B9_ENTITY_TRUNCATION": 2.0,
+        "B1_PUNCTUATION_CAPTURED": 1.0
+      }
+    },
+    "by_perturbation": {
+      "NONE": {
+        "B9_ENTITY_TRUNCATION": 41.33,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 3.33,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 4.67,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 150.0,
+        "B1_PUNCTUATION_CAPTURED": 3.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.0
+      },
+      "A2": {
+        "B6_DELIMITER_INDUCED_SPLIT": 6.0,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.0,
+        "B9_ENTITY_TRUNCATION": 2.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 5.0
+      },
+      "A5": {
+        "B2_WHITESPACE_GROUPING_MISMATCH": 2.0,
+        "B9_ENTITY_TRUNCATION": 4.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 9.67
+      },
+      "A1": {
+        "B9_ENTITY_TRUNCATION": 2.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 3.33,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 1.0
+      },
+      "A4": {
+        "B9_ENTITY_TRUNCATION": 2.67,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 7.33
+      },
+      "A3": {
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 5.33,
+        "B6_DELIMITER_INDUCED_SPLIT": 0.67
+      }
+    },
+    "by_difficulty": {
+      "MEDIUM": {
+        "B9_ENTITY_TRUNCATION": 34.33,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 3.33,
+        "B4_SURROUNDING_LEXICAL_TOKEN_CAPTURED": 4.67,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 109.0,
+        "B6_DELIMITER_INDUCED_SPLIT": 1.0
+      },
+      "EASY": {
+        "B9_ENTITY_TRUNCATION": 7.0,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 41.0,
+        "B1_PUNCTUATION_CAPTURED": 3.33
+      },
+      "ADVERSARIAL": {
+        "B6_DELIMITER_INDUCED_SPLIT": 6.67,
+        "B2_WHITESPACE_GROUPING_MISMATCH": 5.0,
+        "B9_ENTITY_TRUNCATION": 10.67,
+        "B3_PARTIAL_STRUCTURED_IDENTIFIER": 30.67
+      }
+    },
+    "total_f2_mean": 256.67
+  }
+}

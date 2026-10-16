@@ -1,5 +1,6 @@
 {
   "base_id": "PAN_001",
+  "base_kind": "POSITIVE",
   "pii": [
     { "type": "PAN", "base_pii_value": "ABCDE1234F", "semantic_role": "TAX_IDENTIFIER" }
   ],
@@ -7,5 +8,6 @@
   "scenario": { "domain": "account_verification", "purpose": "identity_verification" },
   "address_structure": null,
   "canonical_text": "My PAN number is ABCDE1234F.",
-  "synthetic": true
+  "synthetic": true,
+  "generator_version": "0.1.0"
 }

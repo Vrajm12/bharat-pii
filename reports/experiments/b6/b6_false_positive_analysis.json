@@ -1,0 +1,110 @@
+{
+  "FP1_NUMERIC_PATTERN_OVERMATCH": {
+    "mean": 34.0,
+    "sd": 0.0,
+    "values": [
+      34,
+      34,
+      34
+    ]
+  },
+  "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": {
+    "mean": 30.0,
+    "sd": 0.0,
+    "values": [
+      30,
+      30,
+      30
+    ]
+  },
+  "FP3_EMAIL_LIKE_STRING": {
+    "mean": 15.0,
+    "sd": 0.0,
+    "values": [
+      15,
+      15,
+      15
+    ]
+  },
+  "FP4_UPI_LIKE_HANDLE": {
+    "mean": 13.0,
+    "sd": 0.0,
+    "values": [
+      13,
+      13,
+      13
+    ]
+  },
+  "FP5_PHONE_LIKE_SEQUENCE": {
+    "mean": 14.0,
+    "sd": 0.0,
+    "values": [
+      14,
+      14,
+      14
+    ]
+  },
+  "FP6_ADDRESS_LIKE_CONTEXT": {
+    "mean": 4.0,
+    "sd": 0.0,
+    "values": [
+      4,
+      4,
+      4
+    ]
+  },
+  "FP7_PERSON_NAME_LIKE_CONTEXT": {
+    "mean": 13.666666666666666,
+    "sd": 0.5773502691896257,
+    "values": [
+      14,
+      14,
+      13
+    ]
+  },
+  "FP8_CONTEXTUAL_SEMANTIC_OVERPREDICTION": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "FP9_PARTIAL_SUBSTRING_EXTRACTION": {
+    "mean": 32.0,
+    "sd": 1.0,
+    "values": [
+      32,
+      33,
+      31
+    ]
+  },
+  "FP10_PUNCTUATION_DELIMITER_ARTIFACT": {
+    "mean": 54.0,
+    "sd": 3.0,
+    "values": [
+      57,
+      51,
+      54
+    ]
+  },
+  "FP11_HARD_NEGATIVE_DISTRACTOR": {
+    "mean": 142.0,
+    "sd": 1.7320508075688772,
+    "values": [
+      143,
+      143,
+      140
+    ]
+  },
+  "FP12_OTHER": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "b5": {
+    "seeds": {
+      "42": {
+        "n_gold": 724,
+        "n_pred": 1638,
+        "tp_type": 706,
+        "tp_exact": 456,
+        "f1_missed": 1,
+        "f2_wrong_span": 250,
+        "f3_wrong_type": 17,
+        "f4_false_pos": 915,
+        "m1_precision": 0.43101343101343104,
+        "m2_recall": 0.9751381215469613,
+        "m3_f1": 0.5977984758679085,
+        "m4_exact_f1": 0.3861134631668078,
+        "m5_type_acc": 0.9764868603042877,
+        "m6_fpr": 0.5586080586080586,
+        "invariants": {
+          "f1_f2_f3_tpexact_eq_ngold": true,
+          "tptype_eq_tpexact_plus_f2": true,
+          "npred_eq_tptype_f3_f4": true
+        }
+      },
+      "43": {
+        "n_gold": 724,
+        "n_pred": 1623,
+        "tp_type": 705,
+        "tp_exact": 460,
+        "f1_missed": 1,
+        "f2_wrong_span": 245,
+        "f3_wrong_type": 18,
+        "f4_false_pos": 900,
+        "m1_precision": 0.4343807763401109,
+        "m2_recall": 0.9737569060773481,
+        "m3_f1": 0.6007669365146997,
+        "m4_exact_f1": 0.391989774179804,
+        "m5_type_acc": 0.975103734439834,
+        "m6_fpr": 0.5545286506469501,
+        "invariants": {
+          "f1_f2_f3_tpexact_eq_ngold": true,
+          "tptype_eq_tpexact_plus_f2": true,
+          "npred_eq_tptype_f3_f4": true
+        }
+      },
+      "44": {
+        "n_gold": 724,
+        "n_pred": 1646,
+        "tp_type": 705,
+        "tp_exact": 450,
+        "f1_missed": 1,
+        "f2_wrong_span": 255,
+        "f3_wrong_type": 18,
+        "f4_false_pos": 923,
+        "m1_precision": 0.42831105710814094,
+        "m2_recall": 0.9737569060773481,
+        "m3_f1": 0.5949367088607594,
+        "m4_exact_f1": 0.379746835443038,
+        "m5_type_acc": 0.975103734439834,
+        "m6_fpr": 0.5607533414337789,
+        "invariants": {
+          "f1_f2_f3_tpexact_eq_ngold": true,
+          "tptype_eq_tpexact_plus_f2": true,
+          "npred_eq_tptype_f3_f4": true
+        }
+      }
+    },
+    "aggregate_mean_sd": {
+      "n_gold": {
+        "mean": 724.0,
+        "sd": 0.0
+      },
+      "n_pred": {
+        "mean": 1635.6667,
+        "sd": 9.5336
+      },
+      "tp_type": {
+        "mean": 705.3333,
+        "sd": 0.4714
+      },
+      "tp_exact": {
+        "mean": 455.3333,
+        "sd": 4.1096
+      },
+      "f1_missed": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "f2_wrong_span": {
+        "mean": 250.0,
+        "sd": 4.0825
+      },
+      "f3_wrong_type": {
+        "mean": 17.6667,
+        "sd": 0.4714
+      },
+      "f4_false_pos": {
+        "mean": 912.6667,
+        "sd": 9.5336
+      },
+      "m1_precision": {
+        "mean": 0.4312,
+        "sd": 0.0025
+      },
+      "m2_recall": {
+        "mean": 0.9742,
+        "sd": 0.0007
+      },
+      "m3_f1": {
+        "mean": 0.5978,
+        "sd": 0.0024
+      },
+      "m4_exact_f1": {
+        "mean": 0.386,
+        "sd": 0.005
+      },
+      "m5_type_acc": {
+        "mean": 0.9756,
+        "sd": 0.0007
+      },
+      "m6_fpr": {
+        "mean": 0.558,
+        "sd": 0.0026
+      }
+    }
+  },
+  "sv02_hn": {
+    "seeds": {
+      "42": {
+        "n_gold": 724,
+        "n_pred": 1478,
+        "tp_type": 689,
+        "tp_exact": 433,
+        "f1_missed": 10,
+        "f2_wrong_span": 256,
+        "f3_wrong_type": 25,
+        "f4_false_pos": 764,
+        "m1_precision": 0.46617050067659,
+        "m2_recall": 0.9516574585635359,
+        "m3_f1": 0.6257947320617621,
+        "m4_exact_f1": 0.39327883742052683,
+        "m5_type_acc": 0.9649859943977591,
+        "m6_fpr": 0.516914749661705,
+        "invariants": {
+          "f1_f2_f3_tpexact_eq_ngold": true,
+          "tptype_eq_tpexact_plus_f2": true,
+          "npred_eq_tptype_f3_f4": true
+        }
+      },
+      "43": {
+        "n_gold": 724,
+        "n_pred": 1495,
+        "tp_type": 689,
+        "tp_exact": 433,
+        "f1_missed": 10,
+        "f2_wrong_span": 256,
+        "f3_wrong_type": 25,
+        "f4_false_pos": 781,
+        "m1_precision": 0.4608695652173913,
+        "m2_recall": 0.9516574585635359,
+        "m3_f1": 0.6210004506534474,
+        "m4_exact_f1": 0.3902658855340243,
+        "m5_type_acc": 0.9649859943977591,
+        "m6_fpr": 0.5224080267558529,
+        "invariants": {
+          "f1_f2_f3_tpexact_eq_ngold": true,
+          "tptype_eq_tpexact_plus_f2": true,
+          "npred_eq_tptype_f3_f4": true
+        }
+      },
+      "44": {
+        "n_gold": 724,
+        "n_pred": 1486,
+        "tp_type": 693,
+        "tp_exact": 435,
+        "f1_missed": 11,
+        "f2_wrong_span": 258,
+        "f3_wrong_type": 20,
+        "f4_false_pos": 773,
+        "m1_precision": 0.46635262449528936,
+        "m2_recall": 0.9571823204419889,
+        "m3_f1": 0.6271493212669683,
+        "m4_exact_f1": 0.39366515837104077,
+        "m5_type_acc": 0.9719495091164095,
+        "m6_fpr": 0.5201884253028264,
+        "invariants": {
+          "f1_f2_f3_tpexact_eq_ngold": true,
+          "tptype_eq_tpexact_plus_f2": true,
+          "npred_eq_tptype_f3_f4": true
+        }
+      }
+    },
+    "aggregate_mean_sd": {
+      "n_gold": {
+        "mean": 724.0,
+        "sd": 0.0
+      },
+      "n_pred": {
+        "mean": 1486.3333,
+        "sd": 6.9442
+      },
+      "tp_type": {
+        "mean": 690.3333,
+        "sd": 1.8856
+      },
+      "tp_exact": {
+        "mean": 433.6667,
+        "sd": 0.9428
+      },
+      "f1_missed": {
+        "mean": 10.3333,
+        "sd": 0.4714
+      },
+      "f2_wrong_span": {
+        "mean": 256.6667,
+        "sd": 0.9428
+      },
+      "f3_wrong_type": {
+        "mean": 23.3333,
+        "sd": 2.357
+      },
+      "f4_false_pos": {
+        "mean": 772.6667,
+        "sd": 6.9442
+      },
+      "m1_precision": {
+        "mean": 0.4645,
+        "sd": 0.0025
+      },
+      "m2_recall": {
+        "mean": 0.9535,
+        "sd": 0.0026
+      },
+      "m3_f1": {
+        "mean": 0.6246,
+        "sd": 0.0026
+      },
+      "m4_exact_f1": {
+        "mean": 0.3924,
+        "sd": 0.0015
+      },
+      "m5_type_acc": {
+        "mean": 0.9673,
+        "sd": 0.0033
+      },
+      "m6_fpr": {
+        "mean": 0.5198,
+        "sd": 0.0023
+      }
+    }
+  }
+}

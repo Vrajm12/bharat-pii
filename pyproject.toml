@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bharatpii"
+version = "1.0.0"
+description = "Official Python package for BharatPII-CRF: Multilingual Indian Personally Identifiable Information (PII) Detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["pii", "nlp", "indian-languages", "ner", "crf", "xlm-roberta", "data-privacy", "dpdpa"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "tokenizers>=0.19.0",
+    "safetensors>=0.4.0",
+    "sentencepiece>=0.1.99",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0.0",
+    "hypothesis>=6.100.0",
+]
+
+[project.scripts]
+bharatpii = "bharatpii.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bharatpii*"]
+exclude = [
+    "benchmark*",
+    "baselines*",
+    "data*",
+    "annotation*",
+    "predictions*",
+    "reports*",
+    "paper*",
+    "checkpoints*",
+    "models*",
+    "tests*",
+    "scripts*",
+    "docs*",
+    "figures*",
+    "reproduction*",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

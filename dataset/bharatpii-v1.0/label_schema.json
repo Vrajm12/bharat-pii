@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BharatPIILabelSchema",
+  "version": "1.0.0",
+  "description": "Formal JSON Schema for Indian PII entity annotations, character offset conventions, and IOB2 sequence representation.",
+  "pii_categories": [
+    {
+      "type": "PERSON",
+      "description": "Full or partial names of individuals in Indian contexts across regional naming conventions, patronymics, and honorifics.",
+      "iob2_labels": [
+        "B-PERSON",
+        "I-PERSON"
+      ],
+      "examples": [
+        "Sneha Sharma",
+        "\u0935\u093f\u0915\u094d\u0930\u092e \u0930\u093e\u0935",
+        "Ananya Verma"
+      ]
+    },
+    {
+      "type": "PAN",
+      "description": "Indian Permanent Account Number issued by the Income Tax Department (10-character alphanumeric: 5 uppercase letters, 4 digits, 1 letter).",
+      "iob2_labels": [
+        "B-PAN",
+        "I-PAN"
+      ],
+      "examples": [
+        "BDTNL5698D",
+        "VKTKV1484V",
+        "ZHHAV3654C"
+      ]
+    },
+    {
+      "type": "AADHAAR",
+      "description": "12-digit Indian unique identification number issued by UIDAI, validated via Verhoeff checksum algorithm.",
+      "iob2_labels": [
+        "B-AADHAAR",
+        "I-AADHAAR"
+      ],
+      "examples": [
+        "548923019842",
+        "637940265423",
+        "185067165726"
+      ]
+    },
+    {
+      "type": "PHONE",
+      "description": "Indian telephone and mobile numbers (10 digits, optionally prefixed with +91 or 0, with or without standard spacing/hyphens).",
+      "iob2_labels": [
+        "B-PHONE",
+        "I-PHONE"
+      ],
+      "examples": [
+        "+91 9876543210",
+        "9474687234",
+        "6500978820"
+      ]
+    },
+    {
+      "type": "EMAIL",
+      "description": "Electronic mail addresses following standard RFC 5322 syntax.",
+      "iob2_labels": [
+        "B-EMAIL",
+        "I-EMAIL"
+      ],
+      "examples": [
+        "sneha.nair@example.test",
+        "ananya.verma@mail.test"
+      ]
+    },
+    {
+      "type": "UPI_ID",
+      "description": "Unified Payments Interface virtual payment address (VPA) in handle@psp or phone@psp syntax.",
+      "iob2_labels": [
+        "B-UPI_ID",
+        "I-UPI_ID"
+      ],
+      "examples": [
+        "9498941343@mail.test",
+        "ananya.verma@okhdfcbank",
+        "rahul.rao@upi"
+      ]
+    },
+    {
+      "type": "BANK_ACCOUNT",
+      "description": "Indian commercial bank account numbers (9 to 18 digits).",
+      "iob2_labels": [
+        "B-BANK_ACCOUNT",
+        "I-BANK_ACCOUNT"
+      ],
+      "examples": [
+        "324210249947",
+        "289517187"
+      ]
+    },
+    {
+      "type": "ADDRESS",
+      "description": "Indian physical residential and commercial delivery addresses comprising building, street/road, locality, city/state, and 6-digit PIN code.",
+      "iob2_labels": [
+        "B-ADDRESS",
+        "I-ADDRESS"
+      ],
+      "examples": [
+        "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235"
+      ]
+    }
+  ],
+  "span_convention": {
+    "indexing": "0-based character offsets",
+    "end_boundary": "exclusive",
+    "offset_type": "Python native string slice character offsets",
+    "slice_invariant": "text[start:end] == entity.text",
+    "script_compatibility": "Native Unicode code point indexing compatible across Latin, Devanagari, and Indic scripts."
+  },
+  "iob2_taxonomy": {
+    "num_classes": 17,
+    "labels": [
+      "O",
+      "B-PERSON",
+      "I-PERSON",
+      "B-PAN",
+      "I-PAN",
+      "B-AADHAAR",
+      "I-AADHAAR",
+      "B-PHONE",
+      "I-PHONE",
+      "B-EMAIL",
+      "I-EMAIL",
+      "B-UPI_ID",
+      "I-UPI_ID",
+      "B-BANK_ACCOUNT",
+      "I-BANK_ACCOUNT",
+      "B-ADDRESS",
+      "I-ADDRESS"
+    ]
+  }
+}

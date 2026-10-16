@@ -1,0 +1,4 @@
+variant,m1_precision_mean,m1_precision_std,m2_recall_mean,m2_recall_std,m3_f1_type_mean,m3_f1_type_std,m4_f1_exact_mean,m4_f1_exact_std,m5_type_accuracy_mean,m5_type_accuracy_std,m6_fpr_mean,m6_fpr_std,hard_negative_fpr_mean,adversarial_f1_mean
+b5_hard_negative,0.4645,0.0025,0.9535,0.0026,0.6246,0.0026,0.3924,0.0015,0.9673,0.0033,0.5198,0.0023,1.0,0.4671
+b5_positive_matched,0.441,0.0014,0.9733,0.0023,0.6069,0.0015,0.4312,0.0001,0.9742,0.0017,0.5473,0.0015,1.0,0.4136
+b5_format_diversity,0.3905,0.0007,0.9563,0.0023,0.5545,0.001,0.3554,0.0028,0.9563,0.0023,0.5917,0.001,1.0,0.3577

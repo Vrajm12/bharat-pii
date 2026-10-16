@@ -1,0 +1,19 @@
+{
+  "0": "O",
+  "1": "B-PERSON",
+  "2": "I-PERSON",
+  "3": "B-PAN",
+  "4": "I-PAN",
+  "5": "B-AADHAAR",
+  "6": "I-AADHAAR",
+  "7": "B-PHONE",
+  "8": "I-PHONE",
+  "9": "B-EMAIL",
+  "10": "I-EMAIL",
+  "11": "B-UPI_ID",
+  "12": "I-UPI_ID",
+  "13": "B-BANK_ACCOUNT",
+  "14": "I-BANK_ACCOUNT",
+  "15": "B-ADDRESS",
+  "16": "I-ADDRESS"
+}

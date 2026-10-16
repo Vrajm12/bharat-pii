@@ -1,0 +1,96 @@
+{
+  "b5": {
+    "EASY": {
+      "gold_count": 200.0,
+      "pred_count": 386.33,
+      "tp_type": 196.33,
+      "tp_exact": 142.0,
+      "f1_missed": 0.0,
+      "f2_wrong_span": 54.33,
+      "f3_wrong_type": 3.67,
+      "f4_false_pos": 186.33,
+      "precision": 0.5082,
+      "recall": 0.9817,
+      "f1_type": 0.6697,
+      "f1_exact": 0.4844,
+      "fpr": 0.4823
+    },
+    "MEDIUM": {
+      "gold_count": 424.0,
+      "pred_count": 796.0,
+      "tp_type": 424.0,
+      "tp_exact": 279.33,
+      "f1_missed": 0.0,
+      "f2_wrong_span": 144.67,
+      "f3_wrong_type": 0.0,
+      "f4_false_pos": 372.0,
+      "precision": 0.5327,
+      "recall": 1.0,
+      "f1_type": 0.6951,
+      "f1_exact": 0.4579,
+      "fpr": 0.4673
+    },
+    "ADVERSARIAL": {
+      "gold_count": 100.0,
+      "pred_count": 253.67,
+      "tp_type": 85.0,
+      "tp_exact": 34.0,
+      "f1_missed": 1.0,
+      "f2_wrong_span": 51.0,
+      "f3_wrong_type": 14.0,
+      "f4_false_pos": 154.67,
+      "precision": 0.3351,
+      "recall": 0.85,
+      "f1_type": 0.4807,
+      "f1_exact": 0.1923,
+      "fpr": 0.6097
+    }
+  },
+  "sv02_hn": {
+    "EASY": {
+      "gold_count": 200.0,
+      "pred_count": 366.33,
+      "tp_type": 190.33,
+      "tp_exact": 139.0,
+      "f1_missed": 0.0,
+      "f2_wrong_span": 51.33,
+      "f3_wrong_type": 9.67,
+      "f4_false_pos": 166.33,
+      "precision": 0.5196,
+      "recall": 0.9517,
+      "f1_type": 0.6722,
+      "f1_exact": 0.4909,
+      "fpr": 0.454
+    },
+    "MEDIUM": {
+      "gold_count": 424.0,
+      "pred_count": 740.33,
+      "tp_type": 422.0,
+      "tp_exact": 269.67,
+      "f1_missed": 0.0,
+      "f2_wrong_span": 152.33,
+      "f3_wrong_type": 2.0,
+      "f4_false_pos": 316.33,
+      "precision": 0.5701,
+      "recall": 0.9953,
+      "f1_type": 0.7249,
+      "f1_exact": 0.4632,
+      "fpr": 0.4272
+    },
+    "ADVERSARIAL": {
+      "gold_count": 100.0,
+      "pred_count": 192.67,
+      "tp_type": 78.0,
+      "tp_exact": 25.0,
+      "f1_missed": 10.33,
+      "f2_wrong_span": 53.0,
+      "f3_wrong_type": 11.67,
+      "f4_false_pos": 103.0,
+      "precision": 0.4049,
+      "recall": 0.78,
+      "f1_type": 0.533,
+      "f1_exact": 0.1708,
+      "fpr": 0.5346
+    }
+  }
+}

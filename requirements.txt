@@ -1,0 +1,18 @@
+# Core Runtime & Evaluation Requirements for Indian PII Robustness Benchmark
+torch>=2.1.0
+transformers>=4.40.0
+tokenizers>=0.19.0
+sentencepiece>=0.1.99
+safetensors>=0.4.0
+spacy>=3.7.0
+presidio-analyzer>=2.2.350
+regex>=2024.0.0
+pydantic>=2.0.0
+jsonschema>=4.20.0
+pyyaml>=6.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+
+# Optional / Testing
+pytest>=8.0.0
+hypothesis>=6.100.0

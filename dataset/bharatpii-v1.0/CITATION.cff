@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this benchmark dataset in your research, please cite it as below."
+title: "BharatPII: Multilingual, Perturbation-Aware Benchmark for Personally Identifiable Information Extraction in Indian Contexts"
+version: 1.0.0
+date-released: 2026-09-12
+keywords:
+  - "Personally Identifiable Information"
+  - "Indian Languages"
+  - "Information Extraction"
+  - "Adversarial Robustness"
+  - "Benchmark"
+  - "Named Entity Recognition"
+  - "Synthetic PII"
+abstract: >-
+  BharatPII is a standardized evaluation benchmark for Personally Identifiable
+  Information (PII) extraction under Indian linguistic variation and adversarial
+  perturbations. Covering 964 canonical evaluation records with 724 gold standard
+  Indian PII entities across 8 categories, 5 Indic language and script regimes,
+  and 5 adversarial perturbation families (A1–A5), accompanied by 1,200 disjoint
+  adaptation instances.
+authors:
+  - family-names: "Matnale"
+    given-names: "Veeraj Sanjog"
+  - family-names: "Jadhav"
+    given-names: "Vedant Vinayak"
+  - family-names: "More"
+    given-names: "Tanushree Dinesh"
+  - family-names: "Kharat"
+    given-names: "Pratiksha Santosh"
+  - family-names: "Jadhav"
+    given-names: "Kiran"
+    name-particle: "Dr."

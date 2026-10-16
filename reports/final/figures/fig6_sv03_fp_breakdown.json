@@ -1,0 +1,21 @@
+{
+  "title": "False Positive Error Mechanisms: B5 Token Head vs B6 CRF Decoding",
+  "categories": [
+    "FP9 (Duplicate/Sub-spans)",
+    "FP8 (Cross-Type Localized)",
+    "FP1 (Decoy / Hallucination)",
+    "Other Spurious FPs"
+  ],
+  "b5_fp_counts": [
+    351.3,
+    17.0,
+    50.0,
+    496.7
+  ],
+  "b6_fp_counts": [
+    32.0,
+    40.0,
+    50.0,
+    229.7
+  ]
+}

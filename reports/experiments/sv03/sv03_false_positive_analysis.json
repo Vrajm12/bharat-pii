@@ -1,0 +1,424 @@
+{
+  "b5": {
+    "categories_overall": {
+      "FP7_PERSON_NAME_LIKE_CONTEXT": {
+        "mean_count": 15.0,
+        "percentage_of_f4": 1.64
+      },
+      "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": {
+        "mean_count": 31.33,
+        "percentage_of_f4": 3.43
+      },
+      "FP10_PUNCTUATION_DELIMITER_ARTIFACT": {
+        "mean_count": 169.33,
+        "percentage_of_f4": 18.55
+      },
+      "FP5_PHONE_LIKE_SEQUENCE": {
+        "mean_count": 14.0,
+        "percentage_of_f4": 1.53
+      },
+      "FP3_EMAIL_LIKE_STRING": {
+        "mean_count": 20.0,
+        "percentage_of_f4": 2.19
+      },
+      "FP12_OTHER": {
+        "mean_count": 28.33,
+        "percentage_of_f4": 3.1
+      },
+      "FP1_NUMERIC_PATTERN_OVERMATCH": {
+        "mean_count": 44.0,
+        "percentage_of_f4": 4.82
+      },
+      "FP4_UPI_LIKE_HANDLE": {
+        "mean_count": 24.33,
+        "percentage_of_f4": 2.67
+      },
+      "FP6_ADDRESS_LIKE_CONTEXT": {
+        "mean_count": 4.0,
+        "percentage_of_f4": 0.44
+      },
+      "FP8_CONTEXTUAL_SEMANTIC_OVERPREDICTION": {
+        "mean_count": 1.0,
+        "percentage_of_f4": 0.11
+      },
+      "FP9_PARTIAL_SUBSTRING_EXTRACTION": {
+        "mean_count": 351.33,
+        "percentage_of_f4": 38.5
+      },
+      "FP11_HARD_NEGATIVE_DISTRACTOR": {
+        "mean_count": 210.0,
+        "percentage_of_f4": 23.01
+      }
+    },
+    "by_predicted_type": {
+      "PERSON": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 15.0,
+        "FP6_ADDRESS_LIKE_CONTEXT": 1.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 7.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 21.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 4.67
+      },
+      "ADDRESS": {
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 12.33,
+        "FP6_ADDRESS_LIKE_CONTEXT": 3.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 9.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 7.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 22.0
+      },
+      "PHONE": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 20.33,
+        "FP5_PHONE_LIKE_SEQUENCE": 13.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 31.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 13.33
+      },
+      "EMAIL": {
+        "FP3_EMAIL_LIKE_STRING": 20.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 15.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 17.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 20.0
+      },
+      "PAN": {
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 19.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 60.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 5.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 49.67
+      },
+      "AADHAAR": {
+        "FP12_OTHER": 14.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 20.0,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 8.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 88.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 31.67
+      },
+      "BANK_ACCOUNT": {
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 36.0,
+        "FP12_OTHER": 14.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 23.67,
+        "FP5_PHONE_LIKE_SEQUENCE": 0.33,
+        "FP8_CONTEXTUAL_SEMANTIC_OVERPREDICTION": 1.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 129.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 50.0
+      },
+      "UPI_ID": {
+        "FP4_UPI_LIKE_HANDLE": 24.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 17.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 63.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 2.33
+      }
+    },
+    "by_language": {
+      "EN": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 15.0,
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 31.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 111.33,
+        "FP5_PHONE_LIKE_SEQUENCE": 14.0,
+        "FP3_EMAIL_LIKE_STRING": 18.0,
+        "FP12_OTHER": 28.33,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 44.0,
+        "FP4_UPI_LIKE_HANDLE": 24.33,
+        "FP6_ADDRESS_LIKE_CONTEXT": 4.0,
+        "FP8_CONTEXTUAL_SEMANTIC_OVERPREDICTION": 1.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 122.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 40.67
+      },
+      "HI_DEVA_PII": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 2.67
+      },
+      "INFORMAL_HINGLISH": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 38.67,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 10.33,
+        "FP3_EMAIL_LIKE_STRING": 2.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 31.0
+      },
+      "IN_EN": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 11.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 46.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 29.0
+      },
+      "ROM_HI": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 13.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 44.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 36.33
+      },
+      "HINGLISH": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 11.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 45.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 37.0
+      },
+      "HI_LATIN_PII": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 12.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 52.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 36.0
+      }
+    },
+    "by_perturbation": {
+      "NONE": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 15.0,
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 31.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 89.0,
+        "FP5_PHONE_LIKE_SEQUENCE": 14.0,
+        "FP3_EMAIL_LIKE_STRING": 20.0,
+        "FP12_OTHER": 28.33,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 44.0,
+        "FP4_UPI_LIKE_HANDLE": 24.33,
+        "FP6_ADDRESS_LIKE_CONTEXT": 4.0,
+        "FP8_CONTEXTUAL_SEMANTIC_OVERPREDICTION": 1.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 277.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 210.0
+      },
+      "A2": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 18.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 2.33
+      },
+      "A3": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 33.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 9.67
+      },
+      "A5": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 21.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 19.33
+      },
+      "A1": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 21.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 10.0
+      },
+      "A4": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 3.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 15.67
+      }
+    },
+    "by_difficulty": {
+      "EASY": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 15.0,
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 31.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 42.0,
+        "FP5_PHONE_LIKE_SEQUENCE": 14.0,
+        "FP3_EMAIL_LIKE_STRING": 18.0,
+        "FP12_OTHER": 28.33,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 44.0,
+        "FP4_UPI_LIKE_HANDLE": 24.33,
+        "FP6_ADDRESS_LIKE_CONTEXT": 4.0,
+        "FP8_CONTEXTUAL_SEMANTIC_OVERPREDICTION": 1.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 94.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 69.67
+      },
+      "MEDIUM": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 182.67,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 47.0,
+        "FP3_EMAIL_LIKE_STRING": 2.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 140.33
+      },
+      "ADVERSARIAL": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 74.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 80.33
+      }
+    },
+    "total_f4_mean": 912.67
+  },
+  "sv02_hn": {
+    "categories_overall": {
+      "FP7_PERSON_NAME_LIKE_CONTEXT": {
+        "mean_count": 14.0,
+        "percentage_of_f4": 1.81
+      },
+      "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": {
+        "mean_count": 31.0,
+        "percentage_of_f4": 4.01
+      },
+      "FP10_PUNCTUATION_DELIMITER_ARTIFACT": {
+        "mean_count": 111.33,
+        "percentage_of_f4": 14.41
+      },
+      "FP5_PHONE_LIKE_SEQUENCE": {
+        "mean_count": 13.67,
+        "percentage_of_f4": 1.77
+      },
+      "FP3_EMAIL_LIKE_STRING": {
+        "mean_count": 21.67,
+        "percentage_of_f4": 2.8
+      },
+      "FP12_OTHER": {
+        "mean_count": 25.67,
+        "percentage_of_f4": 3.32
+      },
+      "FP1_NUMERIC_PATTERN_OVERMATCH": {
+        "mean_count": 40.0,
+        "percentage_of_f4": 5.18
+      },
+      "FP4_UPI_LIKE_HANDLE": {
+        "mean_count": 24.67,
+        "percentage_of_f4": 3.19
+      },
+      "FP6_ADDRESS_LIKE_CONTEXT": {
+        "mean_count": 2.33,
+        "percentage_of_f4": 0.3
+      },
+      "FP9_PARTIAL_SUBSTRING_EXTRACTION": {
+        "mean_count": 324.0,
+        "percentage_of_f4": 41.93
+      },
+      "FP11_HARD_NEGATIVE_DISTRACTOR": {
+        "mean_count": 164.33,
+        "percentage_of_f4": 21.27
+      }
+    },
+    "by_predicted_type": {
+      "PERSON": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 14.0,
+        "FP6_ADDRESS_LIKE_CONTEXT": 1.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 4.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 19.0
+      },
+      "ADDRESS": {
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 13.0,
+        "FP6_ADDRESS_LIKE_CONTEXT": 1.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 19.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 4.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 4.0
+      },
+      "PHONE": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 20.33,
+        "FP5_PHONE_LIKE_SEQUENCE": 12.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 23.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 12.0
+      },
+      "EMAIL": {
+        "FP3_EMAIL_LIKE_STRING": 21.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 24.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 7.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 22.33
+      },
+      "PAN": {
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 18.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 32.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 8.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 38.33
+      },
+      "BANK_ACCOUNT": {
+        "FP12_OTHER": 13.67,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 36.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 17.33,
+        "FP5_PHONE_LIKE_SEQUENCE": 1.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 125.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 38.67
+      },
+      "AADHAAR": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 13.67,
+        "FP12_OTHER": 12.0,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 4.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 62.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 28.67
+      },
+      "UPI_ID": {
+        "FP4_UPI_LIKE_HANDLE": 24.67,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 16.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 56.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 1.33
+      }
+    },
+    "by_language": {
+      "EN": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 14.0,
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 31.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 59.33,
+        "FP5_PHONE_LIKE_SEQUENCE": 13.67,
+        "FP3_EMAIL_LIKE_STRING": 20.0,
+        "FP12_OTHER": 25.67,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 40.0,
+        "FP4_UPI_LIKE_HANDLE": 24.67,
+        "FP6_ADDRESS_LIKE_CONTEXT": 2.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 118.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 28.0
+      },
+      "ROM_HI": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 48.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 13.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 27.67
+      },
+      "INFORMAL_HINGLISH": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 30.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 7.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 23.67,
+        "FP3_EMAIL_LIKE_STRING": 1.67
+      },
+      "HI_DEVA_PII": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 4.0
+      },
+      "IN_EN": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 10.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 40.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 29.0
+      },
+      "HINGLISH": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 9.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 42.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 28.67
+      },
+      "HI_LATIN_PII": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 11.67,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 41.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 27.33
+      }
+    },
+    "by_perturbation": {
+      "NONE": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 14.0,
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 31.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 79.33,
+        "FP5_PHONE_LIKE_SEQUENCE": 13.67,
+        "FP3_EMAIL_LIKE_STRING": 21.67,
+        "FP12_OTHER": 25.67,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 40.0,
+        "FP4_UPI_LIKE_HANDLE": 24.67,
+        "FP6_ADDRESS_LIKE_CONTEXT": 2.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 253.0,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 164.33
+      },
+      "A2": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 19.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 3.0
+      },
+      "A5": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 23.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 14.0
+      },
+      "A1": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 9.67
+      },
+      "A4": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 16.33,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 3.33
+      },
+      "A3": {
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 2.0,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 12.0
+      }
+    },
+    "by_difficulty": {
+      "EASY": {
+        "FP7_PERSON_NAME_LIKE_CONTEXT": 14.0,
+        "FP2_ALPHANUMERIC_PATTERN_OVERMATCH": 31.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 37.67,
+        "FP5_PHONE_LIKE_SEQUENCE": 13.67,
+        "FP3_EMAIL_LIKE_STRING": 20.0,
+        "FP12_OTHER": 25.67,
+        "FP1_NUMERIC_PATTERN_OVERMATCH": 40.0,
+        "FP4_UPI_LIKE_HANDLE": 24.67,
+        "FP6_ADDRESS_LIKE_CONTEXT": 2.33,
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 87.33,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 57.0
+      },
+      "MEDIUM": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 165.67,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 41.67,
+        "FP11_HARD_NEGATIVE_DISTRACTOR": 107.33,
+        "FP3_EMAIL_LIKE_STRING": 1.67
+      },
+      "ADVERSARIAL": {
+        "FP9_PARTIAL_SUBSTRING_EXTRACTION": 71.0,
+        "FP10_PUNCTUATION_DELIMITER_ARTIFACT": 32.0
+      }
+    },
+    "total_f4_mean": 772.67
+  }
+}

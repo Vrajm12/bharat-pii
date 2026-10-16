@@ -1,0 +1,1073 @@
+{"type": "PERSON", "start": 11, "end": 23, "text": "Sneha Sharma", "confidence": 0.9645490646362305, "variant_id": "PERSON_001"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan Rao", "confidence": 0.9340550502141317, "variant_id": "PERSON_002"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Anjali Nair", "confidence": 0.9033591896295547, "variant_id": "PERSON_003"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Sneha Agarwal", "confidence": 0.9367330521345139, "variant_id": "PERSON_004"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Amit Krishna", "confidence": 0.8288623094558716, "variant_id": "PERSON_005"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Divya Iyer", "confidence": 0.9605895578861237, "variant_id": "PERSON_006"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Rahul Patel", "confidence": 0.7300560474395752, "variant_id": "PERSON_007"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Vikram Rao", "confidence": 0.7037605047225952, "variant_id": "PERSON_008"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Rajesh Bhatt", "confidence": 0.85961385567983, "variant_id": "PERSON_009"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Rahul Agarwal", "confidence": 0.8689726789792379, "variant_id": "PERSON_010"}
+{"type": "PERSON", "start": 11, "end": 25, "text": "Vikram Agarwal", "confidence": 0.7478910684585571, "variant_id": "PERSON_011"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Divya Rao", "confidence": 0.9710651238759359, "variant_id": "PERSON_012"}
+{"type": "ADDRESS", "start": 14, "end": 72, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9527748189866543, "variant_id": "ADDRESS_001"}
+{"type": "ADDRESS", "start": 14, "end": 78, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9553871750831604, "variant_id": "ADDRESS_002"}
+{"type": "ADDRESS", "start": 14, "end": 71, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131", "confidence": 0.9765590337606577, "variant_id": "ADDRESS_003"}
+{"type": "ADDRESS", "start": 14, "end": 69, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9679378390312194, "variant_id": "ADDRESS_004"}
+{"type": "ADDRESS", "start": 14, "end": 67, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9547001607716084, "variant_id": "ADDRESS_005"}
+{"type": "ADDRESS", "start": 14, "end": 70, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9638891577720642, "variant_id": "ADDRESS_006"}
+{"type": "ADDRESS", "start": 14, "end": 73, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871", "confidence": 0.978167898952961, "variant_id": "ADDRESS_007"}
+{"type": "ADDRESS", "start": 14, "end": 68, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784", "confidence": 0.9567298106849194, "variant_id": "ADDRESS_008"}
+{"type": "ADDRESS", "start": 14, "end": 77, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.9573661720051485, "variant_id": "ADDRESS_009"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288", "confidence": 0.9730960763990879, "variant_id": "ADDRESS_010"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039", "confidence": 0.8812131548629087, "variant_id": "ADDRESS_011"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248", "confidence": 0.9539128752315745, "variant_id": "ADDRESS_012"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "7", "confidence": 0.9394028186798096, "variant_id": "PHONE_001"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7834657871", "confidence": 0.7518571019172668, "variant_id": "PHONE_001"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.7505420744419098, "variant_id": "PHONE_002"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6051834738", "confidence": 0.6897094249725342, "variant_id": "PHONE_003"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9376311656", "confidence": 0.8793566703796387, "variant_id": "PHONE_004"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6106513338", "confidence": 0.7816096782684326, "variant_id": "PHONE_005"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9247317810", "confidence": 0.8166187524795532, "variant_id": "PHONE_006"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "6", "confidence": 0.9559077024459839, "variant_id": "PHONE_007"}
+{"type": "PHONE", "start": 19, "end": 30, "text": "6326773602.", "confidence": 0.6996265947818756, "variant_id": "PHONE_007"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9474687234", "confidence": 0.79461168050766, "variant_id": "PHONE_008"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6500978820", "confidence": 0.8145926743745804, "variant_id": "PHONE_009"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7191361939", "confidence": 0.7014381587505341, "variant_id": "PHONE_010"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6699854353", "confidence": 0.7692155092954636, "variant_id": "PHONE_011"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7475107991", "confidence": 0.6863371789455414, "variant_id": "PHONE_012"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "sneha8298@webmail.test", "confidence": 0.8482575847042931, "variant_id": "EMAIL_001"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "sneha6064@webmail.test", "confidence": 0.8409035139613681, "variant_id": "EMAIL_002"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "arjun8676@mail.example", "confidence": 0.9199396073818207, "variant_id": "EMAIL_003"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "priya2210@webmail.test", "confidence": 0.907275054189894, "variant_id": "EMAIL_004"}
+{"type": "EMAIL", "start": 12, "end": 36, "text": "amit4472@webmail.example", "confidence": 0.9474068641662597, "variant_id": "EMAIL_005"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "sneha4335@inbox.invalid", "confidence": 0.8825531466440721, "variant_id": "EMAIL_006"}
+{"type": "EMAIL", "start": 12, "end": 32, "text": "vikram4543@mail.test", "confidence": 0.7234458774328232, "variant_id": "EMAIL_007"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "arjun2657@inbox.example", "confidence": 0.944587539542805, "variant_id": "EMAIL_008"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "rahul1842@mail.example", "confidence": 0.9046288000212775, "variant_id": "EMAIL_009"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "rahul6059@corp.invalid", "confidence": 0.8926869763268365, "variant_id": "EMAIL_010"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "arjun5984@mail.invalid", "confidence": 0.9127472579479218, "variant_id": "EMAIL_011"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "priya5804@inbox.example", "confidence": 0.9246059249747883, "variant_id": "EMAIL_012"}
+{"type": "PAN", "start": 17, "end": 27, "text": "FZZFN0256Z", "confidence": 0.8663660287857056, "variant_id": "PAN_001"}
+{"type": "PAN", "start": 17, "end": 27, "text": "FZWDM0733O", "confidence": 0.7834439831120628, "variant_id": "PAN_002"}
+{"type": "PAN", "start": 17, "end": 27, "text": "ZHHAV3654C", "confidence": 0.8247966269652048, "variant_id": "PAN_003"}
+{"type": "PAN", "start": 17, "end": 27, "text": "UQMVR5014F", "confidence": 0.8507769902547201, "variant_id": "PAN_004"}
+{"type": "PAN", "start": 17, "end": 27, "text": "BDTNL5698D", "confidence": 0.7423319518566132, "variant_id": "PAN_005"}
+{"type": "PAN", "start": 17, "end": 27, "text": "GIBWN0883L", "confidence": 0.8384946584701538, "variant_id": "PAN_006"}
+{"type": "PAN", "start": 17, "end": 27, "text": "VKTKV1484V", "confidence": 0.7340195079644521, "variant_id": "PAN_007"}
+{"type": "PAN", "start": 17, "end": 27, "text": "MWJRE3662T", "confidence": 0.7673343618710836, "variant_id": "PAN_008"}
+{"type": "PAN", "start": 17, "end": 27, "text": "MRAJJ3699U", "confidence": 0.7377524673938751, "variant_id": "PAN_009"}
+{"type": "PAN", "start": 17, "end": 27, "text": "OOVGQ7214Q", "confidence": 0.7613816431590489, "variant_id": "PAN_010"}
+{"type": "PAN", "start": 17, "end": 27, "text": "CYHVJ3320B", "confidence": 0.7848097341401237, "variant_id": "PAN_011"}
+{"type": "PAN", "start": 17, "end": 27, "text": "TYCON9367M", "confidence": 0.7489923477172852, "variant_id": "PAN_012"}
+{"type": "PAN", "start": 17, "end": 27, "text": "UWAYY1632Z", "confidence": 0.6579229185978571, "variant_id": "PAN_013"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "083172788957", "confidence": 0.383452740808328, "variant_id": "AADHAAR_001"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "687277434873", "confidence": 0.4635960817337036, "variant_id": "AADHAAR_002"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "143455812236", "confidence": 0.5687361061573029, "variant_id": "AADHAAR_003"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "166587603669", "confidence": 0.5872915744781494, "variant_id": "AADHAAR_004"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "670546688937", "confidence": 0.4685579419136047, "variant_id": "AADHAAR_005"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "670656272980", "confidence": 0.3772026300430298, "variant_id": "AADHAAR_006"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "901627204653", "confidence": 0.5018116652965545, "variant_id": "AADHAAR_007"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "564641708053", "confidence": 0.4880799323320389, "variant_id": "AADHAAR_008"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "033092327193", "confidence": 0.44260834405819577, "variant_id": "AADHAAR_009"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "529912419049", "confidence": 0.5408945679664612, "variant_id": "AADHAAR_010"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "319314919058", "confidence": 0.4328433394432068, "variant_id": "AADHAAR_011"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "185067165726", "confidence": 0.4306535840034485, "variant_id": "AADHAAR_012"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "498776945314", "confidence": 0.3844373464584351, "variant_id": "AADHAAR_013"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9996507527@mail.test", "confidence": 0.4244083594530821, "variant_id": "UPI_ID_001"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8549480831@mail.test", "confidence": 0.4868517108261585, "variant_id": "UPI_ID_002"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9837770143@mail.test", "confidence": 0.5228736102581024, "variant_id": "UPI_ID_003"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8957885685@mail.test", "confidence": 0.47946595028042793, "variant_id": "UPI_ID_004"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8443135182@mail.test", "confidence": 0.4331498984247446, "variant_id": "UPI_ID_005"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9498941343@mail.test", "confidence": 0.45964493685298496, "variant_id": "UPI_ID_006"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 20, "text": "8082400", "confidence": 0.4648775855700175, "variant_id": "UPI_ID_007"}
+{"type": "UPI_ID", "start": 20, "end": 33, "text": "842@mail.test", "confidence": 0.5619122207164764, "variant_id": "UPI_ID_007"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6947775204@mail.test", "confidence": 0.5237237140536308, "variant_id": "UPI_ID_008"}
+{"type": "UPI_ID", "start": 13, "end": 14, "text": "6", "confidence": 0.46698129177093506, "variant_id": "UPI_ID_009"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6671902294@mail.test", "confidence": 0.44002682715654373, "variant_id": "UPI_ID_009"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6869993867@mail.test", "confidence": 0.42976924445894027, "variant_id": "UPI_ID_010"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9499091334@mail.test", "confidence": 0.4625700041651726, "variant_id": "UPI_ID_011"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "7281206797@mail.test", "confidence": 0.4455798798137241, "variant_id": "UPI_ID_012"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "7447134936@mail.test", "confidence": 0.4996795356273651, "variant_id": "UPI_ID_013"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "324210249947", "confidence": 0.8848713835080465, "variant_id": "BANK_ACCOUNT_001"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "464887719065", "confidence": 0.7757752656936645, "variant_id": "BANK_ACCOUNT_002"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "013990490278", "confidence": 0.7570857286453248, "variant_id": "BANK_ACCOUNT_003"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "296717565512", "confidence": 0.9111921429634094, "variant_id": "BANK_ACCOUNT_004"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "746807154516", "confidence": 0.845688392718633, "variant_id": "BANK_ACCOUNT_005"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 39, "text": "876038597703.", "confidence": 0.7474088907241822, "variant_id": "BANK_ACCOUNT_006"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "247710932480", "confidence": 0.8577229022979737, "variant_id": "BANK_ACCOUNT_007"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "131712748467", "confidence": 0.9409531593322754, "variant_id": "BANK_ACCOUNT_008"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "782639821465", "confidence": 0.9348263144493103, "variant_id": "BANK_ACCOUNT_009"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 27, "text": "0", "confidence": 0.7358116507530212, "variant_id": "BANK_ACCOUNT_010"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "044997278755", "confidence": 0.6667077243328094, "variant_id": "BANK_ACCOUNT_010"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "675339636057", "confidence": 0.6916083594163259, "variant_id": "BANK_ACCOUNT_011"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "270289517187", "confidence": 0.8271482825279236, "variant_id": "BANK_ACCOUNT_012"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "621745961586", "confidence": 0.8678354620933533, "variant_id": "BANK_ACCOUNT_013"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 30, "text": "6043321819", "confidence": 0.32466288208961486, "variant_id": "NEG_001"}
+{"type": "AADHAAR", "start": 20, "end": 26, "text": "600133", "confidence": 0.48189137876033783, "variant_id": "NEG_002"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 32, "text": "890838", "confidence": 0.5752539932727814, "variant_id": "NEG_002"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "637940265423", "confidence": 0.3826352208852768, "variant_id": "NEG_003"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 30, "text": "8116155940", "confidence": 0.39131006225943565, "variant_id": "NEG_004"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 32, "text": "781618495931", "confidence": 0.38620167672634126, "variant_id": "NEG_005"}
+{"type": "PAN", "start": 22, "end": 32, "text": "BVHYJ1316I", "confidence": 0.8375271388462612, "variant_id": "NEG_006"}
+{"type": "PAN", "start": 22, "end": 32, "text": "OULFL5341T", "confidence": 0.8417456150054932, "variant_id": "NEG_007"}
+{"type": "PAN", "start": 22, "end": 32, "text": "UFRXH2764U", "confidence": 0.8076602518558502, "variant_id": "NEG_008"}
+{"type": "PAN", "start": 22, "end": 23, "text": "W", "confidence": 0.8670191764831543, "variant_id": "NEG_009"}
+{"type": "PAN", "start": 22, "end": 32, "text": "WRHVK0305M", "confidence": 0.8669303556283315, "variant_id": "NEG_009"}
+{"type": "PAN", "start": 22, "end": 32, "text": "ICGSW5376U", "confidence": 0.8046868741512299, "variant_id": "NEG_010"}
+{"type": "PERSON", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.4058370888233185, "variant_id": "NEG_011"}
+{"type": "PERSON", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.5793498009443283, "variant_id": "NEG_012"}
+{"type": "PERSON", "start": 0, "end": 5, "text": "Rohan", "confidence": 0.5205883085727692, "variant_id": "NEG_013"}
+{"type": "ADDRESS", "start": 6, "end": 11, "text": "Nagar", "confidence": 0.7973724603652954, "variant_id": "NEG_013"}
+{"type": "PERSON", "start": 0, "end": 6, "text": "Anjali", "confidence": 0.5758811831474304, "variant_id": "NEG_014"}
+{"type": "ADDRESS", "start": 7, "end": 12, "text": "Nagar", "confidence": 0.708975076675415, "variant_id": "NEG_014"}
+{"type": "EMAIL", "start": 25, "end": 42, "text": "rohan8840@webmail", "confidence": 0.6843398610750834, "variant_id": "NEG_015"}
+{"type": "EMAIL", "start": 25, "end": 42, "text": "deepika7029@inbox", "confidence": 0.8945563520703997, "variant_id": "NEG_016"}
+{"type": "EMAIL", "start": 25, "end": 39, "text": "kavya3603@corp", "confidence": 0.8317812184492747, "variant_id": "NEG_017"}
+{"type": "PAN", "start": 27, "end": 28, "text": "X", "confidence": 0.2923222482204437, "variant_id": "NEG_018"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 9166", "confidence": 0.4254639546076457, "variant_id": "NEG_018"}
+{"type": "PAN", "start": 27, "end": 28, "text": "X", "confidence": 0.28073859214782715, "variant_id": "NEG_019"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 4514", "confidence": 0.39055295785268146, "variant_id": "NEG_019"}
+{"type": "PAN", "start": 27, "end": 28, "text": "X", "confidence": 0.2964133024215698, "variant_id": "NEG_020"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 1489", "confidence": 0.3721805860598882, "variant_id": "NEG_020"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Sneha Sharma", "confidence": 0.9645490646362305, "variant_id": "PERSON_001_EN"}
+{"type": "PERSON", "start": 24, "end": 36, "text": "Sneha Sharma", "confidence": 0.9172466595967611, "variant_id": "PERSON_001_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 22, "text": "Sneha Sharma", "confidence": 0.9529327352841696, "variant_id": "PERSON_001_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Sneha Sharma", "confidence": 0.9610068798065186, "variant_id": "PERSON_001_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Sneha Sharma", "confidence": 0.9706433415412903, "variant_id": "PERSON_001_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "Sneha Sharma", "confidence": 0.9507433970769247, "variant_id": "PERSON_001_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "स्नेहा शर्मा", "confidence": 0.6122342944145203, "variant_id": "PERSON_001_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan Rao", "confidence": 0.9340550502141317, "variant_id": "PERSON_002_EN"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan Rao", "confidence": 0.9008534749348959, "variant_id": "PERSON_002_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Rohan Rao", "confidence": 0.8971896767616272, "variant_id": "PERSON_002_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Rohan Rao", "confidence": 0.9180823763211569, "variant_id": "PERSON_002_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Rohan Rao", "confidence": 0.869080384572347, "variant_id": "PERSON_002_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 18, "text": "Rohan Rao", "confidence": 0.854574183622996, "variant_id": "PERSON_002_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 17, "text": "रोहन राव", "confidence": 0.7324339002370834, "variant_id": "PERSON_002_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Anjali Nair", "confidence": 0.9033591896295547, "variant_id": "PERSON_003_EN"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Anjali Nair", "confidence": 0.8190616816282272, "variant_id": "PERSON_003_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 21, "text": "Anjali Nair", "confidence": 0.8303565233945847, "variant_id": "PERSON_003_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Anjali Nair", "confidence": 0.8438872694969177, "variant_id": "PERSON_003_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Anjali Nair", "confidence": 0.6314006745815277, "variant_id": "PERSON_003_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "Anjali Nair", "confidence": 0.8584084659814835, "variant_id": "PERSON_003_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "अंजलि नायर", "confidence": 0.5251684546470642, "variant_id": "PERSON_003_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Sneha Agarwal", "confidence": 0.9367330521345139, "variant_id": "PERSON_004_EN"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Sneha Agarwal", "confidence": 0.9587761014699936, "variant_id": "PERSON_004_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Sneha Agarwal", "confidence": 0.910276934504509, "variant_id": "PERSON_004_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Sneha Agarwal", "confidence": 0.9258510172367096, "variant_id": "PERSON_004_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Sneha Agarwal", "confidence": 0.9400634318590164, "variant_id": "PERSON_004_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "Sneha Agarwal", "confidence": 0.9291517734527588, "variant_id": "PERSON_004_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 23, "text": "स्नेहा अग्रवाल", "confidence": 0.6090872983137766, "variant_id": "PERSON_004_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Amit Krishna", "confidence": 0.8288623094558716, "variant_id": "PERSON_005_EN"}
+{"type": "PERSON", "start": 42, "end": 55, "text": "Amit Krishnan", "confidence": 0.7076765894889832, "variant_id": "PERSON_005_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Amit Krishnan", "confidence": 0.6777178645133972, "variant_id": "PERSON_005_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 28, "text": "Amit Krishnan", "confidence": 0.7182950178782145, "variant_id": "PERSON_005_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Amit Krishna", "confidence": 0.7067244946956635, "variant_id": "PERSON_005_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "Amit Krishnan", "confidence": 0.7770162224769592, "variant_id": "PERSON_005_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "अमित कृष्णन", "confidence": 0.6667449076970419, "variant_id": "PERSON_005_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Divya Iyer", "confidence": 0.9605895578861237, "variant_id": "PERSON_006_EN"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Divya Iyer", "confidence": 0.8730382919311523, "variant_id": "PERSON_006_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Divya Iyer", "confidence": 0.9287588894367218, "variant_id": "PERSON_006_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Divya Iyer", "confidence": 0.9417155832052231, "variant_id": "PERSON_006_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 15, "text": "Divya", "confidence": 0.8777226209640503, "variant_id": "PERSON_006_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "Divya Iyer", "confidence": 0.9061969220638275, "variant_id": "PERSON_006_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "दिव्या अय्य", "confidence": 0.37374536991119384, "variant_id": "PERSON_006_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Rahul Patel", "confidence": 0.7300560474395752, "variant_id": "PERSON_007_EN"}
+{"type": "PERSON", "start": 11, "end": 22, "text": "Rahul Patel", "confidence": 0.779165655374527, "variant_id": "PERSON_007_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 21, "text": "Rahul Patel", "confidence": 0.7351034879684448, "variant_id": "PERSON_007_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Rahul Patel", "confidence": 0.7724629938602448, "variant_id": "PERSON_007_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 26, "text": "Rahul Patel", "confidence": 0.8136475682258606, "variant_id": "PERSON_007_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 20, "text": "Rahul Patel", "confidence": 0.8239900171756744, "variant_id": "PERSON_007_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "राहुल पटेल", "confidence": 0.7117303907871246, "variant_id": "PERSON_007_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Vikram Rao", "confidence": 0.7037605047225952, "variant_id": "PERSON_008_EN"}
+{"type": "PERSON", "start": 11, "end": 21, "text": "Vikram Rao", "confidence": 0.7361698945363363, "variant_id": "PERSON_008_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Vikram Rao", "confidence": 0.6658322115739187, "variant_id": "PERSON_008_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Vikram Rao", "confidence": 0.6876114904880524, "variant_id": "PERSON_008_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 20, "text": "Vikram Rao", "confidence": 0.6795429289340973, "variant_id": "PERSON_008_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "Vikram Rao", "confidence": 0.6594276825586954, "variant_id": "PERSON_008_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "विक्रम राव", "confidence": 0.6152926484743754, "variant_id": "PERSON_008_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "Rajesh Bhatt", "confidence": 0.85961385567983, "variant_id": "PERSON_009_EN"}
+{"type": "PERSON", "start": 24, "end": 36, "text": "Rajesh Bhatt", "confidence": 0.8454254070917765, "variant_id": "PERSON_009_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 22, "text": "Rajesh Bhatt", "confidence": 0.865114669005076, "variant_id": "PERSON_009_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Rajesh Bhatt", "confidence": 0.8487306435902914, "variant_id": "PERSON_009_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 27, "text": "Rajesh Bhatt", "confidence": 0.8098405202229818, "variant_id": "PERSON_009_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 21, "text": "Rajesh Bhatt", "confidence": 0.8214138746261597, "variant_id": "PERSON_009_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "राजेश भट्ट", "confidence": 0.797028660774231, "variant_id": "PERSON_009_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Rahul Agarwal", "confidence": 0.8689726789792379, "variant_id": "PERSON_010_EN"}
+{"type": "PERSON", "start": 11, "end": 24, "text": "Rahul Agarwal", "confidence": 0.8956235845883688, "variant_id": "PERSON_010_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Rahul Agarwal", "confidence": 0.8167832096417745, "variant_id": "PERSON_010_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Rahul Agarwal", "confidence": 0.8046906391779581, "variant_id": "PERSON_010_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 23, "text": "Rahul Agarwal", "confidence": 0.8158421317736307, "variant_id": "PERSON_010_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "Rahul Agarwal", "confidence": 0.8808823029200236, "variant_id": "PERSON_010_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 22, "text": "राहुल अग्रवाल", "confidence": 0.6251808404922485, "variant_id": "PERSON_010_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 25, "text": "Vikram Agarwal", "confidence": 0.7478910684585571, "variant_id": "PERSON_011_EN"}
+{"type": "PERSON", "start": 11, "end": 25, "text": "Vikram Agarwal", "confidence": 0.7807726413011551, "variant_id": "PERSON_011_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 24, "text": "Vikram Agarwal", "confidence": 0.8524651974439621, "variant_id": "PERSON_011_ROM_HI"}
+{"type": "PERSON", "start": 15, "end": 29, "text": "Vikram Agarwal", "confidence": 0.857908308506012, "variant_id": "PERSON_011_HINGLISH"}
+{"type": "PERSON", "start": 15, "end": 29, "text": "Vikram Agarwal", "confidence": 0.8347759544849396, "variant_id": "PERSON_011_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 23, "text": "Vikram Agarwal", "confidence": 0.7277956791222095, "variant_id": "PERSON_011_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 23, "text": "विक्रम अग्रवाल", "confidence": 0.4636637419462204, "variant_id": "PERSON_011_HI_DEVA_PII"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Divya Rao", "confidence": 0.9710651238759359, "variant_id": "PERSON_012_EN"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Divya Rao", "confidence": 0.9565508166948954, "variant_id": "PERSON_012_IN_EN"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Divya Rao", "confidence": 0.9478984276453654, "variant_id": "PERSON_012_ROM_HI"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Divya Rao", "confidence": 0.9471657872200012, "variant_id": "PERSON_012_HINGLISH"}
+{"type": "PERSON", "start": 10, "end": 19, "text": "Divya Rao", "confidence": 0.9262272914250692, "variant_id": "PERSON_012_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 9, "end": 18, "text": "Divya Rao", "confidence": 0.9300649364789327, "variant_id": "PERSON_012_HI_LATIN_PII"}
+{"type": "PERSON", "start": 9, "end": 19, "text": "दिव्या राव", "confidence": 0.6669152826070786, "variant_id": "PERSON_012_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 72, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9527748189866543, "variant_id": "ADDRESS_001_EN"}
+{"type": "ADDRESS", "start": 45, "end": 103, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9657183773815632, "variant_id": "ADDRESS_001_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 71, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9371670614928007, "variant_id": "ADDRESS_001_ROM_HI"}
+{"type": "ADDRESS", "start": 18, "end": 76, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9387112129479647, "variant_id": "ADDRESS_001_HINGLISH"}
+{"type": "ADDRESS", "start": 18, "end": 78, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235 h", "confidence": 0.913304048426011, "variant_id": "ADDRESS_001_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 70, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.968001700937748, "variant_id": "ADDRESS_001_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 67, "text": "फ्लैट 230, सिल्वर ओक हाइट्स, बानेर रोड, बेंगलुरु 754235", "confidence": 0.9246620845794677, "variant_id": "ADDRESS_001_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 78, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9553871750831604, "variant_id": "ADDRESS_002_EN"}
+{"type": "ADDRESS", "start": 14, "end": 78, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9463934407514685, "variant_id": "ADDRESS_002_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 81, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816 hai", "confidence": 0.9439957174989912, "variant_id": "ADDRESS_002_ROM_HI"}
+{"type": "ADDRESS", "start": 13, "end": 77, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9553289904313929, "variant_id": "ADDRESS_002_HINGLISH"}
+{"type": "ADDRESS", "start": 13, "end": 79, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816 h", "confidence": 0.920213520526886, "variant_id": "ADDRESS_002_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 76, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9573579676011029, "variant_id": "ADDRESS_002_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 73, "text": "फ्लैट 195, ग्रीन वैली रेजिडेंसी, लेक व्यू रोड, कोलकाता 507816", "confidence": 0.8839500343799591, "variant_id": "ADDRESS_002_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 71, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131", "confidence": 0.9765590337606577, "variant_id": "ADDRESS_003_EN"}
+{"type": "ADDRESS", "start": 14, "end": 71, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131", "confidence": 0.9732536123349116, "variant_id": "ADDRESS_003_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 70, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131", "confidence": 0.9572037366720346, "variant_id": "ADDRESS_003_ROM_HI"}
+{"type": "ADDRESS", "start": 18, "end": 75, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131", "confidence": 0.9685980219107407, "variant_id": "ADDRESS_003_HINGLISH"}
+{"type": "ADDRESS", "start": 18, "end": 77, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131 h", "confidence": 0.9397657598767962, "variant_id": "ADDRESS_003_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 69, "text": "Flat 151, Palm Grove Society, Station Road, Mumbai 134131", "confidence": 0.9816557398209205, "variant_id": "ADDRESS_003_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 66, "text": "फ्लैट 151, पाम ग्रोव सोसाइटी, स्टेशन रोड, मुंबई 134131", "confidence": 0.9187503337860108, "variant_id": "ADDRESS_003_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 69, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9679378390312194, "variant_id": "ADDRESS_004_EN"}
+{"type": "ADDRESS", "start": 14, "end": 69, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9658095717430115, "variant_id": "ADDRESS_004_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 68, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9715517481168111, "variant_id": "ADDRESS_004_ROM_HI"}
+{"type": "ADDRESS", "start": 13, "end": 68, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9658238490422567, "variant_id": "ADDRESS_004_HINGLISH"}
+{"type": "ADDRESS", "start": 13, "end": 68, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9532511234283447, "variant_id": "ADDRESS_004_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 67, "text": "Flat 233, Palm Grove Society, Ring Road, Kolkata 634192", "confidence": 0.9746025085449219, "variant_id": "ADDRESS_004_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 66, "text": "फ्लैट 233, पाम ग्रोव सोसाइटी, रिंग रोड, कोलकाता 634192", "confidence": 0.9420747031336245, "variant_id": "ADDRESS_004_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 67, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9547001607716084, "variant_id": "ADDRESS_005_EN"}
+{"type": "ADDRESS", "start": 27, "end": 80, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9594432041049004, "variant_id": "ADDRESS_005_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 66, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9658764973282814, "variant_id": "ADDRESS_005_ROM_HI"}
+{"type": "ADDRESS", "start": 18, "end": 71, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9614847786724567, "variant_id": "ADDRESS_005_HINGLISH"}
+{"type": "ADDRESS", "start": 18, "end": 71, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9533981382846832, "variant_id": "ADDRESS_005_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 65, "text": "Flat 84, Orchid Homes, Hill Side Road, Chennai 450305", "confidence": 0.9699617922306061, "variant_id": "ADDRESS_005_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 63, "text": "फ्लैट 84, ऑर्किड होम्स, हिल साइड रोड, चेन्नई 450305", "confidence": 0.93149935901165, "variant_id": "ADDRESS_005_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 70, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9638891577720642, "variant_id": "ADDRESS_006_EN"}
+{"type": "ADDRESS", "start": 14, "end": 70, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9526586731274923, "variant_id": "ADDRESS_006_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 69, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9660536328951518, "variant_id": "ADDRESS_006_ROM_HI"}
+{"type": "ADDRESS", "start": 13, "end": 69, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9574666817982992, "variant_id": "ADDRESS_006_HINGLISH"}
+{"type": "ADDRESS", "start": 13, "end": 69, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9572951555252075, "variant_id": "ADDRESS_006_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 68, "text": "Flat 34, Lotus Enclave, Lake View Road, Hyderabad 867242", "confidence": 0.9699371894200642, "variant_id": "ADDRESS_006_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 66, "text": "फ्लैट 34, लोटस एन्क्लेव, लेक व्यू रोड, हैदराबाद 867242", "confidence": 0.8959533170513485, "variant_id": "ADDRESS_006_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 73, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871", "confidence": 0.978167898952961, "variant_id": "ADDRESS_007_EN"}
+{"type": "ADDRESS", "start": 14, "end": 73, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871", "confidence": 0.9747307300567627, "variant_id": "ADDRESS_007_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 72, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871", "confidence": 0.9760609902441502, "variant_id": "ADDRESS_007_ROM_HI"}
+{"type": "ADDRESS", "start": 18, "end": 77, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871", "confidence": 0.9751795195043087, "variant_id": "ADDRESS_007_HINGLISH"}
+{"type": "ADDRESS", "start": 18, "end": 79, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871 h", "confidence": 0.9506991084884194, "variant_id": "ADDRESS_007_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 71, "text": "Flat 276, Silver Oak Heights, Hill Side Road, Jaipur 632871", "confidence": 0.9796986132860184, "variant_id": "ADDRESS_007_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 67, "text": "फ्लैट 276, सिल्वर ओक हाइट्स, हिल साइड रोड, जयपुर 632871", "confidence": 0.8804466389119625, "variant_id": "ADDRESS_007_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 68, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784", "confidence": 0.9567298106849194, "variant_id": "ADDRESS_008_EN"}
+{"type": "ADDRESS", "start": 14, "end": 68, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784", "confidence": 0.950388927012682, "variant_id": "ADDRESS_008_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 67, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784", "confidence": 0.9661811888217926, "variant_id": "ADDRESS_008_ROM_HI"}
+{"type": "ADDRESS", "start": 13, "end": 67, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784", "confidence": 0.9572122134268284, "variant_id": "ADDRESS_008_HINGLISH"}
+{"type": "ADDRESS", "start": 13, "end": 69, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784 h", "confidence": 0.9027890054618611, "variant_id": "ADDRESS_008_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 66, "text": "Flat 79, Sunrise Towers, Hill Side Road, Mumbai 769784", "confidence": 0.9793171212077141, "variant_id": "ADDRESS_008_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 64, "text": "फ्लैट 79, सनराइज़ टावर्स, हिल साइड रोड, मुंबई 769784", "confidence": 0.9454557817915211, "variant_id": "ADDRESS_008_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 77, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.9573661720051485, "variant_id": "ADDRESS_009_EN"}
+{"type": "ADDRESS", "start": 45, "end": 108, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.9698801882126752, "variant_id": "ADDRESS_009_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 76, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.9661311577348148, "variant_id": "ADDRESS_009_ROM_HI"}
+{"type": "ADDRESS", "start": 18, "end": 81, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.967520023093504, "variant_id": "ADDRESS_009_HINGLISH"}
+{"type": "ADDRESS", "start": 18, "end": 81, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.9563722855904523, "variant_id": "ADDRESS_009_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 75, "text": "Flat 349, Green Valley Residency, Church Street, Kolkata 246270", "confidence": 0.9615332063506631, "variant_id": "ADDRESS_009_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 73, "text": "फ्लैट 349, ग्रीन वैली रेजिडेंसी, चर्च स्ट्रीट, कोलकाता 246270", "confidence": 0.9150297200679779, "variant_id": "ADDRESS_009_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288", "confidence": 0.9730960763990879, "variant_id": "ADDRESS_010_EN"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288", "confidence": 0.9637282229959965, "variant_id": "ADDRESS_010_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 62, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288", "confidence": 0.9749617278575897, "variant_id": "ADDRESS_010_ROM_HI"}
+{"type": "ADDRESS", "start": 13, "end": 62, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288", "confidence": 0.9691262990236282, "variant_id": "ADDRESS_010_HINGLISH"}
+{"type": "ADDRESS", "start": 13, "end": 64, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288 h", "confidence": 0.9129767242599937, "variant_id": "ADDRESS_010_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 61, "text": "Flat 391, Sunrise Towers, MG Road, Chennai 425288", "confidence": 0.9799836240708828, "variant_id": "ADDRESS_010_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 62, "text": "फ्लैट 391, सनराइज़ टावर्स, एमजी रोड, चेन्नई 425288", "confidence": 0.9522757232189178, "variant_id": "ADDRESS_010_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039", "confidence": 0.8812131548629087, "variant_id": "ADDRESS_011_EN"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039", "confidence": 0.9085983458687278, "variant_id": "ADDRESS_011_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 66, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039 hai", "confidence": 0.9017179359992346, "variant_id": "ADDRESS_011_ROM_HI"}
+{"type": "ADDRESS", "start": 18, "end": 67, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039", "confidence": 0.9072712326751036, "variant_id": "ADDRESS_011_HINGLISH"}
+{"type": "ADDRESS", "start": 18, "end": 67, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039", "confidence": 0.8895764613852781, "variant_id": "ADDRESS_011_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 61, "text": "Flat 166, Orchid Homes, Baner Road, Mumbai 643039", "confidence": 0.9271703835795907, "variant_id": "ADDRESS_011_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 60, "text": "फ्लैट 166, ऑर्किड होम्स, बानेर रोड, मुंबई 643039", "confidence": 0.9024422973394394, "variant_id": "ADDRESS_011_HI_DEVA_PII"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248", "confidence": 0.9539128752315745, "variant_id": "ADDRESS_012_EN"}
+{"type": "ADDRESS", "start": 14, "end": 63, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248", "confidence": 0.9589453900561613, "variant_id": "ADDRESS_012_IN_EN"}
+{"type": "ADDRESS", "start": 13, "end": 62, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248", "confidence": 0.960846368004294, "variant_id": "ADDRESS_012_ROM_HI"}
+{"type": "ADDRESS", "start": 13, "end": 62, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248", "confidence": 0.954818655462826, "variant_id": "ADDRESS_012_HINGLISH"}
+{"type": "ADDRESS", "start": 13, "end": 64, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248 h", "confidence": 0.9446670081880357, "variant_id": "ADDRESS_012_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 12, "end": 61, "text": "Flat 375, Orchid Homes, MG Road, Bengaluru 378248", "confidence": 0.9686759254511665, "variant_id": "ADDRESS_012_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 12, "end": 62, "text": "फ्लैट 375, ऑर्किड होम्स, एमजी रोड, बेंगलुरु 378248", "confidence": 0.9290008355270732, "variant_id": "ADDRESS_012_HI_DEVA_PII"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "7", "confidence": 0.9394028186798096, "variant_id": "PHONE_001_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7834657871", "confidence": 0.7518571019172668, "variant_id": "PHONE_001_EN"}
+{"type": "PHONE", "start": 32, "end": 33, "text": "7", "confidence": 0.8507943153381348, "variant_id": "PHONE_001_IN_EN"}
+{"type": "PHONE", "start": 32, "end": 42, "text": "7834657871", "confidence": 0.679662212729454, "variant_id": "PHONE_001_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "7", "confidence": 0.7793771624565125, "variant_id": "PHONE_001_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7834657871", "confidence": 0.6298165582120419, "variant_id": "PHONE_001_ROM_HI"}
+{"type": "PHONE", "start": 24, "end": 25, "text": "7", "confidence": 0.80800461769104, "variant_id": "PHONE_001_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "7834657871", "confidence": 0.5785473249852657, "variant_id": "PHONE_001_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 25, "text": "7", "confidence": 0.9184591770172119, "variant_id": "PHONE_001_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "7834657871", "confidence": 0.7194063514471054, "variant_id": "PHONE_001_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 18, "text": "7", "confidence": 0.5626362562179565, "variant_id": "PHONE_001_HI_LATIN_PII"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "7834657871", "confidence": 0.55965755879879, "variant_id": "PHONE_001_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.7505420744419098, "variant_id": "PHONE_002_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.8376229852437973, "variant_id": "PHONE_002_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.5658862292766571, "variant_id": "PHONE_002_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.635376438498497, "variant_id": "PHONE_002_HINGLISH"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.8103859275579453, "variant_id": "PHONE_002_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "6509839301", "confidence": 0.4531993716955185, "variant_id": "PHONE_002_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6051834738", "confidence": 0.6897094249725342, "variant_id": "PHONE_003_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6051834738", "confidence": 0.6103300899267197, "variant_id": "PHONE_003_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6051834738", "confidence": 0.6383079960942268, "variant_id": "PHONE_003_ROM_HI"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6051834738", "confidence": 0.5912190973758698, "variant_id": "PHONE_003_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6051834738", "confidence": 0.558064877986908, "variant_id": "PHONE_003_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "6051834738", "confidence": 0.4321975037455559, "variant_id": "PHONE_003_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9376311656", "confidence": 0.8793566703796387, "variant_id": "PHONE_004_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9376311656", "confidence": 0.8485224604606628, "variant_id": "PHONE_004_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9376311656", "confidence": 0.7435639500617981, "variant_id": "PHONE_004_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9376311656", "confidence": 0.7159781455993652, "variant_id": "PHONE_004_HINGLISH"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9376311656", "confidence": 0.7651350378990174, "variant_id": "PHONE_004_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "9376311656", "confidence": 0.64999418258667, "variant_id": "PHONE_004_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6106513338", "confidence": 0.7816096782684326, "variant_id": "PHONE_005_EN"}
+{"type": "PHONE", "start": 50, "end": 60, "text": "6106513338", "confidence": 0.5444150984287262, "variant_id": "PHONE_005_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6106513338", "confidence": 0.7263021349906922, "variant_id": "PHONE_005_ROM_HI"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6106513338", "confidence": 0.7158595025539398, "variant_id": "PHONE_005_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6106513338", "confidence": 0.7541189908981323, "variant_id": "PHONE_005_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "6106513338", "confidence": 0.500114631652832, "variant_id": "PHONE_005_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9247317810", "confidence": 0.8166187524795532, "variant_id": "PHONE_006_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9247317810", "confidence": 0.7809469342231751, "variant_id": "PHONE_006_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9247317810", "confidence": 0.747746217250824, "variant_id": "PHONE_006_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9247317810", "confidence": 0.7122388362884522, "variant_id": "PHONE_006_HINGLISH"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9247317810", "confidence": 0.7532798290252686, "variant_id": "PHONE_006_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "9247317810", "confidence": 0.6195079982280731, "variant_id": "PHONE_006_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "6", "confidence": 0.9559077024459839, "variant_id": "PHONE_007_EN"}
+{"type": "PHONE", "start": 19, "end": 30, "text": "6326773602.", "confidence": 0.6996265947818756, "variant_id": "PHONE_007_EN"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "6", "confidence": 0.9652902483940125, "variant_id": "PHONE_007_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 30, "text": "6326773602.", "confidence": 0.713363490998745, "variant_id": "PHONE_007_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "6", "confidence": 0.8338375687599182, "variant_id": "PHONE_007_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6326773602", "confidence": 0.7613745555281639, "variant_id": "PHONE_007_ROM_HI"}
+{"type": "PHONE", "start": 24, "end": 25, "text": "6", "confidence": 0.867183268070221, "variant_id": "PHONE_007_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6326773602", "confidence": 0.7486757710576057, "variant_id": "PHONE_007_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 25, "text": "6", "confidence": 0.7387333512306213, "variant_id": "PHONE_007_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6326773602", "confidence": 0.7656695693731308, "variant_id": "PHONE_007_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 18, "text": "6", "confidence": 0.7549943923950195, "variant_id": "PHONE_007_HI_LATIN_PII"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "6326773602", "confidence": 0.6946238130331039, "variant_id": "PHONE_007_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9474687234", "confidence": 0.79461168050766, "variant_id": "PHONE_008_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9474687234", "confidence": 0.7531902432441712, "variant_id": "PHONE_008_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 28, "text": "947468723", "confidence": 0.7883591204881668, "variant_id": "PHONE_008_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9474687234", "confidence": 0.6168526649475098, "variant_id": "PHONE_008_HINGLISH"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "9474687234", "confidence": 0.7444100022315979, "variant_id": "PHONE_008_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "9474687234", "confidence": 0.6634806632995606, "variant_id": "PHONE_008_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6500978820", "confidence": 0.8145926743745804, "variant_id": "PHONE_009_EN"}
+{"type": "PHONE", "start": 32, "end": 42, "text": "6500978820", "confidence": 0.7263358235359192, "variant_id": "PHONE_009_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6500978820", "confidence": 0.6944821253418922, "variant_id": "PHONE_009_ROM_HI"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6500978820", "confidence": 0.6859112828969955, "variant_id": "PHONE_009_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6500978820", "confidence": 0.8134238123893738, "variant_id": "PHONE_009_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "6500978820", "confidence": 0.5796926990151405, "variant_id": "PHONE_009_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7191361939", "confidence": 0.7014381587505341, "variant_id": "PHONE_010_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7191361939", "confidence": 0.7668563276529312, "variant_id": "PHONE_010_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7191361939", "confidence": 0.46281392499804497, "variant_id": "PHONE_010_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 25, "text": "719136", "confidence": 0.42640676101048786, "variant_id": "PHONE_010_HINGLISH"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7191361939", "confidence": 0.6085681468248367, "variant_id": "PHONE_010_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "7191361939", "confidence": 0.42877183109521866, "variant_id": "PHONE_010_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6699854353", "confidence": 0.7692155092954636, "variant_id": "PHONE_011_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6699854353", "confidence": 0.6728439629077911, "variant_id": "PHONE_011_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "6699854353", "confidence": 0.6561517268419266, "variant_id": "PHONE_011_ROM_HI"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6699854353", "confidence": 0.5951864644885063, "variant_id": "PHONE_011_HINGLISH"}
+{"type": "PHONE", "start": 24, "end": 34, "text": "6699854353", "confidence": 0.6483350247144699, "variant_id": "PHONE_011_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "6699854353", "confidence": 0.426353856921196, "variant_id": "PHONE_011_HI_LATIN_PII"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7475107991", "confidence": 0.6863371789455414, "variant_id": "PHONE_012_EN"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7475107991", "confidence": 0.6204720377922058, "variant_id": "PHONE_012_IN_EN"}
+{"type": "PHONE", "start": 19, "end": 28, "text": "747510799", "confidence": 0.6545164063572884, "variant_id": "PHONE_012_ROM_HI"}
+{"type": "PHONE", "start": 19, "end": 28, "text": "747510799", "confidence": 0.5326997339725494, "variant_id": "PHONE_012_HINGLISH"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7475107991", "confidence": 0.6599339425563813, "variant_id": "PHONE_012_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 17, "end": 27, "text": "7475107991", "confidence": 0.546165919303894, "variant_id": "PHONE_012_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "sneha8298@webmail.test", "confidence": 0.8482575847042931, "variant_id": "EMAIL_001_EN"}
+{"type": "EMAIL", "start": 43, "end": 65, "text": "sneha8298@webmail.test", "confidence": 0.7938337326049805, "variant_id": "EMAIL_001_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha8298@webmail.test", "confidence": 0.8272321356667413, "variant_id": "EMAIL_001_ROM_HI"}
+{"type": "EMAIL", "start": 16, "end": 38, "text": "sneha8298@webmail.test", "confidence": 0.8018079996109009, "variant_id": "EMAIL_001_HINGLISH"}
+{"type": "EMAIL", "start": 16, "end": 38, "text": "sneha8298@webmail.test", "confidence": 0.7851549486319224, "variant_id": "EMAIL_001_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 32, "text": "sneha8298@webmail.test", "confidence": 0.8660418457455106, "variant_id": "EMAIL_001_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "sneha6064@webmail.test", "confidence": 0.8409035139613681, "variant_id": "EMAIL_002_EN"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "sneha6064@webmail.test", "confidence": 0.824958430396186, "variant_id": "EMAIL_002_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha6064@webmail.test", "confidence": 0.8167720437049866, "variant_id": "EMAIL_002_ROM_HI"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha6064@webmail.test", "confidence": 0.7871250079737769, "variant_id": "EMAIL_002_HINGLISH"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha6064@webmail.test", "confidence": 0.801705347167121, "variant_id": "EMAIL_002_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 32, "text": "sneha6064@webmail.test", "confidence": 0.8483671877119277, "variant_id": "EMAIL_002_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "arjun8676@mail.example", "confidence": 0.9199396073818207, "variant_id": "EMAIL_003_EN"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "arjun8676@mail.example", "confidence": 0.9046391010284424, "variant_id": "EMAIL_003_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "arjun8676@mail.example", "confidence": 0.8747633397579193, "variant_id": "EMAIL_003_ROM_HI"}
+{"type": "EMAIL", "start": 16, "end": 34, "text": "arjun8676@mail.exa", "confidence": 0.8883538775973849, "variant_id": "EMAIL_003_HINGLISH"}
+{"type": "EMAIL", "start": 16, "end": 44, "text": "arjun8676@mail.example h toh", "confidence": 0.8201189612348875, "variant_id": "EMAIL_003_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 32, "text": "arjun8676@mail.example", "confidence": 0.9026851952075958, "variant_id": "EMAIL_003_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "priya2210@webmail.test", "confidence": 0.907275054189894, "variant_id": "EMAIL_004_EN"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "priya2210@webmail.test", "confidence": 0.8411909937858582, "variant_id": "EMAIL_004_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "priya2210@webmail.test", "confidence": 0.8619548877080282, "variant_id": "EMAIL_004_ROM_HI"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "priya2210@webmail.test", "confidence": 0.8137558566199409, "variant_id": "EMAIL_004_HINGLISH"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "priya2210@webmail.test", "confidence": 0.826066255569458, "variant_id": "EMAIL_004_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 32, "text": "priya2210@webmail.test", "confidence": 0.868610507912106, "variant_id": "EMAIL_004_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 36, "text": "amit4472@webmail.example", "confidence": 0.9474068641662597, "variant_id": "EMAIL_005_EN"}
+{"type": "EMAIL", "start": 25, "end": 49, "text": "amit4472@webmail.example", "confidence": 0.9088411152362823, "variant_id": "EMAIL_005_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 31, "text": "amit4472@webmail.exa", "confidence": 0.8868977361255221, "variant_id": "EMAIL_005_ROM_HI"}
+{"type": "EMAIL", "start": 16, "end": 36, "text": "amit4472@webmail.exa", "confidence": 0.8663926853073968, "variant_id": "EMAIL_005_HINGLISH"}
+{"type": "EMAIL", "start": 16, "end": 40, "text": "amit4472@webmail.example", "confidence": 0.8342507481575012, "variant_id": "EMAIL_005_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 34, "text": "amit4472@webmail.example", "confidence": 0.9467264950275421, "variant_id": "EMAIL_005_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "sneha4335@inbox.invalid", "confidence": 0.8825531466440721, "variant_id": "EMAIL_006_EN"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "sneha4335@inbox.invalid", "confidence": 0.8779926760630175, "variant_id": "EMAIL_006_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha4335@inbox.invali", "confidence": 0.8282396107912063, "variant_id": "EMAIL_006_ROM_HI"}
+{"type": "EMAIL", "start": 11, "end": 29, "text": "sneha4335@inbox.in", "confidence": 0.8326603240436978, "variant_id": "EMAIL_006_HINGLISH"}
+{"type": "EMAIL", "start": 11, "end": 36, "text": "sneha4335@inbox.invalid h", "confidence": 0.7901374051968256, "variant_id": "EMAIL_006_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 33, "text": "sneha4335@inbox.invalid", "confidence": 0.8663067357106642, "variant_id": "EMAIL_006_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 32, "text": "vikram4543@mail.test", "confidence": 0.7234458774328232, "variant_id": "EMAIL_007_EN"}
+{"type": "EMAIL", "start": 12, "end": 32, "text": "vikram4543@mail.test", "confidence": 0.6872458383440971, "variant_id": "EMAIL_007_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 31, "text": "vikram4543@mail.test", "confidence": 0.7352430708706379, "variant_id": "EMAIL_007_ROM_HI"}
+{"type": "EMAIL", "start": 16, "end": 36, "text": "vikram4543@mail.test", "confidence": 0.708724319934845, "variant_id": "EMAIL_007_HINGLISH"}
+{"type": "EMAIL", "start": 16, "end": 36, "text": "vikram4543@mail.test", "confidence": 0.7146868631243706, "variant_id": "EMAIL_007_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 30, "text": "vikram4543@mail.test", "confidence": 0.6271061971783638, "variant_id": "EMAIL_007_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "arjun2657@inbox.example", "confidence": 0.944587539542805, "variant_id": "EMAIL_008_EN"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "arjun2657@inbox.example", "confidence": 0.944325631315058, "variant_id": "EMAIL_008_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 30, "text": "arjun2657@inbox.exa", "confidence": 0.9326001405715942, "variant_id": "EMAIL_008_ROM_HI"}
+{"type": "EMAIL", "start": 11, "end": 30, "text": "arjun2657@inbox.exa", "confidence": 0.9145453214645386, "variant_id": "EMAIL_008_HINGLISH"}
+{"type": "EMAIL", "start": 11, "end": 36, "text": "arjun2657@inbox.example h", "confidence": 0.9010084668795267, "variant_id": "EMAIL_008_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 33, "text": "arjun2657@inbox.example", "confidence": 0.9431369033726779, "variant_id": "EMAIL_008_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "rahul1842@mail.example", "confidence": 0.9046288000212775, "variant_id": "EMAIL_009_EN"}
+{"type": "EMAIL", "start": 43, "end": 65, "text": "rahul1842@mail.example", "confidence": 0.8785550660557218, "variant_id": "EMAIL_009_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "rahul1842@mail.example", "confidence": 0.8404792216089036, "variant_id": "EMAIL_009_ROM_HI"}
+{"type": "EMAIL", "start": 16, "end": 34, "text": "rahul1842@mail.exa", "confidence": 0.8688855543732643, "variant_id": "EMAIL_009_HINGLISH"}
+{"type": "EMAIL", "start": 16, "end": 45, "text": "rahul1842@mail.example h arre", "confidence": 0.7330960604277524, "variant_id": "EMAIL_009_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 32, "text": "rahul1842@mail.example", "confidence": 0.8745231893327501, "variant_id": "EMAIL_009_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "rahul6059@corp.invalid", "confidence": 0.8926869763268365, "variant_id": "EMAIL_010_EN"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "rahul6059@corp.invalid", "confidence": 0.8883001406987509, "variant_id": "EMAIL_010_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 32, "text": "rahul6059@corp.invali", "confidence": 0.8982925266027451, "variant_id": "EMAIL_010_ROM_HI"}
+{"type": "EMAIL", "start": 11, "end": 28, "text": "rahul6059@corp.in", "confidence": 0.8762156026703971, "variant_id": "EMAIL_010_HINGLISH"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "rahul6059@corp.invalid", "confidence": 0.8337889346811507, "variant_id": "EMAIL_010_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 31, "text": "rahul6059@corp.invali", "confidence": 0.9117993265390396, "variant_id": "EMAIL_010_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "arjun5984@mail.invalid", "confidence": 0.9127472579479218, "variant_id": "EMAIL_011_EN"}
+{"type": "EMAIL", "start": 12, "end": 34, "text": "arjun5984@mail.invalid", "confidence": 0.870288896560669, "variant_id": "EMAIL_011_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 32, "text": "arjun5984@mail.invali", "confidence": 0.9047898915078905, "variant_id": "EMAIL_011_ROM_HI"}
+{"type": "EMAIL", "start": 16, "end": 37, "text": "arjun5984@mail.invali", "confidence": 0.8591760463184781, "variant_id": "EMAIL_011_HINGLISH"}
+{"type": "EMAIL", "start": 16, "end": 44, "text": "arjun5984@mail.invalid h bro", "confidence": 0.7761078253388405, "variant_id": "EMAIL_011_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 32, "text": "arjun5984@mail.invalid", "confidence": 0.8770209431648255, "variant_id": "EMAIL_011_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "priya5804@inbox.example", "confidence": 0.9246059249747883, "variant_id": "EMAIL_012_EN"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "priya5804@inbox.example", "confidence": 0.947864061052149, "variant_id": "EMAIL_012_IN_EN"}
+{"type": "EMAIL", "start": 11, "end": 34, "text": "priya5804@inbox.example", "confidence": 0.8703033951195803, "variant_id": "EMAIL_012_ROM_HI"}
+{"type": "EMAIL", "start": 11, "end": 30, "text": "priya5804@inbox.exa", "confidence": 0.8705003768205642, "variant_id": "EMAIL_012_HINGLISH"}
+{"type": "EMAIL", "start": 11, "end": 36, "text": "priya5804@inbox.example h", "confidence": 0.8368174980084101, "variant_id": "EMAIL_012_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 10, "end": 33, "text": "priya5804@inbox.example", "confidence": 0.8876952881162817, "variant_id": "EMAIL_012_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "FZZFN0256Z", "confidence": 0.8663660287857056, "variant_id": "PAN_001_EN"}
+{"type": "PAN", "start": 30, "end": 40, "text": "FZZFN0256Z", "confidence": 0.8307241116251264, "variant_id": "PAN_001_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "FZZFN0256Z", "confidence": 0.8821712476866586, "variant_id": "PAN_001_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 31, "text": "FZZFN0256Z", "confidence": 0.8717302509716579, "variant_id": "PAN_001_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "FZZFN0256Z", "confidence": 0.8817583833421979, "variant_id": "PAN_001_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "FZZFN0256Z", "confidence": 0.8909833601542881, "variant_id": "PAN_001_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "FZWDM0733O", "confidence": 0.7834439831120628, "variant_id": "PAN_002_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "FZWDM0733O", "confidence": 0.8026938693864005, "variant_id": "PAN_002_IN_EN"}
+{"type": "PAN", "start": 16, "end": 17, "text": "F", "confidence": 0.724128782749176, "variant_id": "PAN_002_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "FZWDM0733O", "confidence": 0.7506322811047236, "variant_id": "PAN_002_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 17, "text": "F", "confidence": 0.6671707630157471, "variant_id": "PAN_002_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 26, "text": "FZWDM0733O", "confidence": 0.7706029911835989, "variant_id": "PAN_002_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 26, "text": "FZWDM0733O", "confidence": 0.8078769062246595, "variant_id": "PAN_002_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 15, "text": "F", "confidence": 0.6204558610916138, "variant_id": "PAN_002_HI_LATIN_PII"}
+{"type": "PAN", "start": 14, "end": 24, "text": "FZWDM0733O", "confidence": 0.8087261915206909, "variant_id": "PAN_002_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "ZHHAV3654C", "confidence": 0.8247966269652048, "variant_id": "PAN_003_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "ZHHAV3654C", "confidence": 0.8118089536825815, "variant_id": "PAN_003_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "ZHHAV3654C", "confidence": 0.8157192667325338, "variant_id": "PAN_003_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 31, "text": "ZHHAV3654C", "confidence": 0.8091380099455515, "variant_id": "PAN_003_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "ZHHAV3654C", "confidence": 0.8400369882583618, "variant_id": "PAN_003_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 27, "text": "ZHHAV3654C है", "confidence": 0.813263441835131, "variant_id": "PAN_003_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "UQMVR5014F", "confidence": 0.8507769902547201, "variant_id": "PAN_004_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "UQMVR5014F", "confidence": 0.848517487446467, "variant_id": "PAN_004_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "UQMVR5014F", "confidence": 0.7530672152837118, "variant_id": "PAN_004_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "UQMVR5014F", "confidence": 0.7435695628325144, "variant_id": "PAN_004_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 28, "text": "UQMVR5014F h", "confidence": 0.8058791203158242, "variant_id": "PAN_004_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "UQMVR5014F", "confidence": 0.8406472901503245, "variant_id": "PAN_004_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "BDTNL5698D", "confidence": 0.7423319518566132, "variant_id": "PAN_005_EN"}
+{"type": "PAN", "start": 48, "end": 58, "text": "BDTNL5698D", "confidence": 0.7624218960603079, "variant_id": "PAN_005_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "BDTNL5698D", "confidence": 0.8006008863449097, "variant_id": "PAN_005_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 31, "text": "BDTNL5698D", "confidence": 0.7492891550064087, "variant_id": "PAN_005_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "BDTNL5698D", "confidence": 0.8030248284339905, "variant_id": "PAN_005_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "BDTNL5698D", "confidence": 0.7704960803190867, "variant_id": "PAN_005_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "GIBWN0883L", "confidence": 0.8384946584701538, "variant_id": "PAN_006_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "GIBWN0883L", "confidence": 0.8790852626164755, "variant_id": "PAN_006_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "GIBWN0883L", "confidence": 0.8073065479596456, "variant_id": "PAN_006_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "GIBWN0883L", "confidence": 0.7910628616809845, "variant_id": "PAN_006_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 26, "text": "GIBWN0883L", "confidence": 0.8592475454012553, "variant_id": "PAN_006_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "GIBWN0883L", "confidence": 0.7756746808687845, "variant_id": "PAN_006_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "VKTKV1484V", "confidence": 0.7340195079644521, "variant_id": "PAN_007_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "VKTKV1484V", "confidence": 0.7806692322095236, "variant_id": "PAN_007_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "VKTKV1484V", "confidence": 0.777277002731959, "variant_id": "PAN_007_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 31, "text": "VKTKV1484V", "confidence": 0.7893835107485453, "variant_id": "PAN_007_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 33, "text": "VKTKV1484V h", "confidence": 0.7806448681013924, "variant_id": "PAN_007_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "VKTKV1484V", "confidence": 0.7780292729536692, "variant_id": "PAN_007_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "MWJRE3662T", "confidence": 0.7673343618710836, "variant_id": "PAN_008_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "MWJRE3662T", "confidence": 0.7877629001935323, "variant_id": "PAN_008_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "MWJRE3662T", "confidence": 0.6951996932427088, "variant_id": "PAN_008_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "MWJRE3662T", "confidence": 0.7107453693946203, "variant_id": "PAN_008_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 26, "text": "MWJRE3662T", "confidence": 0.8097787002722422, "variant_id": "PAN_008_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "MWJRE3662T", "confidence": 0.8005708058675131, "variant_id": "PAN_008_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "MRAJJ3699U", "confidence": 0.7377524673938751, "variant_id": "PAN_009_EN"}
+{"type": "PAN", "start": 30, "end": 40, "text": "MRAJJ3699U", "confidence": 0.7687981724739075, "variant_id": "PAN_009_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "MRAJJ3699U", "confidence": 0.6177456180254618, "variant_id": "PAN_009_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 31, "text": "MRAJJ3699U", "confidence": 0.6820730964342753, "variant_id": "PAN_009_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "MRAJJ3699U", "confidence": 0.80147918065389, "variant_id": "PAN_009_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "MRAJJ3699U", "confidence": 0.636766235033671, "variant_id": "PAN_009_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "OOVGQ7214Q", "confidence": 0.7613816431590489, "variant_id": "PAN_010_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "OOVGQ7214Q", "confidence": 0.770715628351484, "variant_id": "PAN_010_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "OOVGQ7214Q", "confidence": 0.7786565933908735, "variant_id": "PAN_010_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "OOVGQ7214Q", "confidence": 0.770572440964835, "variant_id": "PAN_010_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 28, "text": "OOVGQ7214Q h", "confidence": 0.7276438437402248, "variant_id": "PAN_010_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "OOVGQ7214Q", "confidence": 0.7358925555433545, "variant_id": "PAN_010_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "CYHVJ3320B", "confidence": 0.7848097341401237, "variant_id": "PAN_011_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "CYHVJ3320B", "confidence": 0.7917481533118657, "variant_id": "PAN_011_IN_EN"}
+{"type": "PAN", "start": 16, "end": 17, "text": "C", "confidence": 0.6961354613304138, "variant_id": "PAN_011_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "CYHVJ3320B", "confidence": 0.7836137314637502, "variant_id": "PAN_011_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 22, "text": "C", "confidence": 0.6999788284301758, "variant_id": "PAN_011_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "CYHVJ3320B", "confidence": 0.7903587520122528, "variant_id": "PAN_011_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "CYHVJ3320B", "confidence": 0.7891508255686078, "variant_id": "PAN_011_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 15, "text": "C", "confidence": 0.6020107865333557, "variant_id": "PAN_011_HI_LATIN_PII"}
+{"type": "PAN", "start": 14, "end": 24, "text": "CYHVJ3320B", "confidence": 0.8344434003035227, "variant_id": "PAN_011_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "TYCON9367M", "confidence": 0.7489923477172852, "variant_id": "PAN_012_EN"}
+{"type": "PAN", "start": 17, "end": 27, "text": "TYCON9367M", "confidence": 0.7629329681396484, "variant_id": "PAN_012_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "TYCON9367M", "confidence": 0.6524927318096161, "variant_id": "PAN_012_ROM_HI"}
+{"type": "PAN", "start": 16, "end": 26, "text": "TYCON9367M", "confidence": 0.6673587560653687, "variant_id": "PAN_012_HINGLISH"}
+{"type": "PAN", "start": 16, "end": 26, "text": "TYCON9367M", "confidence": 0.7791069507598877, "variant_id": "PAN_012_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "TYCON9367M", "confidence": 0.7009768605232238, "variant_id": "PAN_012_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "UWAYY1632Z", "confidence": 0.6579229185978571, "variant_id": "PAN_013_EN"}
+{"type": "PAN", "start": 48, "end": 58, "text": "UWAYY1632Z", "confidence": 0.744996557633082, "variant_id": "PAN_013_IN_EN"}
+{"type": "PAN", "start": 16, "end": 26, "text": "UWAYY1632Z", "confidence": 0.4036487142244975, "variant_id": "PAN_013_ROM_HI"}
+{"type": "PAN", "start": 21, "end": 31, "text": "UWAYY1632Z", "confidence": 0.5298680712779363, "variant_id": "PAN_013_HINGLISH"}
+{"type": "PAN", "start": 21, "end": 31, "text": "UWAYY1632Z", "confidence": 0.6938877503077189, "variant_id": "PAN_013_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 14, "end": 24, "text": "UWAYY1632Z", "confidence": 0.7015538563330969, "variant_id": "PAN_013_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "083172788957", "confidence": 0.383452740808328, "variant_id": "AADHAAR_001_EN"}
+{"type": "PHONE", "start": 21, "end": 33, "text": "083172788957", "confidence": 0.35147153586149216, "variant_id": "AADHAAR_001_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "083172788957", "confidence": 0.318092904984951, "variant_id": "AADHAAR_001_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 23, "text": "083", "confidence": 0.35497573018074036, "variant_id": "AADHAAR_001_HINGLISH"}
+{"type": "PHONE", "start": 23, "end": 32, "text": "172788957", "confidence": 0.40716685354709625, "variant_id": "AADHAAR_001_HINGLISH"}
+{"type": "PHONE", "start": 20, "end": 32, "text": "083172788957", "confidence": 0.4206400563319524, "variant_id": "AADHAAR_001_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 15, "end": 27, "text": "083172788957", "confidence": 0.41769908368587494, "variant_id": "AADHAAR_001_HI_LATIN_PII"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "687277434873", "confidence": 0.4635960817337036, "variant_id": "AADHAAR_002_EN"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "687277434873", "confidence": 0.38795762062072753, "variant_id": "AADHAAR_002_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "687277434873", "confidence": 0.6323628127574921, "variant_id": "AADHAAR_002_ROM_HI"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "687277434873", "confidence": 0.5789856791496277, "variant_id": "AADHAAR_002_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "687277434873", "confidence": 0.5019549012184144, "variant_id": "AADHAAR_002_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "687277434873", "confidence": 0.5709638059139251, "variant_id": "AADHAAR_002_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "143455812236", "confidence": 0.5687361061573029, "variant_id": "AADHAAR_003_EN"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "143455812236", "confidence": 0.4904882788658142, "variant_id": "AADHAAR_003_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "143455812236", "confidence": 0.4515809714794159, "variant_id": "AADHAAR_003_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "143455812236", "confidence": 0.37046163976192475, "variant_id": "AADHAAR_003_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 32, "text": "143455812236", "confidence": 0.37618890404701233, "variant_id": "AADHAAR_003_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 15, "end": 27, "text": "143455812236", "confidence": 0.4614394545555115, "variant_id": "AADHAAR_003_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "166587603669", "confidence": 0.5872915744781494, "variant_id": "AADHAAR_004_EN"}
+{"type": "AADHAAR", "start": 34, "end": 46, "text": "166587603669", "confidence": 0.5820951700210572, "variant_id": "AADHAAR_004_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "166587603669", "confidence": 0.5693413257598877, "variant_id": "AADHAAR_004_ROM_HI"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "166587603669", "confidence": 0.5527368187904358, "variant_id": "AADHAAR_004_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "166587603669", "confidence": 0.45810280442237855, "variant_id": "AADHAAR_004_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "166587603669", "confidence": 0.4308253049850464, "variant_id": "AADHAAR_004_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "670546688937", "confidence": 0.4685579419136047, "variant_id": "AADHAAR_005_EN"}
+{"type": "AADHAAR", "start": 21, "end": 22, "text": "6", "confidence": 0.49168649315834045, "variant_id": "AADHAAR_005_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 33, "text": "70546688937", "confidence": 0.3293834999203682, "variant_id": "AADHAAR_005_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "670546688937", "confidence": 0.4784295856952667, "variant_id": "AADHAAR_005_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "670546688937", "confidence": 0.40903236269950866, "variant_id": "AADHAAR_005_HINGLISH"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "670546688937", "confidence": 0.33589373230934144, "variant_id": "AADHAAR_005_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 15, "end": 27, "text": "670546688937", "confidence": 0.3825217425823212, "variant_id": "AADHAAR_005_HI_LATIN_PII"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "670656272980", "confidence": 0.3772026300430298, "variant_id": "AADHAAR_006_EN"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "670656272980", "confidence": 0.38844898094733554, "variant_id": "AADHAAR_006_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 21, "text": "6", "confidence": 0.6288040280342102, "variant_id": "AADHAAR_006_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "670656272980", "confidence": 0.44011980295181274, "variant_id": "AADHAAR_006_ROM_HI"}
+{"type": "AADHAAR", "start": 25, "end": 26, "text": "6", "confidence": 0.6453678607940674, "variant_id": "AADHAAR_006_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "670656272980", "confidence": 0.5037443399429321, "variant_id": "AADHAAR_006_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 26, "text": "6", "confidence": 0.4046247601509094, "variant_id": "AADHAAR_006_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "670656272980", "confidence": 0.3954842954874039, "variant_id": "AADHAAR_006_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 21, "text": "670656", "confidence": 0.436641126871109, "variant_id": "AADHAAR_006_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 27, "text": "272980", "confidence": 0.5716288288434347, "variant_id": "AADHAAR_006_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "901627204653", "confidence": 0.5018116652965545, "variant_id": "AADHAAR_007_EN"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "901627204653", "confidence": 0.43289677500724794, "variant_id": "AADHAAR_007_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "901627204653", "confidence": 0.550173681974411, "variant_id": "AADHAAR_007_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "901627204653", "confidence": 0.42415059804916383, "variant_id": "AADHAAR_007_HINGLISH"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "901627204653", "confidence": 0.3992963254451752, "variant_id": "AADHAAR_007_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "901627204653", "confidence": 0.41263375282287595, "variant_id": "AADHAAR_007_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "564641708053", "confidence": 0.4880799323320389, "variant_id": "AADHAAR_008_EN"}
+{"type": "AADHAAR", "start": 52, "end": 64, "text": "564641708053", "confidence": 0.5985186040401459, "variant_id": "AADHAAR_008_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "564641708053", "confidence": 0.5265985012054444, "variant_id": "AADHAAR_008_ROM_HI"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "564641708053", "confidence": 0.514855021238327, "variant_id": "AADHAAR_008_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "564641708053", "confidence": 0.45402822494506834, "variant_id": "AADHAAR_008_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 23, "text": "56464170", "confidence": 0.5638226171334585, "variant_id": "AADHAAR_008_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 23, "end": 27, "text": "8053", "confidence": 0.5946647375822067, "variant_id": "AADHAAR_008_HI_LATIN_PII"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "033092327193", "confidence": 0.44260834405819577, "variant_id": "AADHAAR_009_EN"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "033092327193", "confidence": 0.3939359188079834, "variant_id": "AADHAAR_009_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "033092327193", "confidence": 0.566060483455658, "variant_id": "AADHAAR_009_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "033092327193", "confidence": 0.47766763468583423, "variant_id": "AADHAAR_009_HINGLISH"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "033092327193", "confidence": 0.4443881958723068, "variant_id": "AADHAAR_009_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "033092327193", "confidence": 0.376581609249115, "variant_id": "AADHAAR_009_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "529912419049", "confidence": 0.5408945679664612, "variant_id": "AADHAAR_010_EN"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "529912419049", "confidence": 0.4846529960632324, "variant_id": "AADHAAR_010_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "529912419049", "confidence": 0.459730988740921, "variant_id": "AADHAAR_010_ROM_HI"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "529912419049", "confidence": 0.43375076055526735, "variant_id": "AADHAAR_010_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "529912419049", "confidence": 0.37754051089286805, "variant_id": "AADHAAR_010_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 15, "end": 27, "text": "529912419049", "confidence": 0.3542638450860977, "variant_id": "AADHAAR_010_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "319314919058", "confidence": 0.4328433394432068, "variant_id": "AADHAAR_011_EN"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "319314919058", "confidence": 0.33023014962673186, "variant_id": "AADHAAR_011_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "319314919058", "confidence": 0.5308474421501159, "variant_id": "AADHAAR_011_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "319314919058", "confidence": 0.4920450448989868, "variant_id": "AADHAAR_011_HINGLISH"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "319314919058", "confidence": 0.4452095180749893, "variant_id": "AADHAAR_011_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "319314919058", "confidence": 0.38917737603187563, "variant_id": "AADHAAR_011_HI_LATIN_PII"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "185067165726", "confidence": 0.4306535840034485, "variant_id": "AADHAAR_012_EN"}
+{"type": "AADHAAR", "start": 34, "end": 46, "text": "185067165726", "confidence": 0.62256019115448, "variant_id": "AADHAAR_012_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "185067165726", "confidence": 0.499682629108429, "variant_id": "AADHAAR_012_ROM_HI"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "185067165726", "confidence": 0.51206876039505, "variant_id": "AADHAAR_012_HINGLISH"}
+{"type": "AADHAAR", "start": 25, "end": 37, "text": "185067165726", "confidence": 0.38822501301765444, "variant_id": "AADHAAR_012_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "185067165726", "confidence": 0.4562986671924591, "variant_id": "AADHAAR_012_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "498776945314", "confidence": 0.3844373464584351, "variant_id": "AADHAAR_013_EN"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "498776945314", "confidence": 0.3173847794532776, "variant_id": "AADHAAR_013_IN_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "498776945314", "confidence": 0.5086351573467255, "variant_id": "AADHAAR_013_ROM_HI"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "498776945314", "confidence": 0.49691432118415835, "variant_id": "AADHAAR_013_HINGLISH"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "498776945314", "confidence": 0.42628017365932463, "variant_id": "AADHAAR_013_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 15, "end": 27, "text": "498776945314", "confidence": 0.37203353047370913, "variant_id": "AADHAAR_013_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9996507527@mail.test", "confidence": 0.4244083594530821, "variant_id": "UPI_ID_001_EN"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 21, "text": "99965075", "confidence": 0.32993965844313305, "variant_id": "UPI_ID_001_IN_EN"}
+{"type": "UPI_ID", "start": 21, "end": 33, "text": "27@mail.test", "confidence": 0.6922243475914002, "variant_id": "UPI_ID_001_IN_EN"}
+{"type": "AADHAAR", "start": 12, "end": 20, "text": "99965075", "confidence": 0.385299285252889, "variant_id": "UPI_ID_001_ROM_HI"}
+{"type": "UPI_ID", "start": 20, "end": 32, "text": "27@mail.test", "confidence": 0.6073440253734589, "variant_id": "UPI_ID_001_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "9996507527@mail.test", "confidence": 0.48119895346462727, "variant_id": "UPI_ID_001_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "9996507527@mail.test", "confidence": 0.5234076082706451, "variant_id": "UPI_ID_001_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 12, "end": 20, "text": "99965075", "confidence": 0.3469116985797882, "variant_id": "UPI_ID_001_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 20, "end": 32, "text": "27@mail.test", "confidence": 0.6473477125167847, "variant_id": "UPI_ID_001_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8549480831@mail.test", "confidence": 0.4868517108261585, "variant_id": "UPI_ID_002_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8549480831@mail.test", "confidence": 0.4983496982604265, "variant_id": "UPI_ID_002_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8549480831@mail.test", "confidence": 0.5052451658993959, "variant_id": "UPI_ID_002_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8549480831@mail.test", "confidence": 0.5231690388172865, "variant_id": "UPI_ID_002_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8549480831@mail.test", "confidence": 0.519569892436266, "variant_id": "UPI_ID_002_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8549480831@mail.test", "confidence": 0.5560577604919672, "variant_id": "UPI_ID_002_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9837770143@mail.test", "confidence": 0.5228736102581024, "variant_id": "UPI_ID_003_EN"}
+{"type": "UPI_ID", "start": 44, "end": 64, "text": "9837770143@mail.test", "confidence": 0.7041967213153839, "variant_id": "UPI_ID_003_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9837770143@mail.test", "confidence": 0.5540832169353962, "variant_id": "UPI_ID_003_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "9837770143@mail.test", "confidence": 0.5798097364604473, "variant_id": "UPI_ID_003_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "9837770143@mail.test", "confidence": 0.6653395555913448, "variant_id": "UPI_ID_003_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9837770143@mail.test", "confidence": 0.5998166389763355, "variant_id": "UPI_ID_003_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8957885685@mail.test", "confidence": 0.47946595028042793, "variant_id": "UPI_ID_004_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8957885685@mail.test", "confidence": 0.5101166069507599, "variant_id": "UPI_ID_004_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8957885685@mail.test", "confidence": 0.5391526557505131, "variant_id": "UPI_ID_004_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8957885685@mail.test", "confidence": 0.5531194172799587, "variant_id": "UPI_ID_004_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8957885685@mail.test", "confidence": 0.580789964646101, "variant_id": "UPI_ID_004_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8957885685@mail.test", "confidence": 0.5469633117318153, "variant_id": "UPI_ID_004_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8443135182@mail.test", "confidence": 0.4331498984247446, "variant_id": "UPI_ID_005_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "8443135182@mail.test", "confidence": 0.5225443076342344, "variant_id": "UPI_ID_005_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8443135182@mail.test", "confidence": 0.5279575921595097, "variant_id": "UPI_ID_005_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "8443135182@mail.test", "confidence": 0.5440377742052078, "variant_id": "UPI_ID_005_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "8443135182@mail.test", "confidence": 0.6017926335334778, "variant_id": "UPI_ID_005_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8443135182@mail.test", "confidence": 0.5299936383962631, "variant_id": "UPI_ID_005_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9498941343@mail.test", "confidence": 0.45964493685298496, "variant_id": "UPI_ID_006_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9498941343@mail.test", "confidence": 0.5565610627333323, "variant_id": "UPI_ID_006_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9498941343@mail.test", "confidence": 0.530072334739897, "variant_id": "UPI_ID_006_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9498941343@mail.test", "confidence": 0.5343216790093316, "variant_id": "UPI_ID_006_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9498941343@mail.test", "confidence": 0.5688508715894487, "variant_id": "UPI_ID_006_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9498941343@mail.test", "confidence": 0.5422112958298789, "variant_id": "UPI_ID_006_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 20, "text": "8082400", "confidence": 0.4648775855700175, "variant_id": "UPI_ID_007_EN"}
+{"type": "UPI_ID", "start": 20, "end": 33, "text": "842@mail.test", "confidence": 0.5619122207164764, "variant_id": "UPI_ID_007_EN"}
+{"type": "UPI_ID", "start": 26, "end": 46, "text": "8082400842@mail.test", "confidence": 0.5588698238134384, "variant_id": "UPI_ID_007_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8082400842@mail.test", "confidence": 0.4916083663702011, "variant_id": "UPI_ID_007_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "8082400842@mail.test", "confidence": 0.5154707860201597, "variant_id": "UPI_ID_007_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "8082400842@mail.test", "confidence": 0.5606457777321339, "variant_id": "UPI_ID_007_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "8082400842@mail.test", "confidence": 0.5734821557998657, "variant_id": "UPI_ID_007_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6947775204@mail.test", "confidence": 0.5237237140536308, "variant_id": "UPI_ID_008_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6947775204@mail.test", "confidence": 0.6197812147438526, "variant_id": "UPI_ID_008_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6947775204@mail.test", "confidence": 0.5652291253209114, "variant_id": "UPI_ID_008_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6947775204@mail.test", "confidence": 0.5911628752946854, "variant_id": "UPI_ID_008_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6947775204@mail.test", "confidence": 0.6325924843549728, "variant_id": "UPI_ID_008_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6947775204@mail.test", "confidence": 0.576301921159029, "variant_id": "UPI_ID_008_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 14, "text": "6", "confidence": 0.46698129177093506, "variant_id": "UPI_ID_009_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6671902294@mail.test", "confidence": 0.44002682715654373, "variant_id": "UPI_ID_009_EN"}
+{"type": "UPI_ID", "start": 13, "end": 14, "text": "6", "confidence": 0.45168426632881165, "variant_id": "UPI_ID_009_IN_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6671902294@mail.test", "confidence": 0.5158349275588989, "variant_id": "UPI_ID_009_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 13, "text": "6", "confidence": 0.29357942938804626, "variant_id": "UPI_ID_009_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6671902294@mail.test", "confidence": 0.49380557239055634, "variant_id": "UPI_ID_009_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "6671902294@mail.test", "confidence": 0.5318461060523987, "variant_id": "UPI_ID_009_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 18, "text": "6", "confidence": 0.45290032029151917, "variant_id": "UPI_ID_009_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "6671902294@mail.test", "confidence": 0.5616728402674198, "variant_id": "UPI_ID_009_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 13, "text": "6", "confidence": 0.42191845178604126, "variant_id": "UPI_ID_009_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6671902294@mail.test", "confidence": 0.5183891374617815, "variant_id": "UPI_ID_009_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6869993867@mail.test", "confidence": 0.42976924445894027, "variant_id": "UPI_ID_010_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "6869993867@mail.test", "confidence": 0.4027095254924562, "variant_id": "UPI_ID_010_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 13, "text": "6", "confidence": 0.32241031527519226, "variant_id": "UPI_ID_010_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6869993867@mail.test", "confidence": 0.47345342859625816, "variant_id": "UPI_ID_010_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6869993867@mail.test", "confidence": 0.45033321612411076, "variant_id": "UPI_ID_010_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6869993867@mail.test", "confidence": 0.48420511682828266, "variant_id": "UPI_ID_010_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 13, "text": "6", "confidence": 0.42771777510643005, "variant_id": "UPI_ID_010_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "6869993867@mail.test", "confidence": 0.5007018186151981, "variant_id": "UPI_ID_010_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "9499091334@mail.test", "confidence": 0.4625700041651726, "variant_id": "UPI_ID_011_EN"}
+{"type": "UPI_ID", "start": 44, "end": 64, "text": "9499091334@mail.test", "confidence": 0.598516795784235, "variant_id": "UPI_ID_011_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9499091334@mail.test", "confidence": 0.42408573254942894, "variant_id": "UPI_ID_011_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "9499091334@mail.test", "confidence": 0.48149441182613373, "variant_id": "UPI_ID_011_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "9499091334@mail.test", "confidence": 0.5045794993638992, "variant_id": "UPI_ID_011_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "9499091334@mail.test", "confidence": 0.5203013587743044, "variant_id": "UPI_ID_011_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "7281206797@mail.test", "confidence": 0.4455798798137241, "variant_id": "UPI_ID_012_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "7281206797@mail.test", "confidence": 0.4484516614013248, "variant_id": "UPI_ID_012_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "7281206797@mail.test", "confidence": 0.5103228241205215, "variant_id": "UPI_ID_012_ROM_HI"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "7281206797@mail.test", "confidence": 0.5087864597638448, "variant_id": "UPI_ID_012_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "7281206797@mail.test", "confidence": 0.5218675351805158, "variant_id": "UPI_ID_012_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "7281206797@mail.test", "confidence": 0.5547946310705609, "variant_id": "UPI_ID_012_HI_LATIN_PII"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "7447134936@mail.test", "confidence": 0.4996795356273651, "variant_id": "UPI_ID_013_EN"}
+{"type": "UPI_ID", "start": 13, "end": 33, "text": "7447134936@mail.test", "confidence": 0.5770118534564972, "variant_id": "UPI_ID_013_IN_EN"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "7447134936@mail.test", "confidence": 0.493549894541502, "variant_id": "UPI_ID_013_ROM_HI"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "7447134936@mail.test", "confidence": 0.5324529260396957, "variant_id": "UPI_ID_013_HINGLISH"}
+{"type": "UPI_ID", "start": 17, "end": 37, "text": "7447134936@mail.test", "confidence": 0.6556804366409779, "variant_id": "UPI_ID_013_INFORMAL_HINGLISH"}
+{"type": "UPI_ID", "start": 12, "end": 32, "text": "7447134936@mail.test", "confidence": 0.5407742187380791, "variant_id": "UPI_ID_013_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "324210249947", "confidence": 0.8848713835080465, "variant_id": "BANK_ACCOUNT_001_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "324210249947", "confidence": 0.8766673803329468, "variant_id": "BANK_ACCOUNT_001_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "324210249947", "confidence": 0.6645783533652624, "variant_id": "BANK_ACCOUNT_001_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "324210249947", "confidence": 0.7325594574213028, "variant_id": "BANK_ACCOUNT_001_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "324210249947", "confidence": 0.7281293123960495, "variant_id": "BANK_ACCOUNT_001_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "324210249947", "confidence": 0.7558710177739462, "variant_id": "BANK_ACCOUNT_001_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "464887719065", "confidence": 0.7757752656936645, "variant_id": "BANK_ACCOUNT_002_EN"}
+{"type": "BANK_ACCOUNT", "start": 39, "end": 51, "text": "464887719065", "confidence": 0.6724837183952331, "variant_id": "BANK_ACCOUNT_002_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "464887719065", "confidence": 0.4500278651714325, "variant_id": "BANK_ACCOUNT_002_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "464887719065", "confidence": 0.4957743763923645, "variant_id": "BANK_ACCOUNT_002_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "464887719065", "confidence": 0.6273243129253387, "variant_id": "BANK_ACCOUNT_002_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "464887719065", "confidence": 0.5758845210075378, "variant_id": "BANK_ACCOUNT_002_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "013990490278", "confidence": 0.7570857286453248, "variant_id": "BANK_ACCOUNT_003_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "013990490278", "confidence": 0.7192158401012421, "variant_id": "BANK_ACCOUNT_003_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "013990490278", "confidence": 0.45088735818862913, "variant_id": "BANK_ACCOUNT_003_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "013990490278", "confidence": 0.5721034109592438, "variant_id": "BANK_ACCOUNT_003_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "013990490278", "confidence": 0.6835847198963165, "variant_id": "BANK_ACCOUNT_003_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "013990490278", "confidence": 0.5015559196472168, "variant_id": "BANK_ACCOUNT_003_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "296717565512", "confidence": 0.9111921429634094, "variant_id": "BANK_ACCOUNT_004_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "296717565512", "confidence": 0.9279109954833984, "variant_id": "BANK_ACCOUNT_004_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "296717565512", "confidence": 0.5921224653720856, "variant_id": "BANK_ACCOUNT_004_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "296717565512", "confidence": 0.5361884236335754, "variant_id": "BANK_ACCOUNT_004_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "296717565512", "confidence": 0.7068333208560944, "variant_id": "BANK_ACCOUNT_004_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "296717565512", "confidence": 0.777526342868805, "variant_id": "BANK_ACCOUNT_004_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "746807154516", "confidence": 0.845688392718633, "variant_id": "BANK_ACCOUNT_005_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "746807154516", "confidence": 0.8977596461772919, "variant_id": "BANK_ACCOUNT_005_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "746807154516", "confidence": 0.6176421095927557, "variant_id": "BANK_ACCOUNT_005_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "746807154516", "confidence": 0.6706543018420538, "variant_id": "BANK_ACCOUNT_005_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "746807154516", "confidence": 0.6863545080025991, "variant_id": "BANK_ACCOUNT_005_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "746807154516", "confidence": 0.7546870013078054, "variant_id": "BANK_ACCOUNT_005_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 39, "text": "876038597703.", "confidence": 0.7474088907241822, "variant_id": "BANK_ACCOUNT_006_EN"}
+{"type": "BANK_ACCOUNT", "start": 57, "end": 70, "text": "876038597703.", "confidence": 0.6299007356166839, "variant_id": "BANK_ACCOUNT_006_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "876038597703", "confidence": 0.5919886291027069, "variant_id": "BANK_ACCOUNT_006_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "876038597703", "confidence": 0.5551451742649078, "variant_id": "BANK_ACCOUNT_006_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "876038597703", "confidence": 0.6477739572525024, "variant_id": "BANK_ACCOUNT_006_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "876038597703", "confidence": 0.7190909504890441, "variant_id": "BANK_ACCOUNT_006_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "247710932480", "confidence": 0.8577229022979737, "variant_id": "BANK_ACCOUNT_007_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "247710932480", "confidence": 0.8746305704116821, "variant_id": "BANK_ACCOUNT_007_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "247710932480", "confidence": 0.5350122332572937, "variant_id": "BANK_ACCOUNT_007_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "247710932480", "confidence": 0.6432510673999786, "variant_id": "BANK_ACCOUNT_007_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "247710932480", "confidence": 0.7241776585578918, "variant_id": "BANK_ACCOUNT_007_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "247710932480", "confidence": 0.6122370719909668, "variant_id": "BANK_ACCOUNT_007_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "131712748467", "confidence": 0.9409531593322754, "variant_id": "BANK_ACCOUNT_008_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "131712748467", "confidence": 0.9514827728271484, "variant_id": "BANK_ACCOUNT_008_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "131712748467", "confidence": 0.7556899666786194, "variant_id": "BANK_ACCOUNT_008_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "131712748467", "confidence": 0.6939726769924164, "variant_id": "BANK_ACCOUNT_008_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "131712748467", "confidence": 0.8237448692321777, "variant_id": "BANK_ACCOUNT_008_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "131712748467", "confidence": 0.8588977932929993, "variant_id": "BANK_ACCOUNT_008_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "782639821465", "confidence": 0.9348263144493103, "variant_id": "BANK_ACCOUNT_009_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "782639821465", "confidence": 0.9482559084892273, "variant_id": "BANK_ACCOUNT_009_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "782639821465", "confidence": 0.6932100892066956, "variant_id": "BANK_ACCOUNT_009_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "782639821465", "confidence": 0.8005998730659485, "variant_id": "BANK_ACCOUNT_009_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "782639821465", "confidence": 0.8708632946014404, "variant_id": "BANK_ACCOUNT_009_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "782639821465", "confidence": 0.8279495954513549, "variant_id": "BANK_ACCOUNT_009_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 27, "text": "0", "confidence": 0.7358116507530212, "variant_id": "BANK_ACCOUNT_010_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "044997278755", "confidence": 0.6667077243328094, "variant_id": "BANK_ACCOUNT_010_EN"}
+{"type": "BANK_ACCOUNT", "start": 39, "end": 40, "text": "0", "confidence": 0.832294225692749, "variant_id": "BANK_ACCOUNT_010_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 39, "end": 51, "text": "044997278755", "confidence": 0.5072303414344788, "variant_id": "BANK_ACCOUNT_010_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 26, "text": "0", "confidence": 0.3397678732872009, "variant_id": "BANK_ACCOUNT_010_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "044997278755", "confidence": 0.3335968479514122, "variant_id": "BANK_ACCOUNT_010_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 31, "text": "0", "confidence": 0.3326260447502136, "variant_id": "BANK_ACCOUNT_010_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "044997278755", "confidence": 0.32760732248425484, "variant_id": "BANK_ACCOUNT_010_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 31, "text": "0", "confidence": 0.33222347497940063, "variant_id": "BANK_ACCOUNT_010_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "044997278755", "confidence": 0.3730391450226307, "variant_id": "BANK_ACCOUNT_010_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 23, "text": "0", "confidence": 0.46937090158462524, "variant_id": "BANK_ACCOUNT_010_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "044997278755", "confidence": 0.5027588829398155, "variant_id": "BANK_ACCOUNT_010_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "675339636057", "confidence": 0.6916083594163259, "variant_id": "BANK_ACCOUNT_011_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "675339636057", "confidence": 0.763265977303187, "variant_id": "BANK_ACCOUNT_011_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 26, "text": "6", "confidence": 0.4421868920326233, "variant_id": "BANK_ACCOUNT_011_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "675339636057", "confidence": 0.40163699686527254, "variant_id": "BANK_ACCOUNT_011_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 26, "text": "6", "confidence": 0.5707812905311584, "variant_id": "BANK_ACCOUNT_011_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "675339636057", "confidence": 0.5126603245735168, "variant_id": "BANK_ACCOUNT_011_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 26, "text": "6", "confidence": 0.6692410111427307, "variant_id": "BANK_ACCOUNT_011_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "675339636057", "confidence": 0.6169312536716461, "variant_id": "BANK_ACCOUNT_011_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 23, "text": "6", "confidence": 0.5170257687568665, "variant_id": "BANK_ACCOUNT_011_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "675339636057", "confidence": 0.5031405031681061, "variant_id": "BANK_ACCOUNT_011_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "270289517187", "confidence": 0.8271482825279236, "variant_id": "BANK_ACCOUNT_012_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "270289517187", "confidence": 0.8495863437652588, "variant_id": "BANK_ACCOUNT_012_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "270289517187", "confidence": 0.5122428476810456, "variant_id": "BANK_ACCOUNT_012_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "270289517187", "confidence": 0.47125159204006195, "variant_id": "BANK_ACCOUNT_012_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 42, "text": "270289517187", "confidence": 0.5887074649333954, "variant_id": "BANK_ACCOUNT_012_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "270289517187", "confidence": 0.5802000313997269, "variant_id": "BANK_ACCOUNT_012_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "621745961586", "confidence": 0.8678354620933533, "variant_id": "BANK_ACCOUNT_013_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "621745961586", "confidence": 0.9219438672065735, "variant_id": "BANK_ACCOUNT_013_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "621745961586", "confidence": 0.5564198613166809, "variant_id": "BANK_ACCOUNT_013_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "621745961586", "confidence": 0.6629392087459565, "variant_id": "BANK_ACCOUNT_013_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 37, "text": "621745961586", "confidence": 0.7950692176818848, "variant_id": "BANK_ACCOUNT_013_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 34, "text": "621745961586", "confidence": 0.7020506083965301, "variant_id": "BANK_ACCOUNT_013_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 30, "text": "6043321819", "confidence": 0.32466288208961486, "variant_id": "NEG_001_EN"}
+{"type": "AADHAAR", "start": 33, "end": 34, "text": "6", "confidence": 0.29561561346054077, "variant_id": "NEG_001_IN_EN"}
+{"type": "AADHAAR", "start": 33, "end": 43, "text": "6043321819", "confidence": 0.41195304691791534, "variant_id": "NEG_001_IN_EN"}
+{"type": "AADHAAR", "start": 18, "end": 19, "text": "6", "confidence": 0.6491435170173645, "variant_id": "NEG_001_ROM_HI"}
+{"type": "AADHAAR", "start": 18, "end": 28, "text": "6043321819", "confidence": 0.3344399146735668, "variant_id": "NEG_001_ROM_HI"}
+{"type": "AADHAAR", "start": 23, "end": 24, "text": "6", "confidence": 0.714506208896637, "variant_id": "NEG_001_HINGLISH"}
+{"type": "AADHAAR", "start": 23, "end": 33, "text": "6043321819", "confidence": 0.30296754837036133, "variant_id": "NEG_001_HINGLISH"}
+{"type": "PHONE", "start": 23, "end": 24, "text": "6", "confidence": 0.38619711995124817, "variant_id": "NEG_001_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 23, "end": 33, "text": "6043321819", "confidence": 0.387231208384037, "variant_id": "NEG_001_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 16, "end": 17, "text": "6", "confidence": 0.5192683339118958, "variant_id": "NEG_001_HI_LATIN_PII"}
+{"type": "PHONE", "start": 16, "end": 26, "text": "6043321819", "confidence": 0.434533528983593, "variant_id": "NEG_001_HI_LATIN_PII"}
+{"type": "AADHAAR", "start": 20, "end": 26, "text": "600133", "confidence": 0.48189137876033783, "variant_id": "NEG_002_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 32, "text": "890838", "confidence": 0.5752539932727814, "variant_id": "NEG_002_EN"}
+{"type": "AADHAAR", "start": 20, "end": 26, "text": "600133", "confidence": 0.5480355322360992, "variant_id": "NEG_002_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 32, "text": "890838", "confidence": 0.5733842551708221, "variant_id": "NEG_002_IN_EN"}
+{"type": "AADHAAR", "start": 18, "end": 30, "text": "600133890838", "confidence": 0.36261967569589615, "variant_id": "NEG_002_ROM_HI"}
+{"type": "AADHAAR", "start": 18, "end": 30, "text": "600133890838", "confidence": 0.3987072817981243, "variant_id": "NEG_002_HINGLISH"}
+{"type": "AADHAAR", "start": 18, "end": 30, "text": "600133890838", "confidence": 0.42960187792778015, "variant_id": "NEG_002_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 16, "end": 28, "text": "600133890838", "confidence": 0.4231528788805008, "variant_id": "NEG_002_HI_LATIN_PII"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "637940265423", "confidence": 0.3826352208852768, "variant_id": "NEG_003_EN"}
+{"type": "AADHAAR", "start": 20, "end": 32, "text": "637940265423", "confidence": 0.4051074932018916, "variant_id": "NEG_003_IN_EN"}
+{"type": "AADHAAR", "start": 18, "end": 30, "text": "637940265423", "confidence": 0.4988686790068944, "variant_id": "NEG_003_ROM_HI"}
+{"type": "AADHAAR", "start": 23, "end": 35, "text": "637940265423", "confidence": 0.4536897490421931, "variant_id": "NEG_003_HINGLISH"}
+{"type": "AADHAAR", "start": 23, "end": 35, "text": "637940265423", "confidence": 0.34796707332134247, "variant_id": "NEG_003_INFORMAL_HINGLISH"}
+{"type": "AADHAAR", "start": 16, "end": 28, "text": "637940265423", "confidence": 0.3352041045824687, "variant_id": "NEG_003_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 30, "text": "8116155940", "confidence": 0.39131006225943565, "variant_id": "NEG_004_EN"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 30, "text": "8116155940", "confidence": 0.5834587514400482, "variant_id": "NEG_004_IN_EN"}
+{"type": "AADHAAR", "start": 18, "end": 28, "text": "8116155940", "confidence": 0.2681969739496708, "variant_id": "NEG_004_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 18, "end": 28, "text": "8116155940", "confidence": 0.30493100732564926, "variant_id": "NEG_004_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 18, "end": 28, "text": "8116155940", "confidence": 0.3549627847969532, "variant_id": "NEG_004_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 16, "end": 26, "text": "8116155940", "confidence": 0.43762971460819244, "variant_id": "NEG_004_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 20, "end": 32, "text": "781618495931", "confidence": 0.38620167672634126, "variant_id": "NEG_005_EN"}
+{"type": "AADHAAR", "start": 51, "end": 63, "text": "781618495931", "confidence": 0.5666623771190643, "variant_id": "NEG_005_IN_EN"}
+{"type": "AADHAAR", "start": 18, "end": 30, "text": "781618495931", "confidence": 0.4701570630073547, "variant_id": "NEG_005_ROM_HI"}
+{"type": "AADHAAR", "start": 23, "end": 35, "text": "781618495931", "confidence": 0.4163364112377167, "variant_id": "NEG_005_HINGLISH"}
+{"type": "AADHAAR", "start": 23, "end": 25, "text": "78", "confidence": 0.6876468658447266, "variant_id": "NEG_005_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 35, "text": "1618495931", "confidence": 0.4540069252252579, "variant_id": "NEG_005_INFORMAL_HINGLISH"}
+{"type": "PHONE", "start": 16, "end": 28, "text": "781618495931", "confidence": 0.4174607515335083, "variant_id": "NEG_005_HI_LATIN_PII"}
+{"type": "PAN", "start": 22, "end": 32, "text": "BVHYJ1316I", "confidence": 0.8375271388462612, "variant_id": "NEG_006_EN"}
+{"type": "PAN", "start": 22, "end": 32, "text": "BVHYJ1316I", "confidence": 0.8611018657684326, "variant_id": "NEG_006_IN_EN"}
+{"type": "PAN", "start": 20, "end": 30, "text": "BVHYJ1316I", "confidence": 0.7713200960840497, "variant_id": "NEG_006_ROM_HI"}
+{"type": "PAN", "start": 20, "end": 30, "text": "BVHYJ1316I", "confidence": 0.792055470602853, "variant_id": "NEG_006_HINGLISH"}
+{"type": "PAN", "start": 20, "end": 30, "text": "BVHYJ1316I", "confidence": 0.7988165702138629, "variant_id": "NEG_006_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 17, "end": 27, "text": "BVHYJ1316I", "confidence": 0.807864078453609, "variant_id": "NEG_006_HI_LATIN_PII"}
+{"type": "PAN", "start": 22, "end": 32, "text": "OULFL5341T", "confidence": 0.8417456150054932, "variant_id": "NEG_007_EN"}
+{"type": "PAN", "start": 22, "end": 32, "text": "OULFL5341T", "confidence": 0.8452116648356119, "variant_id": "NEG_007_IN_EN"}
+{"type": "PAN", "start": 20, "end": 30, "text": "OULFL5341T", "confidence": 0.7934634188810984, "variant_id": "NEG_007_ROM_HI"}
+{"type": "PAN", "start": 25, "end": 35, "text": "OULFL5341T", "confidence": 0.8202126125494639, "variant_id": "NEG_007_HINGLISH"}
+{"type": "PAN", "start": 25, "end": 37, "text": "OULFL5341T h", "confidence": 0.759942101580756, "variant_id": "NEG_007_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 17, "end": 27, "text": "OULFL5341T", "confidence": 0.8194512526194254, "variant_id": "NEG_007_HI_LATIN_PII"}
+{"type": "PAN", "start": 22, "end": 32, "text": "UFRXH2764U", "confidence": 0.8076602518558502, "variant_id": "NEG_008_EN"}
+{"type": "PAN", "start": 22, "end": 32, "text": "UFRXH2764U", "confidence": 0.7921721835931143, "variant_id": "NEG_008_IN_EN"}
+{"type": "PAN", "start": 20, "end": 30, "text": "UFRXH2764U", "confidence": 0.7342044909795126, "variant_id": "NEG_008_ROM_HI"}
+{"type": "PAN", "start": 20, "end": 30, "text": "UFRXH2764U", "confidence": 0.7568808694680532, "variant_id": "NEG_008_HINGLISH"}
+{"type": "PAN", "start": 20, "end": 32, "text": "UFRXH2764U h", "confidence": 0.7266262131077903, "variant_id": "NEG_008_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 17, "end": 27, "text": "UFRXH2764U", "confidence": 0.8141668140888214, "variant_id": "NEG_008_HI_LATIN_PII"}
+{"type": "PAN", "start": 22, "end": 23, "text": "W", "confidence": 0.8670191764831543, "variant_id": "NEG_009_EN"}
+{"type": "PAN", "start": 22, "end": 32, "text": "WRHVK0305M", "confidence": 0.8669303556283315, "variant_id": "NEG_009_EN"}
+{"type": "PAN", "start": 35, "end": 36, "text": "W", "confidence": 0.8656009435653687, "variant_id": "NEG_009_IN_EN"}
+{"type": "PAN", "start": 35, "end": 45, "text": "WRHVK0305M", "confidence": 0.8549254635969797, "variant_id": "NEG_009_IN_EN"}
+{"type": "PAN", "start": 20, "end": 21, "text": "W", "confidence": 0.7331257462501526, "variant_id": "NEG_009_ROM_HI"}
+{"type": "PAN", "start": 20, "end": 30, "text": "WRHVK0305M", "confidence": 0.8529410560925802, "variant_id": "NEG_009_ROM_HI"}
+{"type": "PAN", "start": 25, "end": 26, "text": "W", "confidence": 0.7660394310951233, "variant_id": "NEG_009_HINGLISH"}
+{"type": "PAN", "start": 25, "end": 35, "text": "WRHVK0305M", "confidence": 0.8548121054967245, "variant_id": "NEG_009_HINGLISH"}
+{"type": "PAN", "start": 25, "end": 26, "text": "W", "confidence": 0.7422505021095276, "variant_id": "NEG_009_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 25, "end": 35, "text": "WRHVK0305M", "confidence": 0.8520167370637258, "variant_id": "NEG_009_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 17, "end": 18, "text": "W", "confidence": 0.6950825452804565, "variant_id": "NEG_009_HI_LATIN_PII"}
+{"type": "PAN", "start": 17, "end": 27, "text": "WRHVK0305M", "confidence": 0.8468742668628693, "variant_id": "NEG_009_HI_LATIN_PII"}
+{"type": "PAN", "start": 22, "end": 32, "text": "ICGSW5376U", "confidence": 0.8046868741512299, "variant_id": "NEG_010_EN"}
+{"type": "PAN", "start": 22, "end": 32, "text": "ICGSW5376U", "confidence": 0.8010102013746897, "variant_id": "NEG_010_IN_EN"}
+{"type": "PAN", "start": 20, "end": 30, "text": "ICGSW5376U", "confidence": 0.8130298455556234, "variant_id": "NEG_010_ROM_HI"}
+{"type": "PAN", "start": 20, "end": 30, "text": "ICGSW5376U", "confidence": 0.826155424118042, "variant_id": "NEG_010_HINGLISH"}
+{"type": "PAN", "start": 20, "end": 30, "text": "ICGSW5376U", "confidence": 0.8219060997168223, "variant_id": "NEG_010_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 17, "end": 27, "text": "ICGSW5376U", "confidence": 0.8075376550356547, "variant_id": "NEG_010_HI_LATIN_PII"}
+{"type": "PERSON", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.4058370888233185, "variant_id": "NEG_011_EN"}
+{"type": "ADDRESS", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.5640618056058884, "variant_id": "NEG_011_IN_EN"}
+{"type": "ADDRESS", "start": 0, "end": 12, "text": "Sanjay Nagar", "confidence": 0.5127651393413544, "variant_id": "NEG_011_ROM_HI"}
+{"type": "PERSON", "start": 5, "end": 17, "text": "Sanjay Nagar", "confidence": 0.30380454659461975, "variant_id": "NEG_011_HINGLISH"}
+{"type": "PERSON", "start": 5, "end": 17, "text": "Sanjay Nagar", "confidence": 0.6435707360506058, "variant_id": "NEG_011_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 0, "end": 19, "text": "Sanjay Nagar स्टेशन", "confidence": 0.6049823462963104, "variant_id": "NEG_011_HI_LATIN_PII"}
+{"type": "PERSON", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.5793498009443283, "variant_id": "NEG_012_EN"}
+{"type": "ADDRESS", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.5879101008176804, "variant_id": "NEG_012_IN_EN"}
+{"type": "ADDRESS", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.5036331564188004, "variant_id": "NEG_012_ROM_HI"}
+{"type": "ADDRESS", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.6121196448802948, "variant_id": "NEG_012_HINGLISH"}
+{"type": "PERSON", "start": 0, "end": 11, "text": "Arjun Nagar", "confidence": 0.4844265580177307, "variant_id": "NEG_012_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 0, "end": 18, "text": "Arjun Nagar स्टेशन", "confidence": 0.5701779822508494, "variant_id": "NEG_012_HI_LATIN_PII"}
+{"type": "PERSON", "start": 0, "end": 5, "text": "Rohan", "confidence": 0.5205883085727692, "variant_id": "NEG_013_EN"}
+{"type": "ADDRESS", "start": 6, "end": 11, "text": "Nagar", "confidence": 0.7973724603652954, "variant_id": "NEG_013_EN"}
+{"type": "PERSON", "start": 31, "end": 36, "text": "Rohan", "confidence": 0.4593604654073715, "variant_id": "NEG_013_IN_EN"}
+{"type": "ADDRESS", "start": 37, "end": 42, "text": "Nagar", "confidence": 0.874712347984314, "variant_id": "NEG_013_IN_EN"}
+{"type": "PERSON", "start": 0, "end": 11, "text": "Rohan Nagar", "confidence": 0.4447137067715327, "variant_id": "NEG_013_ROM_HI"}
+{"type": "PERSON", "start": 5, "end": 10, "text": "Rohan", "confidence": 0.6928448975086212, "variant_id": "NEG_013_HINGLISH"}
+{"type": "ADDRESS", "start": 11, "end": 16, "text": "Nagar", "confidence": 0.679113507270813, "variant_id": "NEG_013_HINGLISH"}
+{"type": "PERSON", "start": 5, "end": 16, "text": "Rohan Nagar", "confidence": 0.6571475863456726, "variant_id": "NEG_013_INFORMAL_HINGLISH"}
+{"type": "PERSON", "start": 0, "end": 5, "text": "Rohan", "confidence": 0.53506800532341, "variant_id": "NEG_013_HI_LATIN_PII"}
+{"type": "ADDRESS", "start": 6, "end": 18, "text": "Nagar स्टेशन", "confidence": 0.6606478691101074, "variant_id": "NEG_013_HI_LATIN_PII"}
+{"type": "PERSON", "start": 0, "end": 6, "text": "Anjali", "confidence": 0.5758811831474304, "variant_id": "NEG_014_EN"}
+{"type": "ADDRESS", "start": 7, "end": 12, "text": "Nagar", "confidence": 0.708975076675415, "variant_id": "NEG_014_EN"}
+{"type": "ADDRESS", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.646901398897171, "variant_id": "NEG_014_IN_EN"}
+{"type": "PERSON", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.4344680408636729, "variant_id": "NEG_014_ROM_HI"}
+{"type": "PERSON", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.36899620791276294, "variant_id": "NEG_014_HINGLISH"}
+{"type": "PERSON", "start": 0, "end": 12, "text": "Anjali Nagar", "confidence": 0.40907607475916546, "variant_id": "NEG_014_INFORMAL_HINGLISH"}
+{"type": "ADDRESS", "start": 0, "end": 19, "text": "Anjali Nagar स्टेशन", "confidence": 0.4939499720931053, "variant_id": "NEG_014_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 25, "end": 42, "text": "rohan8840@webmail", "confidence": 0.6843398610750834, "variant_id": "NEG_015_EN"}
+{"type": "EMAIL", "start": 25, "end": 42, "text": "rohan8840@webmail", "confidence": 0.6642351299524307, "variant_id": "NEG_015_IN_EN"}
+{"type": "EMAIL", "start": 13, "end": 26, "text": "rohan8840@web", "confidence": 0.5978762865066528, "variant_id": "NEG_015_ROM_HI"}
+{"type": "EMAIL", "start": 18, "end": 31, "text": "rohan8840@web", "confidence": 0.6411115109920502, "variant_id": "NEG_015_HINGLISH"}
+{"type": "EMAIL", "start": 18, "end": 35, "text": "rohan8840@webmail", "confidence": 0.6824295570453008, "variant_id": "NEG_015_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 15, "end": 32, "text": "rohan8840@webmail", "confidence": 0.6674460619688034, "variant_id": "NEG_015_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 25, "end": 42, "text": "deepika7029@inbox", "confidence": 0.8945563520703997, "variant_id": "NEG_016_EN"}
+{"type": "EMAIL", "start": 25, "end": 42, "text": "deepika7029@inbox", "confidence": 0.8332037585122245, "variant_id": "NEG_016_IN_EN"}
+{"type": "EMAIL", "start": 13, "end": 27, "text": "deepika7029@in", "confidence": 0.84041099747022, "variant_id": "NEG_016_ROM_HI"}
+{"type": "EMAIL", "start": 13, "end": 27, "text": "deepika7029@in", "confidence": 0.8250700533390045, "variant_id": "NEG_016_HINGLISH"}
+{"type": "EMAIL", "start": 13, "end": 30, "text": "deepika7029@inbox", "confidence": 0.8534203852925982, "variant_id": "NEG_016_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 15, "end": 32, "text": "deepika7029@inbox", "confidence": 0.8091109309877668, "variant_id": "NEG_016_HI_LATIN_PII"}
+{"type": "EMAIL", "start": 25, "end": 39, "text": "kavya3603@corp", "confidence": 0.8317812184492747, "variant_id": "NEG_017_EN"}
+{"type": "EMAIL", "start": 38, "end": 52, "text": "kavya3603@corp", "confidence": 0.790855218966802, "variant_id": "NEG_017_IN_EN"}
+{"type": "PERSON", "start": 13, "end": 18, "text": "kavya", "confidence": 0.621988832950592, "variant_id": "NEG_017_ROM_HI"}
+{"type": "EMAIL", "start": 18, "end": 23, "text": "3603@", "confidence": 0.45246179898579914, "variant_id": "NEG_017_ROM_HI"}
+{"type": "PERSON", "start": 18, "end": 23, "text": "kavya", "confidence": 0.5816240236163139, "variant_id": "NEG_017_HINGLISH"}
+{"type": "EMAIL", "start": 23, "end": 28, "text": "3603@", "confidence": 0.5876742204030355, "variant_id": "NEG_017_HINGLISH"}
+{"type": "EMAIL", "start": 18, "end": 38, "text": "kavya3603@corp h bro", "confidence": 0.6809581406414509, "variant_id": "NEG_017_INFORMAL_HINGLISH"}
+{"type": "EMAIL", "start": 15, "end": 29, "text": "kavya3603@corp", "confidence": 0.7159247895081838, "variant_id": "NEG_017_HI_LATIN_PII"}
+{"type": "PAN", "start": 27, "end": 28, "text": "X", "confidence": 0.2923222482204437, "variant_id": "NEG_018_EN"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 9166", "confidence": 0.4254639546076457, "variant_id": "NEG_018_EN"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 36, "text": "XXXX XXXX 9166", "confidence": 0.37840670347213745, "variant_id": "NEG_018_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 34, "text": "9166", "confidence": 0.35660383850336075, "variant_id": "NEG_018_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 34, "text": "9166", "confidence": 0.3894050195813179, "variant_id": "NEG_018_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 25, "end": 34, "text": "XXXX 9166", "confidence": 0.25630781427025795, "variant_id": "NEG_018_INFORMAL_HINGLISH"}
+{"type": "PAN", "start": 22, "end": 23, "text": "X", "confidence": 0.26194146275520325, "variant_id": "NEG_018_HI_LATIN_PII"}
+{"type": "BANK_ACCOUNT", "start": 22, "end": 31, "text": "XXXX 9166", "confidence": 0.3015831410884857, "variant_id": "NEG_018_HI_LATIN_PII"}
+{"type": "PAN", "start": 27, "end": 28, "text": "X", "confidence": 0.28073859214782715, "variant_id": "NEG_019_EN"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 4514", "confidence": 0.39055295785268146, "variant_id": "NEG_019_EN"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 4514", "confidence": 0.2821204476058483, "variant_id": "NEG_019_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 30, "end": 34, "text": "4514", "confidence": 0.260079488158226, "variant_id": "NEG_019_ROM_HI"}
+{"type": "BANK_ACCOUNT", "start": 35, "end": 39, "text": "4514", "confidence": 0.1874871626496315, "variant_id": "NEG_019_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 35, "end": 39, "text": "4514", "confidence": 0.24214273691177368, "variant_id": "NEG_019_INFORMAL_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 31, "text": "4514", "confidence": 0.2710697427392006, "variant_id": "NEG_019_HI_LATIN_PII"}
+{"type": "PAN", "start": 27, "end": 28, "text": "X", "confidence": 0.2964133024215698, "variant_id": "NEG_020_EN"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 1489", "confidence": 0.3721805860598882, "variant_id": "NEG_020_EN"}
+{"type": "BANK_ACCOUNT", "start": 27, "end": 36, "text": "XXXX 1489", "confidence": 0.32644814252853394, "variant_id": "NEG_020_IN_EN"}
+{"type": "BANK_ACCOUNT", "start": 32, "end": 34, "text": "89", "confidence": 0.48233193159103394, "variant_id": "NEG_020_HINGLISH"}
+{"type": "BANK_ACCOUNT", "start": 29, "end": 31, "text": "89", "confidence": 0.5339436531066895, "variant_id": "NEG_020_HI_LATIN_PII"}
+{"type": "PERSON", "start": 11, "end": 16, "text": "Sneha", "confidence": 0.9865929782390594, "variant_id": "PERSON_001_EN_A2_01"}
+{"type": "PERSON", "start": 17, "end": 23, "text": "Sharma", "confidence": 0.9429827332496643, "variant_id": "PERSON_001_EN_A2_01"}
+{"type": "PERSON", "start": 12, "end": 24, "text": "Sneha Sharma", "confidence": 0.87377001841863, "variant_id": "PERSON_001_EN_A3_01"}
+{"type": "PERSON", "start": 6, "end": 18, "text": "Sneha Sharma", "confidence": 0.9270238677660624, "variant_id": "PERSON_001_EN_A4_01"}
+{"type": "PERSON", "start": 11, "end": 23, "text": "sneha sharma", "confidence": 0.4666771739721298, "variant_id": "PERSON_001_EN_A5_01"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "Rohan-Rao", "confidence": 0.5363895237445832, "variant_id": "PERSON_002_EN_A2_01"}
+{"type": "PERSON", "start": 12, "end": 21, "text": "Rohan Rao", "confidence": 0.8873050808906555, "variant_id": "PERSON_002_EN_A3_01"}
+{"type": "PERSON", "start": 6, "end": 15, "text": "Rohan Rao", "confidence": 0.880047082901001, "variant_id": "PERSON_002_EN_A4_01"}
+{"type": "PERSON", "start": 11, "end": 20, "text": "rohan rao", "confidence": 0.33535364270210266, "variant_id": "PERSON_002_EN_A5_01"}
+{"type": "ADDRESS", "start": 14, "end": 75, "text": "Flat 230 / Silver Oak Heights / Baner Road / Bengaluru 754235", "confidence": 0.8375394400209188, "variant_id": "ADDRESS_001_EN_A2_01"}
+{"type": "ADDRESS", "start": 18, "end": 76, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9277114775031805, "variant_id": "ADDRESS_001_EN_A3_01"}
+{"type": "ADDRESS", "start": 6, "end": 64, "text": "Flat 230, Silver Oak Heights, Baner Road, Bengaluru 754235", "confidence": 0.9336295370012522, "variant_id": "ADDRESS_001_EN_A4_01"}
+{"type": "ADDRESS", "start": 14, "end": 72, "text": "flat 230, silver oak heights, baner road, bengaluru 754235", "confidence": 0.7067573674415287, "variant_id": "ADDRESS_001_EN_A5_01"}
+{"type": "ADDRESS", "start": 29, "end": 33, "text": ",  G", "confidence": 0.4210616946220398, "variant_id": "ADDRESS_002_EN_A1_01"}
+{"type": "ADDRESS", "start": 14, "end": 81, "text": "Flat 195 / Green Valley Residency / Lake View Road / Kolkata 507816", "confidence": 0.8324670423479641, "variant_id": "ADDRESS_002_EN_A2_01"}
+{"type": "ADDRESS", "start": 18, "end": 82, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9468136710279128, "variant_id": "ADDRESS_002_EN_A3_01"}
+{"type": "ADDRESS", "start": 6, "end": 70, "text": "Flat 195, Green Valley Residency, Lake View Road, Kolkata 507816", "confidence": 0.9537148931447197, "variant_id": "ADDRESS_002_EN_A4_01"}
+{"type": "ADDRESS", "start": 14, "end": 78, "text": "flat 195, green valley residency, lake view road, kolkata 507816", "confidence": 0.7585819214582443, "variant_id": "ADDRESS_002_EN_A5_01"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "7", "confidence": 0.9672301411628723, "variant_id": "PHONE_001_EN_A2_01"}
+{"type": "PHONE", "start": 19, "end": 30, "text": "78346-57871", "confidence": 0.7849119424819946, "variant_id": "PHONE_001_EN_A2_01"}
+{"type": "AADHAAR", "start": 19, "end": 29, "text": "7834657871", "confidence": 0.3512542933225632, "variant_id": "PHONE_001_EN_A3_01"}
+{"type": "AADHAAR", "start": 7, "end": 8, "text": "7", "confidence": 0.8002102971076965, "variant_id": "PHONE_001_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 7, "end": 17, "text": "7834657871", "confidence": 0.29148926958441734, "variant_id": "PHONE_001_EN_A4_01"}
+{"type": "PHONE", "start": 19, "end": 29, "text": "7B34657871", "confidence": 0.3028212736050288, "variant_id": "PHONE_001_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 28, "text": "5 0 9 8", "confidence": 0.2729170322418213, "variant_id": "PHONE_002_EN_A1_01"}
+{"type": "AADHAAR", "start": 29, "end": 36, "text": "3 9 3 0", "confidence": 0.3492468260228634, "variant_id": "PHONE_002_EN_A1_01"}
+{"type": "PHONE", "start": 19, "end": 30, "text": "65098-39301", "confidence": 0.686846113204956, "variant_id": "PHONE_002_EN_A2_01"}
+{"type": "AADHAAR", "start": 19, "end": 29, "text": "6509839301", "confidence": 0.4547497108578682, "variant_id": "PHONE_002_EN_A3_01"}
+{"type": "AADHAAR", "start": 7, "end": 17, "text": "6509839301", "confidence": 0.32814493030309677, "variant_id": "PHONE_002_EN_A4_01"}
+{"type": "PHONE", "start": 19, "end": 20, "text": "6", "confidence": 0.5456820130348206, "variant_id": "PHONE_002_EN_A5_01"}
+{"type": "PAN", "start": 20, "end": 23, "text": "S09", "confidence": 0.5177868157625198, "variant_id": "PHONE_002_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 23, "end": 29, "text": "839301", "confidence": 0.3805580784877141, "variant_id": "PHONE_002_EN_A5_01"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "sneha-8298@webmail.test", "confidence": 0.8210666676362356, "variant_id": "EMAIL_001_EN_A2_01"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha8298@webmail.test", "confidence": 0.8776558770073785, "variant_id": "EMAIL_001_EN_A3_01"}
+{"type": "EMAIL", "start": 6, "end": 28, "text": "sneha8298@webmail.test", "confidence": 0.8664629790518019, "variant_id": "EMAIL_001_EN_A4_01"}
+{"type": "PAN", "start": 12, "end": 18, "text": "SNEHA8", "confidence": 0.48329468071460724, "variant_id": "EMAIL_001_EN_A5_01"}
+{"type": "EMAIL", "start": 18, "end": 30, "text": "298@WEBMAIL.", "confidence": 0.4735587477684021, "variant_id": "EMAIL_001_EN_A5_01"}
+{"type": "PAN", "start": 30, "end": 31, "text": "T", "confidence": 0.5424613952636719, "variant_id": "EMAIL_001_EN_A5_01"}
+{"type": "EMAIL", "start": 12, "end": 35, "text": "sneha-6064@webmail.test", "confidence": 0.8374820748964945, "variant_id": "EMAIL_002_EN_A2_01"}
+{"type": "EMAIL", "start": 11, "end": 33, "text": "sneha6064@webmail.test", "confidence": 0.8478028443124559, "variant_id": "EMAIL_002_EN_A3_01"}
+{"type": "EMAIL", "start": 6, "end": 28, "text": "sneha6064@webmail.test", "confidence": 0.8519932958814833, "variant_id": "EMAIL_002_EN_A4_01"}
+{"type": "PAN", "start": 12, "end": 17, "text": "SNEHA", "confidence": 0.3902481993039449, "variant_id": "EMAIL_002_EN_A5_01"}
+{"type": "EMAIL", "start": 17, "end": 30, "text": "6064@WEBMAIL.", "confidence": 0.5229586809873581, "variant_id": "EMAIL_002_EN_A5_01"}
+{"type": "PAN", "start": 30, "end": 31, "text": "T", "confidence": 0.527458131313324, "variant_id": "EMAIL_002_EN_A5_01"}
+{"type": "PAN", "start": 19, "end": 20, "text": "Z", "confidence": 0.6001623272895813, "variant_id": "PAN_001_EN_A1_01"}
+{"type": "PAN", "start": 21, "end": 24, "text": "Z F", "confidence": 0.5000775456428528, "variant_id": "PAN_001_EN_A1_01"}
+{"type": "AADHAAR", "start": 31, "end": 34, "text": "5 6", "confidence": 0.34928859770298004, "variant_id": "PAN_001_EN_A1_01"}
+{"type": "PAN", "start": 17, "end": 29, "text": "FZZFN-0256-Z", "confidence": 0.7866859510540962, "variant_id": "PAN_001_EN_A2_01"}
+{"type": "PAN", "start": 15, "end": 26, "text": "FZZFN0256Z.", "confidence": 0.8365284577012062, "variant_id": "PAN_001_EN_A3_01"}
+{"type": "PAN", "start": 8, "end": 18, "text": "FZZFN0256Z", "confidence": 0.8986279283251081, "variant_id": "PAN_001_EN_A4_01"}
+{"type": "PAN", "start": 17, "end": 27, "text": "fzzfn0256z", "confidence": 0.6979908545811971, "variant_id": "PAN_001_EN_A5_01"}
+{"type": "PAN", "start": 19, "end": 30, "text": "Z W D M 0 7", "confidence": 0.47701675196488696, "variant_id": "PAN_002_EN_A1_01"}
+{"type": "AADHAAR", "start": 31, "end": 34, "text": "3 3", "confidence": 0.519722118973732, "variant_id": "PAN_002_EN_A1_01"}
+{"type": "PAN", "start": 17, "end": 29, "text": "FZWDM-0733-O", "confidence": 0.7375191781255934, "variant_id": "PAN_002_EN_A2_01"}
+{"type": "PAN", "start": 15, "end": 25, "text": "FZWDM0733O", "confidence": 0.7793399691581726, "variant_id": "PAN_002_EN_A3_01"}
+{"type": "PAN", "start": 8, "end": 9, "text": "F", "confidence": 0.7786256670951843, "variant_id": "PAN_002_EN_A4_01"}
+{"type": "PAN", "start": 8, "end": 18, "text": "FZWDM0733O", "confidence": 0.7974693179130554, "variant_id": "PAN_002_EN_A4_01"}
+{"type": "PAN", "start": 17, "end": 27, "text": "fzwdm0733o", "confidence": 0.6634817549160549, "variant_id": "PAN_002_EN_A5_01"}
+{"type": "PAN", "start": 17, "end": 26, "text": "Z H H A V", "confidence": 0.44177606105804446, "variant_id": "PAN_003_EN_A1_01"}
+{"type": "AADHAAR", "start": 27, "end": 34, "text": "3 6 5 4", "confidence": 0.24965157359838486, "variant_id": "PAN_003_EN_A1_01"}
+{"type": "PAN", "start": 17, "end": 29, "text": "ZHHAV-3654-C", "confidence": 0.760376615183694, "variant_id": "PAN_003_EN_A2_01"}
+{"type": "PAN", "start": 15, "end": 25, "text": "ZHHAV3654C", "confidence": 0.8247168262799581, "variant_id": "PAN_003_EN_A3_01"}
+{"type": "PAN", "start": 8, "end": 18, "text": "ZHHAV3654C", "confidence": 0.816858152548472, "variant_id": "PAN_003_EN_A4_01"}
+{"type": "PAN", "start": 17, "end": 27, "text": "zhhav3654c", "confidence": 0.5446361353000005, "variant_id": "PAN_003_EN_A5_01"}
+{"type": "AADHAAR", "start": 35, "end": 42, "text": "8 8 9 5", "confidence": 0.25739752128720284, "variant_id": "AADHAAR_001_EN_A1_01"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 27, "text": "0831-7", "confidence": 0.31763435900211334, "variant_id": "AADHAAR_001_EN_A2_01"}
+{"type": "UPI_ID", "start": 27, "end": 35, "text": "278-8957", "confidence": 0.3274359852075577, "variant_id": "AADHAAR_001_EN_A2_01"}
+{"type": "AADHAAR", "start": 23, "end": 35, "text": "083172788957", "confidence": 0.6391191383202871, "variant_id": "AADHAAR_001_EN_A3_01"}
+{"type": "PHONE", "start": 12, "end": 24, "text": "083172788957", "confidence": 0.3618208592136701, "variant_id": "AADHAAR_001_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "O83172788957", "confidence": 0.5137558281421661, "variant_id": "AADHAAR_001_EN_A5_01"}
+{"type": "AADHAAR", "start": 31, "end": 42, "text": "7 4 3 4 8 7", "confidence": 0.3068946947654088, "variant_id": "AADHAAR_002_EN_A1_01"}
+{"type": "AADHAAR", "start": 21, "end": 35, "text": "6872-7743-4873", "confidence": 0.2925351176943098, "variant_id": "AADHAAR_002_EN_A2_01"}
+{"type": "AADHAAR", "start": 23, "end": 35, "text": "687277434873", "confidence": 0.7338750720024109, "variant_id": "AADHAAR_002_EN_A3_01"}
+{"type": "AADHAAR", "start": 12, "end": 24, "text": "687277434873", "confidence": 0.47615012526512146, "variant_id": "AADHAAR_002_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "6B7277434873", "confidence": 0.4500929315884908, "variant_id": "AADHAAR_002_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 35, "text": "1434-5581-2236", "confidence": 0.35266517599423725, "variant_id": "AADHAAR_003_EN_A2_01"}
+{"type": "AADHAAR", "start": 23, "end": 35, "text": "143455812236", "confidence": 0.5955003678798676, "variant_id": "AADHAAR_003_EN_A3_01"}
+{"type": "BANK_ACCOUNT", "start": 12, "end": 24, "text": "143455812236", "confidence": 0.3547793745994568, "variant_id": "AADHAAR_003_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 21, "end": 33, "text": "l43455812236", "confidence": 0.4929013609886169, "variant_id": "AADHAAR_003_EN_A5_01"}
+{"type": "AADHAAR", "start": 15, "end": 32, "text": "9 9 6 5 0 7 5 2 7", "confidence": 0.24053697453604805, "variant_id": "UPI_ID_001_EN_A1_01"}
+{"type": "UPI_ID", "start": 13, "end": 34, "text": "99965-07527@mail.test", "confidence": 0.40926819460259545, "variant_id": "UPI_ID_001_EN_A2_01"}
+{"type": "UPI_ID", "start": 16, "end": 26, "text": "9996507527", "confidence": 0.3273896127939224, "variant_id": "UPI_ID_001_EN_A3_01"}
+{"type": "EMAIL", "start": 26, "end": 36, "text": "@mail.test", "confidence": 0.6044705957174301, "variant_id": "UPI_ID_001_EN_A3_01"}
+{"type": "PHONE", "start": 5, "end": 15, "text": "9996507527", "confidence": 0.37153082340955734, "variant_id": "UPI_ID_001_EN_A4_01"}
+{"type": "UPI_ID", "start": 15, "end": 25, "text": "@mail.test", "confidence": 0.5562281236052513, "variant_id": "UPI_ID_001_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 23, "text": "9996507527", "confidence": 0.375512832775712, "variant_id": "UPI_ID_001_EN_A5_01"}
+{"type": "UPI_ID", "start": 23, "end": 29, "text": "@MAIL.", "confidence": 0.38129791617393494, "variant_id": "UPI_ID_001_EN_A5_01"}
+{"type": "PAN", "start": 29, "end": 30, "text": "T", "confidence": 0.5907893776893616, "variant_id": "UPI_ID_001_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 14, "text": "8", "confidence": 0.32646405696868896, "variant_id": "UPI_ID_002_EN_A1_01"}
+{"type": "BANK_ACCOUNT", "start": 15, "end": 24, "text": "5 4 9 4 8", "confidence": 0.2779831916093826, "variant_id": "UPI_ID_002_EN_A1_01"}
+{"type": "AADHAAR", "start": 25, "end": 30, "text": "0 8 3", "confidence": 0.34550970792770386, "variant_id": "UPI_ID_002_EN_A1_01"}
+{"type": "UPI_ID", "start": 13, "end": 34, "text": "85494-80831@mail.test", "confidence": 0.49309395088089836, "variant_id": "UPI_ID_002_EN_A2_01"}
+{"type": "UPI_ID", "start": 16, "end": 26, "text": "8549480831", "confidence": 0.47300153970718384, "variant_id": "UPI_ID_002_EN_A3_01"}
+{"type": "EMAIL", "start": 26, "end": 36, "text": "@mail.test", "confidence": 0.6408684700727463, "variant_id": "UPI_ID_002_EN_A3_01"}
+{"type": "UPI_ID", "start": 5, "end": 25, "text": "8549480831@mail.test", "confidence": 0.43460855819284916, "variant_id": "UPI_ID_002_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 23, "text": "8549480831", "confidence": 0.42866527661681175, "variant_id": "UPI_ID_002_EN_A5_01"}
+{"type": "UPI_ID", "start": 23, "end": 29, "text": "@MAIL.", "confidence": 0.38768165310223895, "variant_id": "UPI_ID_002_EN_A5_01"}
+{"type": "PAN", "start": 29, "end": 30, "text": "T", "confidence": 0.5898385047912598, "variant_id": "UPI_ID_002_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 15, "end": 22, "text": "8 3 7 7", "confidence": 0.24412394687533379, "variant_id": "UPI_ID_003_EN_A1_01"}
+{"type": "AADHAAR", "start": 23, "end": 32, "text": "7 0 1 4 3", "confidence": 0.29653567373752593, "variant_id": "UPI_ID_003_EN_A1_01"}
+{"type": "UPI_ID", "start": 13, "end": 34, "text": "98377-70143@mail.test", "confidence": 0.5167539790272713, "variant_id": "UPI_ID_003_EN_A2_01"}
+{"type": "UPI_ID", "start": 16, "end": 27, "text": "9837770143@", "confidence": 0.4953991174697876, "variant_id": "UPI_ID_003_EN_A3_01"}
+{"type": "EMAIL", "start": 27, "end": 36, "text": "mail.test", "confidence": 0.6472963690757751, "variant_id": "UPI_ID_003_EN_A3_01"}
+{"type": "UPI_ID", "start": 5, "end": 25, "text": "9837770143@mail.test", "confidence": 0.47975432872772217, "variant_id": "UPI_ID_003_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 13, "end": 23, "text": "9837770143", "confidence": 0.48138899728655815, "variant_id": "UPI_ID_003_EN_A5_01"}
+{"type": "UPI_ID", "start": 23, "end": 29, "text": "@MAIL.", "confidence": 0.4225549598534902, "variant_id": "UPI_ID_003_EN_A5_01"}
+{"type": "PAN", "start": 29, "end": 30, "text": "T", "confidence": 0.5729190707206726, "variant_id": "UPI_ID_003_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 33, "text": "3 2 4 2", "confidence": 0.2798936106264591, "variant_id": "BANK_ACCOUNT_001_EN_A1_01"}
+{"type": "AADHAAR", "start": 38, "end": 47, "text": "2 4 9 9 4", "confidence": 0.40592946410179137, "variant_id": "BANK_ACCOUNT_001_EN_A1_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 40, "text": "3242-1024-9947", "confidence": 0.6925259636981147, "variant_id": "BANK_ACCOUNT_001_EN_A2_01"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "324210249947", "confidence": 0.49395566682020825, "variant_id": "BANK_ACCOUNT_001_EN_A3_01"}
+{"type": "AADHAAR", "start": 9, "end": 10, "text": "3", "confidence": 0.8272444009780884, "variant_id": "BANK_ACCOUNT_001_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 10, "end": 21, "text": "24210249947", "confidence": 0.422465518116951, "variant_id": "BANK_ACCOUNT_001_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "3242l0249947", "confidence": 0.6961105934211186, "variant_id": "BANK_ACCOUNT_001_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 37, "text": "4 6 4 8 8 7", "confidence": 0.35010382036368054, "variant_id": "BANK_ACCOUNT_002_EN_A1_01"}
+{"type": "AADHAAR", "start": 38, "end": 47, "text": "7 1 9 0 6", "confidence": 0.2970246344804764, "variant_id": "BANK_ACCOUNT_002_EN_A1_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 40, "text": "4648-8771-9065", "confidence": 0.8526584704717001, "variant_id": "BANK_ACCOUNT_002_EN_A2_01"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "464887719065", "confidence": 0.520263034105301, "variant_id": "BANK_ACCOUNT_002_EN_A3_01"}
+{"type": "AADHAAR", "start": 9, "end": 21, "text": "464887719065", "confidence": 0.3696899712085724, "variant_id": "BANK_ACCOUNT_002_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 29, "text": "464", "confidence": 0.5938647091388702, "variant_id": "BANK_ACCOUNT_002_EN_A5_01"}
+{"type": "PAN", "start": 29, "end": 33, "text": "B877", "confidence": 0.614793598651886, "variant_id": "BANK_ACCOUNT_002_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 33, "end": 38, "text": "19065", "confidence": 0.5394878089427948, "variant_id": "BANK_ACCOUNT_002_EN_A5_01"}
+{"type": "BANK_ACCOUNT", "start": 28, "end": 35, "text": "1 3 9 9", "confidence": 0.4451964348554611, "variant_id": "BANK_ACCOUNT_003_EN_A1_01"}
+{"type": "AADHAAR", "start": 36, "end": 47, "text": "0 4 9 0 2 7", "confidence": 0.34462214012940723, "variant_id": "BANK_ACCOUNT_003_EN_A1_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 40, "text": "0139-9049-0278", "confidence": 0.7805086076259613, "variant_id": "BANK_ACCOUNT_003_EN_A2_01"}
+{"type": "AADHAAR", "start": 21, "end": 33, "text": "013990490278", "confidence": 0.4058592915534973, "variant_id": "BANK_ACCOUNT_003_EN_A3_01"}
+{"type": "AADHAAR", "start": 9, "end": 21, "text": "013990490278", "confidence": 0.2942822575569153, "variant_id": "BANK_ACCOUNT_003_EN_A4_01"}
+{"type": "BANK_ACCOUNT", "start": 26, "end": 38, "text": "O13990490278", "confidence": 0.8532759428024292, "variant_id": "BANK_ACCOUNT_003_EN_A5_01"}

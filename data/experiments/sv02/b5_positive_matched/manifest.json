@@ -1,0 +1,24 @@
+{
+  "variant": "b5_positive_matched",
+  "description": "1,000 canonical positive + 250 extra positive instances (train), 200 pos + 50 extra pos (val)",
+  "train_statistics": {
+    "record_count": 1250,
+    "total_tokens": 24164,
+    "mean_tokens_per_record": 19.33,
+    "std_tokens_per_record": 4.55,
+    "min_tokens": 9,
+    "max_tokens": 38
+  },
+  "val_statistics": {
+    "record_count": 250,
+    "total_tokens": 4826,
+    "mean_tokens_per_record": 19.3,
+    "std_tokens_per_record": 4.63,
+    "min_tokens": 9,
+    "max_tokens": 37
+  },
+  "positive_train_count": 1250,
+  "hard_negative_train_count": 0,
+  "positive_val_count": 250,
+  "hard_negative_val_count": 0
+}

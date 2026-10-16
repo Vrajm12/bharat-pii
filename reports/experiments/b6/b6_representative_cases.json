@@ -1,0 +1,70 @@
+[
+  {
+    "category": "B2_WHITESPACE_GROUPING_MISMATCH",
+    "variant_id": "PERSON_006_INFORMAL_HINGLISH",
+    "gold_type": "PERSON",
+    "pred_type": "PERSON",
+    "gold_length": 10,
+    "pred_length": 5,
+    "redacted_gold_context": "mera naam [REDACTED_PII] h, please confirm yaar"
+  },
+  {
+    "category": "B3_PARTIAL_STRUCTURED_IDENTIFIER",
+    "variant_id": "PHONE_008_ROM_HI",
+    "gold_type": "PHONE",
+    "pred_type": "PHONE",
+    "gold_length": 10,
+    "pred_length": 9,
+    "redacted_gold_context": "mera mobile number [REDACTED_PII] hai."
+  },
+  {
+    "category": "B3_PARTIAL_STRUCTURED_IDENTIFIER",
+    "variant_id": "PHONE_010_HINGLISH",
+    "gold_type": "PHONE",
+    "pred_type": "PHONE",
+    "gold_length": 10,
+    "pred_length": 6,
+    "redacted_gold_context": "mera mobile number [REDACTED_PII] hai, please confirm."
+  },
+  {
+    "category": "FP9_PARTIAL_SUBSTRING_EXTRACTION",
+    "variant_id": "AADHAAR_001_HINGLISH",
+    "pred_type": "PHONE",
+    "pred_length": 9,
+    "confidence": 0.4072,
+    "redacted_context": "mera Aadhaar number 083[REDACTED_PII] hai, please confirm."
+  },
+  {
+    "category": "FP9_PARTIAL_SUBSTRING_EXTRACTION",
+    "variant_id": "AADHAAR_005_IN_EN",
+    "pred_type": "BANK_ACCOUNT",
+    "pred_length": 11,
+    "confidence": 0.3294,
+    "redacted_context": "My Aadhaar number is 6[REDACTED_PII]. Kindly do the needful."
+  },
+  {
+    "category": "FP11_HARD_NEGATIVE_DISTRACTOR",
+    "variant_id": "NEG_001_EN",
+    "pred_type": "BANK_ACCOUNT",
+    "pred_length": 10,
+    "confidence": 0.3247,
+    "redacted_context": "The order number is [REDACTED_PII]."
+  },
+  {
+    "category": "FP11_HARD_NEGATIVE_DISTRACTOR",
+    "variant_id": "NEG_001_IN_EN",
+    "pred_type": "AADHAAR",
+    "pred_length": 1,
+    "confidence": 0.2956,
+    "redacted_context": "...ote: The order number is [REDACTED_PII]043321819."
+  },
+  {
+    "category": "B2_WHITESPACE_GROUPING_MISMATCH",
+    "variant_id": "PAN_003_EN_A1_01",
+    "gold_type": "PAN",
+    "pred_type": "PAN",
+    "gold_length": 19,
+    "pred_length": 9,
+    "redacted_gold_context": "My PAN number is [REDACTED_PII]."
+  }
+]

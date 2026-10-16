@@ -1,0 +1,117 @@
+{
+  "audit_target": "B6 Pre-Execution Canonical and Experimental Integrity Audit",
+  "canonical_artifacts_verified": 22,
+  "all_canonical_hashes_matched": true,
+  "details": {
+    "data/raw/base_instances.jsonl": {
+      "status": "MATCHED",
+      "expected": "7006b0c9227d93541d2b71f702407ecc",
+      "actual": "7006b0c9227d93541d2b71f702407ecc"
+    },
+    "data/raw/hard_negative_bases.jsonl": {
+      "status": "MATCHED",
+      "expected": "b36c6c106548d18ff7083fd00532cb07",
+      "actual": "b36c6c106548d18ff7083fd00532cb07"
+    },
+    "data/generated/language_realizations.jsonl": {
+      "status": "MATCHED",
+      "expected": "0cb046740507eb9111a214b24b680483",
+      "actual": "0cb046740507eb9111a214b24b680483"
+    },
+    "data/generated/hard_negative_realizations.jsonl": {
+      "status": "MATCHED",
+      "expected": "ae5537eec4129822e3d97b05170b4fea",
+      "actual": "ae5537eec4129822e3d97b05170b4fea"
+    },
+    "data/generated/adversarial_realizations.jsonl": {
+      "status": "MATCHED",
+      "expected": "1b678b9597737c85197acf80ab56878d",
+      "actual": "1b678b9597737c85197acf80ab56878d"
+    },
+    "annotation/review_template.csv": {
+      "status": "MATCHED",
+      "expected": "78c5767f2f8fede2021ff344aaddc32c",
+      "actual": "78c5767f2f8fede2021ff344aaddc32c"
+    },
+    "predictions/regex_1.0.0_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "8913ac633854a36948a3445e4be0594d",
+      "actual": "8913ac633854a36948a3445e4be0594d"
+    },
+    "reports/evaluation_regex_1.0.0_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "2958f77985fcc70d704c123e9e952ebd",
+      "actual": "2958f77985fcc70d704c123e9e952ebd"
+    },
+    "predictions/spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "6c74bd4ec742a1f0c6b8024200937fb5",
+      "actual": "6c74bd4ec742a1f0c6b8024200937fb5"
+    },
+    "reports/evaluation_spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "a9745314b2e71df861ea71af15a9dd1a",
+      "actual": "a9745314b2e71df861ea71af15a9dd1a"
+    },
+    "predictions/presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "2c661403efa963275be5f2559a1577b9",
+      "actual": "2c661403efa963275be5f2559a1577b9"
+    },
+    "reports/evaluation_presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "4831393231e3d15dc674166dcaaaa2b9",
+      "actual": "4831393231e3d15dc674166dcaaaa2b9"
+    },
+    "predictions/transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "3f53b646fb9f95414bef8b972d2277b1",
+      "actual": "3f53b646fb9f95414bef8b972d2277b1"
+    },
+    "reports/evaluation_transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "dfe7e6b93e15ca266b29121977b1809e",
+      "actual": "dfe7e6b93e15ca266b29121977b1809e"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "e589c2a3daa96e8a3963d95fecb89012",
+      "actual": "e589c2a3daa96e8a3963d95fecb89012"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "e589c2a3daa96e8a3963d95fecb89012",
+      "actual": "e589c2a3daa96e8a3963d95fecb89012"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "e11d924839cdddebd59104624f667357",
+      "actual": "e11d924839cdddebd59104624f667357"
+    },
+    "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.jsonl": {
+      "status": "MATCHED",
+      "expected": "a0b17f4b93251463319d0dc1409514bf",
+      "actual": "a0b17f4b93251463319d0dc1409514bf"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "d3a9f9da8e848c7cafb9cf43299b9439",
+      "actual": "d3a9f9da8e848c7cafb9cf43299b9439"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "06ca5638e48dc492c016166d8b1d12a2",
+      "actual": "06ca5638e48dc492c016166d8b1d12a2"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "cfb422de399fa7cb13dec4e30f7b29e1",
+      "actual": "cfb422de399fa7cb13dec4e30f7b29e1"
+    },
+    "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.json": {
+      "status": "MATCHED",
+      "expected": "90a0a0c9bb83dd4d2f456b6e0f508753",
+      "actual": "90a0a0c9bb83dd4d2f456b6e0f508753"
+    }
+  }
+}

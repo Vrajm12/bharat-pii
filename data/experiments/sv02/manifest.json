@@ -1,0 +1,39 @@
+{
+  "benchmark": "Indian PII Robustness Benchmark",
+  "task": "SV-02",
+  "timestamp": "2026-09-03T00:55:00+05:30",
+  "variants": {
+    "b5_baseline": {
+      "records_train": 1000,
+      "tokens_train": 19689,
+      "records_val": 200,
+      "tokens_val": 3966,
+      "positive_records_train": 1000,
+      "hard_negative_records_train": 0
+    },
+    "b5_hard_negative": {
+      "records_train": 1250,
+      "tokens_train": 24464,
+      "records_val": 250,
+      "tokens_val": 4928,
+      "positive_records_train": 1000,
+      "hard_negative_records_train": 250
+    },
+    "b5_positive_matched": {
+      "records_train": 1250,
+      "tokens_train": 24164,
+      "records_val": 250,
+      "tokens_val": 4826,
+      "positive_records_train": 1250,
+      "hard_negative_records_train": 0
+    },
+    "b5_format_diversity": {
+      "records_train": 1250,
+      "tokens_train": 24585,
+      "records_val": 250,
+      "tokens_val": 4899,
+      "positive_records_train": 1250,
+      "hard_negative_records_train": 0
+    }
+  }
+}

@@ -1,0 +1,1982 @@
+{
+  "benchmark": "Indian PII Robustness Benchmark",
+  "version": "0.18.0",
+  "status": "APPROVED",
+  "total_tracked_files": 382,
+  "counts_by_category": {
+    "RELEASE_REQUIRED": 81,
+    "OPTIONAL": 53,
+    "ARCHIVE_ONLY": 143,
+    "DEVELOPMENT_ONLY": 105
+  },
+  "figure_audit": [
+    {
+      "figure_id": "fig1",
+      "png_file": "fig1_b1_b6_overall_f1.png",
+      "json_file": "fig1_b1_b6_overall_f1.json",
+      "status": "VERIFIED",
+      "details": "File size: 177,936 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig2",
+      "png_file": "fig2_b1_b6_precision_recall.png",
+      "json_file": "fig2_b1_b6_precision_recall.json",
+      "status": "VERIFIED",
+      "details": "File size: 193,162 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig3",
+      "png_file": "fig3_b5_b6_error_partition.png",
+      "json_file": "fig3_b5_b6_error_partition.json",
+      "status": "VERIFIED",
+      "details": "File size: 195,329 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig4",
+      "png_file": "fig4_b5_b6_boundary_errors.png",
+      "json_file": "fig4_b5_b6_boundary_errors.json",
+      "status": "VERIFIED",
+      "details": "File size: 186,365 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig5",
+      "png_file": "fig5_sv02_ablation.png",
+      "json_file": "fig5_sv02_ablation.json",
+      "status": "VERIFIED",
+      "details": "File size: 174,771 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig6",
+      "png_file": "fig6_sv03_fp_breakdown.png",
+      "json_file": "fig6_sv03_fp_breakdown.json",
+      "status": "VERIFIED",
+      "details": "File size: 167,071 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig7",
+      "png_file": "fig7_language_robustness.png",
+      "json_file": "fig7_language_robustness.json",
+      "status": "VERIFIED",
+      "details": "File size: 138,317 bytes. JSON source valid."
+    },
+    {
+      "figure_id": "fig8",
+      "png_file": "fig8_perturbation_robustness.png",
+      "json_file": "fig8_perturbation_robustness.json",
+      "status": "VERIFIED",
+      "details": "File size: 137,702 bytes. JSON source valid."
+    }
+  ],
+  "manifest": [
+    {
+      "path": ".gitignore",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 84
+    },
+    {
+      "path": "CITATION.cff",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 1185
+    },
+    {
+      "path": "CLAUDE.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 6283
+    },
+    {
+      "path": "LICENSE",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 1465
+    },
+    {
+      "path": "PROJECT_SPEC.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 61344
+    },
+    {
+      "path": "README.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 12326
+    },
+    {
+      "path": "annotation/CHANGELOG.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 41968
+    },
+    {
+      "path": "annotation/export_review_csv.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 8705
+    },
+    {
+      "path": "annotation/guidelines.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 107097
+    },
+    {
+      "path": "annotation/open_questions.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 162314
+    },
+    {
+      "path": "annotation/review_template.csv",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 176912
+    },
+    {
+      "path": "application/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "baselines/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "baselines/__init__.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 617
+    },
+    {
+      "path": "baselines/adaptation_data.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 11114
+    },
+    {
+      "path": "baselines/base.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 2989
+    },
+    {
+      "path": "baselines/generate_b6_analysis.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 16468
+    },
+    {
+      "path": "baselines/generate_figures.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 17596
+    },
+    {
+      "path": "baselines/generate_freeze_hashes.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 8143
+    },
+    {
+      "path": "baselines/generate_master_tables.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 34555
+    },
+    {
+      "path": "baselines/presidio.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4320
+    },
+    {
+      "path": "baselines/regex.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6068
+    },
+    {
+      "path": "baselines/run_b5_evaluation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 22388
+    },
+    {
+      "path": "baselines/run_b6_evaluation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 21988
+    },
+    {
+      "path": "baselines/run_sv02_evaluation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 7333
+    },
+    {
+      "path": "baselines/spacy.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 2221
+    },
+    {
+      "path": "baselines/sv02_audit.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 6655
+    },
+    {
+      "path": "baselines/sv02_data.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 25311
+    },
+    {
+      "path": "baselines/sv03_analysis.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 39909
+    },
+    {
+      "path": "baselines/train_b5.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 7210
+    },
+    {
+      "path": "baselines/train_b6.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 7295
+    },
+    {
+      "path": "baselines/train_sv02.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 7742
+    },
+    {
+      "path": "baselines/transformer.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 3649
+    },
+    {
+      "path": "baselines/transformer_adapted.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4512
+    },
+    {
+      "path": "baselines/transformer_b6.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 13292
+    },
+    {
+      "path": "benchmark/.gitkeep",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 0
+    },
+    {
+      "path": "benchmark/__init__.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 1416
+    },
+    {
+      "path": "benchmark/evaluate.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6919
+    },
+    {
+      "path": "benchmark/evaluator.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4026
+    },
+    {
+      "path": "benchmark/failure_analysis.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 7866
+    },
+    {
+      "path": "benchmark/matching.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 7928
+    },
+    {
+      "path": "benchmark/metrics.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6352
+    },
+    {
+      "path": "benchmark/predict.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6027
+    },
+    {
+      "path": "benchmark/runner.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6274
+    },
+    {
+      "path": "benchmark/schema.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 5351
+    },
+    {
+      "path": "benchmark/stats.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 5010
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 456
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 456
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 456
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/b6_crf_head.pt",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 56389
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 578
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/b6_crf_head.pt",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 56389
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 578
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/b6_crf_head.pt",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 56389
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 578
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 580
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 580
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 580
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 577
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 577
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 577
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 580
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 580
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1559
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/model.safetensors",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1109888564
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/tokenizer.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 17098351
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/tokenizer_config.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 358
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/training_meta.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 580
+    },
+    {
+      "path": "configs/pilot.yaml",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1310
+    },
+    {
+      "path": "data/adaptation/manifest.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 415
+    },
+    {
+      "path": "data/adaptation/train.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 327879
+    },
+    {
+      "path": "data/adaptation/val.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 65235
+    },
+    {
+      "path": "data/annotations/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "data/experiments/sv02/b5_format_diversity/manifest.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 692
+    },
+    {
+      "path": "data/experiments/sv02/b5_format_diversity/train.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 459643
+    },
+    {
+      "path": "data/experiments/sv02/b5_format_diversity/val.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 91375
+    },
+    {
+      "path": "data/experiments/sv02/b5_hard_negative/manifest.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 696
+    },
+    {
+      "path": "data/experiments/sv02/b5_hard_negative/train.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 407379
+    },
+    {
+      "path": "data/experiments/sv02/b5_hard_negative/val.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 81143
+    },
+    {
+      "path": "data/experiments/sv02/b5_positive_matched/manifest.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 689
+    },
+    {
+      "path": "data/experiments/sv02/b5_positive_matched/train.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 423579
+    },
+    {
+      "path": "data/experiments/sv02/b5_positive_matched/val.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 84205
+    },
+    {
+      "path": "data/experiments/sv02/manifest.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1056
+    },
+    {
+      "path": "data/frozen/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "data/generated/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "data/generated/adversarial_realizations.jsonl",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 96473
+    },
+    {
+      "path": "data/generated/hard_negative_realizations.jsonl",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 113011
+    },
+    {
+      "path": "data/generated/language_realizations.jsonl",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 608939
+    },
+    {
+      "path": "data/raw/README.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 4598
+    },
+    {
+      "path": "data/raw/base_instances.jsonl",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 46608
+    },
+    {
+      "path": "data/raw/base_instances.pre_oq007.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 40876
+    },
+    {
+      "path": "data/raw/base_instances.pre_t07.jsonl",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 40780
+    },
+    {
+      "path": "data/raw/hard_negative_bases.jsonl",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 8833
+    },
+    {
+      "path": "data/rejected/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "data/validated/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "docs/ANNOTATION.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4562
+    },
+    {
+      "path": "docs/BASELINES.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6343
+    },
+    {
+      "path": "docs/CLEAN_ROOM_REPRODUCTION.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4670
+    },
+    {
+      "path": "docs/DATASET.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6117
+    },
+    {
+      "path": "docs/METRICS.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4444
+    },
+    {
+      "path": "docs/MODEL_PROVENANCE.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4775
+    },
+    {
+      "path": "docs/research/construction_log.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 98335
+    },
+    {
+      "path": "experiments/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/__init__.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/base_instances.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 13389
+    },
+    {
+      "path": "generators/contexts/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/hard_negatives.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 12709
+    },
+    {
+      "path": "generators/language/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/language/__init__.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/language/adversarial_records.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 6786
+    },
+    {
+      "path": "generators/language/hard_negative_records.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 11398
+    },
+    {
+      "path": "generators/language/metadata.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 2577
+    },
+    {
+      "path": "generators/language/realizations.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 4143
+    },
+    {
+      "path": "generators/language/records.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 6954
+    },
+    {
+      "path": "generators/language/spans.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 2182
+    },
+    {
+      "path": "generators/language/templates.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 4669
+    },
+    {
+      "path": "generators/perturbations/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/perturbations/__init__.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 746
+    },
+    {
+      "path": "generators/perturbations/abbreviation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1385
+    },
+    {
+      "path": "generators/perturbations/char_variation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1755
+    },
+    {
+      "path": "generators/perturbations/label_obfuscation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1442
+    },
+    {
+      "path": "generators/perturbations/punctuation.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1847
+    },
+    {
+      "path": "generators/perturbations/spacing.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1071
+    },
+    {
+      "path": "generators/pii/__init__.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/pii/_common.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 3194
+    },
+    {
+      "path": "generators/pii/aadhaar.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1395
+    },
+    {
+      "path": "generators/pii/address.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 2892
+    },
+    {
+      "path": "generators/pii/bank_account.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 999
+    },
+    {
+      "path": "generators/pii/email.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1638
+    },
+    {
+      "path": "generators/pii/pan.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1438
+    },
+    {
+      "path": "generators/pii/person.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 2184
+    },
+    {
+      "path": "generators/pii/phone.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 1536
+    },
+    {
+      "path": "generators/pii/upi_id.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 2774
+    },
+    {
+      "path": "generators/translit/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/translit/__init__.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "generators/translit/table.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 6324
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed42_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 154266
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed43_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 153528
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed44_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 153252
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 154266
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_format_diversity_5.16.1_seed42_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 243504
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_format_diversity_5.16.1_seed43_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 244445
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_format_diversity_5.16.1_seed44_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 243420
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_hard_negative_5.16.1_seed42_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 205196
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_hard_negative_5.16.1_seed43_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 207333
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_hard_negative_5.16.1_seed44_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 206088
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_positive_matched_5.16.1_seed42_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 220120
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_positive_matched_5.16.1_seed43_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 221928
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_positive_matched_5.16.1_seed44_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 221396
+    },
+    {
+      "path": "predictions/presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 352773
+    },
+    {
+      "path": "predictions/regex_1.0.0_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 72293
+    },
+    {
+      "path": "predictions/regex_1.1.0_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 97898
+    },
+    {
+      "path": "predictions/spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 166972
+    },
+    {
+      "path": "predictions/transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 64279
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 226398
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 224490
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 227244
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.jsonl",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 226398
+    },
+    {
+      "path": "pyproject.toml",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 1404
+    },
+    {
+      "path": "reports/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "reports/B1_regex_baseline_summary.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 6121
+    },
+    {
+      "path": "reports/B3_RESULTS_SUMMARY.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 14278
+    },
+    {
+      "path": "reports/B4_RESULTS_SUMMARY.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 10424
+    },
+    {
+      "path": "reports/B5_RESULTS_SUMMARY.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 12595
+    },
+    {
+      "path": "reports/FINAL_CLAIM_AUDIT.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 8848
+    },
+    {
+      "path": "reports/FINAL_FREEZE_DECLARATION.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6117
+    },
+    {
+      "path": "reports/FINAL_LIMITATIONS.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6559
+    },
+    {
+      "path": "reports/FINAL_SCIENTIFIC_RECORD.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 20154
+    },
+    {
+      "path": "reports/artifact_engineering/FREEZE_BOUNDARY.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6604
+    },
+    {
+      "path": "reports/artifact_engineering/LICENSE_AUDIT.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 3700
+    },
+    {
+      "path": "reports/artifact_engineering/REPOSITORY_AUDIT.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4147
+    },
+    {
+      "path": "reports/artifact_engineering/REPOSITORY_INVENTORY.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 97153
+    },
+    {
+      "path": "reports/artifact_engineering/SCRATCH_AUDIT.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 3964
+    },
+    {
+      "path": "reports/artifact_engineering/SD_RECONCILIATION.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 5736
+    },
+    {
+      "path": "reports/evaluation_presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 16005
+    },
+    {
+      "path": "reports/evaluation_regex_1.0.0_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 15595
+    },
+    {
+      "path": "reports/evaluation_regex_1.1.0_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 14234
+    },
+    {
+      "path": "reports/evaluation_spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 15684
+    },
+    {
+      "path": "reports/evaluation_transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 15279
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 16153
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 16059
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 16150
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 58886
+    },
+    {
+      "path": "reports/experiments/b6/B6_FINAL_REPORT.md",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 29681
+    },
+    {
+      "path": "reports/experiments/b6/b6_b5_vs_b6_transition.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 292
+    },
+    {
+      "path": "reports/experiments/b6/b6_boundary_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1212
+    },
+    {
+      "path": "reports/experiments/b6/b6_difficulty_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 2288
+    },
+    {
+      "path": "reports/experiments/b6/b6_error_interactions.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 2304
+    },
+    {
+      "path": "reports/experiments/b6/b6_error_summary.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 4853
+    },
+    {
+      "path": "reports/experiments/b6/b6_false_positive_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1633
+    },
+    {
+      "path": "reports/experiments/b6/b6_hard_negative_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1531
+    },
+    {
+      "path": "reports/experiments/b6/b6_integrity_check.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 4947
+    },
+    {
+      "path": "reports/experiments/b6/b6_language_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 5154
+    },
+    {
+      "path": "reports/experiments/b6/b6_perturbation_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 4259
+    },
+    {
+      "path": "reports/experiments/b6/b6_representative_cases.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 2177
+    },
+    {
+      "path": "reports/experiments/b6/b6_type_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 10244
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed42_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16056
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed43_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16055
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed44_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16069
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16056
+    },
+    {
+      "path": "reports/experiments/sv02/SV02_FINAL_REPORT.md",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 24357
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_b5_format_diversity_aggregated.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 56232
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_b5_hard_negative_aggregated.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 56217
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_b5_positive_matched_aggregated.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 56392
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_format_diversity_5.16.1_seed42_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16128
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_format_diversity_5.16.1_seed43_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16078
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_format_diversity_5.16.1_seed44_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16095
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_hard_negative_5.16.1_seed42_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16073
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_hard_negative_5.16.1_seed43_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16082
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_hard_negative_5.16.1_seed44_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16107
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_positive_matched_5.16.1_seed42_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16205
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_positive_matched_5.16.1_seed43_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16088
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_positive_matched_5.16.1_seed44_v0.18.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 16150
+    },
+    {
+      "path": "reports/experiments/sv02/sv02_master_evaluation.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 191168
+    },
+    {
+      "path": "reports/experiments/sv02/sv02_overlap_leakage_audit.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1578
+    },
+    {
+      "path": "reports/experiments/sv02/sv02_overlap_leakage_audit.md",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1448
+    },
+    {
+      "path": "reports/experiments/sv03/SV03_FINAL_REPORT.md",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 28737
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_b5_vs_sv02_transition.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 1220
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_boundary_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 10487
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_difficulty_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 2297
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_error_interactions.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 5853
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_error_summary.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 6349
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_false_positive_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 14456
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_hard_negative_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 3889
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_integrity_check.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 8162
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_language_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 4509
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_perturbation_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 4428
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_representative_cases.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 4105
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_type_analysis.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 8192
+    },
+    {
+      "path": "reports/final/B1_B6_COMPARISON.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4755
+    },
+    {
+      "path": "reports/final/CANONICAL_ARTIFACT_HASHES.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 12316
+    },
+    {
+      "path": "reports/final/CANONICAL_ARTIFACT_HASHES.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 7703
+    },
+    {
+      "path": "reports/final/DIFFICULTY_RESULTS.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 197
+    },
+    {
+      "path": "reports/final/FINAL_METRIC_DEFINITIONS.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 3642
+    },
+    {
+      "path": "reports/final/FINAL_TEST_RECORD.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4975
+    },
+    {
+      "path": "reports/final/MASTER_RESULTS_TABLE.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 2337
+    },
+    {
+      "path": "reports/final/MASTER_RESULTS_TABLE.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6024
+    },
+    {
+      "path": "reports/final/MASTER_RESULTS_TABLE.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 2510
+    },
+    {
+      "path": "reports/final/PERTURBATION_RESULTS.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 345
+    },
+    {
+      "path": "reports/final/PER_LANGUAGE_RESULTS.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 948
+    },
+    {
+      "path": "reports/final/PER_TYPE_RESULTS.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 953
+    },
+    {
+      "path": "reports/final/PRIVACY_RELEASE_AUDIT.md",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 4214
+    },
+    {
+      "path": "reports/final/SV02_ABLATION_TABLE.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 588
+    },
+    {
+      "path": "reports/final/SV03_ERROR_TABLE.csv",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 705
+    },
+    {
+      "path": "reports/final/figures/fig1_b1_b6_overall_f1.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 984
+    },
+    {
+      "path": "reports/final/figures/fig1_b1_b6_overall_f1.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 177936
+    },
+    {
+      "path": "reports/final/figures/fig2_b1_b6_precision_recall.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 1446
+    },
+    {
+      "path": "reports/final/figures/fig2_b1_b6_precision_recall.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 193162
+    },
+    {
+      "path": "reports/final/figures/fig3_b5_b6_error_partition.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 498
+    },
+    {
+      "path": "reports/final/figures/fig3_b5_b6_error_partition.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 195329
+    },
+    {
+      "path": "reports/final/figures/fig4_b5_b6_boundary_errors.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 575
+    },
+    {
+      "path": "reports/final/figures/fig4_b5_b6_boundary_errors.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 186365
+    },
+    {
+      "path": "reports/final/figures/fig5_sv02_ablation.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 513
+    },
+    {
+      "path": "reports/final/figures/fig5_sv02_ablation.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 174771
+    },
+    {
+      "path": "reports/final/figures/fig6_sv03_fp_breakdown.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 383
+    },
+    {
+      "path": "reports/final/figures/fig6_sv03_fp_breakdown.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 167071
+    },
+    {
+      "path": "reports/final/figures/fig7_language_robustness.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 638
+    },
+    {
+      "path": "reports/final/figures/fig7_language_robustness.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 138317
+    },
+    {
+      "path": "reports/final/figures/fig8_perturbation_robustness.json",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 464
+    },
+    {
+      "path": "reports/final/figures/fig8_perturbation_robustness.png",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 137702
+    },
+    {
+      "path": "reports/scientific_validation_sv01_b5_distribution_audit.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 8715
+    },
+    {
+      "path": "reports/scientific_validation_sv01_b5_distribution_audit.md",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 21356
+    },
+    {
+      "path": "requirements-lock.txt",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 1207
+    },
+    {
+      "path": "requirements.txt",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 364
+    },
+    {
+      "path": "schemas/base_instance.schema.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 7597
+    },
+    {
+      "path": "schemas/example.schema.json",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 9183
+    },
+    {
+      "path": "scratch/audit_reports.py",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 2121
+    },
+    {
+      "path": "scratch/sv01/diagnostic_results.json",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 13193
+    },
+    {
+      "path": "scratch/sv01/run_sv01_audit.py",
+      "category": "ARCHIVE_ONLY",
+      "size_bytes": 29051
+    },
+    {
+      "path": "scripts/audit_repository.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 7921
+    },
+    {
+      "path": "scripts/generate_release_manifest_and_hashes.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 8283
+    },
+    {
+      "path": "scripts/reproduce_b5.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 5105
+    },
+    {
+      "path": "scripts/reproduce_b6.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 5097
+    },
+    {
+      "path": "tests/conftest.py",
+      "category": "OPTIONAL",
+      "size_bytes": 823
+    },
+    {
+      "path": "tests/fixtures/base_instance.hard_negative.valid.json",
+      "category": "OPTIONAL",
+      "size_bytes": 479
+    },
+    {
+      "path": "tests/fixtures/base_instance.valid.json",
+      "category": "OPTIONAL",
+      "size_bytes": 477
+    },
+    {
+      "path": "tests/fixtures/example.valid.json",
+      "category": "OPTIONAL",
+      "size_bytes": 1100
+    },
+    {
+      "path": "tests/test_annotation_review_csv.py",
+      "category": "OPTIONAL",
+      "size_bytes": 6048
+    },
+    {
+      "path": "tests/test_b1_reproducibility.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2799
+    },
+    {
+      "path": "tests/test_b2_reproducibility.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2619
+    },
+    {
+      "path": "tests/test_b3_reproducibility.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2654
+    },
+    {
+      "path": "tests/test_b4_reproducibility.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2670
+    },
+    {
+      "path": "tests/test_b5_reproducibility.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2516
+    },
+    {
+      "path": "tests/test_b6_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7206
+    },
+    {
+      "path": "tests/test_base_kind_invariant.py",
+      "category": "OPTIONAL",
+      "size_bytes": 3571
+    },
+    {
+      "path": "tests/test_baselines_base.py",
+      "category": "OPTIONAL",
+      "size_bytes": 6198
+    },
+    {
+      "path": "tests/test_baselines_presidio.py",
+      "category": "OPTIONAL",
+      "size_bytes": 5275
+    },
+    {
+      "path": "tests/test_baselines_regex.py",
+      "category": "OPTIONAL",
+      "size_bytes": 5364
+    },
+    {
+      "path": "tests/test_baselines_spacy.py",
+      "category": "OPTIONAL",
+      "size_bytes": 3632
+    },
+    {
+      "path": "tests/test_baselines_transformer.py",
+      "category": "OPTIONAL",
+      "size_bytes": 8162
+    },
+    {
+      "path": "tests/test_baselines_transformer_adapted.py",
+      "category": "OPTIONAL",
+      "size_bytes": 9860
+    },
+    {
+      "path": "tests/test_benchmark_evaluator.py",
+      "category": "OPTIONAL",
+      "size_bytes": 9322
+    },
+    {
+      "path": "tests/test_benchmark_failure_analysis.py",
+      "category": "OPTIONAL",
+      "size_bytes": 5401
+    },
+    {
+      "path": "tests/test_benchmark_matching.py",
+      "category": "OPTIONAL",
+      "size_bytes": 9998
+    },
+    {
+      "path": "tests/test_benchmark_metrics.py",
+      "category": "OPTIONAL",
+      "size_bytes": 12490
+    },
+    {
+      "path": "tests/test_benchmark_schema.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2771
+    },
+    {
+      "path": "tests/test_benchmark_stats.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7444
+    },
+    {
+      "path": "tests/test_e01_regex_experiment.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2892
+    },
+    {
+      "path": "tests/test_generate_adversarial_records.py",
+      "category": "OPTIONAL",
+      "size_bytes": 8540
+    },
+    {
+      "path": "tests/test_generate_base_instances.py",
+      "category": "OPTIONAL",
+      "size_bytes": 4055
+    },
+    {
+      "path": "tests/test_generate_hard_negative_bases.py",
+      "category": "OPTIONAL",
+      "size_bytes": 6870
+    },
+    {
+      "path": "tests/test_generate_hard_negative_records.py",
+      "category": "OPTIONAL",
+      "size_bytes": 16445
+    },
+    {
+      "path": "tests/test_generator_aadhaar.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1542
+    },
+    {
+      "path": "tests/test_generator_address.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1340
+    },
+    {
+      "path": "tests/test_generator_bank_account.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1089
+    },
+    {
+      "path": "tests/test_generator_email.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1623
+    },
+    {
+      "path": "tests/test_generator_pan.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1253
+    },
+    {
+      "path": "tests/test_generator_person.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1582
+    },
+    {
+      "path": "tests/test_generator_phone.py",
+      "category": "OPTIONAL",
+      "size_bytes": 1392
+    },
+    {
+      "path": "tests/test_generator_upi_id.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2447
+    },
+    {
+      "path": "tests/test_generators_common.py",
+      "category": "OPTIONAL",
+      "size_bytes": 2880
+    },
+    {
+      "path": "tests/test_schemas.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7099
+    },
+    {
+      "path": "tests/test_scientific_freeze.py",
+      "category": "RELEASE_REQUIRED",
+      "size_bytes": 6620
+    },
+    {
+      "path": "tests/test_semantic_validator.py",
+      "category": "OPTIONAL",
+      "size_bytes": 29181
+    },
+    {
+      "path": "tests/test_span_validator.py",
+      "category": "OPTIONAL",
+      "size_bytes": 17164
+    },
+    {
+      "path": "tests/test_structural_validator.py",
+      "category": "OPTIONAL",
+      "size_bytes": 12212
+    },
+    {
+      "path": "tests/test_sv02_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 6526
+    },
+    {
+      "path": "tests/test_sv03_error_analysis.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7642
+    },
+    {
+      "path": "tests/test_t08_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 8611
+    },
+    {
+      "path": "tests/test_t08_language_realizations.py",
+      "category": "OPTIONAL",
+      "size_bytes": 19795
+    },
+    {
+      "path": "tests/test_t10_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 17403
+    },
+    {
+      "path": "tests/test_t11_construction_ground_truth_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 6345
+    },
+    {
+      "path": "tests/test_t11_evaluation_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7928
+    },
+    {
+      "path": "tests/test_t11_hard_negative_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 16434
+    },
+    {
+      "path": "tests/test_t11_phase2_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7275
+    },
+    {
+      "path": "tests/test_t12_adversarial_governance.py",
+      "category": "OPTIONAL",
+      "size_bytes": 11041
+    },
+    {
+      "path": "tests/test_translit_table.py",
+      "category": "OPTIONAL",
+      "size_bytes": 7515
+    },
+    {
+      "path": "training/.gitkeep",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 0
+    },
+    {
+      "path": "validators/base_kind.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 3509
+    },
+    {
+      "path": "validators/semantic.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 19332
+    },
+    {
+      "path": "validators/spans.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 11362
+    },
+    {
+      "path": "validators/structural.py",
+      "category": "DEVELOPMENT_ONLY",
+      "size_bytes": 5343
+    }
+  ]
+}

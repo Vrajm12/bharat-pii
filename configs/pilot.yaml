@@ -8,7 +8,7 @@
 project:
   name: indian-pii-robust
   version: "0.1"
-  guidelines_version: "0.1"
+  guidelines_version: "0.18"
 
 data:
   pilot_base_count: 100

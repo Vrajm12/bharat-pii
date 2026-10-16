@@ -1,0 +1,35 @@
+{
+  "title": "Exact Boundary F1 Under Input Perturbations (B5 vs B6)",
+  "perturbations": [
+    "clean",
+    "a1_whitespace",
+    "a2_phonetic",
+    "a3_ocr",
+    "a4_script_mix",
+    "a5_delimiters"
+  ],
+  "b5_exact_f1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "b6_exact_f1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "delta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

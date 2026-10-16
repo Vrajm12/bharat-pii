@@ -1,0 +1,53 @@
+probe_id,input_text,expected_entity_or_label,observed_entity_text,observed_category,observed_offsets_start_end,reported_confidence,slice_invariant,outcome_against_predefined_expectation,notes
+A01,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A02,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A03,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A04,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A05,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A06,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A07,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A08,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A09,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A10,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A11,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A12,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A13,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A14,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A15,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A16,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A17,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A18,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A19,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A20,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A21,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A22,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A23,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A24,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A25,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A26,,,,,,,,NOT_AVAILABLE,Detailed per-probe input/output is not present in the available conversation record; not inferred.
+A27,My name is Rahul Sharma.,PERSON Rahul Sharma [11:23],Rahul Sharma,PERSON,[11:23],0.8561,Exact match,PASS after expected-offset correction,Expected start offset was previously stated as 12; correct span is [11:23].
+A28,मेरा नाम राहुल शर्मा है।,PERSON राहुल शर्मा [9:20],राहुल शर्मा,PERSON,[9:20],0.7751,Exact match,PASS after expected-offset correction,Expected end corrected from 19 to 20.
+A29,Mera naam Rahul Sharma hai.,PERSON Rahul Sharma [10:22],Rahul Sharma,PERSON,[10:22],0.8843,Exact match,PASS,No overlap reported.
+A30,"Name: Rahul Sharma, please contact me.",PERSON Rahul Sharma [6:18],Rahul Sharma,PERSON,[6:18],0.8222,Exact match,PASS,Comma excluded.
+A31,Rahul Sharma met Priya Verma yesterday.,"Two PERSON spans: Rahul Sharma [0:12], Priya Verma [17:28]",Rahul Sharma; Priya Verma,PERSON; PERSON,[0:12]; [17:28],0.8063; 0.9268,Both exact,PASS,"Two spans, no overlap reported."
+A32,Rahul Sharma called Rahul Sharma.,"Two PERSON spans: Rahul Sharma [0:12], Rahul Sharma [20:32]",Rahul Sharma; Rahul Sharma,PERSON; PERSON,[0:12]; [20:32],0.7866; 0.8205,Both exact,PASS,Repeated occurrence detected twice.
+A33,Dr. Priya Verma joined the meeting.,PERSON Priya Verma [4:15],Priya Verma,PERSON,[4:15],0.8853,Exact match,PASS,Dr. excluded.
+A34,Please contact Mr. Amit Kumar tomorrow.,PERSON Amit Kumar [19:29],Amit Kumar,PERSON,[19:29],0.6638,Exact match,PASS,Honorific and following word excluded.
+A35,Meet Priya S. Verma at noon.,PERSON Priya S. Verma [5:19],Priya S. Verma,PERSON,[5:19],0.7354,Exact match,PASS after expected-offset correction,Expected end corrected from 18 to 19.
+A36,आज राहुल मोहन शर्मा आए।,PERSON राहुल मोहन शर्मा [3:19],राहुल मोहन शर्मा,PERSON,[3:19],0.6401,Exact match,PASS after expected-offset correction,Expected start corrected from 4 to 3.
+A37,Rahul Sharma spoke to Neha Sharma.,"Two PERSON spans: Rahul Sharma [0:12], Neha Sharma [22:33]",Rahul Sharma; Neha Sharma,PERSON; PERSON,[0:12]; [22:33],0.8234; 0.8981,Both exact,PASS,Shared surname; distinct spans.
+A38,Priya Verma’s report is ready.,PERSON Priya Verma [0:11],Priya Verma,PERSON,[0:11],0.7813,Exact match,PASS,Possessive suffix excluded.
+A39,Have you met Amit Kumar?,PERSON Amit Kumar [13:23],Amit Kumar,PERSON,[13:23],0.8673,Exact match,PASS after expected-offset correction,Expected offsets corrected from [14:24].
+A40,I have not met Neha Kapoor.,PERSON Neha Kapoor [15:26],Neha Kapoor,PERSON,[15:26],0.8420,Exact match,PASS after expected-offset correction,Expected offsets corrected from [17:28].
+A41,"Sharma, Rahul joined the call.","Single PERSON Sharma, Rahul [0:13]",Sharma; Rahul,PERSON; PERSON,[0:6]; [8:13],0.7314; 0.7247,Both slices exact,FAIL: expected one span; output fragmented,Components separately detected; not merged.
+A42,Ananya Roy-Sen attended the meeting.,PERSON Ananya Roy-Sen [0:14],Ananya Roy-Sen,PERSON,[0:14],0.6353,Exact match,PASS,Hyphenated surname one span.
+A43,R. K. Sharma gave a speech.,PERSON R. K. Sharma [0:11],Sharma,PERSON,[6:12],0.8528,Detected slice exact,FAIL: truncated entity,Initials excluded.
+A44,R.K. Sharma gave a speech.,PERSON R.K. Sharma [0:10],K; Sharma,PERSON; PERSON,[2:3]; [5:11],0.8728; 0.8468,Both slices exact,FAIL: fragmented/incomplete,R. missed; K and Sharma separate.
+A45,Sharma R.K. gave a speech.,PERSON Sharma R.K. [0:10],Sharma R.K,PERSON,[0:10],0.6043,Exact match for reported span,PARTIAL: terminal period excluded,Reported [0:10] is 'Sharma R.K'; expected text had incorrectly included period.
+A46,Speaker: Ananya Mehta: welcome everyone.,PERSON Ananya Mehta [9:21],Ananya Mehta,PERSON,[9:21],0.6280,Exact match,PASS,Both colons excluded.
+A47,The presenter (Neha Kapoor) will begin shortly.,PERSON Neha Kapoor [15:26],Neha Kapoor,PERSON,[15:26],0.7769,Exact match,PASS after expected-offset correction,Expected offsets corrected from [16:28].
+A48,"She said, ""Amit Kumar will join us.""",PERSON Amit Kumar [11:21],Amit Kumar,PERSON,[11:21],0.8241,Exact match,PASS,Quotes excluded.
+A49,"Contact person:
+Priya Verma
+Department: Sales",PERSON Priya Verma [16:27],Priya Verma,PERSON,[16:27],0.8876,Exact match,PASS with display caveat,Visual display collapsed line breaks; newline preservation not independently verified.
+A50,The award was presented to Ananya Mehta.,PERSON Ananya Mehta [27:39],Ananya Mehta,PERSON,[27:39],0.7550,Exact match,PASS,Trailing period excluded.

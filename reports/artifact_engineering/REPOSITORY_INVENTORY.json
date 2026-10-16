@@ -1,0 +1,2881 @@
+{
+  "total_files_audited": 478,
+  "classification_counts": {
+    "DEVELOPMENT_ONLY": 77,
+    "SCRATCH": 122,
+    "CANONICAL_SCIENTIFIC": 24,
+    "PUBLIC_RELEASE": 72,
+    "EXPERIMENTAL_ARCHIVE": 148,
+    "DERIVED_ARTIFACT": 35
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 84,
+      "md5": "4c0f59e73a7d7068c2c934a3a263bc47"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "classification": "SCRATCH",
+      "size_bytes": 39,
+      "md5": "85757ff2adfbaf633a1dd16a265f8826"
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "classification": "SCRATCH",
+      "size_bytes": 191,
+      "md5": "f552fcc7d0ecdb6607533519d6898357"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "classification": "SCRATCH",
+      "size_bytes": 310,
+      "md5": "11c87436abd496719b2727c87d217993"
+    },
+    {
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "classification": "SCRATCH",
+      "size_bytes": 1666,
+      "md5": "094337277c68905eda1be6790f9a614e"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "classification": "SCRATCH",
+      "size_bytes": 101734,
+      "md5": "f0438b9d72c600915742abb40a854115"
+    },
+    {
+      "path": "CLAUDE.md",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 6283,
+      "md5": "e722f9342e0d425b13a8888e5ed6b5a4"
+    },
+    {
+      "path": "PROJECT_SPEC.md",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 61344,
+      "md5": "7f9ebfca9e655295791736c9e7510fa7"
+    },
+    {
+      "path": "annotation/CHANGELOG.md",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 41968,
+      "md5": "1fb7e0c0a77dfb719c26ad981750ca55"
+    },
+    {
+      "path": "annotation/__pycache__/export_review_csv.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6023,
+      "md5": "fb053fd648e4c3d486e32884d53569e4"
+    },
+    {
+      "path": "annotation/export_review_csv.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 8705,
+      "md5": "c285852d7d307cf0ad6b4ec59d6e0fda"
+    },
+    {
+      "path": "annotation/guidelines.md",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 107097,
+      "md5": "a212a9fce3a35622edfe2e23d05f2383"
+    },
+    {
+      "path": "annotation/open_questions.md",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 162314,
+      "md5": "4261e9763ea368ffd09239e2b1b4e25c"
+    },
+    {
+      "path": "annotation/review_template.csv",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 176912,
+      "md5": "78c5767f2f8fede2021ff344aaddc32c"
+    },
+    {
+      "path": "application/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "baselines/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "baselines/__init__.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 617,
+      "md5": "0313ea1751e8876d483b2c942ac0fb22"
+    },
+    {
+      "path": "baselines/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 670,
+      "md5": "3d4f941cf15343f8436bfb12b4128909"
+    },
+    {
+      "path": "baselines/__pycache__/adaptation_data.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 8585,
+      "md5": "b069b00a820beff9a8410ea90403eb1d"
+    },
+    {
+      "path": "baselines/__pycache__/base.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 2812,
+      "md5": "e2b918f92368e19ee047693895d9da62"
+    },
+    {
+      "path": "baselines/__pycache__/generate_b6_analysis.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 13379,
+      "md5": "9bf0b4c4055665d23146ac1232c84b55"
+    },
+    {
+      "path": "baselines/__pycache__/presidio.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 4163,
+      "md5": "0429b6ea2169e15f8eb6e304283f2bd6"
+    },
+    {
+      "path": "baselines/__pycache__/regex.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3721,
+      "md5": "43e85b964e79598829398a3dbaeb5848"
+    },
+    {
+      "path": "baselines/__pycache__/run_b5_evaluation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 20067,
+      "md5": "4cca582329a687c71edbf3e2d7e075b8"
+    },
+    {
+      "path": "baselines/__pycache__/run_b6_evaluation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 18206,
+      "md5": "2955a00c1f0f7c3c07d69e0c6eadaa61"
+    },
+    {
+      "path": "baselines/__pycache__/run_sv02_evaluation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6835,
+      "md5": "0a03346cc6e380404d89a88526010502"
+    },
+    {
+      "path": "baselines/__pycache__/spacy.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 2650,
+      "md5": "6d3d169142c79c651c0bbfa8c0b56c27"
+    },
+    {
+      "path": "baselines/__pycache__/sv02_audit.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6370,
+      "md5": "d268b7f1b6d8a0ed733fe7e236838be9"
+    },
+    {
+      "path": "baselines/__pycache__/sv02_data.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 17102,
+      "md5": "018476c67f40fd4e6e5491147c6f3890"
+    },
+    {
+      "path": "baselines/__pycache__/sv03_analysis.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 27805,
+      "md5": "2c3ff44d8a83e56222ab1ba72f5375a6"
+    },
+    {
+      "path": "baselines/__pycache__/train_b6.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5856,
+      "md5": "7b3a8c93484e574e6e2bc6dfb36940b1"
+    },
+    {
+      "path": "baselines/__pycache__/train_sv02.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6429,
+      "md5": "1c3e1cad0de3b3affa88e8e3a2bdb236"
+    },
+    {
+      "path": "baselines/__pycache__/transformer.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3727,
+      "md5": "122f4cfc62b61c734cd2245110326dc5"
+    },
+    {
+      "path": "baselines/__pycache__/transformer_adapted.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 4413,
+      "md5": "2c6a03ca0721082c89db232da9130a6a"
+    },
+    {
+      "path": "baselines/__pycache__/transformer_b6.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 10508,
+      "md5": "5ea4fa715b4506493f2446da3d0ac6a8"
+    },
+    {
+      "path": "baselines/adaptation_data.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 11114,
+      "md5": "c7e2bb573fa6a34b4ca97aac8c849a9f"
+    },
+    {
+      "path": "baselines/base.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2989,
+      "md5": "e060c7f08e55e3b7fead8860f75cbf92"
+    },
+    {
+      "path": "baselines/generate_b6_analysis.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 16468,
+      "md5": "45679a31b15697e90cc71ae03a5b7e3d"
+    },
+    {
+      "path": "baselines/generate_figures.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 17596,
+      "md5": "3c9bf0bff6242e1a47b3ebde077da838"
+    },
+    {
+      "path": "baselines/generate_freeze_hashes.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 8143,
+      "md5": "319986ae98cc932506d6701bc03fa505"
+    },
+    {
+      "path": "baselines/generate_master_tables.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 34555,
+      "md5": "e3f61f138a2ee4290b99be7072fe90c3"
+    },
+    {
+      "path": "baselines/presidio.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 4320,
+      "md5": "0f56baf56c79ede4c88b9544b7904c17"
+    },
+    {
+      "path": "baselines/regex.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6068,
+      "md5": "9ad22e0f7569435c34e4118ebe2f7a35"
+    },
+    {
+      "path": "baselines/run_b5_evaluation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 22388,
+      "md5": "5c9e77a9f73e85f1339ad456f59009a8"
+    },
+    {
+      "path": "baselines/run_b6_evaluation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 21988,
+      "md5": "7a9aa9c872e743f5f013252e71c6040f"
+    },
+    {
+      "path": "baselines/run_sv02_evaluation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 7333,
+      "md5": "a28814214d046debe73a37c6c46480f3"
+    },
+    {
+      "path": "baselines/spacy.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2221,
+      "md5": "e2caed302f74954e7e8256e2fe84fdb8"
+    },
+    {
+      "path": "baselines/sv02_audit.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 6655,
+      "md5": "958b764db7932563e32e734d40b0d89f"
+    },
+    {
+      "path": "baselines/sv02_data.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 25311,
+      "md5": "93c97f2e8168f7143327a08718a7505e"
+    },
+    {
+      "path": "baselines/sv03_analysis.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 39909,
+      "md5": "247df895eba04019dab9efb02688b47c"
+    },
+    {
+      "path": "baselines/train_b5.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 7210,
+      "md5": "addc820dd090ae232f7877176922e134"
+    },
+    {
+      "path": "baselines/train_b6.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 7295,
+      "md5": "6e90b053b79dd7f8cd3f86c85a470f45"
+    },
+    {
+      "path": "baselines/train_sv02.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 7742,
+      "md5": "8efb94e8aeae5084662830431cf2090a"
+    },
+    {
+      "path": "baselines/transformer.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 3649,
+      "md5": "3dff49de9d86e0c6051b401269daa73e"
+    },
+    {
+      "path": "baselines/transformer_adapted.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 4512,
+      "md5": "1bc14adadfd247f8957b466bba9084e2"
+    },
+    {
+      "path": "baselines/transformer_b6.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 13292,
+      "md5": "89d2b7eea90ace7bda65ce4e63a99d8a"
+    },
+    {
+      "path": "benchmark/.gitkeep",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "benchmark/__init__.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1416,
+      "md5": "3e78c726f04da4b7ca75ce846e0629e0"
+    },
+    {
+      "path": "benchmark/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1249,
+      "md5": "086dfadb1548f48a1ff83125d36e6ba6"
+    },
+    {
+      "path": "benchmark/__pycache__/evaluator.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 4008,
+      "md5": "b2893cccc97d22c6afc9daea38133447"
+    },
+    {
+      "path": "benchmark/__pycache__/failure_analysis.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5355,
+      "md5": "09ac00082000c2fecbb3a195e3d07a6e"
+    },
+    {
+      "path": "benchmark/__pycache__/matching.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6258,
+      "md5": "830b3a47dfdd1ab74285d63a1e819988"
+    },
+    {
+      "path": "benchmark/__pycache__/metrics.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 4827,
+      "md5": "aeb6f5ee545e4c48d0bc3fabb03d8671"
+    },
+    {
+      "path": "benchmark/__pycache__/runner.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5262,
+      "md5": "483fec5a509538de4fe7378e622715bc"
+    },
+    {
+      "path": "benchmark/__pycache__/schema.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5416,
+      "md5": "691e8594c51e2f70c93b6817fc9f1322"
+    },
+    {
+      "path": "benchmark/__pycache__/stats.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5437,
+      "md5": "6e407849ab1c9343d09ccd4f0b32c0b9"
+    },
+    {
+      "path": "benchmark/evaluator.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 4026,
+      "md5": "37b3b733464e8a0a823d375beb885793"
+    },
+    {
+      "path": "benchmark/failure_analysis.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7866,
+      "md5": "4c2ae58f0ccebbeced049e2aa5918a9c"
+    },
+    {
+      "path": "benchmark/matching.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7928,
+      "md5": "e795a6b37d52286b6fc57a947f38358c"
+    },
+    {
+      "path": "benchmark/metrics.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6352,
+      "md5": "85d697b2d3c73cb2f33fd1ef24ea31cc"
+    },
+    {
+      "path": "benchmark/runner.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6274,
+      "md5": "5fd9cdb5f438847c4d2f3634093ea680"
+    },
+    {
+      "path": "benchmark/schema.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 5351,
+      "md5": "4f7c60ac2d44ba6d96091982c759c00d"
+    },
+    {
+      "path": "benchmark/stats.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 5010,
+      "md5": "2eb65d51553cc52f7ecae6c948e76cba"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed42/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 456,
+      "md5": "e070962670e7aea611cf667cc7542c2a"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed43/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 456,
+      "md5": "258eee63f71838840144dde1027fd82d"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/b5_transformer_adapted_seed44/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 456,
+      "md5": "b46e4b14fc500757ba0c9c2311177143"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/b6_crf_head.pt",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 56389,
+      "md5": "c6730316fd029fa56aed99f4dafcda5c"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed42/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 578,
+      "md5": "4dade58c6d89226dffeaf3437c632a85"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/b6_crf_head.pt",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 56389,
+      "md5": "fd73ec0e84c89440fbf12459c118e116"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed43/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 578,
+      "md5": "2d43e139b4b670fe6cebea0edc753f45"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/b6_crf_head.pt",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 56389,
+      "md5": "5ca3a422caef800a43967426ca9b2bbf"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/b6/b6_transformer_crf_seed44/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 578,
+      "md5": "f0475181bd11e5ea900b397d2c17e593"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed42/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 580,
+      "md5": "aac34314e9e9d74c01b2234e6b73aa88"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed43/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 580,
+      "md5": "0dc38d290dd6305f2ca80b53837702b8"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_format_diversity_seed44/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 580,
+      "md5": "9f659ed30f091b4e60d28859e43ba3bb"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed42/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 577,
+      "md5": "d64364c813554f67ab182d09c902207d"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed43/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 577,
+      "md5": "0001e70ceec9897f1712b13a23d187da"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_hard_negative_seed44/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 577,
+      "md5": "8d147d5e4826439917c55c30f3ddab93"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed42/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 580,
+      "md5": "306d2eb1dad41e8ac062089c53840917"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed43/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 580,
+      "md5": "04b8467b19504264eb072ad5cd948713"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1559,
+      "md5": "e40f1d6db3eb816f91a905d84c98e1f3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/model.safetensors",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1109888564,
+      "md5": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/tokenizer.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 17098351,
+      "md5": "b4e0b9fab336d545f81470f67b73c4dc"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/tokenizer_config.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 358,
+      "md5": "93f19ab549324c181095c749d7a84cc3"
+    },
+    {
+      "path": "checkpoints/sv02/b5_positive_matched_seed44/training_meta.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 580,
+      "md5": "e1adbaccd069c67aac36c65a646dff4d"
+    },
+    {
+      "path": "configs/pilot.yaml",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1310,
+      "md5": "404d92aebccecaa93e21422c332f9c3a"
+    },
+    {
+      "path": "data/adaptation/manifest.json",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 415,
+      "md5": "03b39e1595486cfe19f70d35f9668f28"
+    },
+    {
+      "path": "data/adaptation/train.jsonl",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 327879,
+      "md5": "8b00a18177a4fc889dcd2b71d39fe72d"
+    },
+    {
+      "path": "data/adaptation/val.jsonl",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 65235,
+      "md5": "485c5113f129294ea3e7844b94a27fb8"
+    },
+    {
+      "path": "data/annotations/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "data/experiments/sv02/b5_format_diversity/manifest.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 692,
+      "md5": "4fca0a93b2f4515e008153c1f9952935"
+    },
+    {
+      "path": "data/experiments/sv02/b5_format_diversity/train.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 459643,
+      "md5": "5eca7d2730db41dbc99aab31ad035afd"
+    },
+    {
+      "path": "data/experiments/sv02/b5_format_diversity/val.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 91375,
+      "md5": "0f435f9d7eecbb522ecbb307070010c3"
+    },
+    {
+      "path": "data/experiments/sv02/b5_hard_negative/manifest.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 696,
+      "md5": "6f8cb081229c8abd8d0e226b8f40ca3e"
+    },
+    {
+      "path": "data/experiments/sv02/b5_hard_negative/train.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 407379,
+      "md5": "cd7bbe641cdacd96af8395ad9a299a22"
+    },
+    {
+      "path": "data/experiments/sv02/b5_hard_negative/val.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 81143,
+      "md5": "09eb1cd8eaeec7faacdc9f2d341229bb"
+    },
+    {
+      "path": "data/experiments/sv02/b5_positive_matched/manifest.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 689,
+      "md5": "afed2e3578577b19313379bf127695a2"
+    },
+    {
+      "path": "data/experiments/sv02/b5_positive_matched/train.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 423579,
+      "md5": "c4ae6f05bf24eafc8f3e5567931fd5b8"
+    },
+    {
+      "path": "data/experiments/sv02/b5_positive_matched/val.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 84205,
+      "md5": "dded13d93b8df6a395bad6fcbd0d59e4"
+    },
+    {
+      "path": "data/experiments/sv02/manifest.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1056,
+      "md5": "9d017752b7266193526233d48722c42f"
+    },
+    {
+      "path": "data/frozen/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "data/generated/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "data/generated/adversarial_realizations.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 96473,
+      "md5": "1b678b9597737c85197acf80ab56878d"
+    },
+    {
+      "path": "data/generated/hard_negative_realizations.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 113011,
+      "md5": "ae5537eec4129822e3d97b05170b4fea"
+    },
+    {
+      "path": "data/generated/language_realizations.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 608939,
+      "md5": "0cb046740507eb9111a214b24b680483"
+    },
+    {
+      "path": "data/raw/README.md",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 4598,
+      "md5": "fae456e083c532f5a15a00a1ea6cd337"
+    },
+    {
+      "path": "data/raw/base_instances.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 46608,
+      "md5": "7006b0c9227d93541d2b71f702407ecc"
+    },
+    {
+      "path": "data/raw/base_instances.pre_oq007.jsonl",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 40876,
+      "md5": "c61129fbb01fcb579aa4b763d9c42af7"
+    },
+    {
+      "path": "data/raw/base_instances.pre_t07.jsonl",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 40780,
+      "md5": "5b76f1ccb656be3684adec95cdfd1808"
+    },
+    {
+      "path": "data/raw/hard_negative_bases.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 8833,
+      "md5": "b36c6c106548d18ff7083fd00532cb07"
+    },
+    {
+      "path": "data/rejected/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "data/validated/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "docs/research/construction_log.md",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 98335,
+      "md5": "6097a306c507e82d279ed654f7f7d046"
+    },
+    {
+      "path": "experiments/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/__init__.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 145,
+      "md5": "c3a29cca03b2d61f2105a981bc558e41"
+    },
+    {
+      "path": "generators/__pycache__/__init__.cpython-313.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 149,
+      "md5": "9b458cef9d689ab118ad9ab5fdeb7a58"
+    },
+    {
+      "path": "generators/__pycache__/base_instances.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 9541,
+      "md5": "f49483fdadaaabba78ad75d45eaaa896"
+    },
+    {
+      "path": "generators/__pycache__/base_instances.cpython-313.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 11846,
+      "md5": "2acacc99a81373a58345512515e55d48"
+    },
+    {
+      "path": "generators/__pycache__/hard_negatives.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 10573,
+      "md5": "b0bef0af0153f7722d18e4e9142205cd"
+    },
+    {
+      "path": "generators/base_instances.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 13389,
+      "md5": "2cb4422bd17ad8604e44077b02812208"
+    },
+    {
+      "path": "generators/contexts/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/hard_negatives.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 12709,
+      "md5": "cb27a1b7363f021ccdc1fef0debef827"
+    },
+    {
+      "path": "generators/language/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/language/__init__.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/language/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 154,
+      "md5": "e63dfcc7734b659fdf5f378096e053a3"
+    },
+    {
+      "path": "generators/language/__pycache__/adversarial_records.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5992,
+      "md5": "5025a896b53b1e8ddfc39fe7cb2682f1"
+    },
+    {
+      "path": "generators/language/__pycache__/hard_negative_records.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 9284,
+      "md5": "d920ad0ea99b8d5d5996f76c4386a775"
+    },
+    {
+      "path": "generators/language/__pycache__/metadata.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 2235,
+      "md5": "05798ee24081e6d4cce4d7cb90ca828e"
+    },
+    {
+      "path": "generators/language/__pycache__/realizations.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 4049,
+      "md5": "226c288ae03d827f538ccd68fe98f753"
+    },
+    {
+      "path": "generators/language/__pycache__/records.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5829,
+      "md5": "449c2fd19fd488f9dcc2b23b9dab2393"
+    },
+    {
+      "path": "generators/language/__pycache__/spans.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 2326,
+      "md5": "0b6fdd7a5c3db3ba274752e7e9bd0857"
+    },
+    {
+      "path": "generators/language/__pycache__/templates.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3778,
+      "md5": "c8979afbb3f588ad2adb4be609efe289"
+    },
+    {
+      "path": "generators/language/adversarial_records.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 6786,
+      "md5": "1a5edbc82ad5749237998e9929f6d357"
+    },
+    {
+      "path": "generators/language/hard_negative_records.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 11398,
+      "md5": "514f781d238031969114e6ae478e888e"
+    },
+    {
+      "path": "generators/language/metadata.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 2577,
+      "md5": "f13449d383d4b2c4e943b49e62488b5a"
+    },
+    {
+      "path": "generators/language/realizations.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 4143,
+      "md5": "a3326ee0e5961071da26adb5d5cec36a"
+    },
+    {
+      "path": "generators/language/records.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 6954,
+      "md5": "1fb443be90dc68498bb0699c187b3dd8"
+    },
+    {
+      "path": "generators/language/spans.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 2182,
+      "md5": "c4a3e45acc29c90f16f5a947f83d5436"
+    },
+    {
+      "path": "generators/language/templates.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 4669,
+      "md5": "a0c2b336680a4114fbbce2d2ae2de4d8"
+    },
+    {
+      "path": "generators/perturbations/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/perturbations/__init__.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 746,
+      "md5": "c785d9071b131a70ae5c4b070e06da42"
+    },
+    {
+      "path": "generators/perturbations/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 775,
+      "md5": "973aaca88fc81265e78c3bc09231aa55"
+    },
+    {
+      "path": "generators/perturbations/__pycache__/abbreviation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1481,
+      "md5": "999f636dbc27eeea10c639caef85dd52"
+    },
+    {
+      "path": "generators/perturbations/__pycache__/char_variation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1842,
+      "md5": "6775340059b975b08d9d2b7453606705"
+    },
+    {
+      "path": "generators/perturbations/__pycache__/label_obfuscation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1557,
+      "md5": "9fcef6c8b06ee776d0c466742e3f2902"
+    },
+    {
+      "path": "generators/perturbations/__pycache__/punctuation.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1857,
+      "md5": "75ac41838ee2a3ef4ca3df3cbd9a9e73"
+    },
+    {
+      "path": "generators/perturbations/__pycache__/spacing.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1360,
+      "md5": "6e0b7185a2e3d61c958887ef58510af2"
+    },
+    {
+      "path": "generators/perturbations/abbreviation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1385,
+      "md5": "54c70347a907d431767282359cd0d60b"
+    },
+    {
+      "path": "generators/perturbations/char_variation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1755,
+      "md5": "7cd90c25a7b37d776e0e296b933baf76"
+    },
+    {
+      "path": "generators/perturbations/label_obfuscation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1442,
+      "md5": "20a791ed11032346e2625cf252ab32b9"
+    },
+    {
+      "path": "generators/perturbations/punctuation.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1847,
+      "md5": "383b2f65a31d371e4dc821f678268187"
+    },
+    {
+      "path": "generators/perturbations/spacing.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1071,
+      "md5": "b9d2b4de07b2cee527726d52c24263a5"
+    },
+    {
+      "path": "generators/pii/__init__.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/pii/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 149,
+      "md5": "c9912026f6ead5852e6265f4ee4f8e9a"
+    },
+    {
+      "path": "generators/pii/__pycache__/_common.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3678,
+      "md5": "2b254f73cb3b2ea2e6df7e1f0b734e49"
+    },
+    {
+      "path": "generators/pii/__pycache__/aadhaar.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1820,
+      "md5": "4e8b00609120b31c39ce055af80b75a5"
+    },
+    {
+      "path": "generators/pii/__pycache__/address.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3266,
+      "md5": "03b195fa38bd4e8aa60bcf949491d2eb"
+    },
+    {
+      "path": "generators/pii/__pycache__/bank_account.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1434,
+      "md5": "91ea25eeec5774e760dbb6decd935b41"
+    },
+    {
+      "path": "generators/pii/__pycache__/email.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1842,
+      "md5": "1465ef65966d8589ba58fbf45ebb0ceb"
+    },
+    {
+      "path": "generators/pii/__pycache__/pan.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1894,
+      "md5": "e25476b0828b2f30d4bdfa6749806ab3"
+    },
+    {
+      "path": "generators/pii/__pycache__/person.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 2187,
+      "md5": "75a2c993a165684690e75fdfe3924473"
+    },
+    {
+      "path": "generators/pii/__pycache__/phone.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1949,
+      "md5": "2cd3e0c40d3cafff74c96f62088e9a66"
+    },
+    {
+      "path": "generators/pii/__pycache__/upi_id.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3239,
+      "md5": "2776ff0786872a070585b2b57c908c14"
+    },
+    {
+      "path": "generators/pii/_common.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 3194,
+      "md5": "e5828a13b23918e216f8cb7a81ee3fd1"
+    },
+    {
+      "path": "generators/pii/aadhaar.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1395,
+      "md5": "d6838dc3881f564517a6f0a9d278900f"
+    },
+    {
+      "path": "generators/pii/address.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 2892,
+      "md5": "dfb0a273c8516f4527c677be809ed765"
+    },
+    {
+      "path": "generators/pii/bank_account.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 999,
+      "md5": "5436250efc4dd8b7044462aa46e547b8"
+    },
+    {
+      "path": "generators/pii/email.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1638,
+      "md5": "32696147bdfca49a59199616b6ff637b"
+    },
+    {
+      "path": "generators/pii/pan.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1438,
+      "md5": "74e79a7da41b7a32e383441f89566bb1"
+    },
+    {
+      "path": "generators/pii/person.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 2184,
+      "md5": "e55df4e81f5dc45fe47bbd4cf81e13db"
+    },
+    {
+      "path": "generators/pii/phone.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 1536,
+      "md5": "5a1fc383940a8334a292b273f5a7c989"
+    },
+    {
+      "path": "generators/pii/upi_id.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 2774,
+      "md5": "17196575a03257e16a9cc307bb084d7a"
+    },
+    {
+      "path": "generators/translit/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/translit/__init__.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "generators/translit/__pycache__/__init__.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 154,
+      "md5": "f896db1c5677087ae48d565b4c7aa809"
+    },
+    {
+      "path": "generators/translit/__pycache__/table.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5929,
+      "md5": "492cde61ef3bd89185f8ca730b315372"
+    },
+    {
+      "path": "generators/translit/table.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 6324,
+      "md5": "802ca3fe68e838b5bc9fd90d0732f90a"
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed42_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 154266,
+      "md5": "549cce213b1b52e6dbb682810a4544c9"
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed43_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 153528,
+      "md5": "6e42cb0960464396937777d258074847"
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed44_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 153252,
+      "md5": "060294f557d9795e124aa1f26dfa3693"
+    },
+    {
+      "path": "predictions/experiments/b6/transformer_crf_5.16.1_xlm_roberta_base_indian_crf_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 154266,
+      "md5": "549cce213b1b52e6dbb682810a4544c9"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_format_diversity_5.16.1_seed42_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 243504,
+      "md5": "53d0a9ed3a52195d7e8b50180f11e067"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_format_diversity_5.16.1_seed43_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 244445,
+      "md5": "cc13220b8c4701318b685f0486169102"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_format_diversity_5.16.1_seed44_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 243420,
+      "md5": "eeeffcff01e554068ef26ba0d3cca857"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_hard_negative_5.16.1_seed42_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 205196,
+      "md5": "eff95c3974eaa32cf7cad1202f7b2161"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_hard_negative_5.16.1_seed43_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 207333,
+      "md5": "40ec74e9dd5c436b839de50ecbba4bc7"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_hard_negative_5.16.1_seed44_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 206088,
+      "md5": "8d825a867b0bd652ae914beab04491da"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_positive_matched_5.16.1_seed42_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 220120,
+      "md5": "2b72ae937ec7d14dc94a46a3a1d0aeb8"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_positive_matched_5.16.1_seed43_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 221928,
+      "md5": "c3b794b8ec46d952b25ae68fbe5195c4"
+    },
+    {
+      "path": "predictions/experiments/sv02/sv02_b5_positive_matched_5.16.1_seed44_v0.18.jsonl",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 221396,
+      "md5": "f6c1e867f0a45c6836d5f2e9f9c72fb8"
+    },
+    {
+      "path": "predictions/presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 352773,
+      "md5": "2c661403efa963275be5f2559a1577b9"
+    },
+    {
+      "path": "predictions/regex_1.0.0_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 72293,
+      "md5": "8913ac633854a36948a3445e4be0594d"
+    },
+    {
+      "path": "predictions/regex_1.1.0_v0.18.jsonl",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 97898,
+      "md5": "768e2839f8e49e279f404c5ef42e106a"
+    },
+    {
+      "path": "predictions/spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 166972,
+      "md5": "6c74bd4ec742a1f0c6b8024200937fb5"
+    },
+    {
+      "path": "predictions/transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 64279,
+      "md5": "3f53b646fb9f95414bef8b972d2277b1"
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 226398,
+      "md5": "e589c2a3daa96e8a3963d95fecb89012"
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 224490,
+      "md5": "e11d924839cdddebd59104624f667357"
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 227244,
+      "md5": "a0b17f4b93251463319d0dc1409514bf"
+    },
+    {
+      "path": "predictions/transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.jsonl",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 226398,
+      "md5": "e589c2a3daa96e8a3963d95fecb89012"
+    },
+    {
+      "path": "reports/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "reports/B1_regex_baseline_summary.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 6121,
+      "md5": "e1b5ac5e553b280c3ccc51fdd5206ba6"
+    },
+    {
+      "path": "reports/B3_RESULTS_SUMMARY.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 14278,
+      "md5": "91eda2c657dd9468a5f641876583d627"
+    },
+    {
+      "path": "reports/B4_RESULTS_SUMMARY.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 10424,
+      "md5": "41b1b7143d158de6c01013ba96352c06"
+    },
+    {
+      "path": "reports/B5_RESULTS_SUMMARY.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 12595,
+      "md5": "8ddda9daee8d343a0e4b1c5c77e254bc"
+    },
+    {
+      "path": "reports/FINAL_CLAIM_AUDIT.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 8848,
+      "md5": "96d355c1dbbaa8d6a350a934ec6cb677"
+    },
+    {
+      "path": "reports/FINAL_FREEZE_DECLARATION.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 6117,
+      "md5": "a9ad285dd7429a3423eab79f45f08a50"
+    },
+    {
+      "path": "reports/FINAL_LIMITATIONS.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 6559,
+      "md5": "9494f664ca898d317aa7b8243f5d022c"
+    },
+    {
+      "path": "reports/FINAL_SCIENTIFIC_RECORD.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 20154,
+      "md5": "10b1700d834e6624a2dc583cf94c54d3"
+    },
+    {
+      "path": "reports/evaluation_presidio_2.2.364_en_core_web_sm_in_enabled_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 16005,
+      "md5": "4831393231e3d15dc674166dcaaaa2b9"
+    },
+    {
+      "path": "reports/evaluation_regex_1.0.0_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 15595,
+      "md5": "2958f77985fcc70d704c123e9e952ebd"
+    },
+    {
+      "path": "reports/evaluation_regex_1.1.0_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 14234,
+      "md5": "d74c2d79c31e121a13ff0bed2b808793"
+    },
+    {
+      "path": "reports/evaluation_spacy_3.8.16_en_core_web_sm_3.8.0_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 15684,
+      "md5": "a9745314b2e71df861ea71af15a9dd1a"
+    },
+    {
+      "path": "reports/evaluation_transformer_5.16.1_Davlan_xlm-roberta-base-ner-hrl_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 15279,
+      "md5": "dfe7e6b93e15ca266b29121977b1809e"
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed42_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 16153,
+      "md5": "06ca5638e48dc492c016166d8b1d12a2"
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed43_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 16059,
+      "md5": "cfb422de399fa7cb13dec4e30f7b29e1"
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_seed44_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 16150,
+      "md5": "90a0a0c9bb83dd4d2f456b6e0f508753"
+    },
+    {
+      "path": "reports/evaluation_transformer_adapted_5.16.1_xlm_roberta_base_indian_v0.18.json",
+      "classification": "CANONICAL_SCIENTIFIC",
+      "size_bytes": 58886,
+      "md5": "d3a9f9da8e848c7cafb9cf43299b9439"
+    },
+    {
+      "path": "reports/experiments/b6/B6_FINAL_REPORT.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 29681,
+      "md5": "41c70b83c34e4194dbb5999af37a52a2"
+    },
+    {
+      "path": "reports/experiments/b6/b6_b5_vs_b6_transition.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 292,
+      "md5": "923a48b67f57ce40e2aaed076711dc83"
+    },
+    {
+      "path": "reports/experiments/b6/b6_boundary_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1212,
+      "md5": "725de79c7a0d382cc2799c712b54d5ee"
+    },
+    {
+      "path": "reports/experiments/b6/b6_difficulty_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 2288,
+      "md5": "546528eb21dd0e20c0f7677a59efc1a5"
+    },
+    {
+      "path": "reports/experiments/b6/b6_error_interactions.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 2304,
+      "md5": "338adfa5d01a34afb03a582acd4041f8"
+    },
+    {
+      "path": "reports/experiments/b6/b6_error_summary.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 4853,
+      "md5": "5f7de4c90da2597ffe72cae5037527c9"
+    },
+    {
+      "path": "reports/experiments/b6/b6_false_positive_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1633,
+      "md5": "b08d064cc9c6718b8dea47e49db74bfe"
+    },
+    {
+      "path": "reports/experiments/b6/b6_hard_negative_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1531,
+      "md5": "865a8183e96ba68d5e9a8d87980c32ce"
+    },
+    {
+      "path": "reports/experiments/b6/b6_integrity_check.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 4947,
+      "md5": "58efdcdac7a3df7b3b994617ff37c579"
+    },
+    {
+      "path": "reports/experiments/b6/b6_language_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 5154,
+      "md5": "8f24615bbb4a2fb5d7a99a5463d8b329"
+    },
+    {
+      "path": "reports/experiments/b6/b6_perturbation_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 4259,
+      "md5": "90072f902a55889cf867b58f515205dc"
+    },
+    {
+      "path": "reports/experiments/b6/b6_representative_cases.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 2177,
+      "md5": "b58ea8dfcdf6f57cc1ed54f57285e91c"
+    },
+    {
+      "path": "reports/experiments/b6/b6_type_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 10244,
+      "md5": "50cbd12a00e6c2f044f43ec0d12bbe6a"
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed42_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16056,
+      "md5": "575662658e2457359933c3b678de033f"
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed43_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16055,
+      "md5": "bfec1ca3a013e567fab553c17a8d1820"
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_seed44_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16069,
+      "md5": "b6b6e40135fb1022efceed8635d10881"
+    },
+    {
+      "path": "reports/experiments/b6/evaluation_transformer_crf_5.16.1_xlm_roberta_base_indian_crf_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16056,
+      "md5": "575662658e2457359933c3b678de033f"
+    },
+    {
+      "path": "reports/experiments/sv02/SV02_FINAL_REPORT.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 24357,
+      "md5": "156f8a36eaa94d8c17aaeb875fe131f3"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_b5_format_diversity_aggregated.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 56232,
+      "md5": "1d1eeba4160b14071b38925909631fe7"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_b5_hard_negative_aggregated.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 56217,
+      "md5": "c6590c522c230faba56f78f1ff689135"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_b5_positive_matched_aggregated.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 56392,
+      "md5": "5eeebb823afdba775c67aa5d87e60976"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_format_diversity_5.16.1_seed42_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16128,
+      "md5": "f386e334a88f929dd3517f466cb617c2"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_format_diversity_5.16.1_seed43_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16078,
+      "md5": "8b4e848b8f47dbd57ccb2bd5b735b938"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_format_diversity_5.16.1_seed44_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16095,
+      "md5": "a2ee5d3be8402427a197afec496c0c42"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_hard_negative_5.16.1_seed42_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16073,
+      "md5": "52217d8dce7c37024793ba1a223f7f19"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_hard_negative_5.16.1_seed43_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16082,
+      "md5": "8d8be7beb31364a64a5fb55668142783"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_hard_negative_5.16.1_seed44_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16107,
+      "md5": "c7dc6f33ac7794edb4bf73dc497bafe3"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_positive_matched_5.16.1_seed42_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16205,
+      "md5": "f278b9360e4a32d045b8ac6ba65d437e"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_positive_matched_5.16.1_seed43_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16088,
+      "md5": "927da6f3c525124ec541c6213909cf83"
+    },
+    {
+      "path": "reports/experiments/sv02/evaluation_sv02_b5_positive_matched_5.16.1_seed44_v0.18.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 16150,
+      "md5": "f3de63f2cfbc5a1bd0e21d75c7721df0"
+    },
+    {
+      "path": "reports/experiments/sv02/sv02_master_evaluation.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 191168,
+      "md5": "fa41e738c8c5203419a990ef38b464cb"
+    },
+    {
+      "path": "reports/experiments/sv02/sv02_overlap_leakage_audit.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1578,
+      "md5": "04e77f6bf232127da654cf03ca1785ea"
+    },
+    {
+      "path": "reports/experiments/sv02/sv02_overlap_leakage_audit.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1448,
+      "md5": "6afa5a0214aca7ed4502aa22635a27dd"
+    },
+    {
+      "path": "reports/experiments/sv03/SV03_FINAL_REPORT.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 28737,
+      "md5": "a8a190667ae8faad6a0476698bc82c0d"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_b5_vs_sv02_transition.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 1220,
+      "md5": "3287f092996adf5ce896e2a01abd1c2c"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_boundary_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 10487,
+      "md5": "af351e3e7d081f0e34413880e46c83bb"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_difficulty_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 2297,
+      "md5": "0cf6168b2a3b38d0522d7ff2a0068c8b"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_error_interactions.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 5853,
+      "md5": "59a874cf86f063a0a1c8f0cded91dea7"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_error_summary.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 6349,
+      "md5": "9aa504ab9a279ba0f943d6568bbc6f3e"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_false_positive_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 14456,
+      "md5": "f88c079a83cc9c56266459329be236bb"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_hard_negative_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 3889,
+      "md5": "474cc79858fa476ac742cb70d4e5cb35"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_integrity_check.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 8162,
+      "md5": "846f2f823dd61cf90953d79002b45d8c"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_language_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 4509,
+      "md5": "faa3bd7e3af72e19886bed2bc0308487"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_perturbation_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 4428,
+      "md5": "c380f23ec06b4ae056ce87b01cf5d1cd"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_representative_cases.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 4105,
+      "md5": "8448790650f55f583e9df3b5f24f4ff4"
+    },
+    {
+      "path": "reports/experiments/sv03/sv03_type_analysis.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 8192,
+      "md5": "ac6aa5d5a153bbdd1e2c48f0ced19d13"
+    },
+    {
+      "path": "reports/final/B1_B6_COMPARISON.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 4755,
+      "md5": "89004a8decaa7a3be123e5d7907de7ef"
+    },
+    {
+      "path": "reports/final/CANONICAL_ARTIFACT_HASHES.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 12316,
+      "md5": "9b1f8147407303036baae4da85fc720b"
+    },
+    {
+      "path": "reports/final/CANONICAL_ARTIFACT_HASHES.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 7703,
+      "md5": "87729ba3d21af30daea77c22740a9920"
+    },
+    {
+      "path": "reports/final/DIFFICULTY_RESULTS.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 197,
+      "md5": "1668ae57863f1f081f4cc93ac2eef6e6"
+    },
+    {
+      "path": "reports/final/FINAL_METRIC_DEFINITIONS.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 3642,
+      "md5": "c47c3030840f0e4d330602240211cc84"
+    },
+    {
+      "path": "reports/final/FINAL_TEST_RECORD.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 4975,
+      "md5": "4514512583021ab29b24b431c0221d9a"
+    },
+    {
+      "path": "reports/final/MASTER_RESULTS_TABLE.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 2337,
+      "md5": "f18a14095503b4c07ab31ed3bde11b55"
+    },
+    {
+      "path": "reports/final/MASTER_RESULTS_TABLE.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 6024,
+      "md5": "f68b256ccc34501addb8e1c21cfbd048"
+    },
+    {
+      "path": "reports/final/MASTER_RESULTS_TABLE.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 2510,
+      "md5": "83953c52ebef71736ea8375599e0bcc5"
+    },
+    {
+      "path": "reports/final/PERTURBATION_RESULTS.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 345,
+      "md5": "bd9a151be5c7b00c72d15a6d1e2fae66"
+    },
+    {
+      "path": "reports/final/PER_LANGUAGE_RESULTS.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 948,
+      "md5": "3733799ed127a5d96fe4ecba310a0f7c"
+    },
+    {
+      "path": "reports/final/PER_TYPE_RESULTS.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 953,
+      "md5": "b02a75fdeac8f36566d40bd60fd9ca57"
+    },
+    {
+      "path": "reports/final/PRIVACY_RELEASE_AUDIT.md",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 4214,
+      "md5": "299e7b99123279c4b17ce9e49b1f71ff"
+    },
+    {
+      "path": "reports/final/SV02_ABLATION_TABLE.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 588,
+      "md5": "cc0b2057381241930beef03663a3d552"
+    },
+    {
+      "path": "reports/final/SV03_ERROR_TABLE.csv",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 705,
+      "md5": "3b97cf3e203922481748223ebd471168"
+    },
+    {
+      "path": "reports/final/figures/fig1_b1_b6_overall_f1.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 984,
+      "md5": "5da855955852976b98cad9acc893532e"
+    },
+    {
+      "path": "reports/final/figures/fig1_b1_b6_overall_f1.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 177936,
+      "md5": "eed66d9ab29caf0a1966be91f933e08a"
+    },
+    {
+      "path": "reports/final/figures/fig2_b1_b6_precision_recall.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 1446,
+      "md5": "ec20b20665a1fa01beaddcc7eda3887e"
+    },
+    {
+      "path": "reports/final/figures/fig2_b1_b6_precision_recall.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 193162,
+      "md5": "5ea430f7413ff5ba2067cafea9b526c1"
+    },
+    {
+      "path": "reports/final/figures/fig3_b5_b6_error_partition.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 498,
+      "md5": "3ce1081c1d17488c487bcbb4292c1ba4"
+    },
+    {
+      "path": "reports/final/figures/fig3_b5_b6_error_partition.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 195329,
+      "md5": "d93c8333e01223eb5780e309a32c00b4"
+    },
+    {
+      "path": "reports/final/figures/fig4_b5_b6_boundary_errors.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 575,
+      "md5": "9ee9d40b988e4b634c8a638839ac00cd"
+    },
+    {
+      "path": "reports/final/figures/fig4_b5_b6_boundary_errors.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 186365,
+      "md5": "f1dc90a5eeee50635be643d61f31e94c"
+    },
+    {
+      "path": "reports/final/figures/fig5_sv02_ablation.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 513,
+      "md5": "c634e413481ef99ae03a99f408a4cde7"
+    },
+    {
+      "path": "reports/final/figures/fig5_sv02_ablation.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 174771,
+      "md5": "b47da443a8b7473281c04ffbafb15b05"
+    },
+    {
+      "path": "reports/final/figures/fig6_sv03_fp_breakdown.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 383,
+      "md5": "329fc984a472c22587f36bcb016dbe06"
+    },
+    {
+      "path": "reports/final/figures/fig6_sv03_fp_breakdown.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 167071,
+      "md5": "14e4e5f830669f240dd645f0b5ac89bb"
+    },
+    {
+      "path": "reports/final/figures/fig7_language_robustness.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 638,
+      "md5": "ecab5d3909aec123e15086e9e9e40923"
+    },
+    {
+      "path": "reports/final/figures/fig7_language_robustness.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 138317,
+      "md5": "a5a1a6d22de26bfebfae4c79e8706b04"
+    },
+    {
+      "path": "reports/final/figures/fig8_perturbation_robustness.json",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 464,
+      "md5": "39ae2d8555c81d9521342dfb035a974c"
+    },
+    {
+      "path": "reports/final/figures/fig8_perturbation_robustness.png",
+      "classification": "DERIVED_ARTIFACT",
+      "size_bytes": 137702,
+      "md5": "d29798112b1c0d956cf48e34dd5ae914"
+    },
+    {
+      "path": "reports/scientific_validation_sv01_b5_distribution_audit.json",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 8715,
+      "md5": "5b2021437fa8356be86a044318a6b8c0"
+    },
+    {
+      "path": "reports/scientific_validation_sv01_b5_distribution_audit.md",
+      "classification": "EXPERIMENTAL_ARCHIVE",
+      "size_bytes": 21356,
+      "md5": "6f47cd5a1ffe63b38b4f93893757d5ff"
+    },
+    {
+      "path": "schemas/base_instance.schema.json",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 7597,
+      "md5": "558b50fb7008838c19996ad5879af3ae"
+    },
+    {
+      "path": "schemas/example.schema.json",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 9183,
+      "md5": "fd32cc81fe8d7d83daaff3ab295890b2"
+    },
+    {
+      "path": "scratch/audit_reports.py",
+      "classification": "SCRATCH",
+      "size_bytes": 2121,
+      "md5": "82bab3ac9735b7ed47d088e8443c9364"
+    },
+    {
+      "path": "scratch/sv01/__pycache__/run_sv01_audit.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 24702,
+      "md5": "eadee8beb587c27d3da2f90d4525d97c"
+    },
+    {
+      "path": "scratch/sv01/diagnostic_results.json",
+      "classification": "SCRATCH",
+      "size_bytes": 13193,
+      "md5": "54c079bda14f0fe3821aa8d0db97285a"
+    },
+    {
+      "path": "scratch/sv01/run_sv01_audit.py",
+      "classification": "SCRATCH",
+      "size_bytes": 29051,
+      "md5": "3590589f4b9aeae77bd9f58e89b97532"
+    },
+    {
+      "path": "scripts/audit_repository.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7921,
+      "md5": "8ab541edb4fa24f59ee19421adb1d27a"
+    },
+    {
+      "path": "tests/__pycache__/conftest.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 1092,
+      "md5": "33644545ea58f8e9b3e2a77574f2c0d8"
+    },
+    {
+      "path": "tests/__pycache__/test_annotation_review_csv.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 14992,
+      "md5": "d6750ba86575fbc62cb6334aea4fd6e5"
+    },
+    {
+      "path": "tests/__pycache__/test_b1_reproducibility.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 7164,
+      "md5": "3ce889bee93b9cd85c0b780beabbb476"
+    },
+    {
+      "path": "tests/__pycache__/test_b2_reproducibility.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6774,
+      "md5": "a07155f2872668f904820f947818af73"
+    },
+    {
+      "path": "tests/__pycache__/test_b3_reproducibility.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6802,
+      "md5": "bd6b84f5370282b147c8a0abae9699a1"
+    },
+    {
+      "path": "tests/__pycache__/test_b4_reproducibility.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6822,
+      "md5": "cef6c4965eb10749e339f579d2574bc9"
+    },
+    {
+      "path": "tests/__pycache__/test_b5_reproducibility.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6035,
+      "md5": "82ea4970d6749322506e0c11f9dd2bac"
+    },
+    {
+      "path": "tests/__pycache__/test_b6_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 14067,
+      "md5": "b4a0551d45d76f0e977118bd7fcc2815"
+    },
+    {
+      "path": "tests/__pycache__/test_base_kind_invariant.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5019,
+      "md5": "c93c1d2167c9f3b982d649081f44d79c"
+    },
+    {
+      "path": "tests/__pycache__/test_baselines_base.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 14400,
+      "md5": "5a1726b721af042f24ae888f00427102"
+    },
+    {
+      "path": "tests/__pycache__/test_baselines_presidio.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 12398,
+      "md5": "d3239c9f02580bc44bb1230f878c2fcb"
+    },
+    {
+      "path": "tests/__pycache__/test_baselines_regex.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 13262,
+      "md5": "5f73279834066916f884dcb532caed30"
+    },
+    {
+      "path": "tests/__pycache__/test_baselines_spacy.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 10063,
+      "md5": "dc252bfa3e5118622c3ff595187d2925"
+    },
+    {
+      "path": "tests/__pycache__/test_baselines_transformer.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 16798,
+      "md5": "c9f9218128b80a63d04275e64f9ba137"
+    },
+    {
+      "path": "tests/__pycache__/test_baselines_transformer_adapted.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 19250,
+      "md5": "f6b9897ca26e2df00d903b59fdc36ef6"
+    },
+    {
+      "path": "tests/__pycache__/test_benchmark_evaluator.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 16814,
+      "md5": "7f58054f7f4af5726d351bd8d07db0f0"
+    },
+    {
+      "path": "tests/__pycache__/test_benchmark_failure_analysis.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 11914,
+      "md5": "e04f832bc65bacdeb807920a6e81f39d"
+    },
+    {
+      "path": "tests/__pycache__/test_benchmark_matching.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 25088,
+      "md5": "d1fe9abc6cf6fc73c922d3d1681c6d8a"
+    },
+    {
+      "path": "tests/__pycache__/test_benchmark_metrics.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 30993,
+      "md5": "8cc1a6e0a906122138780d0181eacc71"
+    },
+    {
+      "path": "tests/__pycache__/test_benchmark_schema.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 8949,
+      "md5": "d5eac124db8134ab655076f40966ce01"
+    },
+    {
+      "path": "tests/__pycache__/test_benchmark_stats.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 14724,
+      "md5": "b360d1b9e2ad17b5b52d5d9ce18cb6ca"
+    },
+    {
+      "path": "tests/__pycache__/test_e01_regex_experiment.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 6921,
+      "md5": "d52c7c852c1929e02a2f95d3215d4117"
+    },
+    {
+      "path": "tests/__pycache__/test_generate_adversarial_records.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 18214,
+      "md5": "f917ad10895e884d6f86c7a00cafc459"
+    },
+    {
+      "path": "tests/__pycache__/test_generate_base_instances.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 10622,
+      "md5": "379c4a8e5f8be6450e3ff4366f08d231"
+    },
+    {
+      "path": "tests/__pycache__/test_generate_hard_negative_bases.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 13220,
+      "md5": "742d05c18e35c6abcae4983bd1c759be"
+    },
+    {
+      "path": "tests/__pycache__/test_generate_hard_negative_records.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 28976,
+      "md5": "05fb9e9eb2482005e46153df4c39b81a"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_aadhaar.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3603,
+      "md5": "7263888a2e991cf95c42998b924b37e9"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_address.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3569,
+      "md5": "e61311b32585f0e48465be92b9286409"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_bank_account.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 2759,
+      "md5": "061d05559325e2214ed3efb2d913de65"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_email.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 4222,
+      "md5": "49a54f9ed9dd14350911e4d4ca29dc34"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_pan.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3454,
+      "md5": "0b7c5f3c18d1f6f25bdceaa9cc7b0c2e"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_person.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3883,
+      "md5": "70fb7e4fc6183d571536352be78da6f6"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_phone.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3647,
+      "md5": "c71177a3cad48dcb5897e7572189aaae"
+    },
+    {
+      "path": "tests/__pycache__/test_generator_upi_id.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5979,
+      "md5": "bfee8a7ff2102a5c426f8ff1cd946a19"
+    },
+    {
+      "path": "tests/__pycache__/test_generators_common.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5882,
+      "md5": "e286ab08d06e84f1343046aa9cfe2a6e"
+    },
+    {
+      "path": "tests/__pycache__/test_schemas.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 7642,
+      "md5": "7def4f67255382637168c949386e31b3"
+    },
+    {
+      "path": "tests/__pycache__/test_scientific_freeze.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 13684,
+      "md5": "1755b65d5d751604dbb1c68bd1dd065a"
+    },
+    {
+      "path": "tests/__pycache__/test_semantic_validator.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 35634,
+      "md5": "e3adc23c1cf41d1ffaf453a8fd92cade"
+    },
+    {
+      "path": "tests/__pycache__/test_span_validator.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 24073,
+      "md5": "79153c24dc34f9e49045ca01e76bb0a2"
+    },
+    {
+      "path": "tests/__pycache__/test_structural_validator.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 11948,
+      "md5": "16d6d9099d5fa36b74a4201572f457b4"
+    },
+    {
+      "path": "tests/__pycache__/test_sv02_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 10533,
+      "md5": "689ac19b6e9f54e360f99c2a8da6b3c9"
+    },
+    {
+      "path": "tests/__pycache__/test_sv03_error_analysis.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 11758,
+      "md5": "4ee2bb9bd9344549799b5daa1a692319"
+    },
+    {
+      "path": "tests/__pycache__/test_t08_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 10611,
+      "md5": "f84220d91d94612a55de3c1298b26a29"
+    },
+    {
+      "path": "tests/__pycache__/test_t08_language_realizations.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 33785,
+      "md5": "67820f8b35d340182c31c3a3cb18c2d8"
+    },
+    {
+      "path": "tests/__pycache__/test_t10_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 25055,
+      "md5": "87d2b4fbfe5439e435c819d6fc212e1a"
+    },
+    {
+      "path": "tests/__pycache__/test_t11_construction_ground_truth_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 11555,
+      "md5": "a3d8aec45baf405608ed381ded0440d5"
+    },
+    {
+      "path": "tests/__pycache__/test_t11_evaluation_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 13813,
+      "md5": "95c474512cf851ffc1eba4281353cde2"
+    },
+    {
+      "path": "tests/__pycache__/test_t11_hard_negative_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 31297,
+      "md5": "090e386ac12f96e2037b8a9e2a084de7"
+    },
+    {
+      "path": "tests/__pycache__/test_t11_phase2_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 15646,
+      "md5": "f54ba99a3efb1810ab9c559a13fdb69a"
+    },
+    {
+      "path": "tests/__pycache__/test_t12_adversarial_governance.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 18292,
+      "md5": "7d340d1931cf728cfd7b19c4a7f2005a"
+    },
+    {
+      "path": "tests/__pycache__/test_translit_table.cpython-310-pytest-8.4.2.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 11610,
+      "md5": "de7f44d08e8860bd70f203648894c5e2"
+    },
+    {
+      "path": "tests/conftest.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 823,
+      "md5": "95a080fe78bfa4cc58316ab35e79f81e"
+    },
+    {
+      "path": "tests/fixtures/base_instance.hard_negative.valid.json",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 479,
+      "md5": "1904551e6e17c9ef02b8c34257bccc14"
+    },
+    {
+      "path": "tests/fixtures/base_instance.valid.json",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 477,
+      "md5": "e0d335273e90322349f1572e0f5618b4"
+    },
+    {
+      "path": "tests/fixtures/example.valid.json",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1100,
+      "md5": "272d5f3daed1f563ea1edc6a5af5828e"
+    },
+    {
+      "path": "tests/test_annotation_review_csv.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6048,
+      "md5": "c6b52dc53fc388418e1ea3453eba5b55"
+    },
+    {
+      "path": "tests/test_b1_reproducibility.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2799,
+      "md5": "390a082e2847917ac8fb3578eb7ed4e0"
+    },
+    {
+      "path": "tests/test_b2_reproducibility.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2619,
+      "md5": "b7b0fcb780082277cf5beeab89685b72"
+    },
+    {
+      "path": "tests/test_b3_reproducibility.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2654,
+      "md5": "fa0dc8db3b186fad315a8a2552e9a8fc"
+    },
+    {
+      "path": "tests/test_b4_reproducibility.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2670,
+      "md5": "9c25b4959efd472bc8e1aa98f055550d"
+    },
+    {
+      "path": "tests/test_b5_reproducibility.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2516,
+      "md5": "4a5c9720fcd701f58f9d7ce466ba3382"
+    },
+    {
+      "path": "tests/test_b6_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7206,
+      "md5": "232f5f0cd71eadd976fc7881197befe7"
+    },
+    {
+      "path": "tests/test_base_kind_invariant.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 3571,
+      "md5": "6219e77c1de1f801cdb231ec235dec9d"
+    },
+    {
+      "path": "tests/test_baselines_base.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6198,
+      "md5": "72c5f7b92eb7c31f8bd8658720851468"
+    },
+    {
+      "path": "tests/test_baselines_presidio.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 5275,
+      "md5": "bd0e10b733827e92c107cb3ceef4fa14"
+    },
+    {
+      "path": "tests/test_baselines_regex.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 5364,
+      "md5": "aa1c05b61379299f1a4577165bb2f51b"
+    },
+    {
+      "path": "tests/test_baselines_spacy.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 3632,
+      "md5": "906d5b99582ce62d8e8650ba7c9cf6cf"
+    },
+    {
+      "path": "tests/test_baselines_transformer.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 8162,
+      "md5": "e057d026cd80b83b1dc321f9819b580d"
+    },
+    {
+      "path": "tests/test_baselines_transformer_adapted.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 9860,
+      "md5": "a006eab4303a12510e6b6ce0147ca628"
+    },
+    {
+      "path": "tests/test_benchmark_evaluator.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 9322,
+      "md5": "31f67f61ac7a272bff660c793ba83c99"
+    },
+    {
+      "path": "tests/test_benchmark_failure_analysis.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 5401,
+      "md5": "f767044f5c19adefe10e5c5662088026"
+    },
+    {
+      "path": "tests/test_benchmark_matching.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 9998,
+      "md5": "6102e51257d1b483076b1815519ebd71"
+    },
+    {
+      "path": "tests/test_benchmark_metrics.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 12490,
+      "md5": "c4474335422c6ae8dcb1c4a013fe9463"
+    },
+    {
+      "path": "tests/test_benchmark_schema.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2771,
+      "md5": "72a909bc9b02a3edd0c3f23d989797fe"
+    },
+    {
+      "path": "tests/test_benchmark_stats.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7444,
+      "md5": "54ffa614c3195543e06c038ef9316d63"
+    },
+    {
+      "path": "tests/test_e01_regex_experiment.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2892,
+      "md5": "75305e21e9019fb0b123dc6a360e20ac"
+    },
+    {
+      "path": "tests/test_generate_adversarial_records.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 8540,
+      "md5": "2b2ed298507c0d9c40e0575872e78fa5"
+    },
+    {
+      "path": "tests/test_generate_base_instances.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 4055,
+      "md5": "ffc96fa7a52a9c0ad16754a5ca2039da"
+    },
+    {
+      "path": "tests/test_generate_hard_negative_bases.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6870,
+      "md5": "f9750e74627b52cfa39194e63bc61b22"
+    },
+    {
+      "path": "tests/test_generate_hard_negative_records.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 16445,
+      "md5": "59b007fb8697e831444cdf4b8ea27ba8"
+    },
+    {
+      "path": "tests/test_generator_aadhaar.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1542,
+      "md5": "beb96e0bf8b6c82b9c13fc99c773ae4b"
+    },
+    {
+      "path": "tests/test_generator_address.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1340,
+      "md5": "954b09dffeca0ae39cab76f25a961b10"
+    },
+    {
+      "path": "tests/test_generator_bank_account.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1089,
+      "md5": "329b6edaae9e4708c294ddf236b7c417"
+    },
+    {
+      "path": "tests/test_generator_email.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1623,
+      "md5": "dcde1e62323fbd7bf585b1c8ad0e9c90"
+    },
+    {
+      "path": "tests/test_generator_pan.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1253,
+      "md5": "1cea89d254e2697277279827822fb814"
+    },
+    {
+      "path": "tests/test_generator_person.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1582,
+      "md5": "00f7d07562d8f08846787f54cd84b1ce"
+    },
+    {
+      "path": "tests/test_generator_phone.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 1392,
+      "md5": "35508d299d65c93443b3d4f790fefa90"
+    },
+    {
+      "path": "tests/test_generator_upi_id.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2447,
+      "md5": "4b1c6bff670c1f81ae91c0810a785c32"
+    },
+    {
+      "path": "tests/test_generators_common.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 2880,
+      "md5": "e0fb6ef8b22807c7a447077177c0a765"
+    },
+    {
+      "path": "tests/test_schemas.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7099,
+      "md5": "19fa420a40353c7ca62756003d21f84f"
+    },
+    {
+      "path": "tests/test_scientific_freeze.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6620,
+      "md5": "fa0b8e701543b89ee99c173d82ba54a8"
+    },
+    {
+      "path": "tests/test_semantic_validator.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 29181,
+      "md5": "114fccf3a8c6d856a4ddeb843ac9b194"
+    },
+    {
+      "path": "tests/test_span_validator.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 17164,
+      "md5": "615f9cbc98105da3b9918632a3a50fc1"
+    },
+    {
+      "path": "tests/test_structural_validator.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 12212,
+      "md5": "e90f3a5cf054831f7ff0b4dd463df4f6"
+    },
+    {
+      "path": "tests/test_sv02_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6526,
+      "md5": "69efa1d57951cacca1a8b495ab1ff345"
+    },
+    {
+      "path": "tests/test_sv03_error_analysis.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7642,
+      "md5": "d82058ad3577dc1fb298c04f7190f62f"
+    },
+    {
+      "path": "tests/test_t08_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 8611,
+      "md5": "340047f6b40cf1d5c6a86252930bc514"
+    },
+    {
+      "path": "tests/test_t08_language_realizations.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 19795,
+      "md5": "dfbe0ed491321c4bc1390d7c4d12bcaa"
+    },
+    {
+      "path": "tests/test_t10_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 17403,
+      "md5": "850a0a224e6bda446fa53eedcd1ba443"
+    },
+    {
+      "path": "tests/test_t11_construction_ground_truth_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 6345,
+      "md5": "ecf43a303ef314f65611bae6673494c0"
+    },
+    {
+      "path": "tests/test_t11_evaluation_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7928,
+      "md5": "fad7bb2507b1105a7992830abafa2207"
+    },
+    {
+      "path": "tests/test_t11_hard_negative_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 16434,
+      "md5": "b40046f625b450adaf60db58a94bb65d"
+    },
+    {
+      "path": "tests/test_t11_phase2_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7275,
+      "md5": "6b36eccf345b1a39eaf4130adb383e67"
+    },
+    {
+      "path": "tests/test_t12_adversarial_governance.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 11041,
+      "md5": "45e75cc400ded8cbdbd6fbab4380a949"
+    },
+    {
+      "path": "tests/test_translit_table.py",
+      "classification": "PUBLIC_RELEASE",
+      "size_bytes": 7515,
+      "md5": "360e7062b09de991bfef817293ad3be1"
+    },
+    {
+      "path": "training/.gitkeep",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "validators/__pycache__/base_kind.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 3503,
+      "md5": "8daf6ec64550626127246fed3ee65124"
+    },
+    {
+      "path": "validators/__pycache__/semantic.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 13808,
+      "md5": "252e518b6fc0f8e369fc2f1f47c0d518"
+    },
+    {
+      "path": "validators/__pycache__/spans.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 7886,
+      "md5": "3be0690bd8810777da44b4bfebc4e5ed"
+    },
+    {
+      "path": "validators/__pycache__/structural.cpython-310.pyc",
+      "classification": "SCRATCH",
+      "size_bytes": 5077,
+      "md5": "2ca974aae9708c9b4d61c2abef1531e9"
+    },
+    {
+      "path": "validators/base_kind.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 3509,
+      "md5": "6a91b60833e84b98005017d5ae845a8b"
+    },
+    {
+      "path": "validators/semantic.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 19332,
+      "md5": "552be21bc1c088681e04617a05e3e063"
+    },
+    {
+      "path": "validators/spans.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 11362,
+      "md5": "5ca12d7231e2c978abd28cd4c3f9e5da"
+    },
+    {
+      "path": "validators/structural.py",
+      "classification": "DEVELOPMENT_ONLY",
+      "size_bytes": 5343,
+      "md5": "d2a66bdd6f5a39dc2118b4b7f72ca124"
+    }
+  ]
+}

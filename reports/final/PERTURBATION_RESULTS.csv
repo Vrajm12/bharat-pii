@@ -1,0 +1,7 @@
+perturbation_type,b5_m4_exact_f1,b6_m4_exact_f1,delta_m4,b5_precision,b6_precision,b5_recall,b6_recall
+clean,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+a1_whitespace,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+a2_phonetic,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+a3_ocr,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+a4_script_mix,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+a5_delimiters,0.0,0.0,0.0,0.0,0.0,0.0,0.0

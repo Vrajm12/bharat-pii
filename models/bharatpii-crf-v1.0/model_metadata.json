@@ -1,0 +1,59 @@
+{
+  "model_name": "BharatPII-CRF",
+  "model_version": "1.0.0",
+  "system_name": "transformer_crf",
+  "system_version": "5.16.1_xlm_roberta_base_indian_crf_v0.18",
+  "base_model": "XLM-RoBERTa-base",
+  "task": "Indian multilingual PII detection",
+  "decoder": "linear-chain CRF",
+  "label_scheme": "IOB2",
+  "num_labels": 17,
+  "pii_types": [
+    "PERSON",
+    "PAN",
+    "AADHAAR",
+    "PHONE",
+    "EMAIL",
+    "UPI_ID",
+    "BANK_ACCOUNT",
+    "ADDRESS"
+  ],
+  "canonical_seeds": [
+    42,
+    43,
+    44
+  ],
+  "canonical_primary_seed": 42,
+  "framework": "PyTorch",
+  "transformers_version": "5.16.1",
+  "canonical_checkpoint_source": "checkpoints/b6/b6_transformer_crf_seed42",
+  "parameters": {
+    "total_parameters": 278057044,
+    "trainable_parameters_b6_adaptation": 13396,
+    "encoder_parameters": 278043648,
+    "crf_head_parameters": 13396
+  },
+  "tensor_count": 204,
+  "format": "safetensors",
+  "torch_dtype": "float32",
+  "benchmark": {
+    "n_records_evaluated": 964,
+    "gold_entities": 724,
+    "predictions_count": 1073,
+    "tp_exact": 601,
+    "tp_type": 677,
+    "f1_missed": 7,
+    "f2_wrong_span": 76,
+    "f3_wrong_type": 40,
+    "f4_false_positive": 356,
+    "m1_precision": 0.6309412861136999,
+    "m2_recall": 0.9350828729281768,
+    "m3_type_f1": 0.753478018920423,
+    "m4_exact_f1": 0.6688925987757373,
+    "m5_accuracy": 0.9442119944211994,
+    "m6_fpr": 0.3317800559179869
+  },
+  "license": "Research Only - Academic / Derivative of XLM-RoBERTa (MIT)",
+  "intended_use": "Research evaluation of Indian PII extraction and sequence-constrained decoding",
+  "out_of_scope_use": "Automated standalone production redaction of sensitive citizen data without human oversight"
+}

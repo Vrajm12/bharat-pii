@@ -1,0 +1,68 @@
+{
+  "dataset_name": "BharatPII Multilingual Indian PII Robustness Benchmark",
+  "dataset_version": "1.0.0",
+  "benchmark_version": "0.18",
+  "release_date": "2026-09-12",
+  "synthetic_data_statement": "The benchmark contains synthetic PII and is not intended to represent real individuals or real credentials.",
+  "splits": {
+    "train": {
+      "file": "data/train/train.jsonl",
+      "records": 1000,
+      "entities": 1000,
+      "unique_base_ids": 200,
+      "access": "PUBLIC"
+    },
+    "validation": {
+      "file": "data/validation/val.jsonl",
+      "records": 200,
+      "entities": 200,
+      "unique_base_ids": 40,
+      "access": "PUBLIC"
+    },
+    "test": {
+      "inputs_file": "data/test/test_inputs.jsonl",
+      "annotations_file": "annotations/test_gold_annotations.jsonl",
+      "records": 964,
+      "entities": 724,
+      "unique_base_ids": 120,
+      "access_inputs": "PUBLIC",
+      "access_annotations": "CONTROLLED"
+    }
+  },
+  "totals": {
+    "total_records": 2164,
+    "total_gold_entities": 1924,
+    "total_unique_base_ids": 360
+  },
+  "pii_categories": [
+    "PERSON",
+    "PAN",
+    "AADHAAR",
+    "PHONE",
+    "EMAIL",
+    "UPI_ID",
+    "BANK_ACCOUNT",
+    "ADDRESS"
+  ],
+  "languages": [
+    "EN",
+    "IN_EN",
+    "ROM_HI",
+    "HINGLISH",
+    "INFORMAL_HINGLISH",
+    "HI_LATIN_PII",
+    "HI_DEVA_PII"
+  ],
+  "adversarial_families": [
+    "SPACING",
+    "PUNCTUATION",
+    "LABEL_OBFUSCATION",
+    "INFORMAL_ABBREVIATION",
+    "CHARACTER_VARIATION"
+  ],
+  "generation_seed": 8842,
+  "model_compatibility": {
+    "reference_model": "BharatPII-CRF v1.0",
+    "python_package": "bharatpii 1.0.0"
+  }
+}
